@@ -4,3 +4,4 @@ google-chrome-stable_current_amd64.deb
 __pycache__/
 *.pyc
 **/*/__pycache__/
+*.cfg

@@ -1,0 +1,326 @@
+[
+    {
+        "id": 20186209,
+        "title": "Cực kì hài lòng",
+        "content": "Màu máy xinh lắm, thiết kế nhỏ gọn, cầm nhẹ tay. Máy nóng nhanh, có 5 mức nhiệt dễ tùy chỉnh theo chất tóc",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.17322483,
+        "customer_id": 10432070,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4416950,
+                "full_path": "https://salt.tikicdn.com/ts/review/70/66/ca/ce28161556b3029ce2c85c0d888278ec.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1761798708,
+        "created_by": {
+            "id": 10432070,
+            "name": "Quỳnh Thơ",
+            "full_name": "Quỳnh Thơ",
+            "region": null,
+            "avatar_url": "https://lh3.googleusercontent.com/-SGCDNbyFY0w/AAAAAAAAAAI/AAAAAAAAGd0/8Q2e4Ct51ik/photo.jpg",
+            "created_time": "2019-01-18 14:59:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1761723999,
+            "contribute_info": {
+                "id": 10432070,
+                "name": "Quỳnh Thơ",
+                "avatar": "https://lh3.googleusercontent.com/-SGCDNbyFY0w/AAAAAAAAAAI/AAAAAAAAGd0/8Q2e4Ct51ik/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 276586528,
+        "is_photo": true,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 276586526,
+        "timeline": {
+            "review_created_date": "2025-10-30 11:31:48",
+            "delivery_date": "2025-10-30 10:38:47",
+            "current_date": "2026-05-16 10:44:53",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Không hẹn trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20128573,
+        "title": "Cực kì hài lòng",
+        "content": "Tốttttt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.16184824,
+        "customer_id": 1172592,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4406438,
+                "full_path": "https://salt.tikicdn.com/ts/review/d5/89/bd/c9dd30a719fcf70582c0c6a1f3cce458.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1748336694,
+        "created_by": {
+            "id": 1172592,
+            "name": "Do Thi Tuyet Ngan",
+            "full_name": "Do Thi Tuyet Ngan",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/a4/40/ba/bc58105e4661d213f6ef9ab07587840d.jpg",
+            "created_time": "2016-02-20 11:58:28",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1748326984,
+            "contribute_info": {
+                "id": 1172592,
+                "name": "Do Thi Tuyet Ngan",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/a4/40/ba/bc58105e4661d213f6ef9ab07587840d.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 68,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 276586528,
+        "is_photo": true,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 276586526,
+        "timeline": {
+            "review_created_date": "2025-05-27 16:04:54",
+            "delivery_date": "2025-05-27 15:50:54",
+            "current_date": "2026-05-16 10:44:53",
+            "content": "Đã dùng 14 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 14 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20073387,
+        "title": "Cực kì hài lòng",
+        "content": "Tiki giao siêu nhanh, \r\nMáy mượt không bị nóng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1597658,
+        "customer_id": 6549018,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1738161281,
+        "created_by": {
+            "id": 6549018,
+            "name": "Lý Thanh Vân",
+            "full_name": "Lý Thanh Vân",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-02-21 07:26:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1737802360,
+            "contribute_info": {
+                "id": 6549018,
+                "name": "Lý Thanh Vân",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 15,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 276586528,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 276586526,
+        "timeline": {
+            "review_created_date": "2025-01-29 21:34:41",
+            "delivery_date": "2025-01-25 19:54:30",
+            "current_date": "2026-05-16 10:44:53",
+            "content": "Đã dùng 4 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20067394,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1558558,
+        "customer_id": 22769526,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1737009179,
+        "created_by": {
+            "id": 22769526,
+            "name": "Won Huỳnh",
+            "full_name": "Won Huỳnh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-07-25 21:46:47",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1736737006,
+            "contribute_info": {
+                "id": 22769526,
+                "name": "Won Huỳnh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 276586528,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 276586526,
+        "timeline": {
+            "review_created_date": "2025-01-16 13:32:59",
+            "delivery_date": "2025-01-13 17:28:53",
+            "current_date": "2026-05-16 10:44:53",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "id": 19978857,
+        "title": "Cực kì hài lòng",
+        "content": "Khá tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15423957,
+        "customer_id": 30001656,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1726200287,
+        "created_by": {
+            "id": 30001656,
+            "name": "Hồ Anh Huy",
+            "full_name": "Hồ Anh Huy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2024-06-25 20:51:26",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1719379785,
+            "contribute_info": {
+                "id": 30001656,
+                "name": "Hồ Anh Huy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 2 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CAMERA PHƯƠNG ĐÔNG Store"
+        ],
+        "product_attributes": [],
+        "spid": 207172306,
+        "is_photo": false,
+        "seller": {
+            "id": 298886,
+            "name": "CAMERA PHƯƠNG ĐÔNG Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/37/d3/2c/b6e0da6f3fe1bf5fde5bdb592cbbce7b.jpg"
+        },
+        "product_id": 207172305,
+        "timeline": {
+            "review_created_date": "2024-09-13 11:04:47",
+            "delivery_date": "2024-06-28 13:23:54",
+            "current_date": "2026-05-16 15:03:44",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18538665,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng mới như mô tả. Có điều nhìn bao bì hơi mỏng nanh, dễ rách",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15060587,
+        "customer_id": 13545497,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4061407,
+                "full_path": "https://salt.tikicdn.com/ts/review/75/a4/80/7deedad3fe80924012016c72f896fe8a.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1672380586,
+        "created_by": {
+            "id": 13545497,
+            "name": "Mạnh Nguyễn",
+            "full_name": "Mạnh Nguyễn",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2305996769469127&height=200&width=200&ext=1568790804&hash=AeSdxxjJxB9Voxkq",
+            "created_time": "2019-08-19 14:13:54",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1672154219,
+            "contribute_info": {
+                "id": 13545497,
+                "name": "Mạnh Nguyễn",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2305996769469127&height=200&width=200&ext=1568790804&hash=AeSdxxjJxB9Voxkq",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 15,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CAMERA PHƯƠNG ĐÔNG Store"
+        ],
+        "product_attributes": [],
+        "spid": 207172306,
+        "is_photo": true,
+        "seller": {
+            "id": 298886,
+            "name": "CAMERA PHƯƠNG ĐÔNG Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/37/d3/2c/b6e0da6f3fe1bf5fde5bdb592cbbce7b.jpg"
+        },
+        "product_id": 207172305,
+        "timeline": {
+            "review_created_date": "2022-12-30 13:09:46",
+            "delivery_date": "2022-12-29 17:52:08",
+            "current_date": "2026-05-16 15:03:44",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19231740,
+        "title": "Cực kì hài lòng",
+        "content": "Dùng thấy chất lượng, đóng gọi cũng chất lượng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14915604,
+        "customer_id": 1678196,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1685086203,
+        "created_by": {
+            "id": 1678196,
+            "name": "Phan Tuấn Kiệt",
+            "full_name": "Phan Tuấn Kiệt",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-09-08 11:06:03",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1678800351,
+            "contribute_info": {
+                "id": 1678196,
+                "name": "Phan Tuấn Kiệt",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 176,
+                    "total_thank": 19
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CAMERA PHƯƠNG ĐÔNG Store"
+        ],
+        "product_attributes": [],
+        "spid": 207172306,
+        "is_photo": false,
+        "seller": {
+            "id": 298886,
+            "name": "CAMERA PHƯƠNG ĐÔNG Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/37/d3/2c/b6e0da6f3fe1bf5fde5bdb592cbbce7b.jpg"
+        },
+        "product_id": 207172305,
+        "timeline": {
+            "review_created_date": "2023-05-26 14:30:03",
+            "delivery_date": "2023-03-16 12:23:44",
+            "current_date": "2026-05-16 15:03:44",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

@@ -1,0 +1,1301 @@
+[
+    {
+        "id": 20227941,
+        "title": "Cực kì hài lòng",
+        "content": "Ok,thích hợp cho 1 người xài, gió dịu, tiếng ồn vừa phải. Tuy nhiên đôi lúc bấm chuyển chế độ gió, có ánh sáng bùm lên chỗ nút bấm, bên trong quạt nên đang quan sát.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.17842932,
+        "customer_id": 12340260,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1776655447,
+        "created_by": {
+            "id": 12340260,
+            "name": "Nguyễn thị kim thoa ",
+            "full_name": "Nguyễn thị kim thoa ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-06-02 16:57:48",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1775550703,
+            "contribute_info": {
+                "id": 12340260,
+                "name": "Nguyễn thị kim thoa ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 11,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tuấn Yến HCM"
+        ],
+        "product_attributes": [],
+        "spid": 101854934,
+        "is_photo": false,
+        "seller": {
+            "id": 187775,
+            "name": "Tuấn Yến HCM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/75/d2/39/e73b61b5c3c961886d9ccd5887c598e7.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2026-04-20 10:24:07",
+            "delivery_date": "2026-04-09 11:42:49",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 11 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 11 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19898753,
+        "title": "Bình thường",
+        "content": "Quạt dù êm, nhưng công suất 28W mà gió lại yếu hơn 1 cái quạt kích thước nhỏ hơn (hiệu khác) mua cách đây 10 năm :D\r\n\r\nMình mua cái này về rốt cuộc mẹ bảo yếu hơn cái cũ nên đem sửa lại cái cũ :D",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.17119839,
+        "new_score": 0.1687351,
+        "customer_id": 1096165,
+        "comment_count": 1,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1718072459,
+        "created_by": {
+            "id": 1096165,
+            "name": "Nguyễn Trương Nhật Quang",
+            "full_name": "Nguyễn Trương Nhật Quang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-01-06 16:44:26",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1715153178,
+            "contribute_info": {
+                "id": 1096165,
+                "name": "Nguyễn Trương Nhật Quang",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 40,
+                    "total_thank": 41
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tuấn Yến HCM"
+        ],
+        "product_attributes": [],
+        "spid": 101854934,
+        "is_photo": false,
+        "seller": {
+            "id": 187775,
+            "name": "Tuấn Yến HCM",
+            "logo": "75/d2/39/e73b61b5c3c961886d9ccd5887c598e7.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2024-06-11 09:20:59",
+            "delivery_date": "2024-05-10 10:28:43",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Nhỏ gọn"
+            ],
+            "disagree": [
+                "Gió mạnh"
+            ]
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19912535,
+        "title": "Cực kì hài lòng",
+        "content": "Đẹp. Dùng tốt. Nhỏ gọn.\r\nGiao nhanh. Lúc nhận thùng có bị móp nhưng bên trong đóng hàng kỹ nên sản phẩm ko bị gì.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16188504,
+        "customer_id": 9711,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1719471321,
+        "created_by": {
+            "id": 9711,
+            "name": "Do Giang",
+            "full_name": "Do Giang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2011-08-09 09:50:59",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1719258773,
+            "contribute_info": {
+                "id": 9711,
+                "name": "DO THUY GIANG",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 15 năm",
+                    "total_review": 16,
+                    "total_thank": 13
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tuấn Yến HCM"
+        ],
+        "product_attributes": [],
+        "spid": 101854934,
+        "is_photo": false,
+        "seller": {
+            "id": 187775,
+            "name": "Tuấn Yến HCM",
+            "logo": "75/d2/39/e73b61b5c3c961886d9ccd5887c598e7.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2024-06-27 13:55:21",
+            "delivery_date": "2024-06-27 10:16:32",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 4 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 3604648,
+        "title": "Bình thường",
+        "content": "Nói màu khoai môn mà giao màu xám. Thôi cũng được. Nhưng ko thấy Phiếu bảo hành. Quạt mạnh, mát tuy hơi ồn. Lúc quay sang trái thấy nó trục trặc kiểu như là lồng quạt đụng vô đống hồ sơ, ko đc êm lắm. Lúc đầu cứ tưởng quạt đụng vô hs, nhìn kỹ mới thấy nó ko đc ổn lắm. Chưa thực sự hài lòng. Mua Tiki nhiều nhưng lần này mới ko hài lòng và viết nhận xét.",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.01651298,
+        "new_score": 0.14814935,
+        "customer_id": 8569756,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1589986873,
+        "created_by": {
+            "id": 8569756,
+            "name": "Hương Lan",
+            "full_name": "Hương Lan",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/b/6/8/0/4/120/24b9d347f54569c392ad145a600e2fcb.jpg",
+            "purchased": true,
+            "purchased_at": 1589634041,
+            "contribute_info": {
+                "id": 8569756,
+                "name": "Hương Lan",
+                "avatar": "https://s120.avatar.talk.zdn.vn/b/6/8/0/4/120/24b9d347f54569c392ad145a600e2fcb.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 10,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tấn Phát SENKO"
+        ],
+        "product_attributes": [],
+        "spid": 20738628,
+        "is_photo": false,
+        "seller": {
+            "id": 28659,
+            "name": "Tấn Phát SENKO",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2020-05-20 22:01:13",
+            "delivery_date": "2020-05-20 18:07:49",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 4 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19442921,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14624135,
+        "customer_id": 28442203,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1691487466,
+        "created_by": {
+            "id": 28442203,
+            "name": "Nguyễn Hồng Trí",
+            "full_name": "Nguyễn Hồng Trí",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-11-09 19:04:44",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1691317426,
+            "contribute_info": {
+                "id": 28442203,
+                "name": "Nguyễn Hồng Trí",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 22,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Alobuy Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 1736109,
+        "is_photo": false,
+        "seller": {
+            "id": 808,
+            "name": "Alobuy Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/51/57/b4/a30bc35571823bc8bf3df0bff368904f.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2023-08-08 16:37:46",
+            "delivery_date": "2023-08-07 14:25:19",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19078740,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14406829,
+        "customer_id": 8565662,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1681198628,
+        "created_by": {
+            "id": 8565662,
+            "name": "Phụ Kiện Cigar",
+            "full_name": "Phụ Kiện Cigar",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1074372246067082&height=200&width=200&ext=1542798060&hash=AeT1VBhHN2WxZLEd",
+            "created_time": "2018-10-22 18:01:31",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1680763001,
+            "contribute_info": {
+                "id": 8565662,
+                "name": "Phụ Kiện Cigar",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1074372246067082&height=200&width=200&ext=1542798060&hash=AeT1VBhHN2WxZLEd",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Alobuy Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 1736109,
+        "is_photo": false,
+        "seller": {
+            "id": 808,
+            "name": "Alobuy Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/51/57/b4/a30bc35571823bc8bf3df0bff368904f.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2023-04-11 14:37:08",
+            "delivery_date": "2023-04-10 14:33:23",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 18867010,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14325321,
+        "customer_id": 11634733,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1677339460,
+        "created_by": {
+            "id": 11634733,
+            "name": "Le Van Hoang Thang",
+            "full_name": "Le Van Hoang Thang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-04-05 18:20:57",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1677072390,
+            "contribute_info": {
+                "id": 11634733,
+                "name": "Le Van Hoang Thang",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 85,
+                    "total_thank": 9
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Alobuy Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 1736109,
+        "is_photo": false,
+        "seller": {
+            "id": 808,
+            "name": "Alobuy Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/51/57/b4/a30bc35571823bc8bf3df0bff368904f.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2023-02-25 22:37:40",
+            "delivery_date": "2023-02-25 15:36:45",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 7 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 1789030,
+        "title": "Chức năng xoay đầu của quạt bị hư",
+        "content": "Sản phẩm bị lỗi. Mở hộp ra thì lồng nhựa bị hở lệch ra ngoài, mình lắp vào lại. Vừa mới bật quạt lên dùng thì thấy chức năng quay đầu qua về bị trục trặc, khi quay được, khi bị khựng lại và có tiếng cạch cạch không quay nữa, nếu bật đứng yên thì ko vấn đề gì. Đã gởi đơn đổi trả cho tiki nhưng chưa có phản hồi gì. Mong tiki kiểm tra giúp, mã đơn hàng: 358597628",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.00542628,
+        "new_score": 0.13700868,
+        "customer_id": 536558,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1537238934,
+        "created_by": {
+            "id": 536558,
+            "name": "Truong Quoc",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1536129163,
+            "contribute_info": {
+                "id": 536558,
+                "name": "Truong Quoc",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 12 năm",
+                    "total_review": 7,
+                    "total_thank": 8
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Siêu thị Happy"
+        ],
+        "product_attributes": [],
+        "spid": 3232227,
+        "is_photo": false,
+        "seller": {
+            "id": 3232,
+            "name": "Siêu thị Happy",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/b9/ce/b0/5f15fd7e82d23a74cc963321bf15210b.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2018-09-18 09:48:54",
+            "delivery_date": "2018-09-13 09:38:10",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 5 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15504229,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1369925,
+        "customer_id": 10078092,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1647696746,
+        "created_by": {
+            "id": 10078092,
+            "name": "Hoàng Sáng",
+            "full_name": "Hoàng Sáng",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/7/1/0/9/17/120/5b264c230d62a7071297fe9d5e215253.jpg",
+            "created_time": "2018-12-30 09:48:59",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1643114634,
+            "contribute_info": {
+                "id": 10078092,
+                "name": "Hoàng Sáng",
+                "avatar": "https://s120.avatar.talk.zdn.vn/7/1/0/9/17/120/5b264c230d62a7071297fe9d5e215253.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 37,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [
+            "Giao hàng nhanh"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Tuấn Yến HCM"
+        ],
+        "product_attributes": [],
+        "spid": 101854934,
+        "is_photo": false,
+        "seller": {
+            "id": 187775,
+            "name": "Tuấn Yến HCM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/75/d2/39/e73b61b5c3c961886d9ccd5887c598e7.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2022-03-19 20:32:26",
+            "delivery_date": "2022-01-28 16:44:15",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15440616,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13692328,
+        "customer_id": 9788570,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1647368987,
+        "created_by": {
+            "id": 9788570,
+            "name": "Lê công lý",
+            "full_name": "Lê công lý",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-12-12 00:10:12",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1644572939,
+            "contribute_info": {
+                "id": 9788570,
+                "name": "Lê công lý",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt",
+            "Nhà bán phục vụ tốt",
+            "Giao hàng nhanh",
+            "Giá tốt",
+            "Đóng gói tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Tuấn Yến HCM"
+        ],
+        "product_attributes": [],
+        "spid": 101854934,
+        "is_photo": false,
+        "seller": {
+            "id": 187775,
+            "name": "Tuấn Yến HCM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/75/d2/39/e73b61b5c3c961886d9ccd5887c598e7.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2022-03-16 01:29:47",
+            "delivery_date": "2022-02-13 13:45:04",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2143345,
+        "title": "QUÁ TO ĐỂ DÙNG CHO BÀN LÀM VIỆC",
+        "content": "Do khi mua mình không tìm hiểu kĩ về kích thước nên nhận hàng hơi bị hố, do quạt quá to, sử dụng cho sinh viên thì khá ổn, nhưng để bàn làm việc thì quá to và quá mạnh. Quạt dùng khá ổn nhé.",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.02624843,
+        "new_score": 0.13666622,
+        "customer_id": 758460,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [
+            {
+                "id": 410970,
+                "full_path": "https://salt.tikicdn.com/ts/review/4f/e0/ba/28cd85c70dc7f363f989fcde29381e72.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1554872015,
+        "created_by": {
+            "id": 758460,
+            "name": "Hoa Rum",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1554525023,
+            "contribute_info": {
+                "id": 758460,
+                "name": "Hoa Rum",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 8,
+                    "total_thank": 10
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Alobuy Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 1736109,
+        "is_photo": true,
+        "seller": {
+            "id": 808,
+            "name": "Alobuy Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/51/57/b4/a30bc35571823bc8bf3df0bff368904f.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2019-04-10 11:53:35",
+            "delivery_date": "2019-04-08 14:51:29",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2504238,
+        "title": "quạt phù hợp với mùa thu miền bắc",
+        "content": "Quạt gió vừa phải, nếu dùng vào trời nóng thì không đủ làm mát, nhưng dùng vào mùa thu se se lạnh thì vừa đủ (cũng phù hợp khi dùng kèm điều hòa)\nNhược: độ ồn tương đối lớn.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13606242,
+        "customer_id": 112563,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1570378358,
+        "created_by": {
+            "id": 112563,
+            "name": "Trương Mai",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1567646913,
+            "contribute_info": {
+                "id": 112563,
+                "name": "Trương Mai",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 89,
+                    "total_thank": 24
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Phân phối TTH Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 19372442,
+        "is_photo": false,
+        "seller": {
+            "id": 24969,
+            "name": "Phân phối TTH Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/79/1e/9e/c52fce8d081d850997a26c5c768127ed.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2019-10-06 23:12:38",
+            "delivery_date": "2019-09-11 11:00:33",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2623435,
+        "title": "Bình thường",
+        "content": "quạt ổn. vừa tầm giá. nhưng mùa về cái trục điều khiển cố định và tự quay nó bị lỏng. nhiều lần đang để quạt cố định lại tự dộng xoay.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 18.51851852,
+        "new_score": 0.13390662,
+        "customer_id": 7143483,
+        "comment_count": 1,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1573428477,
+        "created_by": {
+            "id": 7143483,
+            "name": "Nguyễn Ah Tuấn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1571230048,
+            "contribute_info": {
+                "id": 7143483,
+                "name": "Nguyễn Ah Tuấn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Alobuy Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 1736109,
+        "is_photo": false,
+        "seller": {
+            "id": 808,
+            "name": "Alobuy Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/51/57/b4/a30bc35571823bc8bf3df0bff368904f.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2019-11-11 06:27:57",
+            "delivery_date": "2019-10-18 07:46:32",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 9756805,
+        "title": "Cực kì hài lòng",
+        "content": "giao hàng nhanh, chắc chắn",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13345141,
+        "customer_id": 14569200,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1621145561,
+        "created_by": {
+            "id": 14569200,
+            "name": "Van Trang",
+            "full_name": "Van Trang",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/8/1/1/0/2/120/39500c70fda8093d691152e66c07c60e.jpg",
+            "created_time": "2019-10-22 09:28:35",
+            "purchased": true,
+            "purchased_at": 1621001594,
+            "contribute_info": {
+                "id": 14569200,
+                "name": "Van Trang",
+                "avatar": "https://s120.avatar.talk.zdn.vn/8/1/1/0/2/120/39500c70fda8093d691152e66c07c60e.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tấn Phát SENKO"
+        ],
+        "product_attributes": [],
+        "spid": 20738628,
+        "is_photo": false,
+        "seller": {
+            "id": 28659,
+            "name": "Tấn Phát SENKO",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2021-05-16 13:12:41",
+            "delivery_date": "2021-05-16 11:30:19",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 3534513,
+        "title": "Rất không hài lòng",
+        "content": "Màu sắc ko đúng với đơn hàng đặt,\nMàu tím khoai môn giao màu xanh",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 1.40046296,
+        "new_score": 0.13306216,
+        "customer_id": 6856296,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [
+            {
+                "id": 994337,
+                "full_path": "https://salt.tikicdn.com/ts/review/17/a3/95/675093f527b94acfc1baebed237decd5.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1589000395,
+        "created_by": {
+            "id": 6856296,
+            "name": "Le linh",
+            "full_name": "Le linh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1588732747,
+            "contribute_info": {
+                "id": 6856296,
+                "name": "Le linh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Siêu thị Happy"
+        ],
+        "product_attributes": [],
+        "spid": 3232227,
+        "is_photo": true,
+        "seller": {
+            "id": 3232,
+            "name": "Siêu thị Happy",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/b9/ce/b0/5f15fd7e82d23a74cc963321bf15210b.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2020-05-09 11:59:55",
+            "delivery_date": "2020-05-08 12:37:04",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 4728030,
+        "title": "Không hài lòng",
+        "content": "quạt chạy êm, nhưng không mát gì",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 3.7345679,
+        "new_score": 0.13247141,
+        "customer_id": 18336880,
+        "comment_count": 2,
+        "rating": 2,
+        "images": [
+            {
+                "id": 1166135,
+                "full_path": "https://salt.tikicdn.com/ts/review/7b/d6/ff/ccb0f968f82993e20416e6a33cdb6c34.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1599144923,
+        "created_by": {
+            "id": 18336880,
+            "name": "Trịnh Kim",
+            "full_name": "Trịnh Kim",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1599114846,
+            "contribute_info": {
+                "id": 18336880,
+                "name": "Trịnh Kim",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Alobuy Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 1736109,
+        "is_photo": true,
+        "seller": {
+            "id": 808,
+            "name": "Alobuy Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/51/57/b4/a30bc35571823bc8bf3df0bff368904f.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2020-09-03 21:55:23",
+            "delivery_date": "2020-09-03 17:18:59",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 5 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2093496,
+        "title": "Sản phẩm bị hư",
+        "content": "Sản phẩm mở ra, phần đầu ko khớp với thân, chức năng quay bị gãy.",
+        "status": "approved",
+        "thank_count": 4,
+        "score": 0.00265452,
+        "new_score": 0.13178233,
+        "customer_id": 87968,
+        "comment_count": 0,
+        "rating": 1,
+        "images": [
+            {
+                "id": 390092,
+                "full_path": "https://salt.tikicdn.com/ts/review/3a/ae/55/5ffdb3c7171aa90dc220e05e74218a86.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 390093,
+                "full_path": "https://salt.tikicdn.com/ts/review/9b/f4/9a/77459dfa33190f1998b6878416d43258.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 390094,
+                "full_path": "https://salt.tikicdn.com/ts/review/94/7b/bf/76eabbbdb828d11d270d8e6e43178269.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1552723796,
+        "created_by": {
+            "id": 87968,
+            "name": "Hoàng  Hồng",
+            "full_name": "Hoàng  Hồng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2013-01-18 19:06:45",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1552554568,
+            "contribute_info": {
+                "id": 87968,
+                "name": "Hoàng  Hồng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 14 năm",
+                    "total_review": 3,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Alobuy Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 1736109,
+        "is_photo": true,
+        "seller": {
+            "id": 808,
+            "name": "Alobuy Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/51/57/b4/a30bc35571823bc8bf3df0bff368904f.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2019-03-16 15:09:56",
+            "delivery_date": "2019-03-16 14:37:54",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 9712520,
+        "title": "Cực kì hài lòng",
+        "content": "ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13148233,
+        "customer_id": 21648646,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1620976315,
+        "created_by": {
+            "id": 21648646,
+            "name": "Nguyễn Đa",
+            "full_name": "Nguyễn Đa",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-05-09 15:15:03",
+            "purchased": true,
+            "purchased_at": 1620824463,
+            "contribute_info": {
+                "id": 21648646,
+                "name": "Nguyễn Đa",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tấn Phát SENKO"
+        ],
+        "product_attributes": [],
+        "spid": 20738628,
+        "is_photo": false,
+        "seller": {
+            "id": 28659,
+            "name": "Tấn Phát SENKO",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2021-05-14 14:11:55",
+            "delivery_date": "2021-05-14 10:30:18",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 4 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2260247,
+        "title": "Quạt bé so với hình ảnh xem trên photo tiki, cần lưa ý kĩ các thông số đường kính cánh quạt, chiều cao, công suất và màu sắc trước khi đặt mua",
+        "content": "Quạt bé so với hình ảnh xem trên photo tiki, cần lưa ý kĩ các thông số đường kính cánh quạt, chiều cao, công suất và màu sắc trước khi đặt mua",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.05875509,
+        "new_score": 0.13082145,
+        "customer_id": 5393041,
+        "comment_count": 1,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1560657372,
+        "created_by": {
+            "id": 5393041,
+            "name": "Nam Tien",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1559965624,
+            "contribute_info": {
+                "id": 5393041,
+                "name": "Nam Tien",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 6,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Alobuy Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 1736109,
+        "is_photo": false,
+        "seller": {
+            "id": 808,
+            "name": "Alobuy Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/51/57/b4/a30bc35571823bc8bf3df0bff368904f.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2019-06-16 10:56:12",
+            "delivery_date": "2019-06-12 12:37:09",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 4 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 7695691,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.12970467,
+        "customer_id": 7441899,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1613190872,
+        "created_by": {
+            "id": 7441899,
+            "name": "Lê Tân",
+            "full_name": "Lê Tân",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-07-11 12:44:53",
+            "purchased": true,
+            "purchased_at": 1602836886,
+            "contribute_info": {
+                "id": 7441899,
+                "name": "Lê Tân",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 19,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [
+            "Nhà bán phục vụ tốt",
+            "Giá tốt",
+            "Đóng gói tốt",
+            "Giao hàng nhanh",
+            "Chất lượng tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Alobuy Việt Nam"
+        ],
+        "product_attributes": [],
+        "spid": 1736109,
+        "is_photo": false,
+        "seller": {
+            "id": 808,
+            "name": "Alobuy Việt Nam",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/51/57/b4/a30bc35571823bc8bf3df0bff368904f.jpg"
+        },
+        "product_id": 1733783,
+        "timeline": {
+            "review_created_date": "2021-02-13 11:34:32",
+            "delivery_date": "2020-10-20 12:22:33",
+            "current_date": "2026-05-16 15:14:36",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

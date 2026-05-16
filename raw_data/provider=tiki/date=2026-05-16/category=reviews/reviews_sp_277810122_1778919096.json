@@ -1,0 +1,211 @@
+[
+    {
+        "id": 20232526,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16458147,
+        "customer_id": 5291834,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1778322759,
+        "created_by": {
+            "id": 5291834,
+            "name": "Nguyen Cao Vinh",
+            "full_name": "Nguyen Cao Vinh",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/43/8f/c0/b41ad8934651b1689793d31ec3a08600.png",
+            "created_time": "2017-05-16 20:44:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1778175078,
+            "contribute_info": {
+                "id": 5291834,
+                "name": "Nguyen Cao Vinh",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/43/8f/c0/b41ad8934651b1689793d31ec3a08600.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 209,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading",
+            "Màu KEE8457MG (Xanh mint)"
+        ],
+        "product_attributes": [
+            "Màu: KEE8457MG (Xanh mint)"
+        ],
+        "spid": 277836458,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 277810122,
+        "timeline": {
+            "review_created_date": "2026-05-09 17:32:39",
+            "delivery_date": "2026-05-09 11:52:28",
+            "current_date": "2026-05-16 15:11:59",
+            "content": "Đã dùng 6 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20217605,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16341853,
+        "customer_id": 18272571,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1772816572,
+        "created_by": {
+            "id": 18272571,
+            "name": "Bùi Thị Thuý Hằng",
+            "full_name": "Bùi Thị Thuý Hằng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-08-27 23:55:09",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1772552564,
+            "contribute_info": {
+                "id": 18272571,
+                "name": "Bùi Thị Thuý Hằng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading",
+            "Màu KEE8457GR (Xám)"
+        ],
+        "product_attributes": [
+            "Màu: KEE8457GR (Xám)"
+        ],
+        "spid": 277836456,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 277810122,
+        "timeline": {
+            "review_created_date": "2026-03-07 00:02:52",
+            "delivery_date": "2026-03-06 09:43:02",
+            "current_date": "2026-05-16 15:11:59",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20192060,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16147621,
+        "customer_id": 12961358,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1763620231,
+        "created_by": {
+            "id": 12961358,
+            "name": "Nguyễn Đức Lâm",
+            "full_name": "Nguyễn Đức Lâm",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-07-18 09:15:36",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1762895818,
+            "contribute_info": {
+                "id": 12961358,
+                "name": "Nguyễn Đức Lâm",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading",
+            "Màu KEE8457AW (Be)"
+        ],
+        "product_attributes": [
+            "Màu: KEE8457AW (Be)"
+        ],
+        "spid": 277836457,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 277810122,
+        "timeline": {
+            "review_created_date": "2025-11-20 13:30:31",
+            "delivery_date": "2025-11-15 11:13:30",
+            "current_date": "2026-05-16 15:11:59",
+            "content": "Đã dùng 5 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

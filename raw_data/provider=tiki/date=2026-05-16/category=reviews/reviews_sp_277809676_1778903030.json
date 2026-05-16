@@ -1,0 +1,71 @@
+[
+    {
+        "id": 20197161,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16187228,
+        "customer_id": 10446959,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1765495516,
+        "created_by": {
+            "id": 10446959,
+            "name": "Ngô Liên",
+            "full_name": "Ngô Liên",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/c3/d8/35/06749fe6df79ebb32ef17bff5ed2d31a.png",
+            "created_time": "2019-01-19 13:19:44",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1763961242,
+            "contribute_info": {
+                "id": 10446959,
+                "name": "Ngô Liên",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/c3/d8/35/06749fe6df79ebb32ef17bff5ed2d31a.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 61,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading",
+            "Màu MCE8584B (Xanh đậm)"
+        ],
+        "product_attributes": [
+            "Màu: MCE8584B (Xanh đậm)"
+        ],
+        "spid": 277809702,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 277809676,
+        "timeline": {
+            "review_created_date": "2025-12-12 06:25:16",
+            "delivery_date": "2025-11-24 14:51:19",
+            "current_date": "2026-05-16 10:44:43",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Dễ dùng",
+                "Động cơ mạnh mẽ",
+                "Ít nóng máy",
+                "Xay êm"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

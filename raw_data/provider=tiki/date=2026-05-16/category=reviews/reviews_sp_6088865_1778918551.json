@@ -1,0 +1,122 @@
+[
+    {
+        "id": 5293252,
+        "title": "Rất không hài lòng",
+        "content": "máy hp m130fw không in được",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 2.55050505,
+        "new_score": 0.12979095,
+        "customer_id": 8764746,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1603183035,
+        "created_by": {
+            "id": 8764746,
+            "name": "Hoang Van Nam",
+            "full_name": "Hoang Van Nam",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1602480820,
+            "contribute_info": {
+                "id": 8764746,
+                "name": "Hoang Van Nam",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 37,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6088867,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6088865,
+        "timeline": {
+            "review_created_date": "2020-10-20 15:37:15",
+            "delivery_date": "2020-10-17 11:32:03",
+            "current_date": "2026-05-16 15:04:58",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 6880487,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.12910787,
+        "customer_id": 17356349,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1610365212,
+        "created_by": {
+            "id": 17356349,
+            "name": "Tran Phong",
+            "full_name": "Tran Phong",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1608685553,
+            "contribute_info": {
+                "id": 17356349,
+                "name": "Tran Phong",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 6,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6088867,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6088865,
+        "timeline": {
+            "review_created_date": "2021-01-11 18:40:12",
+            "delivery_date": "2020-12-27 13:34:08",
+            "current_date": "2026-05-16 15:04:58",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

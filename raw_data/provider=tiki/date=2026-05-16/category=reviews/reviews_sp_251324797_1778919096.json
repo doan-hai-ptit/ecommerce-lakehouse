@@ -1,0 +1,234 @@
+[
+    {
+        "id": 20210236,
+        "title": "Không hài lòng",
+        "content": "Hàng giao ko đúng như hình quảng cáo. Quạt kêu khá ồn",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.61111111,
+        "new_score": 0.17029573,
+        "customer_id": 14570210,
+        "comment_count": 1,
+        "rating": 2,
+        "images": [
+            {
+                "id": 4421903,
+                "full_path": "https://salt.tikicdn.com/ts/review/60/75/e5/de100b2b741d56ff37e811d482fc840f.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1770025601,
+        "created_by": {
+            "id": 14570210,
+            "name": "Trung Vũ",
+            "full_name": "Trung Vũ",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/6/a/9/9/3/120/63ad83170416199a1cdd25579f14bca6.jpg",
+            "created_time": "2019-10-22 10:43:30",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1769590728,
+            "contribute_info": {
+                "id": 14570210,
+                "name": "Trung Vũ",
+                "avatar": "https://s120.avatar.talk.zdn.vn/6/a/9/9/3/120/63ad83170416199a1cdd25579f14bca6.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 8,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Smarthome29",
+            "Màu Màu Trắng"
+        ],
+        "product_attributes": [
+            "Màu: Màu Trắng"
+        ],
+        "spid": 251324805,
+        "is_photo": true,
+        "seller": {
+            "id": 134678,
+            "name": "Smarthome29",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f3/62/f2/d83cafa5e7306cfc0c49dc7fbf3e6108.jpg"
+        },
+        "product_id": 251324797,
+        "timeline": {
+            "review_created_date": "2026-02-02 16:46:41",
+            "delivery_date": "2026-02-02 14:21:58",
+            "current_date": "2026-05-16 15:13:42",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Không hẹn trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20217467,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16341361,
+        "customer_id": 21696541,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1772793289,
+        "created_by": {
+            "id": 21696541,
+            "name": "TRAN KHANH",
+            "full_name": "TRAN KHANH",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/76/fd/03/ea274812b80d8f02763401ae650ca56f.png",
+            "created_time": "2021-05-13 00:24:41",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1772527205,
+            "contribute_info": {
+                "id": 21696541,
+                "name": "TRAN KHANH",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/76/fd/03/ea274812b80d8f02763401ae650ca56f.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 15,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Smarthome29",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 251324807,
+        "is_photo": false,
+        "seller": {
+            "id": 134678,
+            "name": "Smarthome29",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f3/62/f2/d83cafa5e7306cfc0c49dc7fbf3e6108.jpg"
+        },
+        "product_id": 251324797,
+        "timeline": {
+            "review_created_date": "2026-03-06 17:34:49",
+            "delivery_date": "2026-03-06 12:12:40",
+            "current_date": "2026-05-16 15:13:42",
+            "content": "Đã dùng 5 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20115741,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15766961,
+        "customer_id": 21480802,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1745597050,
+        "created_by": {
+            "id": 21480802,
+            "name": "nguyễn thọ",
+            "full_name": "nguyễn thọ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-04-24 12:46:00",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1744645570,
+            "contribute_info": {
+                "id": 21480802,
+                "name": "nguyễn thọ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 7,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Smarthome29",
+            "Màu Xanh lá"
+        ],
+        "product_attributes": [
+            "Màu: Xanh lá"
+        ],
+        "spid": 251324799,
+        "is_photo": false,
+        "seller": {
+            "id": 134678,
+            "name": "Smarthome29",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f3/62/f2/d83cafa5e7306cfc0c49dc7fbf3e6108.jpg"
+        },
+        "product_id": 251324797,
+        "timeline": {
+            "review_created_date": "2025-04-25 23:04:10",
+            "delivery_date": "2025-04-18 12:23:44",
+            "current_date": "2026-05-16 15:13:42",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

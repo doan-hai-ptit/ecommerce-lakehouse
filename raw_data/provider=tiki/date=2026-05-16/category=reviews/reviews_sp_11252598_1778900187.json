@@ -1,0 +1,1261 @@
+[
+    {
+        "id": 19116760,
+        "title": "Rất không hài lòng",
+        "content": "tiêu đề ghi 300 Mbps mà mạng chỉ ra dưới 100mbps. không có chỗ nào ghi thông tin là tối đa 100mbps. một chiêu qua mặt khách hàng.",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 25.74074074,
+        "new_score": 0.16079734,
+        "customer_id": 28978452,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [
+            {
+                "id": 4193852,
+                "full_path": "https://salt.tikicdn.com/ts/review/30/b2/0f/859107565f88f0cd9095da30937ba97a.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4193853,
+                "full_path": "https://salt.tikicdn.com/ts/review/cc/58/47/48751d77255c1b1c47e93b7c11becabd.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1682067615,
+        "created_by": {
+            "id": 28978452,
+            "name": "Tung Tung",
+            "full_name": "Tung Tung",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2023-03-22 02:16:43",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1681789423,
+            "contribute_info": {
+                "id": 28978452,
+                "name": "Tung Tung",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 3 năm",
+                    "total_review": 3,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 145457126,
+        "is_photo": true,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2023-04-21 16:00:15",
+            "delivery_date": "2023-04-20 10:46:54",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20067048,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15584425,
+        "customer_id": 13222300,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1736954481,
+        "created_by": {
+            "id": 13222300,
+            "name": "Vũ Tuấn Đạt",
+            "full_name": "Vũ Tuấn Đạt",
+            "region": null,
+            "avatar_url": "https://graph.facebook.com/v3.3/2923468661058819/picture?type=large&return_ssl_resources=1",
+            "created_time": "2019-08-03 10:16:25",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1735167849,
+            "contribute_info": {
+                "id": 13222300,
+                "name": "Vũ Tuấn Đạt",
+                "avatar": "https://graph.facebook.com/v3.3/2923468661058819/picture?type=large&return_ssl_resources=1",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 136,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 145457126,
+        "is_photo": false,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2025-01-15 22:21:21",
+            "delivery_date": "2024-12-29 11:29:15",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Kích thước nhỏ gọn",
+                "Lắp đặt/cài đặt đơn giản",
+                "Sóng mạnh, ổn định",
+                "Truyền được đi xa"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20012158,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15428239,
+        "customer_id": 1196677,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1729559502,
+        "created_by": {
+            "id": 1196677,
+            "name": "Ngo Tri Hoai",
+            "full_name": "Ngo Tri Hoai",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-03-02 10:38:53",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1728628630,
+            "contribute_info": {
+                "id": 1196677,
+                "name": "Ngo Tri Hoai",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 13,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán VINSEC"
+        ],
+        "product_attributes": [],
+        "spid": 185653999,
+        "is_photo": false,
+        "seller": {
+            "id": 15937,
+            "name": "VINSEC",
+            "logo": "74/5a/46/0189b9c2d521838831ffa6dddd18434b.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2024-10-22 08:11:42",
+            "delivery_date": "2024-10-11 15:22:25",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 11 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 11 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19895440,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15179041,
+        "customer_id": 9161040,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1717760692,
+        "created_by": {
+            "id": 9161040,
+            "name": "Nguyễn Duy Phương",
+            "full_name": "Nguyễn Duy Phương",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/6d/69/dc/db27a0d585e052cd55917456a8ff9d9b.png",
+            "created_time": "2018-11-24 12:29:36",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1702795453,
+            "contribute_info": {
+                "id": 9161040,
+                "name": "Nguyễn Duy Phương",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/6d/69/dc/db27a0d585e052cd55917456a8ff9d9b.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 13,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 145457126,
+        "is_photo": false,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2024-06-07 18:44:52",
+            "delivery_date": "2023-12-17 15:39:17",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 1 năm",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 năm."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Kích thước nhỏ gọn",
+                "Lắp đặt/cài đặt đơn giản",
+                "Sóng mạnh, ổn định",
+                "Truyền được đi xa"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19517941,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14682793,
+        "customer_id": 28331808,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1694264728,
+        "created_by": {
+            "id": 28331808,
+            "name": "Trung Lương",
+            "full_name": "Trung Lương",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-10-15 05:15:57",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1693574919,
+            "contribute_info": {
+                "id": 28331808,
+                "name": "Trung Lương",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 145457126,
+        "is_photo": false,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2023-09-09 20:05:28",
+            "delivery_date": "2023-09-08 06:52:36",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19421026,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14607924,
+        "customer_id": 12634945,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1690719887,
+        "created_by": {
+            "id": 12634945,
+            "name": "Nguyễn Thanh Tùng",
+            "full_name": "Nguyễn Thanh Tùng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-06-24 22:42:56",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1689660912,
+            "contribute_info": {
+                "id": 12634945,
+                "name": "Nguyễn Thanh Tùng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 9,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 145457126,
+        "is_photo": false,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2023-07-30 19:24:47",
+            "delivery_date": "2023-07-18 15:34:56",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 12 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 12 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19032790,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14386552,
+        "customer_id": 16192782,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1680238554,
+        "created_by": {
+            "id": 16192782,
+            "name": "Hoang hung",
+            "full_name": "Hoang hung",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-01-31 12:11:33",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1680223915,
+            "contribute_info": {
+                "id": 16192782,
+                "name": "Hoang hung",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 145457126,
+        "is_photo": false,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2023-03-31 11:55:54",
+            "delivery_date": "2023-03-31 09:44:45",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18967224,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14359708,
+        "customer_id": 11053352,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1678967556,
+        "created_by": {
+            "id": 11053352,
+            "name": "Nguyễn Kiên",
+            "full_name": "Nguyễn Kiên",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-02-26 13:09:50",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1678459183,
+            "contribute_info": {
+                "id": 11053352,
+                "name": "Nguyễn Kiên",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 52,
+                    "total_thank": 7
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán IT CHÍNH HÃNG (HCM)"
+        ],
+        "product_attributes": [],
+        "spid": 199020194,
+        "is_photo": false,
+        "seller": {
+            "id": 858,
+            "name": "IT CHÍNH HÃNG (HCM)",
+            "logo": "9f/74/42/0a0d4b93d7ac9e0d43936fe48e6c410a.png"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2023-03-16 18:52:36",
+            "delivery_date": "2023-03-16 13:57:56",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 5 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18319364,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14165854,
+        "customer_id": 951216,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1669789120,
+        "created_by": {
+            "id": 951216,
+            "name": "Trần Cao Đạt",
+            "full_name": "Trần Cao Đạt",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2015-11-09 05:19:50",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1664170399,
+            "contribute_info": {
+                "id": 951216,
+                "name": "Trần Cao Đạt",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 29,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 145457126,
+        "is_photo": false,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2022-11-30 13:18:40",
+            "delivery_date": "2022-09-26 14:53:03",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Lắp đặt/cài đặt đơn giản",
+                "Sóng mạnh, ổn định"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18252862,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14148305,
+        "customer_id": 1461941,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1668958217,
+        "created_by": {
+            "id": 1461941,
+            "name": "Đào Duy Tùng",
+            "full_name": "Đào Duy Tùng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-06-25 16:23:14",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1668000787,
+            "contribute_info": {
+                "id": 1461941,
+                "name": "Đào Duy Tùng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 14,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 145457126,
+        "is_photo": false,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2022-11-20 22:30:17",
+            "delivery_date": "2022-11-14 10:30:32",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16974739,
+        "title": "Cực kì hài lòng",
+        "content": "ngon bổ rẻ",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1399297,
+        "customer_id": 9004968,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1657184499,
+        "created_by": {
+            "id": 9004968,
+            "name": "Viet Nguyen",
+            "full_name": "Viet Nguyen",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/256x256/ts/avatar/75/51/e6/99c3d01af577499cad407d0db0dc38cb.png",
+            "created_time": "2018-11-15 22:24:27",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1657017454,
+            "contribute_info": {
+                "id": 9004968,
+                "name": "Viet Nguyen",
+                "avatar": "https://salt.tikicdn.com/cache/256x256/ts/avatar/75/51/e6/99c3d01af577499cad407d0db0dc38cb.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 102,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh"
+        ],
+        "product_attributes": [],
+        "spid": 25138858,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2022-07-07 16:01:39",
+            "delivery_date": "2022-07-07 10:31:18",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 6 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 12128218,
+        "title": "Cực kì hài lòng",
+        "content": "chất lượng cơ bản bảo đảm",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.13901487,
+        "customer_id": 1284484,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 2480575,
+                "full_path": "https://salt.tikicdn.com/ts/review/a3/48/5a/12c2be53a8ee468a2109724cda9008a8.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1631073292,
+        "created_by": {
+            "id": 1284484,
+            "name": "Nguyễn Công Đức",
+            "full_name": "Nguyễn Công Đức",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/cd/41/4b/a5ec467daa5036033940c67f7e3c66da.png",
+            "created_time": "2016-04-04 22:10:45",
+            "purchased": true,
+            "purchased_at": 1630327341,
+            "contribute_info": {
+                "id": 1284484,
+                "name": "Nguyễn Công Đức",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/cd/41/4b/a5ec467daa5036033940c67f7e3c66da.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 247,
+                    "total_thank": 28
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh"
+        ],
+        "product_attributes": [],
+        "spid": 25138858,
+        "is_photo": true,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2021-09-08 10:54:52",
+            "delivery_date": "2021-09-08 09:47:03",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15865729,
+        "title": "Cực kì hài lòng",
+        "content": "Hoạt động tốt.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1387936,
+        "customer_id": 25343012,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1649595807,
+        "created_by": {
+            "id": 25343012,
+            "name": "Huynh Trong Linh",
+            "full_name": "Huynh Trong Linh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-11-20 20:19:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1648655766,
+            "contribute_info": {
+                "id": 25343012,
+                "name": "Huynh Trong Linh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 11,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 145457126,
+        "is_photo": false,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2022-04-10 20:03:27",
+            "delivery_date": "2022-03-31 08:34:15",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 10 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 10 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 13038357,
+        "title": "Bình thường",
+        "content": "em không biết sử dụng sao để có mạng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13782371,
+        "customer_id": 14703504,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1636165547,
+        "created_by": {
+            "id": 14703504,
+            "name": "Thắng Lê",
+            "full_name": "Thắng Lê",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-10-31 14:54:45",
+            "purchased": true,
+            "purchased_at": 1635899098,
+            "contribute_info": {
+                "id": 14703504,
+                "name": "Thắng Lê",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh"
+        ],
+        "product_attributes": [],
+        "spid": 25138858,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2021-11-06 09:25:47",
+            "delivery_date": "2021-11-05 12:45:23",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 13873193,
+        "title": "Cực kì hài lòng",
+        "content": "sản phẩm ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13629359,
+        "customer_id": 15286833,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1639652846,
+        "created_by": {
+            "id": 15286833,
+            "name": "Khuất Sơn",
+            "full_name": "Khuất Sơn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-12-04 15:18:03",
+            "purchased": true,
+            "purchased_at": 1639200032,
+            "contribute_info": {
+                "id": 15286833,
+                "name": "Khuất Sơn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 14,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh"
+        ],
+        "product_attributes": [],
+        "spid": 25138858,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2021-12-16 18:07:26",
+            "delivery_date": "2021-12-16 17:21:52",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 14013264,
+        "title": "Cực kì hài lòng",
+        "content": "Sp tốt !",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13608147,
+        "customer_id": 16982132,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1640226795,
+        "created_by": {
+            "id": 16982132,
+            "name": "Tài khoản Zalo",
+            "full_name": "Tài khoản Zalo",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-03-31 14:24:06",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1635430837,
+            "contribute_info": {
+                "id": 16982132,
+                "name": "Tài khoản Zalo",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 30,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh"
+        ],
+        "product_attributes": [],
+        "spid": 25138858,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2021-12-23 09:33:15",
+            "delivery_date": "2021-11-03 18:45:22",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 7949159,
+        "title": "Cực kì hài lòng",
+        "content": "Chua sai nen chua biet tam thoi cho 5 sao",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1326389,
+        "customer_id": 18006612,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1614142087,
+        "created_by": {
+            "id": 18006612,
+            "name": "Trieuquoc Ta",
+            "full_name": "Trieuquoc Ta",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-08-06 18:46:21",
+            "purchased": true,
+            "purchased_at": 1612226048,
+            "contribute_info": {
+                "id": 18006612,
+                "name": "Trieuquoc Ta",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 12,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh"
+        ],
+        "product_attributes": [],
+        "spid": 25138858,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2021-02-24 11:48:07",
+            "delivery_date": "2021-02-06 12:04:52",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 3588252,
+        "title": "Cực kì hài lòng",
+        "content": "Ok good, sp đóng gói đẹp đảm bảo chắc chắn giao hàng nhanh hơn dự tính",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 11.11111111,
+        "new_score": 0.13076318,
+        "customer_id": 1420250,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1589794305,
+        "created_by": {
+            "id": 1420250,
+            "name": "Nguyen Dung",
+            "full_name": "Nguyen Dung",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1575051944,
+            "contribute_info": {
+                "id": 1420250,
+                "name": "Nguyen Dung",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 9,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy tính Lanh Dung"
+        ],
+        "product_attributes": [],
+        "spid": 21437659,
+        "is_photo": false,
+        "seller": {
+            "id": 7934,
+            "name": "Máy tính Lanh Dung",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/36/ee/69/4bac0faa8f2af2c9bd87310e783e9b7f.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2020-05-18 16:31:45",
+            "delivery_date": "2019-12-07 18:31:16",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 6717964,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1289832,
+        "customer_id": 12276436,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1609774924,
+        "created_by": {
+            "id": 12276436,
+            "name": "Emmyhyunh",
+            "full_name": "Emmyhyunh",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/7/b/b/a/22/120/eb1eb5d6fcded6530dc8f81af45dedca.jpg",
+            "purchased": true,
+            "purchased_at": 1609166085,
+            "contribute_info": {
+                "id": 12276436,
+                "name": "Emmyhyunh",
+                "avatar": "https://s120.avatar.talk.zdn.vn/7/b/b/a/22/120/eb1eb5d6fcded6530dc8f81af45dedca.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 16,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh"
+        ],
+        "product_attributes": [],
+        "spid": 25138858,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2021-01-04 22:42:04",
+            "delivery_date": "2021-01-04 10:11:04",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 6588006,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.12886703,
+        "customer_id": 6015801,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1609224923,
+        "created_by": {
+            "id": 6015801,
+            "name": "Kiều Anh Tuấn",
+            "full_name": "Kiều Anh Tuấn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1605782005,
+            "contribute_info": {
+                "id": 6015801,
+                "name": "Kiều Anh Tuấn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 50,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [
+            "Giao hàng nhanh"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh"
+        ],
+        "product_attributes": [],
+        "spid": 25138858,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 11252598,
+        "timeline": {
+            "review_created_date": "2020-12-29 13:55:23",
+            "delivery_date": "2020-11-23 11:09:26",
+            "current_date": "2026-05-16 09:59:49",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

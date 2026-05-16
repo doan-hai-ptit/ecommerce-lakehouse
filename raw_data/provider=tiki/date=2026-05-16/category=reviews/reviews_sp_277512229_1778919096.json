@@ -1,0 +1,130 @@
+[
+    {
+        "id": 20214038,
+        "title": "Cực kì hài lòng",
+        "content": "Nhìn xinh phết, cái muôi như chơi đồ hàng á. Nói chung giá rẻ thế là đc",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.17225838,
+        "customer_id": 731216,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4422537,
+                "full_path": "https://salt.tikicdn.com/ts/review/fd/a0/e7/572f57c224e23fb6d4fa33b40d73734b.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1771742654,
+        "created_by": {
+            "id": 731216,
+            "name": "Nguyen Mai Hoa",
+            "full_name": "Nguyen Mai Hoa",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2015-07-31 14:57:57",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1771728754,
+            "contribute_info": {
+                "id": 731216,
+                "name": "Nguyen Mai Hoa",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 168,
+                    "total_thank": 43
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 277512230,
+        "is_photo": true,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 277512229,
+        "timeline": {
+            "review_created_date": "2026-02-22 13:44:14",
+            "delivery_date": "2026-02-22 12:51:23",
+            "current_date": "2026-05-16 15:12:17",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20128259,
+        "title": "Cực kì hài lòng",
+        "content": "Tạm thời mình thấy ổn, trải nghiệm tiếp rồi nhận xét sau",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16330057,
+        "customer_id": 29118596,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1748268843,
+        "created_by": {
+            "id": 29118596,
+            "name": "Thu hằng",
+            "full_name": "Thu hằng",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/14/25/e8/67d1b199a5946aeef775a551e4443d98.png",
+            "created_time": "2023-05-16 13:23:18",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1748223344,
+            "contribute_info": {
+                "id": 29118596,
+                "name": "Thu hằng",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/14/25/e8/67d1b199a5946aeef775a551e4443d98.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 3 năm",
+                    "total_review": 26,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 277512230,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 277512229,
+        "timeline": {
+            "review_created_date": "2025-05-26 21:14:03",
+            "delivery_date": "2025-05-26 10:57:59",
+            "current_date": "2026-05-16 15:12:17",
+            "content": "Đã dùng 10 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 10 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]
