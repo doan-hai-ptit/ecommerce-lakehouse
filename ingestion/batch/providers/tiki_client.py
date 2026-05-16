@@ -52,6 +52,19 @@ class TikiApiClient:
             print(f"❌ Không thể kết nối tới Browserless tại {self.browserless_url}: {e}")
             raise e
 
+    def _fetch_json(self, url, wait_seconds=3, error_context="request"):
+        driver = self._init_driver()
+        try:
+            driver.get(url)
+            time.sleep(wait_seconds)
+            content = driver.find_element("tag name", "body").text
+            return json.loads(content)
+        except Exception as e:
+            print(f"Lỗi {error_context}: {e}")
+            return None
+        finally:
+            driver.quit()
+
     def upload_data_to_minio(self, data, category_name, file_name):
         """
         Thay đổi cốt lõi: Chuyển dữ liệu Python thành chuỗi JSON dạng byte ngay trên RAM
@@ -80,48 +93,48 @@ class TikiApiClient:
 
     def get_products(self, category_id=1846, page=1, limit=40):
         url = f"https://tiki.vn/api/v2/products?category={category_id}&page={page}&limit={limit}"
-        driver = self._init_driver()
-        try:
-            driver.get(url)
-            time.sleep(5)
-            content = driver.find_element("tag name", "body").text
-            return json.loads(content).get('data', [])
-        except Exception as e:
-            print(f"Lỗi lấy sản phẩm trang {page}: {e}")
-            return []
-        finally:
-            driver.quit()
+        data = self._fetch_json(url, wait_seconds=5, error_context=f"lấy sản phẩm trang {page}")
+        return (data or {}).get('data', [])
+
+    def get_product_detail(self, product_id):
+        url = f"https://tiki.vn/api/v2/products/{product_id}"
+        return self._fetch_json(url, wait_seconds=3, error_context=f"lấy chi tiết SP {product_id}")
 
     def get_product_reviews(self, product_id, limit=20):
         url = f"https://tiki.vn/api/v2/reviews?product_id={product_id}&limit={limit}"
-        driver = self._init_driver()
-        try:
-            driver.get(url)
-            time.sleep(3)
-            content = driver.find_element("tag name", "body").text
-            return json.loads(content).get('data', [])
-        except Exception as e:
-            print(f"Lỗi lấy review cho SP {product_id}: {e}")
-            return []
-        finally:
-            driver.quit()
+        data = self._fetch_json(url, wait_seconds=3, error_context=f"lấy review cho SP {product_id}")
+        return (data or {}).get('data', [])
 
-    # def get_seller_info(self, seller_id):
-    #     url = f"https://tiki.vn/api/v2/stores/{seller_id}"
-    #     driver = self._init_driver()
-    #     try:
-    #         driver.get(url)
-    #         time.sleep(3)
-    #         content = driver.find_element("tag name", "body").text
-    #         return json.loads(content)
-    #     except Exception as e:
-    #         print(f"Lỗi lấy thông tin nhà bán {seller_id}: {e}")
-    #         return None
-    #     finally:
-    #         driver.quit()
+    def build_seller_info(self, product, product_detail):
+        """
+        Lấy shop URL từ product detail. Không dùng /api/v2/stores/{seller_id}
+        vì endpoint đó cần store_id và dễ trả URL shop cũ/sai.
+        """
+        current_seller = (product_detail or {}).get("current_seller") or {}
+        seller_id = current_seller.get("id") or product.get("seller_id")
+        store_id = current_seller.get("store_id")
+        shop_url = current_seller.get("link")
+
+        if not seller_id or not shop_url:
+            return None
+
+        return {
+            "seller_id": seller_id,
+            "seller_name": current_seller.get("name") or product.get("seller_name"),
+            "seller_sku": current_seller.get("sku"),
+            "seller_logo": current_seller.get("logo"),
+            "store_id": store_id,
+            "shop_url": shop_url,
+            "seller_product_id": current_seller.get("product_id") or product.get("seller_product_id"),
+            "current_price": current_seller.get("price") or product.get("price"),
+            "is_best_store": current_seller.get("is_best_store"),
+            "source_product_id": product.get("id"),
+            "source_product_name": product.get("name"),
+        }
 
     def crawl_all(self, category_id, start_page=1, end_page=1):
         # ĐÃ XÓA TOÀN BỘ CÁC LỆNH os.makedirs GÂY TẠO THƯ MỤC RÁC LOCAL
+        seen_sellers = set()
 
         for page in range(start_page, end_page + 1):
             print(f"\n--- Đang xử lý TRANG {page} ---")
@@ -139,8 +152,22 @@ class TikiApiClient:
             for p in products:
                 p_id = p.get('id')
                 
-                # 1. Xử lý Reviews trực tiếp lên MinIO
                 if p_id:
+                    # # 1. Product detail chứa current_seller.link là URL shop đúng.
+                    # product_detail = self.get_product_detail(p_id)
+                    # if product_detail:
+                    #     detail_file = f"detail_sp_{p_id}_{ts}.json"
+                    #     self.upload_data_to_minio(product_detail, "product_details", detail_file)
+
+                    #     seller_info = self.build_seller_info(p, product_detail)
+                    #     if seller_info:
+                    #         seller_key = seller_info.get("store_id") or seller_info.get("seller_id")
+                    #         if seller_key not in seen_sellers:
+                    #             seller_file = f"seller_{seller_info['seller_id']}_{ts}.json"
+                    #             self.upload_data_to_minio(seller_info, "sellers", seller_file)
+                    #             seen_sellers.add(seller_key)
+
+                    # 2. Xử lý Reviews trực tiếp lên MinIO
                     reviews = self.get_product_reviews(p_id)
                     if reviews:
                         rev_file = f"reviews_sp_{p_id}_{ts}.json"

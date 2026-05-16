@@ -86,7 +86,7 @@ services:
     environment:
       - MAX_CONCURRENT_SESSIONS=10
       - DEMO_MODE=false
-    restart: always
+    # restart: always
   # connect:
   #   image: debezium/connect:2.7.3.Final
   #   container_name: debezium_connect
