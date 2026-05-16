@@ -1,0 +1,80 @@
+[
+    {
+        "id": 20011580,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1542697,
+        "customer_id": 19066324,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1729499453,
+        "created_by": {
+            "id": 19066324,
+            "name": "Đinh đức trung",
+            "full_name": "Đinh đức trung",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/01/1c/5e/4decad5b67b08002f5002eb4488e70a8.png",
+            "created_time": "2020-11-04 07:36:34",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1729040733,
+            "contribute_info": {
+                "id": 19066324,
+                "name": "Đinh đức trung",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/01/1c/5e/4decad5b67b08002f5002eb4488e70a8.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 48,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in AZ"
+        ],
+        "product_attributes": [],
+        "spid": 275212220,
+        "is_photo": false,
+        "seller": {
+            "id": 43974,
+            "name": "Mực in AZ",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ad/88/dd/b3f8ccd1f4f1a3dbb81a2b6cdb967642.jpg"
+        },
+        "product_id": 275212219,
+        "timeline": {
+            "review_created_date": "2024-10-21 15:30:53",
+            "delivery_date": "2024-10-21 10:27:08",
+            "current_date": "2026-05-15 13:04:35",
+            "content": "Đã dùng 5 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    }
+]

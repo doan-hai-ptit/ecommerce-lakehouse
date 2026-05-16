@@ -1,0 +1,987 @@
+[
+    {
+        "id": 19129150,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.06479343,
+        "new_score": 0.14431965,
+        "customer_id": 18114646,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1682388744,
+        "created_by": {
+            "id": 18114646,
+            "name": "Tâm Mít",
+            "full_name": "Tâm Mít",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-08-14 22:13:49",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1670549870,
+            "contribute_info": {
+                "id": 18114646,
+                "name": "Tâm Mít",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2023-04-25 09:12:24",
+            "delivery_date": "2022-12-12 11:41:21",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 12943796,
+        "title": "Rất không hài lòng",
+        "content": "Tại sao in lại như thế ạ? Có phải gửi nhầm cái đã dùng hết rồi không?",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00485745,
+        "new_score": 0.1437229,
+        "customer_id": 12498141,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [
+            {
+                "id": 2683683,
+                "full_path": "https://salt.tikicdn.com/ts/review/8a/e2/02/fec24f7b9ee4e9cc4b2d4a41dca1720b.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1635688219,
+        "created_by": {
+            "id": 12498141,
+            "name": "Cao Phương Thúy",
+            "full_name": "Cao Phương Thúy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-06-14 12:55:46",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1638777688,
+            "contribute_info": {
+                "id": 12498141,
+                "name": "Cao Phương Thúy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": true,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-10-31 20:50:19",
+            "delivery_date": "2021-10-31 17:00:08",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 4 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 12534957,
+        "title": "Cực kì hài lòng",
+        "content": "đã *** thử sản phẩm in rõ  đẹp",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00545953,
+        "new_score": 0.14286927,
+        "customer_id": 8990079,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 2575717,
+                "full_path": "https://salt.tikicdn.com/ts/review/71/25/f7/bdf57e49d10cbd180c1f5f4155655aae.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2575718,
+                "full_path": "https://salt.tikicdn.com/ts/review/29/01/2d/cfa525a608c481bac70ed3425006e3a2.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1633856064,
+        "created_by": {
+            "id": 8990079,
+            "name": "Trần Quang Thuận ",
+            "full_name": "Trần Quang Thuận ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-11-15 05:25:06",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1633349191,
+            "contribute_info": {
+                "id": 8990079,
+                "name": "Trần Quang Thuận ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": true,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-10-10 15:54:24",
+            "delivery_date": "2021-10-10 15:03:59",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 14098082,
+        "title": "Cực kì hài lòng",
+        "content": "Mới dùng cũng thấy đc. ko biết độ bền thế nào. giá rẻ mà đóng gói chuyên nghiệp",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00449644,
+        "new_score": 0.14255677,
+        "customer_id": 6871818,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1640583310,
+        "created_by": {
+            "id": 6871818,
+            "name": "Phạm Văn Dương",
+            "full_name": "Phạm Văn Dương",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-04-05 14:52:43",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1640241504,
+            "contribute_info": {
+                "id": 6871818,
+                "name": "Phạm Văn Dương",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-12-27 12:35:10",
+            "delivery_date": "2021-12-26 16:52:09",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 12643676,
+        "title": "Cực kì hài lòng",
+        "content": "mực đều đẹp, đóng gói chắc chắn, giao nhanh hơn dự kiến",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00394871,
+        "new_score": 0.13917394,
+        "customer_id": 7480824,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1634351653,
+        "created_by": {
+            "id": 7480824,
+            "name": "Nguyễn Thị Thanh Hoài",
+            "full_name": "Nguyễn Thị Thanh Hoài",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-07-17 10:13:35",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1633426724,
+            "contribute_info": {
+                "id": 7480824,
+                "name": "Nguyễn Thị Thanh Hoài",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 14,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-10-16 09:34:13",
+            "delivery_date": "2021-10-13 12:48:54",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15329877,
+        "title": "Cực kì hài lòng",
+        "content": "Màu mực hơi nhạt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00521915,
+        "new_score": 0.13827046,
+        "customer_id": 1261410,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1646803268,
+        "created_by": {
+            "id": 1261410,
+            "name": "hoàng thảo",
+            "full_name": "hoàng thảo",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-03-26 12:25:33",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1642777783,
+            "contribute_info": {
+                "id": 1261410,
+                "name": "hoàng thảo",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 104,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2022-03-09 12:21:08",
+            "delivery_date": "2022-01-25 19:12:39",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 14810633,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00488347,
+        "new_score": 0.13624184,
+        "customer_id": 26166579,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1644142557,
+        "created_by": {
+            "id": 26166579,
+            "name": "Nguyen Ngoc Anh",
+            "full_name": "Nguyen Ngoc Anh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-12-23 15:06:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1640246875,
+            "contribute_info": {
+                "id": 26166579,
+                "name": "Nguyen Ngoc Anh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2022-02-06 17:15:57",
+            "delivery_date": "2021-12-27 14:08:26",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 14351736,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00461516,
+        "new_score": 0.1357341,
+        "customer_id": 9877996,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1641738567,
+        "created_by": {
+            "id": 9877996,
+            "name": "HO ANH TUAN",
+            "full_name": "HO ANH TUAN",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/d/6/8/9/4/120/d9a8d513783b7b60fe27f9d4efa26148.jpg",
+            "created_time": "2018-12-17 17:29:47",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1640858459,
+            "contribute_info": {
+                "id": 9877996,
+                "name": "HO ANH TUAN",
+                "avatar": "https://s120.avatar.talk.zdn.vn/d/6/8/9/4/120/d9a8d513783b7b60fe27f9d4efa26148.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2022-01-09 21:29:27",
+            "delivery_date": "2021-12-31 14:29:22",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 9 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 13833539,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00439329,
+        "new_score": 0.13526725,
+        "customer_id": 14932119,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1639528174,
+        "created_by": {
+            "id": 14932119,
+            "name": "Đỗ Thị Thuý",
+            "full_name": "Đỗ Thị Thuý",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-11-13 09:18:31",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1662985240,
+            "contribute_info": {
+                "id": 14932119,
+                "name": "Đỗ Thị Thuý",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 22,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-12-15 07:29:34",
+            "delivery_date": "2021-12-14 16:57:06",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 12946038,
+        "title": "Cực kì hài lòng",
+        "content": "😊",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00405544,
+        "new_score": 0.13472501,
+        "customer_id": 18412188,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1635698208,
+        "created_by": {
+            "id": 18412188,
+            "name": "Trần Thị Nữ Hoàng",
+            "full_name": "Trần Thị Nữ Hoàng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-09-09 15:43:16",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1633924263,
+            "contribute_info": {
+                "id": 18412188,
+                "name": "Trần Thị Nữ Hoàng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 9,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt",
+            "Giá tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-10-31 23:36:48",
+            "delivery_date": "2021-10-18 12:18:34",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 13 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 13 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 12102061,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00369371,
+        "new_score": 0.13342831,
+        "customer_id": 11986781,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1630821277,
+        "created_by": {
+            "id": 11986781,
+            "name": "Nguyễn thanh hải",
+            "full_name": "Nguyễn thanh hải",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-05-06 18:56:10",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1630243854,
+            "contribute_info": {
+                "id": 11986781,
+                "name": "Nguyễn thanh hải",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-09-05 12:54:37",
+            "delivery_date": "2021-09-05 06:52:23",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 6 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 8561327,
+        "title": "Cực kì hài lòng",
+        "content": "mực in rất nét. ngoài mong đợi.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00291956,
+        "new_score": 0.13303243,
+        "customer_id": 9644504,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1616321003,
+        "created_by": {
+            "id": 9644504,
+            "name": "Dương Thị Oanh",
+            "full_name": "Dương Thị Oanh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-12-01 18:38:32",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1616057736,
+            "contribute_info": {
+                "id": 9644504,
+                "name": "Dương Thị Oanh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-03-21 17:03:23",
+            "delivery_date": "2021-03-20 11:16:05",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 11805898,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00357077,
+        "new_score": 0.13303036,
+        "customer_id": 1011208,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1628937109,
+        "created_by": {
+            "id": 1011208,
+            "name": "trường nguyễn xuân",
+            "full_name": "trường nguyễn xuân",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2015-11-27 20:04:47",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1627543207,
+            "contribute_info": {
+                "id": 1011208,
+                "name": "trường nguyễn xuân",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 44,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt",
+            "Giá tốt",
+            "Giao hàng nhanh",
+            "Nhà bán phục vụ tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-08-14 17:31:49",
+            "delivery_date": "2021-07-31 18:29:02",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 14 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 14 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 10582018,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00330182,
+        "new_score": 0.13205721,
+        "customer_id": 15407673,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1624329510,
+        "created_by": {
+            "id": 15407673,
+            "name": "Song Hien",
+            "full_name": "Song Hien",
+            "region": null,
+            "avatar_url": "https://graph.facebook.com/v3.3/912508448944973/picture?type=large&return_ssl_resources=1",
+            "created_time": "2019-12-11 21:09:04",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1623842886,
+            "contribute_info": {
+                "id": 15407673,
+                "name": "Song Hien",
+                "avatar": "https://graph.facebook.com/v3.3/912508448944973/picture?type=large&return_ssl_resources=1",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-06-22 09:38:30",
+            "delivery_date": "2021-06-21 10:03:14",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 9225438,
+        "title": "Hài lòng",
+        "content": "ổn",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00303812,
+        "new_score": 0.13120254,
+        "customer_id": 9830770,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1619020305,
+        "created_by": {
+            "id": 9830770,
+            "name": "Vũ văn tính",
+            "full_name": "Vũ văn tính",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-12-14 20:11:26",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1617234912,
+            "contribute_info": {
+                "id": 9830770,
+                "name": "Vũ văn tính",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 98,
+                    "total_thank": 11
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bataca",
+            "Combo 1 hộp"
+        ],
+        "product_attributes": [
+            "Combo: 1 hộp"
+        ],
+        "spid": 78790513,
+        "is_photo": false,
+        "seller": {
+            "id": 2859,
+            "name": "Bataca",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f9/63/d3/de6b57d6f8a0061b72cf6e6bbfebdead.jpg"
+        },
+        "product_id": 262454759,
+        "timeline": {
+            "review_created_date": "2021-04-21 22:51:45",
+            "delivery_date": "2021-04-05 14:33:09",
+            "current_date": "2026-05-15 16:29:54",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

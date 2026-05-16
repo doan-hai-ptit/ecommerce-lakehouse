@@ -1,0 +1,1232 @@
+[
+    {
+        "id": 20212863,
+        "title": "Cực kì hài lòng",
+        "content": "Mực rõ nét. Đã mua mấy lần rồi. Uy tín",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16643201,
+        "customer_id": 22363900,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1770986497,
+        "created_by": {
+            "id": 22363900,
+            "name": "Minh Anh",
+            "full_name": "Minh Anh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-06-24 21:05:39",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1764724096,
+            "contribute_info": {
+                "id": 22363900,
+                "name": "Minh Anh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 10,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2026-02-13 19:41:37",
+            "delivery_date": "2025-12-08 09:21:48",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20186231,
+        "title": "Cực kì hài lòng",
+        "content": "Chất lượng in tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.16569261,
+        "customer_id": 7159587,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4416973,
+                "full_path": "https://salt.tikicdn.com/ts/review/d0/24/78/61afdbd76b4dcd6f0c5b44e8591c8fe2.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1761803995,
+        "created_by": {
+            "id": 7159587,
+            "name": "Dao Quang Ngoc",
+            "full_name": "Dao Quang Ngoc",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-05-21 14:51:06",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1758553766,
+            "contribute_info": {
+                "id": 7159587,
+                "name": "Dao Quang Ngoc",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 66,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": true,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-10-30 12:59:55",
+            "delivery_date": "2025-09-24 10:34:42",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét",
+                "Sử dụng dễ dàng"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20216629,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16335653,
+        "customer_id": 10510263,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1772523017,
+        "created_by": {
+            "id": 10510263,
+            "name": "Trieu Tinh",
+            "full_name": "Trieu Tinh",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/3e/01/73/074da3478838a05f93f02d0cb3206924.png",
+            "created_time": "2019-01-23 14:18:28",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1757317978,
+            "contribute_info": {
+                "id": 10510263,
+                "name": "Trieu Tinh",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/3e/01/73/074da3478838a05f93f02d0cb3206924.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2026-03-03 14:30:17",
+            "delivery_date": "2025-09-12 09:47:36",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 1 năm",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 năm."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét",
+                "Sử dụng dễ dàng"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20200368,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16207863,
+        "customer_id": 14126521,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1766472551,
+        "created_by": {
+            "id": 14126521,
+            "name": "Đào Ngọc cuong",
+            "full_name": "Đào Ngọc cuong",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-09-21 22:46:46",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1765538938,
+            "contribute_info": {
+                "id": 14126521,
+                "name": "Đào Ngọc cuong",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-12-23 13:49:11",
+            "delivery_date": "2025-12-16 20:37:58",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20196299,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16180574,
+        "customer_id": 218009,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1765180491,
+        "created_by": {
+            "id": 218009,
+            "name": "Huy Le Trong",
+            "full_name": "Huy Le Trong",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2013-11-28 03:30:40",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1751603582,
+            "contribute_info": {
+                "id": 218009,
+                "name": "Huy Le Trong",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 30,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-12-08 14:54:51",
+            "delivery_date": "2025-07-05 10:48:22",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20190079,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16133908,
+        "customer_id": 20351517,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1762970948,
+        "created_by": {
+            "id": 20351517,
+            "name": "Mai Tran",
+            "full_name": "Mai Tran",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-02-18 10:33:54",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1762701012,
+            "contribute_info": {
+                "id": 20351517,
+                "name": "Mai Tran",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 6,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-11-13 01:09:08",
+            "delivery_date": "2025-11-12 18:53:35",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 6 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20025496,
+        "title": "Cực kì hài lòng",
+        "content": "Chất lượng in rõ nét, đẹp đều. Giá phải chăng. Ủng hộ shop 5 sao.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1607777,
+        "customer_id": 18230489,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1730957709,
+        "created_by": {
+            "id": 18230489,
+            "name": "thedung pham",
+            "full_name": "thedung pham",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-08-25 08:00:55",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1730711138,
+            "contribute_info": {
+                "id": 18230489,
+                "name": "thedung pham",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 70,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2024-11-07 12:35:09",
+            "delivery_date": "2024-11-06 15:28:08",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20173089,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16039691,
+        "customer_id": 61978,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1758510060,
+        "created_by": {
+            "id": 61978,
+            "name": "Nguyen Tom",
+            "full_name": "Nguyen Tom",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2012-10-12 15:33:55",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1757041390,
+            "contribute_info": {
+                "id": 61978,
+                "name": "Nguyen Tom",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 14 năm",
+                    "total_review": 12,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-09-22 10:01:00",
+            "delivery_date": "2025-09-06 13:07:14",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20170845,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16028859,
+        "customer_id": 8199551,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1757997172,
+        "created_by": {
+            "id": 8199551,
+            "name": "Vinh Nguyễn",
+            "full_name": "Vinh Nguyễn",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1315335875269474&height=200&width=200&ext=1541059241&hash=AeRFtA7w0qKEunc8",
+            "created_time": "2018-10-02 15:01:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1755682522,
+            "contribute_info": {
+                "id": 8199551,
+                "name": "Vinh Nguyễn",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1315335875269474&height=200&width=200&ext=1541059241&hash=AeRFtA7w0qKEunc8",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-09-16 11:32:52",
+            "delivery_date": "2025-08-25 13:57:05",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20059923,
+        "title": "Cực kì hài lòng",
+        "content": "Mực đúng máy theo mô tả",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15768985,
+        "customer_id": 11064982,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1735907796,
+        "created_by": {
+            "id": 11064982,
+            "name": "Hồ Huy Lâm",
+            "full_name": "Hồ Huy Lâm",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-02-27 10:26:05",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1735661302,
+            "contribute_info": {
+                "id": 11064982,
+                "name": "Hồ Huy Lâm",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 71,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-01-03 19:36:36",
+            "delivery_date": "2025-01-02 10:30:45",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20105007,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15723643,
+        "customer_id": 19704712,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1743546057,
+        "created_by": {
+            "id": 19704712,
+            "name": "vinh luu",
+            "full_name": "vinh luu",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-12-28 17:55:46",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1729844832,
+            "contribute_info": {
+                "id": 19704712,
+                "name": "vinh luu",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-04-02 05:20:57",
+            "delivery_date": "2024-10-27 10:45:36",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20080850,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15636822,
+        "customer_id": 15735637,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1739435348,
+        "created_by": {
+            "id": 15735637,
+            "name": "Mạc Cứ",
+            "full_name": "Mạc Cứ",
+            "region": null,
+            "avatar_url": "https://graph.facebook.com/v3.3/2377868855857482/picture?type=large&return_ssl_resources=1",
+            "created_time": "2019-12-30 09:22:08",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1739050402,
+            "contribute_info": {
+                "id": 15735637,
+                "name": "Mạc Cứ",
+                "avatar": "https://graph.facebook.com/v3.3/2377868855857482/picture?type=large&return_ssl_resources=1",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 57,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-02-13 15:29:08",
+            "delivery_date": "2025-02-13 09:12:08",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 6 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20080569,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15636193,
+        "customer_id": 13253074,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1739405545,
+        "created_by": {
+            "id": 13253074,
+            "name": "Võ Thiện Phước",
+            "full_name": "Võ Thiện Phước",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-08-04 21:41:20",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1737192703,
+            "contribute_info": {
+                "id": 13253074,
+                "name": "Võ Thiện Phước",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-02-13 07:12:25",
+            "delivery_date": "2025-01-21 13:39:29",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20077950,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15627668,
+        "customer_id": 13974132,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1739001913,
+        "created_by": {
+            "id": 13974132,
+            "name": "Huỳnh Phước Hiển",
+            "full_name": "Huỳnh Phước Hiển",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-09-12 15:40:40",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1738676997,
+            "contribute_info": {
+                "id": 13974132,
+                "name": "Huỳnh Phước Hiển",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 15,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2025-02-08 15:05:13",
+            "delivery_date": "2025-02-06 11:25:38",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19934450,
+        "title": "Cực kì hài lòng",
+        "content": "Tiện lợi, chất lượng phù hợp giá tiền",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15609094,
+        "customer_id": 22211483,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1721708802,
+        "created_by": {
+            "id": 22211483,
+            "name": "Nguyen Thi Hong Xinh",
+            "full_name": "Nguyen Thi Hong Xinh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-06-17 14:27:04",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1721100158,
+            "contribute_info": {
+                "id": 22211483,
+                "name": "Nguyen Thi Hong Xinh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 150,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2024-07-23 11:26:42",
+            "delivery_date": "2024-07-17 11:14:53",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 6 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Không hẹn trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20007134,
+        "title": "Cực kì hài lòng",
+        "content": "Chất lượng in tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15576527,
+        "customer_id": 16173397,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1729004991,
+        "created_by": {
+            "id": 16173397,
+            "name": "Vũ Huy Tiềm",
+            "full_name": "Vũ Huy Tiềm",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-01-30 07:31:26",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1728180451,
+            "contribute_info": {
+                "id": 16173397,
+                "name": "Vũ Huy Tiềm",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 36,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2024-10-15 22:09:51",
+            "delivery_date": "2024-10-09 09:53:25",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19955014,
+        "title": "Cực kì hài lòng",
+        "content": "Giao nhanh. Chất lượng đảm bảo",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15571002,
+        "customer_id": 15458811,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1723693035,
+        "created_by": {
+            "id": 15458811,
+            "name": "Nguyễn Tân Chung",
+            "full_name": "Nguyễn Tân Chung",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/0b/5e/ea/b4d5f2cc68807704e33e686703a3bf2b.jpg",
+            "created_time": "2019-12-14 01:10:51",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1723464211,
+            "contribute_info": {
+                "id": 15458811,
+                "name": "Nguyễn Tân Chung",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/0b/5e/ea/b4d5f2cc68807704e33e686703a3bf2b.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 177,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2024-08-15 10:37:15",
+            "delivery_date": "2024-08-14 11:16:41",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20031289,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15472784,
+        "customer_id": 22999564,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1731668586,
+        "created_by": {
+            "id": 22999564,
+            "name": "Hữu Tường",
+            "full_name": "Hữu Tường",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/6d/7b/ed/740fd04bf3a008ee87799ce4bb00c065.png",
+            "created_time": "2021-08-14 08:04:27",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1727276323,
+            "contribute_info": {
+                "id": 22999564,
+                "name": "Hữu Tường",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/6d/7b/ed/740fd04bf3a008ee87799ce4bb00c065.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 69,
+                    "total_thank": 5
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2024-11-15 18:03:06",
+            "delivery_date": "2024-09-28 13:13:01",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Sử dụng dễ dàng"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19990910,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15382986,
+        "customer_id": 7750919,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1727416906,
+        "created_by": {
+            "id": 7750919,
+            "name": "Việt Nam Nói Là Làm Channel",
+            "full_name": "Việt Nam Nói Là Làm Channel",
+            "region": null,
+            "avatar_url": "https://lh3.googleusercontent.com/-AZMmdufKRzg/AAAAAAAAAAI/AAAAAAAAA38/4uhVUia6Nq0/photo.jpg",
+            "created_time": "2018-08-24 10:59:18",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1727330359,
+            "contribute_info": {
+                "id": 7750919,
+                "name": "Việt Nam Nói Là Làm Channel",
+                "avatar": "https://lh3.googleusercontent.com/-AZMmdufKRzg/AAAAAAAAAAI/AAAAAAAAA38/4uhVUia6Nq0/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 275171089,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 275171088,
+        "timeline": {
+            "review_created_date": "2024-09-27 13:01:46",
+            "delivery_date": "2024-09-27 11:04:52",
+            "current_date": "2026-05-15 09:37:42",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

@@ -1,0 +1,1317 @@
+[
+    {
+        "id": 16190126,
+        "title": "Rất không hài lòng",
+        "content": "Hàng không đúng mô tả, không thể sử dụng cho máy in 2321D. Đề nghị shop mô tả đúng hàng hóa, loại máy sử dụng. Không \"treo đầu dê bán thịt ***\" làm mất thời gian và tăng trải nghiệm tồi tệ của khách hàng.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 50,
+        "new_score": 0.16756315,
+        "customer_id": 27402859,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [
+            {
+                "id": 3436935,
+                "full_path": "https://salt.tikicdn.com/ts/review/ae/95/8e/a20eb0feeb535b8939b62abd152eb14d.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3436936,
+                "full_path": "https://salt.tikicdn.com/ts/review/83/76/02/bfe3731e91a5b6e70af6188c78fa08de.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3436937,
+                "full_path": "https://salt.tikicdn.com/ts/review/26/0b/ae/5db37955fb24cace3a4b5e9fa22492bb.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3436938,
+                "full_path": "https://salt.tikicdn.com/ts/review/19/71/c1/2e5ce0a24b1099338e2939ce6e8c2a16.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1651661190,
+        "created_by": {
+            "id": 27402859,
+            "name": "Nguyễn Duy Linh",
+            "full_name": "Nguyễn Duy Linh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-04-26 10:57:45",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1651542870,
+            "contribute_info": {
+                "id": 27402859,
+                "name": "Nguyễn Duy Linh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 66558789,
+        "is_photo": true,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2022-05-04 17:46:30",
+            "delivery_date": "2022-05-04 17:12:03",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20212019,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16295574,
+        "customer_id": 26847536,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1770625393,
+        "created_by": {
+            "id": 26847536,
+            "name": "Tiệp Đào",
+            "full_name": "Tiệp Đào",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-02-19 09:26:19",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1757595645,
+            "contribute_info": {
+                "id": 26847536,
+                "name": "Tiệp Đào",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 44,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in máy in Nhật Hưng"
+        ],
+        "product_attributes": [],
+        "spid": 108873914,
+        "is_photo": false,
+        "seller": {
+            "id": 65686,
+            "name": "Mực in máy in Nhật Hưng",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/27/53/8c/91fee2b381a27ecfaf6b4c3e47ec5067.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2026-02-09 15:23:13",
+            "delivery_date": "2025-09-15 15:16:14",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20059804,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15561935,
+        "customer_id": 15213041,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1735889636,
+        "created_by": {
+            "id": 15213041,
+            "name": "Nguyễn Văn Nhật",
+            "full_name": "Nguyễn Văn Nhật",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-11-30 10:43:20",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1726921043,
+            "contribute_info": {
+                "id": 15213041,
+                "name": "Nguyễn Văn Nhật",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 11,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in máy in Nhật Hưng"
+        ],
+        "product_attributes": [],
+        "spid": 108873914,
+        "is_photo": false,
+        "seller": {
+            "id": 65686,
+            "name": "Mực in máy in Nhật Hưng",
+            "logo": "27/53/8c/91fee2b381a27ecfaf6b4c3e47ec5067.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2025-01-03 14:33:56",
+            "delivery_date": "2024-09-24 15:20:12",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét",
+                "Sử dụng dễ dàng"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19887554,
+        "title": "Hài lòng",
+        "content": "Chất lượng in tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15324825,
+        "customer_id": 24089732,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1717087614,
+        "created_by": {
+            "id": 24089732,
+            "name": "Trần Cường",
+            "full_name": "Trần Cường",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-10-13 10:32:55",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1716423580,
+            "contribute_info": {
+                "id": 24089732,
+                "name": "Trần Cường",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in máy in Nhật Hưng"
+        ],
+        "product_attributes": [],
+        "spid": 108873914,
+        "is_photo": false,
+        "seller": {
+            "id": 65686,
+            "name": "Mực in máy in Nhật Hưng",
+            "logo": "27/53/8c/91fee2b381a27ecfaf6b4c3e47ec5067.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2024-05-30 23:46:54",
+            "delivery_date": "2024-05-26 11:38:15",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 5 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19636256,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14793192,
+        "customer_id": 28991051,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1699491839,
+        "created_by": {
+            "id": 28991051,
+            "name": "Lê Thành Công",
+            "full_name": "Lê Thành Công",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2023-03-26 18:41:07",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1692870400,
+            "contribute_info": {
+                "id": 28991051,
+                "name": "Lê Thành Công",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 3 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in máy in Nhật Hưng"
+        ],
+        "product_attributes": [],
+        "spid": 108873914,
+        "is_photo": false,
+        "seller": {
+            "id": 65686,
+            "name": "Mực in máy in Nhật Hưng",
+            "logo": "27/53/8c/91fee2b381a27ecfaf6b4c3e47ec5067.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2023-11-09 08:03:59",
+            "delivery_date": "2023-08-25 14:33:31",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19448731,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14628071,
+        "customer_id": 8830807,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1691673798,
+        "created_by": {
+            "id": 8830807,
+            "name": "Chí Linh",
+            "full_name": "Chí Linh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-11-08 22:19:13",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1691568896,
+            "contribute_info": {
+                "id": 8830807,
+                "name": "Chí Linh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 181,
+                    "total_thank": 74
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in VPP Hùng Vinh"
+        ],
+        "product_attributes": [],
+        "spid": 198886846,
+        "is_photo": false,
+        "seller": {
+            "id": 306930,
+            "name": "Mực in VPP Hùng Vinh",
+            "logo": "b5/07/c6/1741670ec0b6b4c9d6508430b8f7f6b4.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2023-08-10 20:23:18",
+            "delivery_date": "2023-08-10 17:32:00",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 3 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19407314,
+        "title": "Cực kì hài lòng",
+        "content": "Good",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14624918,
+        "customer_id": 20968055,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1690261915,
+        "created_by": {
+            "id": 20968055,
+            "name": "Nguyeenx Chis Coong",
+            "full_name": "Nguyeenx Chis Coong",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-03-23 07:29:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1689774954,
+            "contribute_info": {
+                "id": 20968055,
+                "name": "Nguyeenx Chis Coong",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 401,
+                    "total_thank": 181
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Luxubu"
+        ],
+        "product_attributes": [],
+        "spid": 230231420,
+        "is_photo": false,
+        "seller": {
+            "id": 184069,
+            "name": "Shop Luxubu",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2023-07-25 12:11:55",
+            "delivery_date": "2023-07-24 14:53:14",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19361542,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14567827,
+        "customer_id": 11937926,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1688821408,
+        "created_by": {
+            "id": 11937926,
+            "name": "Bui Thanh Duy",
+            "full_name": "Bui Thanh Duy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-05-02 15:25:52",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1688613326,
+            "contribute_info": {
+                "id": 11937926,
+                "name": "Bui Thanh Duy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 8,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in VPP Hùng Vinh"
+        ],
+        "product_attributes": [],
+        "spid": 198886846,
+        "is_photo": false,
+        "seller": {
+            "id": 306930,
+            "name": "Mực in VPP Hùng Vinh",
+            "logo": "b5/07/c6/1741670ec0b6b4c9d6508430b8f7f6b4.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2023-07-08 20:03:28",
+            "delivery_date": "2023-07-07 09:06:29",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 14826826,
+        "title": "Cực kì hài lòng",
+        "content": "Gắn vào ăn ngay..xử lý được vấn đề sọc bản in không đẹp. Dùng được cho cả mực for và mực zin.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14485934,
+        "customer_id": 19291508,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1644225406,
+        "created_by": {
+            "id": 19291508,
+            "name": "Hoang Nguyen",
+            "full_name": "Hoang Nguyen",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-11-24 00:20:38",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1642822278,
+            "contribute_info": {
+                "id": 19291508,
+                "name": "Hoang Nguyen",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 70,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in máy in Nhật Hưng"
+        ],
+        "product_attributes": [],
+        "spid": 108873914,
+        "is_photo": false,
+        "seller": {
+            "id": 65686,
+            "name": "Mực in máy in Nhật Hưng",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/27/53/8c/91fee2b381a27ecfaf6b4c3e47ec5067.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2022-02-07 16:16:46",
+            "delivery_date": "2022-02-07 13:08:02",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 3 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19212501,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14477732,
+        "customer_id": 13562406,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1684555685,
+        "created_by": {
+            "id": 13562406,
+            "name": "Phạm Ngọc Hưng",
+            "full_name": "Phạm Ngọc Hưng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-08-20 13:33:53",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1680572431,
+            "contribute_info": {
+                "id": 13562406,
+                "name": "Phạm Ngọc Hưng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 108,
+                    "total_thank": 13
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán LINH KIỆN MÁY IN TRỌNG VINH"
+        ],
+        "product_attributes": [],
+        "spid": 178937885,
+        "is_photo": false,
+        "seller": {
+            "id": 273254,
+            "name": "LINH KIỆN MÁY IN TRỌNG VINH",
+            "logo": ""
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2023-05-20 11:08:05",
+            "delivery_date": "2023-04-06 18:18:55",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19191988,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14466528,
+        "customer_id": 520549,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1684025174,
+        "created_by": {
+            "id": 520549,
+            "name": "HỒ MINH THIỆN",
+            "full_name": "HỒ MINH THIỆN",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2014-12-25 09:09:40",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1683705671,
+            "contribute_info": {
+                "id": 520549,
+                "name": "HỒ MINH THIỆN",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 12 năm",
+                    "total_review": 91,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in VPP Hùng Vinh"
+        ],
+        "product_attributes": [],
+        "spid": 198886846,
+        "is_photo": false,
+        "seller": {
+            "id": 306930,
+            "name": "Mực in VPP Hùng Vinh",
+            "logo": "b5/07/c6/1741670ec0b6b4c9d6508430b8f7f6b4.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2023-05-14 07:46:14",
+            "delivery_date": "2023-05-13 13:30:02",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 18999182,
+        "title": "Cực kì hài lòng",
+        "content": "Ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14385367,
+        "customer_id": 636902,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1679551138,
+        "created_by": {
+            "id": 636902,
+            "name": "Trong Quynh",
+            "full_name": "Trong Quynh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2015-05-18 12:50:31",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1676381742,
+            "contribute_info": {
+                "id": 636902,
+                "name": "Trong Quynh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 73,
+                    "total_thank": 21
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in VPP Hùng Vinh"
+        ],
+        "product_attributes": [],
+        "spid": 198886846,
+        "is_photo": false,
+        "seller": {
+            "id": 306930,
+            "name": "Mực in VPP Hùng Vinh",
+            "logo": "b5/07/c6/1741670ec0b6b4c9d6508430b8f7f6b4.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2023-03-23 12:58:58",
+            "delivery_date": "2023-02-16 10:21:45",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét",
+                "Sử dụng dễ dàng"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19027756,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14384532,
+        "customer_id": 1526015,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1680142919,
+        "created_by": {
+            "id": 1526015,
+            "name": "Ngô Hồng Hải",
+            "full_name": "Ngô Hồng Hải",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-07-21 16:00:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1679892505,
+            "contribute_info": {
+                "id": 1526015,
+                "name": "Ngô Hồng Hải",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 14,
+                    "total_thank": 14
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in VPP Hùng Vinh"
+        ],
+        "product_attributes": [],
+        "spid": 198886846,
+        "is_photo": false,
+        "seller": {
+            "id": 306930,
+            "name": "Mực in VPP Hùng Vinh",
+            "logo": "b5/07/c6/1741670ec0b6b4c9d6508430b8f7f6b4.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2023-03-30 09:21:59",
+            "delivery_date": "2023-03-29 15:49:14",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18885926,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14332247,
+        "customer_id": 5332197,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1677667360,
+        "created_by": {
+            "id": 5332197,
+            "name": "Nguyễn Viết Việt",
+            "full_name": "Nguyễn Viết Việt",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-05-30 22:41:14",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1677000353,
+            "contribute_info": {
+                "id": 5332197,
+                "name": "Nguyễn Viết Việt",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán LINH KIỆN MÁY IN TRỌNG VINH"
+        ],
+        "product_attributes": [],
+        "spid": 178937885,
+        "is_photo": false,
+        "seller": {
+            "id": 273254,
+            "name": "LINH KIỆN MÁY IN TRỌNG VINH",
+            "logo": ""
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2023-03-01 17:42:40",
+            "delivery_date": "2023-02-24 18:21:46",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 5 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18531940,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14218861,
+        "customer_id": 6776336,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1672298852,
+        "created_by": {
+            "id": 6776336,
+            "name": "Hoàng Thanh",
+            "full_name": "Hoàng Thanh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-03-23 10:50:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1665299933,
+            "contribute_info": {
+                "id": 6776336,
+                "name": "Hoàng Thanh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 4,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in AZ"
+        ],
+        "product_attributes": [],
+        "spid": 27889804,
+        "is_photo": false,
+        "seller": {
+            "id": 43974,
+            "name": "Mực in AZ",
+            "logo": "ad/88/dd/b3f8ccd1f4f1a3dbb81a2b6cdb967642.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2022-12-29 14:27:32",
+            "delivery_date": "2022-10-12 08:50:51",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16293510,
+        "title": "Cực kì hài lòng",
+        "content": "Giá tốt\r\nNhà bán phục vụ tốt\r\nChất lượng tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0,
+        "new_score": 0.14210033,
+        "customer_id": 2041420,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1652310696,
+        "created_by": {
+            "id": 2041420,
+            "name": "Hồ Minh Nhật",
+            "full_name": "Hồ Minh Nhật",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/d7/6a/4f/1abbc9a1660c1999dd80dd0795cc3702.png",
+            "created_time": "2018-09-05 10:19:26",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1651780182,
+            "contribute_info": {
+                "id": 2041420,
+                "name": "Hồ Minh Nhật",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/d7/6a/4f/1abbc9a1660c1999dd80dd0795cc3702.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 22,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [
+            "Đóng gói tốt",
+            "Giá tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Mực in máy in Nhật Hưng"
+        ],
+        "product_attributes": [],
+        "spid": 108873914,
+        "is_photo": false,
+        "seller": {
+            "id": 65686,
+            "name": "Mực in máy in Nhật Hưng",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/27/53/8c/91fee2b381a27ecfaf6b4c3e47ec5067.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2022-05-12 06:11:36",
+            "delivery_date": "2022-05-07 08:45:53",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 5 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18283474,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14156717,
+        "customer_id": 11426330,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1669356500,
+        "created_by": {
+            "id": 11426330,
+            "name": "tuan sang tran",
+            "full_name": "tuan sang tran",
+            "region": null,
+            "avatar_url": "https://lh6.googleusercontent.com/-6ki0nxbwSEc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfp5g8gn5AGdKXFJZqNrKLsjhz8OA/mo/photo.jpg",
+            "created_time": "2019-03-21 14:57:42",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1663662170,
+            "contribute_info": {
+                "id": 11426330,
+                "name": "tuan sang tran",
+                "avatar": "https://lh6.googleusercontent.com/-6ki0nxbwSEc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfp5g8gn5AGdKXFJZqNrKLsjhz8OA/mo/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán LINH KIỆN MÁY IN TRỌNG VINH"
+        ],
+        "product_attributes": [],
+        "spid": 178937885,
+        "is_photo": false,
+        "seller": {
+            "id": 273254,
+            "name": "LINH KIỆN MÁY IN TRỌNG VINH",
+            "logo": ""
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2022-11-25 13:08:20",
+            "delivery_date": "2022-09-23 09:38:20",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét",
+                "Sử dụng dễ dàng"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16095940,
+        "title": "Cực kì hài lòng",
+        "content": "giao nhanh, đóng gói cẩn thận. chất lượng ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14141328,
+        "customer_id": 22134246,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1650951602,
+        "created_by": {
+            "id": 22134246,
+            "name": "nguyễn thị thúy mùi",
+            "full_name": "nguyễn thị thúy mùi",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-06-12 12:33:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1648013128,
+            "contribute_info": {
+                "id": 22134246,
+                "name": "nguyễn thị thúy mùi",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 39,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in máy in Nhật Hưng"
+        ],
+        "product_attributes": [],
+        "spid": 108873914,
+        "is_photo": false,
+        "seller": {
+            "id": 65686,
+            "name": "Mực in máy in Nhật Hưng",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/27/53/8c/91fee2b381a27ecfaf6b4c3e47ec5067.jpg"
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2022-04-26 12:40:02",
+            "delivery_date": "2022-03-24 11:08:24",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17729788,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14032927,
+        "customer_id": 16586842,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1663495379,
+        "created_by": {
+            "id": 16586842,
+            "name": "Nguyễn Duy Mỹ",
+            "full_name": "Nguyễn Duy Mỹ",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/e7/1a/6c/5a126f3955215f291798a81f14365ee3.jpg",
+            "created_time": "2020-02-26 08:26:41",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1663121321,
+            "contribute_info": {
+                "id": 16586842,
+                "name": "Nguyễn Duy Mỹ",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/e7/1a/6c/5a126f3955215f291798a81f14365ee3.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 116,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán LINH KIỆN MÁY IN TRỌNG VINH"
+        ],
+        "product_attributes": [],
+        "spid": 178937885,
+        "is_photo": false,
+        "seller": {
+            "id": 273254,
+            "name": "LINH KIỆN MÁY IN TRỌNG VINH",
+            "logo": null
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2022-09-18 17:02:59",
+            "delivery_date": "2022-09-17 11:05:23",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét",
+                "Sử dụng dễ dàng"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17563701,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13999469,
+        "customer_id": 27118505,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1661911235,
+        "created_by": {
+            "id": 27118505,
+            "name": "Nguyễn Thái Bình",
+            "full_name": "Nguyễn Thái Bình",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-03-20 07:45:17",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1659191082,
+            "contribute_info": {
+                "id": 27118505,
+                "name": "Nguyễn Thái Bình",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 3,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán LINH KIỆN MÁY IN TRỌNG VINH"
+        ],
+        "product_attributes": [],
+        "spid": 178937885,
+        "is_photo": false,
+        "seller": {
+            "id": 273254,
+            "name": "LINH KIỆN MÁY IN TRỌNG VINH",
+            "logo": null
+        },
+        "product_id": 14379439,
+        "timeline": {
+            "review_created_date": "2022-08-31 09:00:35",
+            "delivery_date": "2022-08-04 08:46:26",
+            "current_date": "2026-05-15 10:49:22",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

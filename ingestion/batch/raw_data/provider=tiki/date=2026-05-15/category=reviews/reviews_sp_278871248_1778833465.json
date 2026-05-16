@@ -1,0 +1,83 @@
+[
+    {
+        "id": 20056790,
+        "title": "Không hài lòng",
+        "content": "Chán, chậm, màn không nét",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00729958,
+        "new_score": 0.15757349,
+        "customer_id": 9063447,
+        "comment_count": 2,
+        "rating": 2,
+        "images": [],
+        "thanked": false,
+        "created_at": 1735356871,
+        "created_by": {
+            "id": 9063447,
+            "name": "Nguyenbtk",
+            "full_name": "Nguyenbtk",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/4/b/d/a/16/120/99c31c042dd32d1a35d24c9620488e73.jpg",
+            "created_time": "2018-11-19 13:37:44",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1734767880,
+            "contribute_info": {
+                "id": 9063447,
+                "name": "Nguyenbtk",
+                "avatar": "https://s120.avatar.talk.zdn.vn/4/b/d/a/16/120/99c31c042dd32d1a35d24c9620488e73.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 68,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán GIA DỤNG VIỆT",
+            "Loại Màn Hình 11 Inch XE310XDA-KA1"
+        ],
+        "product_attributes": [
+            "Loại Màn Hình: 11 Inch XE310XDA-KA1"
+        ],
+        "spid": 276378911,
+        "is_photo": false,
+        "seller": {
+            "id": 11119,
+            "name": "GIA DỤNG VIỆT",
+            "logo": "47/20/4f/9800dd1b2ca67db582030ded1dc700b3.png"
+        },
+        "product_id": 278871248,
+        "timeline": {
+            "review_created_date": "2024-12-28 10:34:31",
+            "delivery_date": "2024-12-26 10:19:11",
+            "current_date": "2026-05-15 15:27:37",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    }
+]

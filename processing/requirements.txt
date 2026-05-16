@@ -1,0 +1,4 @@
+
+pyspark==3.5.7
+boto3
+delta-spark

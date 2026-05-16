@@ -1,0 +1,469 @@
+[
+    {
+        "id": 19239280,
+        "title": "Cực kì hài lòng",
+        "content": "Háng chính hãng. Giá không rẻ nhưng có thương hiệu nên cũng tin tưởng. Giao khá nhanh và cẩn thận.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15606657,
+        "customer_id": 6089493,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4221110,
+                "full_path": "https://salt.tikicdn.com/ts/review/de/d4/59/74d95d266af2e85eb7d3e5766e4a467e.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1685293910,
+        "created_by": {
+            "id": 6089493,
+            "name": "Minh Khanh Le",
+            "full_name": "Minh Khanh Le",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-11-20 09:24:33",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1685114049,
+            "contribute_info": {
+                "id": 6089493,
+                "name": "Minh Khanh Le",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 232,
+                    "total_thank": 29
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Prolink Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 93166199,
+        "is_photo": true,
+        "seller": {
+            "id": 145378,
+            "name": "Prolink Official Store",
+            "logo": "3f/16/51/68433548fcaad68486ff9e5f3f1d26b9.jpg"
+        },
+        "product_id": 93166195,
+        "timeline": {
+            "review_created_date": "2023-05-29 00:11:50",
+            "delivery_date": "2023-05-28 10:38:43",
+            "current_date": "2026-05-15 14:43:09",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 13472867,
+        "title": "Cực kì hài lòng",
+        "content": "Mới nhận đc bên tiki giao , hàng còn mới nguyên seal ko hư hỏng gì . Nvien tư vấn nhiệt tình hỗ trợ",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 29.62962963,
+        "new_score": 0.15221272,
+        "customer_id": 8132797,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 2812563,
+                "full_path": "https://salt.tikicdn.com/ts/review/6c/0f/46/b700d503013c6268fb46c6e42a84c287.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2812564,
+                "full_path": "https://salt.tikicdn.com/ts/review/6d/9d/6d/99bf205c8bd03976637a20c462aa333d.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2812565,
+                "full_path": "https://salt.tikicdn.com/ts/review/97/60/25/c6f19c24999c5a779bd5f642d5b33237.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1638007375,
+        "created_by": {
+            "id": 8132797,
+            "name": "Quang Ngoc",
+            "full_name": "Quang Ngoc",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-09-29 04:07:01",
+            "purchased": true,
+            "purchased_at": 1637576228,
+            "contribute_info": {
+                "id": 8132797,
+                "name": "Quang Ngoc",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 42,
+                    "total_thank": 78
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Prolink Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 93166199,
+        "is_photo": true,
+        "seller": {
+            "id": 145378,
+            "name": "Prolink Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/53/69/cb/a3de9fea4d90a9071c2ecb18933972e3.jpg"
+        },
+        "product_id": 93166195,
+        "timeline": {
+            "review_created_date": "2021-11-27 17:02:55",
+            "delivery_date": "2021-11-27 15:33:49",
+            "current_date": "2026-05-15 14:43:09",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 13670790,
+        "title": "Hài lòng",
+        "content": "quat mạnh, trời tối mùa đông hơi ồn. chất lượng thì chờ dùng xem đã",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14113053,
+        "customer_id": 1038904,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1638880838,
+        "created_by": {
+            "id": 1038904,
+            "name": "Pham Quang Yen",
+            "full_name": "Pham Quang Yen",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2015-12-11 01:12:32",
+            "purchased": true,
+            "purchased_at": 1637883198,
+            "contribute_info": {
+                "id": 1038904,
+                "name": "Pham Quang Yen",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 13,
+                    "total_thank": 16
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Prolink Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 93166199,
+        "is_photo": false,
+        "seller": {
+            "id": 145378,
+            "name": "Prolink Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/53/69/cb/a3de9fea4d90a9071c2ecb18933972e3.jpg"
+        },
+        "product_id": 93166195,
+        "timeline": {
+            "review_created_date": "2021-12-07 19:40:38",
+            "delivery_date": "2021-11-28 08:57:10",
+            "current_date": "2026-05-15 14:43:09",
+            "content": "Đã dùng 9 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 11454502,
+        "title": "Bình thường",
+        "content": "Nút nguồn thiết bị có lỗi. Phải nhấn giữ nhiều lần mới bật được thiết bị.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1396816,
+        "customer_id": 6116600,
+        "comment_count": 2,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1627285848,
+        "created_by": {
+            "id": 6116600,
+            "name": "Tuong Chau",
+            "full_name": "Tuong Chau",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/256x256/ts/avatar/be/f5/b5/cfdde86c3793d4f28115bdfa9b15d2ac.jpg",
+            "created_time": "2017-11-24 21:18:43",
+            "purchased": true,
+            "purchased_at": 1626066229,
+            "contribute_info": {
+                "id": 6116600,
+                "name": "Tuong Chau",
+                "avatar": "https://salt.tikicdn.com/cache/256x256/ts/avatar/be/f5/b5/cfdde86c3793d4f28115bdfa9b15d2ac.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 46,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Prolink Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 93166199,
+        "is_photo": false,
+        "seller": {
+            "id": 145378,
+            "name": "Prolink Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/53/69/cb/a3de9fea4d90a9071c2ecb18933972e3.jpg"
+        },
+        "product_id": 93166195,
+        "timeline": {
+            "review_created_date": "2021-07-26 14:50:48",
+            "delivery_date": "2021-07-18 14:09:13",
+            "current_date": "2026-05-15 14:43:09",
+            "content": "Đã dùng 8 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 12973087,
+        "title": "Cực kì hài lòng",
+        "content": "Sh tư vấn nhiệt tình. Máy dễ lắp",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13735374,
+        "customer_id": 6918926,
+        "comment_count": 2,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1635834243,
+        "created_by": {
+            "id": 6918926,
+            "name": "Nguyễn Phước",
+            "full_name": "Nguyễn Phước",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-04-12 17:38:08",
+            "purchased": true,
+            "purchased_at": 1634960110,
+            "contribute_info": {
+                "id": 6918926,
+                "name": "Nguyễn Phước",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 7,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Prolink Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 93166199,
+        "is_photo": false,
+        "seller": {
+            "id": 145378,
+            "name": "Prolink Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/53/69/cb/a3de9fea4d90a9071c2ecb18933972e3.jpg"
+        },
+        "product_id": 93166195,
+        "timeline": {
+            "review_created_date": "2021-11-02 13:24:03",
+            "delivery_date": "2021-10-30 18:12:46",
+            "current_date": "2026-05-15 14:43:09",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15380689,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13686057,
+        "customer_id": 159073,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1647072101,
+        "created_by": {
+            "id": 159073,
+            "name": "chi nguyen",
+            "full_name": "chi nguyen",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2013-08-21 09:07:39",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1646487403,
+            "contribute_info": {
+                "id": 159073,
+                "name": "chi nguyen",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 29,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt",
+            "Đóng gói tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Prolink Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 93166199,
+        "is_photo": false,
+        "seller": {
+            "id": 145378,
+            "name": "Prolink Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/53/69/cb/a3de9fea4d90a9071c2ecb18933972e3.jpg"
+        },
+        "product_id": 93166195,
+        "timeline": {
+            "review_created_date": "2022-03-12 15:01:41",
+            "delivery_date": "2022-03-11 15:45:30",
+            "current_date": "2026-05-15 14:43:09",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 13678366,
+        "title": "Cực kì hài lòng",
+        "content": "Dùng rất tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.04622003,
+        "new_score": 0.13627516,
+        "customer_id": 10957934,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1638934306,
+        "created_by": {
+            "id": 10957934,
+            "name": "Lê Trương Lam",
+            "full_name": "Lê Trương Lam",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2218358135080836&height=200&width=200&ext=1553233909&hash=AeSrSmdeBFQDt5Wv",
+            "created_time": "2019-02-20 12:52:27",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1638542245,
+            "contribute_info": {
+                "id": 10957934,
+                "name": "Lê Trương Lam",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2218358135080836&height=200&width=200&ext=1553233909&hash=AeSrSmdeBFQDt5Wv",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 24,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Prolink Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 93166199,
+        "is_photo": false,
+        "seller": {
+            "id": 145378,
+            "name": "Prolink Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/53/69/cb/a3de9fea4d90a9071c2ecb18933972e3.jpg"
+        },
+        "product_id": 93166195,
+        "timeline": {
+            "review_created_date": "2021-12-08 10:31:46",
+            "delivery_date": "2021-12-07 14:58:03",
+            "current_date": "2026-05-15 14:43:09",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

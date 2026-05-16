@@ -1,0 +1,500 @@
+[
+    {
+        "id": 20053336,
+        "title": "Bình thường",
+        "content": "Giao hàng quá lâu, đơn hàng nước ngoài tôi mua cùng lúc còn về trước 4 ngày.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 14.02777778,
+        "new_score": 0.161794,
+        "customer_id": 10155424,
+        "comment_count": 1,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1734822661,
+        "created_by": {
+            "id": 10155424,
+            "name": "Trần Thành",
+            "full_name": "Trần Thành",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1129897857180204&height=200&width=200&ext=1549121321&hash=AeT1PR9dkocbkXKT",
+            "created_time": "2019-01-03 22:29:07",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1733850480,
+            "contribute_info": {
+                "id": 10155424,
+                "name": "Trần Thành",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1129897857180204&height=200&width=200&ext=1549121321&hash=AeT1PR9dkocbkXKT",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 162,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 177054924,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 153547112,
+        "timeline": {
+            "review_created_date": "2024-12-22 06:11:01",
+            "delivery_date": "2024-12-20 20:22:47",
+            "current_date": "2026-05-15 09:48:41",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18598822,
+        "title": "Cực kì hài lòng",
+        "content": "song manh, on dinh",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14357576,
+        "customer_id": 7754446,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1673184953,
+        "created_by": {
+            "id": 7754446,
+            "name": "Lê Văn Tưởng",
+            "full_name": "Lê Văn Tưởng",
+            "region": null,
+            "avatar_url": "https://lh4.googleusercontent.com/-PECaE_fxOFk/AAAAAAAAAAI/AAAAAAAAB5E/NPAm6RIa9gM/photo.jpg",
+            "created_time": "2018-08-24 11:18:28",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1666194867,
+            "contribute_info": {
+                "id": 7754446,
+                "name": "Lê Văn Tưởng",
+                "avatar": "https://lh4.googleusercontent.com/-PECaE_fxOFk/AAAAAAAAAAI/AAAAAAAAB5E/NPAm6RIa9gM/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 64,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vo Hoang Trading Co.,Ltd"
+        ],
+        "product_attributes": [],
+        "spid": 153547113,
+        "is_photo": false,
+        "seller": {
+            "id": 1242,
+            "name": "Vo Hoang Trading Co.,Ltd",
+            "logo": "4c/7c/c6/ca9548271b96f67a99a56c39bd1e99ea.jpg"
+        },
+        "product_id": 153547112,
+        "timeline": {
+            "review_created_date": "2023-01-08 20:35:53",
+            "delivery_date": "2022-10-20 10:06:46",
+            "current_date": "2026-05-15 09:48:41",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Kích thước nhỏ gọn",
+                "Lắp đặt/cài đặt đơn giản",
+                "Sóng mạnh, ổn định",
+                "Truyền được đi xa"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18845637,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14318939,
+        "customer_id": 8853529,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1677037259,
+        "created_by": {
+            "id": 8853529,
+            "name": "Võ Hồng Luyện",
+            "full_name": "Võ Hồng Luyện",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-11-10 01:07:33",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1676196058,
+            "contribute_info": {
+                "id": 8853529,
+                "name": "Võ Hồng Luyện",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 46,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vo Hoang Trading Co.,Ltd"
+        ],
+        "product_attributes": [],
+        "spid": 153547113,
+        "is_photo": false,
+        "seller": {
+            "id": 1242,
+            "name": "Vo Hoang Trading Co.,Ltd",
+            "logo": "4c/7c/c6/ca9548271b96f67a99a56c39bd1e99ea.jpg"
+        },
+        "product_id": 153547112,
+        "timeline": {
+            "review_created_date": "2023-02-22 10:40:59",
+            "delivery_date": "2023-02-13 10:24:03",
+            "current_date": "2026-05-15 09:48:41",
+            "content": "Đã dùng 9 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18253006,
+        "title": "Cực kì hài lòng",
+        "content": "Sóng ko ổn bằng asus",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14315004,
+        "customer_id": 9171988,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1668959776,
+        "created_by": {
+            "id": 9171988,
+            "name": "BinhNgamRuou dot Com",
+            "full_name": "BinhNgamRuou dot Com",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/0/8/6/2/3/120/aadc5edaad4a56637294bfd2c8552a75.jpg",
+            "created_time": "2018-11-24 22:30:52",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1666370996,
+            "contribute_info": {
+                "id": 9171988,
+                "name": "BinhNgamRuou dot Com",
+                "avatar": "https://s120.avatar.talk.zdn.vn/0/8/6/2/3/120/aadc5edaad4a56637294bfd2c8552a75.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 53,
+                    "total_thank": 9
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vo Hoang Trading Co.,Ltd"
+        ],
+        "product_attributes": [],
+        "spid": 153547113,
+        "is_photo": false,
+        "seller": {
+            "id": 1242,
+            "name": "Vo Hoang Trading Co.,Ltd",
+            "logo": "4c/7c/c6/ca9548271b96f67a99a56c39bd1e99ea.jpg"
+        },
+        "product_id": 153547112,
+        "timeline": {
+            "review_created_date": "2022-11-20 22:56:16",
+            "delivery_date": "2022-10-22 09:04:12",
+            "current_date": "2026-05-15 09:48:41",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18600035,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14237835,
+        "customer_id": 6045327,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1673197222,
+        "created_by": {
+            "id": 6045327,
+            "name": "Vuong Thanh",
+            "full_name": "Vuong Thanh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-11-11 10:57:33",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1673076393,
+            "contribute_info": {
+                "id": 6045327,
+                "name": "Vuong Thanh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 127,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vo Hoang Trading Co.,Ltd"
+        ],
+        "product_attributes": [],
+        "spid": 153547113,
+        "is_photo": false,
+        "seller": {
+            "id": 1242,
+            "name": "Vo Hoang Trading Co.,Ltd",
+            "logo": "4c/7c/c6/ca9548271b96f67a99a56c39bd1e99ea.jpg"
+        },
+        "product_id": 153547112,
+        "timeline": {
+            "review_created_date": "2023-01-09 00:00:22",
+            "delivery_date": "2023-01-07 16:16:08",
+            "current_date": "2026-05-15 09:48:41",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18214929,
+        "title": "Cực kì hài lòng",
+        "content": "Ngon",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14165471,
+        "customer_id": 2149595,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1668508387,
+        "created_by": {
+            "id": 2149595,
+            "name": "Khuong Nguyen Duy",
+            "full_name": "Khuong Nguyen Duy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-02-09 16:45:43",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1668412420,
+            "contribute_info": {
+                "id": 2149595,
+                "name": "Khuong Nguyen Duy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 14,
+                    "total_thank": 7
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vo Hoang Trading Co.,Ltd"
+        ],
+        "product_attributes": [],
+        "spid": 153547113,
+        "is_photo": false,
+        "seller": {
+            "id": 1242,
+            "name": "Vo Hoang Trading Co.,Ltd",
+            "logo": "4c/7c/c6/ca9548271b96f67a99a56c39bd1e99ea.jpg"
+        },
+        "product_id": 153547112,
+        "timeline": {
+            "review_created_date": "2022-11-15 17:33:07",
+            "delivery_date": "2022-11-15 12:54:25",
+            "current_date": "2026-05-15 09:48:41",
+            "content": "Đã dùng 5 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18250408,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14147844,
+        "customer_id": 10067665,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1668936389,
+        "created_by": {
+            "id": 10067665,
+            "name": "Nguyễn rô pha",
+            "full_name": "Nguyễn rô pha",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/f9/25/8e/9e0c4dff764f4541e9332f48f6f722d7.png",
+            "created_time": "2018-12-29 16:58:18",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1667562808,
+            "contribute_info": {
+                "id": 10067665,
+                "name": "pha drone dji",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/f9/25/8e/9e0c4dff764f4541e9332f48f6f722d7.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 15,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vo Hoang Trading Co.,Ltd"
+        ],
+        "product_attributes": [],
+        "spid": 153547113,
+        "is_photo": false,
+        "seller": {
+            "id": 1242,
+            "name": "Vo Hoang Trading Co.,Ltd",
+            "logo": "4c/7c/c6/ca9548271b96f67a99a56c39bd1e99ea.jpg"
+        },
+        "product_id": 153547112,
+        "timeline": {
+            "review_created_date": "2022-11-20 16:26:29",
+            "delivery_date": "2022-11-05 09:30:56",
+            "current_date": "2026-05-15 09:48:41",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Kích thước nhỏ gọn",
+                "Lắp đặt/cài đặt đơn giản",
+                "Sóng mạnh, ổn định",
+                "Truyền được đi xa"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17407451,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13968476,
+        "customer_id": 6162438,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1660443844,
+        "created_by": {
+            "id": 6162438,
+            "name": "Thanh Nguyễn",
+            "full_name": "Thanh Nguyễn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-12-04 17:21:31",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1659765207,
+            "contribute_info": {
+                "id": 6162438,
+                "name": "Thanh Nguyễn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 72,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vo Hoang Trading Co.,Ltd"
+        ],
+        "product_attributes": [],
+        "spid": 153547113,
+        "is_photo": false,
+        "seller": {
+            "id": 1242,
+            "name": "Vo Hoang Trading Co.,Ltd",
+            "logo": "4c/7c/c6/ca9548271b96f67a99a56c39bd1e99ea.jpg"
+        },
+        "product_id": 153547112,
+        "timeline": {
+            "review_created_date": "2022-08-14 09:24:04",
+            "delivery_date": "2022-08-06 14:26:43",
+            "current_date": "2026-05-15 09:48:41",
+            "content": "Đã dùng 8 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

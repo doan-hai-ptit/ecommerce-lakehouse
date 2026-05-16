@@ -1,0 +1,135 @@
+[
+    {
+        "id": 20142945,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15895277,
+        "customer_id": 8577135,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1751672468,
+        "created_by": {
+            "id": 8577135,
+            "name": "Red Tiger",
+            "full_name": "Red Tiger",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/2/d/b/6/44/120/6a3632ada956971d8c02e27ff2d8c300.jpg",
+            "created_time": "2018-10-23 14:02:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1750900585,
+            "contribute_info": {
+                "id": 8577135,
+                "name": "Trần Phú Vinh",
+                "avatar": "https://s120.avatar.talk.zdn.vn/2/d/b/6/44/120/6a3632ada956971d8c02e27ff2d8c300.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 146,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vo Hoang Trading Co.,Ltd",
+            "SWITCH 8 Cổng MS108"
+        ],
+        "product_attributes": [
+            "SWITCH: 8 Cổng MS108"
+        ],
+        "spid": 277544266,
+        "is_photo": false,
+        "seller": {
+            "id": 1242,
+            "name": "Vo Hoang Trading Co.,Ltd",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/7c/c6/ca9548271b96f67a99a56c39bd1e99ea.jpg"
+        },
+        "product_id": 187188651,
+        "timeline": {
+            "review_created_date": "2025-07-05 06:41:08",
+            "delivery_date": "2025-06-26 10:27:55",
+            "current_date": "2026-05-15 14:42:20",
+            "content": "Đã dùng 9 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Ổ chia dễ dàng tương thích",
+                "Dễ dàng cài đặt",
+                "Đường truyền mạng tốt",
+                "Nhiều ổ chia"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18379265,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14182434,
+        "customer_id": 8607805,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1670574125,
+        "created_by": {
+            "id": 8607805,
+            "name": "Lê Thanh Hà",
+            "full_name": "Lê Thanh Hà",
+            "region": null,
+            "avatar_url": "http://s120.avatar.talk.zdn.vn/3/e/7/8/6/120/aa5a01f5c24a177914aa4b2ade168c4e.jpg",
+            "created_time": "2018-10-25 18:35:56",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1667621235,
+            "contribute_info": {
+                "id": 8607805,
+                "name": "Lê Thanh Hà",
+                "avatar": "http://s120.avatar.talk.zdn.vn/3/e/7/8/6/120/aa5a01f5c24a177914aa4b2ade168c4e.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 46,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán VDS STORE",
+            "SWITCH 8 Cổng MS108"
+        ],
+        "product_attributes": [
+            "SWITCH: 8 Cổng MS108"
+        ],
+        "spid": 187188663,
+        "is_photo": false,
+        "seller": {
+            "id": 292191,
+            "name": "VDS STORE",
+            "logo": "ec/fe/0a/6f0536fcd8f0f24c1f3631d88b3685a4.jpg"
+        },
+        "product_id": 187188651,
+        "timeline": {
+            "review_created_date": "2022-12-09 15:22:05",
+            "delivery_date": "2022-11-09 14:07:38",
+            "current_date": "2026-05-15 14:42:20",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

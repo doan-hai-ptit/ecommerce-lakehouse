@@ -1,0 +1,68 @@
+[
+    {
+        "id": 18307147,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14162579,
+        "customer_id": 7550997,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1669634061,
+        "created_by": {
+            "id": 7550997,
+            "name": "Đỗ Minh Hoàng",
+            "full_name": "Đỗ Minh Hoàng",
+            "region": null,
+            "avatar_url": "https://lh6.googleusercontent.com/-enk_TXpnmsM/AAAAAAAAAAI/AAAAAAAAAeA/eFezM99vju4/photo.jpg",
+            "created_time": "2018-07-29 21:09:50",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1669329659,
+            "contribute_info": {
+                "id": 7550997,
+                "name": "Đỗ Minh Hoàng",
+                "avatar": "https://lh6.googleusercontent.com/-enk_TXpnmsM/AAAAAAAAAAI/AAAAAAAAAeA/eFezM99vju4/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 28,
+                    "total_thank": 7
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán MKL Quốc Tế",
+            "Dung lượng 1TB",
+            "Màu Trắng"
+        ],
+        "product_attributes": [
+            "Dung lượng: 1TB",
+            "Màu: Trắng"
+        ],
+        "spid": 192445388,
+        "is_photo": false,
+        "seller": {
+            "id": 128476,
+            "name": "MKL Quốc Tế",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/05/30/0b/1e406715c4c10fbe9c7cb8a0b6d4606d.jpg"
+        },
+        "product_id": 192445382,
+        "timeline": {
+            "review_created_date": "2022-11-28 18:14:21",
+            "delivery_date": "2022-11-26 09:58:08",
+            "current_date": "2026-05-16 09:11:12",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

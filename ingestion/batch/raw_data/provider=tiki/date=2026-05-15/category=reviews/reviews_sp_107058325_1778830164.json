@@ -1,0 +1,1302 @@
+[
+    {
+        "id": 20138774,
+        "title": "Hài lòng",
+        "content": "Giao hàng đúng hẹn, cài đặt dễ, chast lượng chưa biết hãy chờ thời gian. Cảm ơn đã có để thư. Hẹn ghi hoá đơn mà biệt mất tăm chưa biết như thế nào",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1718545,
+        "customer_id": 8741967,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1750575889,
+        "created_by": {
+            "id": 8741967,
+            "name": "Võ tá Huề ",
+            "full_name": "Võ tá Huề ",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/75/be/b8/f28b7e1fd2572582951afc19ead9f323.png",
+            "created_time": "2018-11-03 12:40:55",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1749641552,
+            "contribute_info": {
+                "id": 8741967,
+                "name": "Võ tá Huề ",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/75/be/b8/f28b7e1fd2572582951afc19ead9f323.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2025-06-22 14:04:49",
+            "delivery_date": "2025-06-16 11:21:37",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 6 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20101531,
+        "title": "Bình thường",
+        "content": "File chấm công excel tải về bị khoá, không có password  🥹 Bất tiện trong việc check dữ liệu",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 1.31808279,
+        "new_score": 0.16783115,
+        "customer_id": 12775209,
+        "comment_count": 1,
+        "rating": 3,
+        "images": [
+            {
+                "id": 4400898,
+                "full_path": "https://salt.tikicdn.com/ts/review/ab/28/cc/a884be3c8db03b95d19c10f21aa9b1ff.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1742889764,
+        "created_by": {
+            "id": 12775209,
+            "name": "Thủy Đàm",
+            "full_name": "Thủy Đàm",
+            "region": null,
+            "avatar_url": "https://lh6.googleusercontent.com/-H0TYxGWbTj4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdrYypdfY_8orqxxnsJMYoyMz11BA/photo.jpg",
+            "created_time": "2019-07-05 11:13:35",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1676337943,
+            "contribute_info": {
+                "id": 12775209,
+                "name": "Thủy Đàm",
+                "avatar": "https://lh6.googleusercontent.com/-H0TYxGWbTj4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdrYypdfY_8orqxxnsJMYoyMz11BA/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": true,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2025-03-25 15:02:44",
+            "delivery_date": "2023-02-15 09:43:30",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 2 năm",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 năm."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19917058,
+        "title": "Cực kì hài lòng",
+        "content": "Máy bị pass ko biết phải làm sao",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15792488,
+        "customer_id": 13341068,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4364194,
+                "full_path": "https://salt.tikicdn.com/ts/review/aa/33/1d/83f86f14a9358ff2177917425a3e970d.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1719975605,
+        "created_by": {
+            "id": 13341068,
+            "name": "Tien Trung Trinh",
+            "full_name": "Tien Trung Trinh",
+            "region": null,
+            "avatar_url": "https://lh5.googleusercontent.com/-OXvSHUKB4to/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd7GOdqzx2TuKLYPxSQiJ68PYmUMQ/photo.jpg",
+            "created_time": "2019-08-09 13:03:27",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1708587231,
+            "contribute_info": {
+                "id": 13341068,
+                "name": "Tien Trung Trinh",
+                "avatar": "https://lh5.googleusercontent.com/-OXvSHUKB4to/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd7GOdqzx2TuKLYPxSQiJ68PYmUMQ/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 29,
+                    "total_thank": 10
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": true,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2024-07-03 10:00:05",
+            "delivery_date": "2024-02-24 08:48:54",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19942331,
+        "title": "Cực kì hài lòng",
+        "content": "Máy rất oke",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.0698812,
+        "new_score": 0.15372507,
+        "customer_id": 10951431,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1722501669,
+        "created_by": {
+            "id": 10951431,
+            "name": "Nguyen Hoang Giang",
+            "full_name": "Nguyen Hoang Giang",
+            "region": null,
+            "avatar_url": "https://graph.facebook.com/2125235910874810/picture?type=large&return_ssl_resources=1",
+            "created_time": "2019-02-19 23:44:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1718393080,
+            "contribute_info": {
+                "id": 10951431,
+                "name": "Nguyen Hoang Giang",
+                "avatar": "https://graph.facebook.com/2125235910874810/picture?type=large&return_ssl_resources=1",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2024-08-01 15:41:09",
+            "delivery_date": "2024-06-17 16:41:08",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19981516,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15362689,
+        "customer_id": 25832426,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1726455913,
+        "created_by": {
+            "id": 25832426,
+            "name": "anh phuong",
+            "full_name": "anh phuong",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-12-06 02:42:45",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1723595836,
+            "contribute_info": {
+                "id": 25832426,
+                "name": "anh phuong",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 95,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2024-09-16 10:05:13",
+            "delivery_date": "2024-08-17 13:15:32",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18802890,
+        "title": "Bình thường",
+        "content": "Thết bị không có cổng lan phải lấy data bằng usb 2.0, không sử dụng được loại 3.0 nên mn lưu ý trước khi quyết định mua",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15339177,
+        "customer_id": 2233310,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1676417242,
+        "created_by": {
+            "id": 2233310,
+            "name": "Phạm Sơn Tùng",
+            "full_name": "Phạm Sơn Tùng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-03-03 18:35:26",
+            "group_id": 28,
+            "purchased": true,
+            "purchased_at": 1673575244,
+            "contribute_info": {
+                "id": 2233310,
+                "name": "Phạm Sơn Tùng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 47,
+                    "total_thank": 11
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-02-15 06:27:22",
+            "delivery_date": "2023-01-14 10:13:19",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19196627,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.15068859,
+        "customer_id": 7875401,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4211707,
+                "full_path": "https://salt.tikicdn.com/ts/review/1e/e5/51/638bcf485a896f158cbe61f606fa8ee1.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4211708,
+                "full_path": "https://salt.tikicdn.com/ts/review/13/f9/55/151d830eb9dd35ed809abaf01f6309f0.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1684135555,
+        "created_by": {
+            "id": 7875401,
+            "name": "Vương thoại cầu",
+            "full_name": "Vương thoại cầu",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-08-29 19:12:31",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1683891414,
+            "contribute_info": {
+                "id": 7875401,
+                "name": "Vương thoại cầu",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 21,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": true,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-05-15 14:25:55",
+            "delivery_date": "2023-05-15 13:01:10",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19731369,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14919475,
+        "customer_id": 9174012,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1705470981,
+        "created_by": {
+            "id": 9174012,
+            "name": "Lê Văn Thắng ",
+            "full_name": "Lê Văn Thắng ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-11-24 23:17:58",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1701875167,
+            "contribute_info": {
+                "id": 9174012,
+                "name": "Lê Văn Thắng ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 109,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2024-01-17 12:56:21",
+            "delivery_date": "2023-12-10 17:04:41",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18993657,
+        "title": "Cực kì hài lòng",
+        "content": "Máy chuẩn như mô tả, vận hành nhanh, dễ dàng thao tác.\nĐáng mua!",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14903378,
+        "customer_id": 12856834,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1679456999,
+        "created_by": {
+            "id": 12856834,
+            "name": "VTD Saigon",
+            "full_name": "VTD Saigon",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/256x256/ts/avatar/c5/55/e1/a5156973ef656722a4683b7c496d5c17.jpg",
+            "created_time": "2019-07-11 09:10:51",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1679028867,
+            "contribute_info": {
+                "id": 12856834,
+                "name": "VTD Saigon",
+                "avatar": "https://salt.tikicdn.com/cache/256x256/ts/avatar/c5/55/e1/a5156973ef656722a4683b7c496d5c17.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 209,
+                    "total_thank": 11
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-03-22 10:49:59",
+            "delivery_date": "2023-03-20 15:06:32",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19704952,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1488877,
+        "customer_id": 161866,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1704017174,
+        "created_by": {
+            "id": 161866,
+            "name": "Phan Nguyên Việt",
+            "full_name": "Phan Nguyên Việt",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/5b/fe/55/3780e362c6156dfe7da9c2cb71cca818.png",
+            "created_time": "2013-08-21 11:28:20",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1692668199,
+            "contribute_info": {
+                "id": 161866,
+                "name": "Phan Nguyên Việt",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/5b/fe/55/3780e362c6156dfe7da9c2cb71cca818.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 187,
+                    "total_thank": 33
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-12-31 17:06:14",
+            "delivery_date": "2023-08-25 15:11:46",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19690141,
+        "title": "Cực kì hài lòng",
+        "content": "Ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14884279,
+        "customer_id": 17588045,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1703173247,
+        "created_by": {
+            "id": 17588045,
+            "name": "Phạm Tùng",
+            "full_name": "Phạm Tùng",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/a5/62/b0/436f26186e4d1ef6299b596c297b021b.png",
+            "created_time": "2020-06-17 21:48:43",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1702696056,
+            "contribute_info": {
+                "id": 17588045,
+                "name": "Phạm Tùng",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/a5/62/b0/436f26186e4d1ef6299b596c297b021b.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 33,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-12-21 22:40:47",
+            "delivery_date": "2023-12-18 10:45:31",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 4 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 18614711,
+        "title": "Hài lòng",
+        "content": "Sản phẩm khá ổn áp.\r\nGọn nhẹ, dễ sử dụng.\r\nXướng với tầm giá",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14815296,
+        "customer_id": 7766870,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1673392643,
+        "created_by": {
+            "id": 7766870,
+            "name": "Nguyễn Trung Kiên",
+            "full_name": "Nguyễn Trung Kiên",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-08-24 12:29:33",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1672897427,
+            "contribute_info": {
+                "id": 7766870,
+                "name": "Nguyễn Trung Kiên",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 16,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-01-11 06:17:23",
+            "delivery_date": "2023-01-09 08:42:20",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18734977,
+        "title": "Rất không hài lòng",
+        "content": "Máy chỉ có cổng USP, không có cổng kết nối với koas từ",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14765963,
+        "customer_id": 21998775,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1675475966,
+        "created_by": {
+            "id": 21998775,
+            "name": "Anh Thy",
+            "full_name": "Anh Thy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-06-01 08:23:17",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1675046760,
+            "contribute_info": {
+                "id": 21998775,
+                "name": "Anh Thy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 21,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-02-04 08:59:26",
+            "delivery_date": "2023-02-03 14:19:21",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18808849,
+        "title": "Hài lòng",
+        "content": "Phù hợp với quy mô cty nhỏ, hướng dẫn sdung rõ ràng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14747162,
+        "customer_id": 118189,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1676479656,
+        "created_by": {
+            "id": 118189,
+            "name": "Trần Thế Linh",
+            "full_name": "Trần Thế Linh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2013-05-11 15:09:38",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1675657471,
+            "contribute_info": {
+                "id": 118189,
+                "name": "Trần Thế Linh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 28,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-02-15 23:47:36",
+            "delivery_date": "2023-02-08 19:23:59",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18698046,
+        "title": "Bình thường",
+        "content": "Ko có tính năng gửi lên mạng nên tiện ích không cao",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14702381,
+        "customer_id": 23898003,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1674990723,
+        "created_by": {
+            "id": 23898003,
+            "name": "Hải Sơn",
+            "full_name": "Hải Sơn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-10-03 21:55:05",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1670200428,
+            "contribute_info": {
+                "id": 23898003,
+                "name": "Hải Sơn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 11,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-01-29 18:12:03",
+            "delivery_date": "2022-12-08 16:57:04",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16825703,
+        "title": "Cực kì hài lòng",
+        "content": "Đã nhận được hàng giao hơi lâu, đống gói sản phẩm tốt.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 2.89855072,
+        "new_score": 0.14676045,
+        "customer_id": 19849165,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3624605,
+                "full_path": "https://salt.tikicdn.com/ts/review/b8/7b/57/e2751e0ce0b2d4c396d71c285bd8ea43.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1656067493,
+        "created_by": {
+            "id": 19849165,
+            "name": "Lê Thanh Long",
+            "full_name": "Lê Thanh Long",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-01-11 08:03:46",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1655544482,
+            "contribute_info": {
+                "id": 19849165,
+                "name": "Lê Thanh Long",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": true,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2022-06-24 17:44:53",
+            "delivery_date": "2022-06-24 15:44:26",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19345621,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14557903,
+        "customer_id": 19941726,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1688351550,
+        "created_by": {
+            "id": 19941726,
+            "name": "Nguyen Khoa",
+            "full_name": "Nguyen Khoa",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-01-18 19:10:30",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1677902408,
+            "contribute_info": {
+                "id": 19941726,
+                "name": "Nguyen Khoa",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 76,
+                    "total_thank": 8
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-07-03 09:32:30",
+            "delivery_date": "2023-03-08 16:17:29",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19306230,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14531424,
+        "customer_id": 1949926,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1687097832,
+        "created_by": {
+            "id": 1949926,
+            "name": "Lê Văn Nam",
+            "full_name": "Lê Văn Nam",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-12-05 09:49:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1672971839,
+            "contribute_info": {
+                "id": 1949926,
+                "name": "Lê Văn Nam",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 34,
+                    "total_thank": 9
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-06-18 21:17:12",
+            "delivery_date": "2023-01-09 08:25:52",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19200680,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14471017,
+        "customer_id": 2177226,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1684237727,
+        "created_by": {
+            "id": 2177226,
+            "name": "Nguyễn Quỳnh Trang",
+            "full_name": "Nguyễn Quỳnh Trang",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/0f/a5/16/4fc02b018076084b190a5c73563e1b1f.png",
+            "created_time": "2017-02-16 14:24:29",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1672027538,
+            "contribute_info": {
+                "id": 2177226,
+                "name": "Nguyễn Quỳnh Trang",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/0f/a5/16/4fc02b018076084b190a5c73563e1b1f.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 38,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-05-16 18:48:47",
+            "delivery_date": "2022-12-28 10:01:59",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19173672,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14456504,
+        "customer_id": 27956047,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1683550575,
+        "created_by": {
+            "id": 27956047,
+            "name": "Tuấn Trần",
+            "full_name": "Tuấn Trần",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-08-03 20:07:12",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1683268155,
+            "contribute_info": {
+                "id": 27956047,
+                "name": "Tuấn Trần",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 8,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Deli Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 107058326,
+        "is_photo": false,
+        "seller": {
+            "id": 113115,
+            "name": "Deli Official Store",
+            "logo": "bd/32/e8/f5f85603a21639b0329dda4fa756072f.jpg"
+        },
+        "product_id": 107058325,
+        "timeline": {
+            "review_created_date": "2023-05-08 19:56:15",
+            "delivery_date": "2023-05-08 14:57:33",
+            "current_date": "2026-05-15 14:32:49",
+            "content": "Đã dùng 5 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

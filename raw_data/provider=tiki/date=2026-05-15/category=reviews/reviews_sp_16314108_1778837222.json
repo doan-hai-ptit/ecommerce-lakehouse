@@ -1,0 +1,1250 @@
+[
+    {
+        "id": 3512116,
+        "title": "Hài lòng",
+        "content": "Máy gửi về hk bị móp méo, nhưng thấy chi tiết là có đĩa cài driver nhưng gửi thì không có. phải lên mạng tìm driver để về cài",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00806141,
+        "new_score": 0.15030885,
+        "customer_id": 623785,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [
+            {
+                "id": 2836571,
+                "full_path": "https://salt.tikicdn.com/ts/review/a4/4c/9e/a15b47ff3f863286a4e388b1c5bc147e.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2836572,
+                "full_path": "https://salt.tikicdn.com/ts/review/a4/4c/9e/a7ba15279cf81f0b5ae8639286235f00.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2836573,
+                "full_path": "https://salt.tikicdn.com/ts/review/a4/4c/9e/6834fcb941f1e875f030679d7972ac85.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2836574,
+                "full_path": "https://salt.tikicdn.com/ts/review/a4/4c/9e/f062bb8d4497acde98643f09da818546.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2836577,
+                "full_path": "https://salt.tikicdn.com/ts/review/a4/4c/9e/5eea79a6fd89cffae0e1c3bd5e3569ea.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1588590132,
+        "created_by": {
+            "id": 623785,
+            "name": "Ngô Gia Như",
+            "full_name": "Ngô Gia Như",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/f0/10/d9/04239b19a0da15e65473d010812a9402.png",
+            "created_time": "2015-05-03 21:22:01",
+            "purchased": true,
+            "purchased_at": 1586697521,
+            "contribute_info": {
+                "id": 623785,
+                "name": "Ngô Gia Như",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/f0/10/d9/04239b19a0da15e65473d010812a9402.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 33,
+                    "total_thank": 30
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Công Nghệ VN"
+        ],
+        "product_attributes": [],
+        "spid": 21812286,
+        "is_photo": true,
+        "seller": {
+            "id": 37343,
+            "name": "Shop Công Nghệ VN",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ac/90/20/4c327540504acd8e057bc711bc088593.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2020-05-04 18:02:12",
+            "delivery_date": "2020-04-16 13:54:05",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16642737,
+        "title": "Rất không hài lòng",
+        "content": "Hàng giao không đúng dòng Xprinter mà là dòng Gprinter.\r\nMọi người mua hàng cẩn thận, nếu muốn mua dòng Xprinter nên mua chỗ khác.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14894754,
+        "customer_id": 6123164,
+        "comment_count": 0,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1654743740,
+        "created_by": {
+            "id": 6123164,
+            "name": "",
+            "full_name": "",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-11-26 10:35:16",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1654608688,
+            "contribute_info": {
+                "id": 6123164,
+                "name": "",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 8,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-06-09 10:02:20",
+            "delivery_date": "2022-06-09 09:37:54",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 24 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 24 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16987773,
+        "title": "Hài lòng",
+        "content": "đã nhận. giao hàng nhanh, sản phẩm mới, đóng gói cẩn thận, đã dùng thử và thấy ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14614711,
+        "customer_id": 22753318,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1657266893,
+        "created_by": {
+            "id": 22753318,
+            "name": "Mai Thị Tần",
+            "full_name": "Mai Thị Tần",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-07-24 12:06:17",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1656766415,
+            "contribute_info": {
+                "id": 22753318,
+                "name": "Mai Thị Tần",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-07-08 14:54:53",
+            "delivery_date": "2022-07-08 14:40:15",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 15 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 15 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15596706,
+        "title": "Bình thường",
+        "content": "máy in tốt mỗi dây dẫn lỏng vừa cắm đã bong ak, mà kg có tên shop *** ở đâu m đổi ak",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14450025,
+        "customer_id": 24613940,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1648206917,
+        "created_by": {
+            "id": 24613940,
+            "name": "Tran Thi Tham",
+            "full_name": "Tran Thi Tham",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-10-31 19:20:27",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1646881148,
+            "contribute_info": {
+                "id": 24613940,
+                "name": "Tran Thi Tham",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-03-25 18:15:17",
+            "delivery_date": "2022-03-19 12:06:18",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 6 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18815676,
+        "title": "Cực kì hài lòng",
+        "content": "Sản phẩm tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14429508,
+        "customer_id": 6785848,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1676590746,
+        "created_by": {
+            "id": 6785848,
+            "name": "Tạ Phúc Bass",
+            "full_name": "Tạ Phúc Bass",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-03-24 17:42:34",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1676374534,
+            "contribute_info": {
+                "id": 6785848,
+                "name": "Tạ Phúc Bass",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 46,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2023-02-17 06:39:06",
+            "delivery_date": "2023-02-16 09:44:02",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18621303,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14243312,
+        "customer_id": 28544428,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1673456545,
+        "created_by": {
+            "id": 28544428,
+            "name": "thanh thien",
+            "full_name": "thanh thien",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-12-03 07:32:23",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1672845765,
+            "contribute_info": {
+                "id": 28544428,
+                "name": "TRẦN THỊ HỒNG TRÂM ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 7,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2023-01-12 00:02:25",
+            "delivery_date": "2023-01-06 10:15:22",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 6 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18505678,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14212912,
+        "customer_id": 17377036,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1672017179,
+        "created_by": {
+            "id": 17377036,
+            "name": "Lam Thai Binh",
+            "full_name": "Lam Thai Binh",
+            "region": null,
+            "avatar_url": "https://graph.facebook.com/v3.3/1955575861242420/picture?type=large&return_ssl_resources=1",
+            "created_time": "2020-05-19 08:59:42",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1671594967,
+            "contribute_info": {
+                "id": 17377036,
+                "name": "Lam Thai Binh",
+                "avatar": "https://graph.facebook.com/v3.3/1955575861242420/picture?type=large&return_ssl_resources=1",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 6,
+                    "total_thank": 28
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-12-26 08:12:59",
+            "delivery_date": "2022-12-23 14:49:36",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17883534,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14065426,
+        "customer_id": 17291860,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1665034149,
+        "created_by": {
+            "id": 17291860,
+            "name": "Phạm Nguyên Thăng",
+            "full_name": "Phạm Nguyên Thăng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-05-07 09:17:08",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1664101794,
+            "contribute_info": {
+                "id": 17291860,
+                "name": "Phạm Nguyên Thăng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-10-06 12:29:09",
+            "delivery_date": "2022-09-28 11:46:00",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 8 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16750961,
+        "title": "Cực kì hài lòng",
+        "content": "sản phẩm tốt, giao nhanh",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14064444,
+        "customer_id": 777745,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1655518201,
+        "created_by": {
+            "id": 777745,
+            "name": "Tạ Duy Nguyễn",
+            "full_name": "Tạ Duy Nguyễn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2015-08-27 19:31:00",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1655281719,
+            "contribute_info": {
+                "id": 777745,
+                "name": "Tạ Duy Nguyễn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 12,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-06-18 09:10:01",
+            "delivery_date": "2022-06-17 16:59:21",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17835929,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14054836,
+        "customer_id": 5671575,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1664532749,
+        "created_by": {
+            "id": 5671575,
+            "name": "nghia",
+            "full_name": "nghia",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-09-03 15:56:48",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1663400764,
+            "contribute_info": {
+                "id": 5671575,
+                "name": "nghia",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 33,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-09-30 17:12:29",
+            "delivery_date": "2022-09-21 11:12:17",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 9 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng In rõ ràng, sắc nét"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 13170316,
+        "title": "Không hài lòng",
+        "content": "máy bị lỗi k thể kết nối đc đổi lại có dc k shop",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 18.51851852,
+        "new_score": 0.13908884,
+        "customer_id": 17439839,
+        "comment_count": 0,
+        "rating": 2,
+        "images": [],
+        "thanked": false,
+        "created_at": 1636789559,
+        "created_by": {
+            "id": 17439839,
+            "name": "Thiên Lý Đtdđ",
+            "full_name": "Thiên Lý Đtdđ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-05-27 23:23:52",
+            "purchased": true,
+            "purchased_at": 1636497991,
+            "contribute_info": {
+                "id": 17439839,
+                "name": "Thiên Lý Đtdđ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 64,
+                    "total_thank": 31
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán BigBuy"
+        ],
+        "product_attributes": [],
+        "spid": 55071043,
+        "is_photo": false,
+        "seller": {
+            "id": 3476,
+            "name": "BigBuy",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/19/01/f6/8caf7ed0d64ef5d1e90f9a3adfafe595.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2021-11-13 14:45:59",
+            "delivery_date": "2021-11-13 14:29:04",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 17 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 17 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17029181,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13907137,
+        "customer_id": 17739760,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1657539616,
+        "created_by": {
+            "id": 17739760,
+            "name": "HT volg",
+            "full_name": "HT volg",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-07-08 14:38:27",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1656855862,
+            "contribute_info": {
+                "id": 17739760,
+                "name": "HT volg",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-07-11 18:40:16",
+            "delivery_date": "2022-07-06 11:28:05",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 5 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16231919,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13788273,
+        "customer_id": 23755653,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1651911714,
+        "created_by": {
+            "id": 23755653,
+            "name": "Hữu Nhân",
+            "full_name": "Hữu Nhân",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-09-25 07:53:14",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1651372028,
+            "contribute_info": {
+                "id": 23755653,
+                "name": "Hữu Nhân",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-05-07 15:21:54",
+            "delivery_date": "2022-05-06 16:34:04",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15886634,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13742438,
+        "customer_id": 17503595,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1649741570,
+        "created_by": {
+            "id": 17503595,
+            "name": "Thanh Sang Nguyen",
+            "full_name": "Thanh Sang Nguyen",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-06-05 20:36:32",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1646400443,
+            "contribute_info": {
+                "id": 17503595,
+                "name": "Thanh Sang Nguyen",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 7,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-04-12 12:32:50",
+            "delivery_date": "2022-03-09 12:58:15",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15518162,
+        "title": "Hài lòng",
+        "content": "tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13734169,
+        "customer_id": 22818345,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1647771797,
+        "created_by": {
+            "id": 22818345,
+            "name": "binh hue",
+            "full_name": "binh hue",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-07-30 16:14:00",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1647515773,
+            "contribute_info": {
+                "id": 22818345,
+                "name": "binh hue",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-03-20 17:23:17",
+            "delivery_date": "2022-03-20 09:29:20",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 8 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15333120,
+        "title": "Cực kì hài lòng",
+        "content": "Dùng ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13733945,
+        "customer_id": 22633265,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1646814256,
+        "created_by": {
+            "id": 22633265,
+            "name": "LÊ HỒNG TÚ",
+            "full_name": "LÊ HỒNG TÚ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-07-14 22:52:10",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1646407367,
+            "contribute_info": {
+                "id": 22633265,
+                "name": "LÊ HỒNG TÚ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-03-09 15:24:16",
+            "delivery_date": "2022-03-09 09:40:38",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 6 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 14360183,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13574549,
+        "customer_id": 21865234,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1641792486,
+        "created_by": {
+            "id": 21865234,
+            "name": "Ngọc Bích",
+            "full_name": "Ngọc Bích",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-05-22 10:29:45",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1639469322,
+            "contribute_info": {
+                "id": 21865234,
+                "name": "Ngọc Bích",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt",
+            "Giá tốt",
+            "Đóng gói tốt",
+            "Nhà bán phục vụ tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán BigBuy"
+        ],
+        "product_attributes": [],
+        "spid": 55071043,
+        "is_photo": false,
+        "seller": {
+            "id": 3476,
+            "name": "BigBuy",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/19/01/f6/8caf7ed0d64ef5d1e90f9a3adfafe595.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2022-01-10 12:28:06",
+            "delivery_date": "2021-12-20 16:34:44",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 10156097,
+        "title": "Rất không hài lòng",
+        "content": "giao máy ko kèm dĩa driver , nên ko sử dụng được",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1357321,
+        "customer_id": 11567494,
+        "comment_count": 0,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1622790212,
+        "created_by": {
+            "id": 11567494,
+            "name": "Từ Diễm",
+            "full_name": "Từ Diễm",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1909035982467140&height=200&width=200&ext=1556598945&hash=AeRofVZZZkQz9BYa",
+            "created_time": "2019-03-31 11:36:41",
+            "purchased": true,
+            "purchased_at": 1617505833,
+            "contribute_info": {
+                "id": 11567494,
+                "name": "Từ Diễm",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1909035982467140&height=200&width=200&ext=1556598945&hash=AeRofVZZZkQz9BYa",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2021-06-04 14:03:32",
+            "delivery_date": "2021-04-06 09:31:19",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 13765248,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13521676,
+        "customer_id": 10425299,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1639289118,
+        "created_by": {
+            "id": 10425299,
+            "name": "Rose Minhon",
+            "full_name": "Rose Minhon",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=389313251801971&height=200&width=200&ext=1550338793&hash=AeSFoa9lKz6oY2Yc",
+            "created_time": "2019-01-18 00:40:19",
+            "purchased": true,
+            "purchased_at": 1635666933,
+            "contribute_info": {
+                "id": 10425299,
+                "name": "Rose Minhon",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=389313251801971&height=200&width=200&ext=1550338793&hash=AeSFoa9lKz6oY2Yc",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán SIEUTHIHANGCONGNGHE"
+        ],
+        "product_attributes": [],
+        "spid": 22080233,
+        "is_photo": false,
+        "seller": {
+            "id": 5346,
+            "name": "SIEUTHIHANGCONGNGHE",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d3/ee/85/2b88a8a1fec642949c09c2a1c6908758.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2021-12-12 13:05:18",
+            "delivery_date": "2021-11-02 14:41:50",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 13597123,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13505742,
+        "customer_id": 1940113,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1638534662,
+        "created_by": {
+            "id": 1940113,
+            "name": "Anh Long",
+            "full_name": "Anh Long",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-12-02 12:48:36",
+            "purchased": true,
+            "purchased_at": 1636550986,
+            "contribute_info": {
+                "id": 1940113,
+                "name": "Anh Long",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 109,
+                    "total_thank": 15
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán BigBuy"
+        ],
+        "product_attributes": [],
+        "spid": 55071043,
+        "is_photo": false,
+        "seller": {
+            "id": 3476,
+            "name": "BigBuy",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/19/01/f6/8caf7ed0d64ef5d1e90f9a3adfafe595.jpg"
+        },
+        "product_id": 16314108,
+        "timeline": {
+            "review_created_date": "2021-12-03 19:31:02",
+            "delivery_date": "2021-11-12 16:05:20",
+            "current_date": "2026-05-15 16:31:59",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

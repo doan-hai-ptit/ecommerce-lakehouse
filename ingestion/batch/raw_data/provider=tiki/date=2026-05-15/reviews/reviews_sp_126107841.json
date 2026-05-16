@@ -1,0 +1,1075 @@
+[
+    {
+        "id": 20229493,
+        "title": "Rất không hài lòng",
+        "content": "Lắp ráp máy in không nhận cục mực",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 3.5380117,
+        "new_score": 0.17029553,
+        "customer_id": 23595701,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [
+            {
+                "id": 4425709,
+                "full_path": "https://salt.tikicdn.com/ts/review/3d/56/ea/71188c8d4fd8efc2afaddbab6d769904.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1777284594,
+        "created_by": {
+            "id": 23595701,
+            "name": "Đào Trí Dũng",
+            "full_name": "Đào Trí Dũng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-09-16 14:47:41",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1776017774,
+            "contribute_info": {
+                "id": 23595701,
+                "name": "Đào Trí Dũng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 57,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": true,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2026-04-27 17:09:54",
+            "delivery_date": "2026-04-15 22:39:44",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 12 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 12 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét",
+                "Sử dụng dễ dàng"
+            ]
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20165825,
+        "title": "Cực kì hài lòng",
+        "content": "Chất lượng bản in tốt. Giá hợp lý.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.04623209,
+        "new_score": 0.16618656,
+        "customer_id": 28298235,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4417152,
+                "full_path": "https://salt.tikicdn.com/ts/review/20/10/8c/f9ff02d49b8d0b23713d965520395bf0.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1756882831,
+        "created_by": {
+            "id": 28298235,
+            "name": "Phạm Phi Long",
+            "full_name": "Phạm Phi Long",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-10-08 15:02:37",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1756705404,
+            "contribute_info": {
+                "id": 28298235,
+                "name": "Phạm Phi Long",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 18,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": true,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2025-09-03 14:00:31",
+            "delivery_date": "2025-09-03 09:43:14",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 4 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20228647,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16429082,
+        "customer_id": 15281920,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1776946630,
+        "created_by": {
+            "id": 15281920,
+            "name": "quang phan trọng",
+            "full_name": "quang phan trọng",
+            "region": null,
+            "avatar_url": "https://lh3.googleusercontent.com/-Ge8qB3SrQG8/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reQ5FO-_Hi6YHe0A51r4wx8z_u7xg/photo.jpg",
+            "created_time": "2019-12-04 10:16:00",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1775739345,
+            "contribute_info": {
+                "id": 15281920,
+                "name": "quang phan trọng",
+                "avatar": "https://lh3.googleusercontent.com/-Ge8qB3SrQG8/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reQ5FO-_Hi6YHe0A51r4wx8z_u7xg/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 36,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2026-04-23 19:17:10",
+            "delivery_date": "2026-04-22 18:24:16",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20176758,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16058635,
+        "customer_id": 16048842,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1759406982,
+        "created_by": {
+            "id": 16048842,
+            "name": "Nguyễn Đình Nguyên",
+            "full_name": "Nguyễn Đình Nguyên",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/ff/08/4d/2085dba9b1c64a6d17852c20b464332c.png",
+            "created_time": "2020-01-18 20:22:46",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1759053107,
+            "contribute_info": {
+                "id": 16048842,
+                "name": "Nguyễn Đình Nguyên",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/ff/08/4d/2085dba9b1c64a6d17852c20b464332c.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 130,
+                    "total_thank": 37
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2025-10-02 19:09:42",
+            "delivery_date": "2025-10-02 09:50:25",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 9 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19987329,
+        "title": "Cực kì hài lòng",
+        "content": "Chất lượng mực in rất tốt, mực in ra đều và đẹp, shop hỗ trợ nhiệt tình",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16028663,
+        "customer_id": 29148730,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1727054415,
+        "created_by": {
+            "id": 29148730,
+            "name": "Tham Phan",
+            "full_name": "Tham Phan",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2023-05-29 13:59:13",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1726720072,
+            "contribute_info": {
+                "id": 29148730,
+                "name": "Tham Phan",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 3 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2024-09-23 08:20:15",
+            "delivery_date": "2024-09-21 10:10:23",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20064187,
+        "title": "Cực kì hài lòng",
+        "content": "Chất lượng mực in tốt, đều",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15829784,
+        "customer_id": 7400039,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1736576918,
+        "created_by": {
+            "id": 7400039,
+            "name": "TRẦN LÂM CẨM MY",
+            "full_name": "TRẦN LÂM CẨM MY",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-07-04 00:04:03",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1736152006,
+            "contribute_info": {
+                "id": 7400039,
+                "name": "TRẦN LÂM CẨM MY",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 64,
+                    "total_thank": 12
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2025-01-11 13:28:38",
+            "delivery_date": "2025-01-07 14:52:10",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 4 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20128636,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15825048,
+        "customer_id": 14709019,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1748347293,
+        "created_by": {
+            "id": 14709019,
+            "name": "Tùng Nguyễn Chi",
+            "full_name": "Tùng Nguyễn Chi",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-10-31 21:14:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1746600532,
+            "contribute_info": {
+                "id": 14709019,
+                "name": "Tùng Nguyễn Chi",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 14,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2025-05-27 19:01:33",
+            "delivery_date": "2025-05-08 10:30:25",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20055715,
+        "title": "Hài lòng",
+        "content": "Ổn",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15573567,
+        "customer_id": 12318288,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1735177786,
+        "created_by": {
+            "id": 12318288,
+            "name": "Võ nguyễn gia linh",
+            "full_name": "Võ nguyễn gia linh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-05-31 21:22:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1726933039,
+            "contribute_info": {
+                "id": 12318288,
+                "name": "Võ nguyễn gia linh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 8,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2024-12-26 08:49:46",
+            "delivery_date": "2024-09-23 19:21:16",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20035881,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15559876,
+        "customer_id": 71400,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1732320033,
+        "created_by": {
+            "id": 71400,
+            "name": "Lê Tuấn Khanh",
+            "full_name": "Lê Tuấn Khanh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2012-11-08 15:58:37",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1722578955,
+            "contribute_info": {
+                "id": 71400,
+                "name": "Lê Tuấn Khanh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 14 năm",
+                    "total_review": 5,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2024-11-23 07:00:33",
+            "delivery_date": "2024-08-05 13:59:37",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét",
+                "Sử dụng dễ dàng"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19996435,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15395242,
+        "customer_id": 28483277,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1727997215,
+        "created_by": {
+            "id": 28483277,
+            "name": "Hồ văn trí",
+            "full_name": "Hồ văn trí",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-11-18 15:58:29",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1725943587,
+            "contribute_info": {
+                "id": 28483277,
+                "name": "Hồ văn trí",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2024-10-04 06:13:35",
+            "delivery_date": "2024-09-11 14:32:38",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19984910,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15369996,
+        "customer_id": 1403983,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1726801855,
+        "created_by": {
+            "id": 1403983,
+            "name": "Nguyen Ngoc Tram",
+            "full_name": "Nguyen Ngoc Tram",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-06-01 23:19:50",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1725505081,
+            "contribute_info": {
+                "id": 1403983,
+                "name": "Nguyen Ngoc Tram",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 9,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2024-09-20 10:10:55",
+            "delivery_date": "2024-09-07 12:01:51",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 13 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 13 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19931385,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng chuẩn",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 13.88888889,
+        "new_score": 0.15341951,
+        "customer_id": 16347277,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1721370584,
+        "created_by": {
+            "id": 16347277,
+            "name": "Dang Trung Uan",
+            "full_name": "Dang Trung Uan",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-02-10 10:44:00",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1720511822,
+            "contribute_info": {
+                "id": 16347277,
+                "name": "Dang Trung Uan",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 101,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2024-07-19 13:29:44",
+            "delivery_date": "2024-07-13 15:40:09",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 6 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19858496,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15109565,
+        "customer_id": 6654788,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1714471207,
+        "created_by": {
+            "id": 6654788,
+            "name": "Trịnh Trần Trường Giang",
+            "full_name": "Trịnh Trần Trường Giang",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/74/20/ef/e2c7aa41774671634f58d93f6e9e3aaa.png",
+            "created_time": "2018-03-07 06:55:00",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1713578924,
+            "contribute_info": {
+                "id": 6654788,
+                "name": "Trịnh Trần Trường Giang",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/74/20/ef/e2c7aa41774671634f58d93f6e9e3aaa.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 30,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2024-04-30 17:00:07",
+            "delivery_date": "2024-04-23 14:46:00",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19756754,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14948665,
+        "customer_id": 16862049,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1706853013,
+        "created_by": {
+            "id": 16862049,
+            "name": "Nguyễn Trọng Nghĩa ",
+            "full_name": "Nguyễn Trọng Nghĩa ",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/d/7/f/2/3/120/b386fe6e689c8b3962367e99d2db1b73.jpg",
+            "created_time": "2020-03-19 18:56:58",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1705979211,
+            "contribute_info": {
+                "id": 16862049,
+                "name": "Nguyễn Trọng Nghĩa ",
+                "avatar": "https://s120.avatar.talk.zdn.vn/d/7/f/2/3/120/b386fe6e689c8b3962367e99d2db1b73.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 39,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": ""
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2024-02-02 12:50:13",
+            "delivery_date": "2024-01-26 18:24:08",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 14619633,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13596197,
+        "customer_id": 23916595,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1642817460,
+        "created_by": {
+            "id": 23916595,
+            "name": "Lượng Nguyễn",
+            "full_name": "Lượng Nguyễn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-10-05 13:30:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1636701725,
+            "contribute_info": {
+                "id": 23916595,
+                "name": "Lượng Nguyễn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2022-01-22 09:11:00",
+            "delivery_date": "2021-11-18 23:01:23",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 13123939,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1346505,
+        "customer_id": 12974950,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1636608030,
+        "created_by": {
+            "id": 12974950,
+            "name": "Nguyễn Đức Thọ",
+            "full_name": "Nguyễn Đức Thọ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-07-18 23:14:15",
+            "purchased": true,
+            "purchased_at": 1636361997,
+            "contribute_info": {
+                "id": 12974950,
+                "name": "Nguyễn Đức Thọ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 25,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt",
+            "Giá tốt",
+            "Giao hàng nhanh",
+            "Đóng gói tốt",
+            "Nhà bán phục vụ tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán Mực in Viet Toner"
+        ],
+        "product_attributes": [],
+        "spid": 126107842,
+        "is_photo": false,
+        "seller": {
+            "id": 47656,
+            "name": "Mực in Viet Toner",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 126107841,
+        "timeline": {
+            "review_created_date": "2021-11-11 12:20:30",
+            "delivery_date": "2021-11-11 10:12:54",
+            "current_date": "2026-05-15 10:14:03",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

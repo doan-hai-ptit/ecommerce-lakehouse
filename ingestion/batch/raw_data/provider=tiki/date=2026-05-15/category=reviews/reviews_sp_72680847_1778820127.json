@@ -1,0 +1,1362 @@
+[
+    {
+        "id": 20087345,
+        "title": "Bình thường",
+        "content": "Đặt 1 bộ mực in phun CMYK + 1 bình Cyan nhưng chỉ nhận được Magenta + Yellow + Cyan còn Black thì không có. Đã chat riêng với nhà bán ngay từ hôm nhận hàng nhưng chẳng thấy phản hồi",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.8251634,
+        "new_score": 0.17151992,
+        "customer_id": 24674080,
+        "comment_count": 1,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1740469237,
+        "created_by": {
+            "id": 24674080,
+            "name": "Hạnh Nguyên",
+            "full_name": "Hạnh Nguyên",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-11-02 08:48:29",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1740320309,
+            "contribute_info": {
+                "id": 24674080,
+                "name": "Hạnh Nguyên",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 8,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": false,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2025-02-25 14:40:37",
+            "delivery_date": "2025-02-25 13:43:15",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19385149,
+        "title": "Rất không hài lòng",
+        "content": "Hàng giao bị mực đổ, nhắn tin đổi hàng mà không thấy bất kỳ hồi âm. Đề nghị Tiki nên bảo vệ người tiêu dùng. Lúc mới nhận, thì hộp đen đã bị đổ ra hết 1/3 hủ! Quá xá bất mãn",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 44.44444444,
+        "new_score": 0.17069994,
+        "customer_id": 11417928,
+        "comment_count": 0,
+        "rating": 1,
+        "images": [
+            {
+                "id": 4254297,
+                "full_path": "https://salt.tikicdn.com/ts/review/83/9e/86/eb1a8599ab891c87cce2e5a93ff3a459.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4254298,
+                "full_path": "https://salt.tikicdn.com/ts/review/d3/5c/9e/57df07bb009ebb3ed6c4b2bee374e47c.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4254299,
+                "full_path": "https://salt.tikicdn.com/ts/review/09/0d/47/da7eecd9dd55bcced3f3c344e03ef805.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1689555301,
+        "created_by": {
+            "id": 11417928,
+            "name": "Huong Vo",
+            "full_name": "Huong Vo",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-03-21 00:09:34",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1688860647,
+            "contribute_info": {
+                "id": 11417928,
+                "name": "Huong Vo",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": true,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2023-07-17 07:55:01",
+            "delivery_date": "2023-07-10 19:07:19",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩu thả"
+            }
+        ]
+    },
+    {
+        "id": 20096644,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng chính hãng, ủng hộ shop",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.16224892,
+        "customer_id": 20328978,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4400019,
+                "full_path": "https://salt.tikicdn.com/ts/review/e7/ed/29/b1cb6ffed31e2f3ee2cd1626d2b71c79.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1742026985,
+        "created_by": {
+            "id": 20328978,
+            "name": "Thân Trần",
+            "full_name": "Thân Trần",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/9e/a5/4b/4d98ab624116bb1e244725a305aa19a1.png",
+            "created_time": "2021-02-16 18:55:23",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1741761227,
+            "contribute_info": {
+                "id": 20328978,
+                "name": "Thân Trần",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/9e/a5/4b/4d98ab624116bb1e244725a305aa19a1.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 27,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": true,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2025-03-15 15:23:05",
+            "delivery_date": "2025-03-14 15:47:05",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20050066,
+        "title": "Hài lòng",
+        "content": "Hàng đúng mô tả, giao nhanh.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.16055897,
+        "customer_id": 23336809,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [
+            {
+                "id": 4391275,
+                "full_path": "https://salt.tikicdn.com/ts/review/76/7a/2c/87089d57f9dde9600fb53f567b7d5abc.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1734341151,
+        "created_by": {
+            "id": 23336809,
+            "name": "Nhung Nguyễn",
+            "full_name": "Nhung Nguyễn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-08-31 13:14:48",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1734100331,
+            "contribute_info": {
+                "id": 23336809,
+                "name": "Nhung Nguyễn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 24,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": true,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2024-12-16 16:25:51",
+            "delivery_date": "2024-12-16 16:17:58",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 8 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20097651,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15695096,
+        "customer_id": 5507697,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1742194459,
+        "created_by": {
+            "id": 5507697,
+            "name": "Thanh Nhã",
+            "full_name": "Thanh Nhã",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/8b/89/ec/515127bf7d5f9c833c9724666c0d8e5f.png",
+            "created_time": "2017-07-25 11:25:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1741412602,
+            "contribute_info": {
+                "id": 5507697,
+                "name": "Thanh Nhã",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/8b/89/ec/515127bf7d5f9c833c9724666c0d8e5f.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 45,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": false,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2025-03-17 13:54:19",
+            "delivery_date": "2025-03-11 10:07:49",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 6 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20095898,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15688486,
+        "customer_id": 17163571,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1741881488,
+        "created_by": {
+            "id": 17163571,
+            "name": "Nguyễn T Huân",
+            "full_name": "Nguyễn T Huân",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-04-18 21:06:06",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1741493236,
+            "contribute_info": {
+                "id": 17163571,
+                "name": "Nguyễn T Huân",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 121,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": false,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2025-03-13 22:58:08",
+            "delivery_date": "2025-03-12 15:54:27",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19911933,
+        "title": "Rất không hài lòng",
+        "content": "Con *** bán hàng bóc seal rồi, còn từ 2022\r\n*** mẹ mày đi",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 18.7037037,
+        "new_score": 0.15686927,
+        "customer_id": 11682008,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1719396684,
+        "created_by": {
+            "id": 11682008,
+            "name": "nguyen tung",
+            "full_name": "nguyen tung",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-04-09 22:50:45",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1718906677,
+            "contribute_info": {
+                "id": 11682008,
+                "name": "nguyen tung",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 72,
+                    "total_thank": 79
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": false,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2024-06-26 17:11:24",
+            "delivery_date": "2024-06-26 17:07:50",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 4 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19878735,
+        "title": "Cực kì hài lòng",
+        "content": "Đóng gói kỷ, mực có dán tem chính hãng, giao hàng nhanh, giá tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15673188,
+        "customer_id": 10432168,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1716220956,
+        "created_by": {
+            "id": 10432168,
+            "name": "Đinh Thị Kim Phượng",
+            "full_name": "Đinh Thị Kim Phượng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-01-18 15:07:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1715952132,
+            "contribute_info": {
+                "id": 10432168,
+                "name": "Đinh Thị Kim Phượng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 49,
+                    "total_thank": 7
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": false,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2024-05-20 23:02:36",
+            "delivery_date": "2024-05-19 10:41:13",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16900734,
+        "title": "Hài lòng",
+        "content": "Mặc dù đóng gói kỹ đẹp, nhưng khi mở ra thì chảy như hình. Thay mực chảy vậy cảm thấy hơi hụt hẫng xíu. huhu là do em x.ui thôi.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.15588311,
+        "customer_id": 1667585,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [
+            {
+                "id": 3642185,
+                "full_path": "https://salt.tikicdn.com/ts/review/4b/65/84/78349e564a39eb51a5011ee8588acfdc.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3642186,
+                "full_path": "https://salt.tikicdn.com/ts/review/b1/c9/1b/12c63ddcecbe5a05ba52fe3e03533641.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1656648247,
+        "created_by": {
+            "id": 1667585,
+            "name": "Nguyễn Thanh Hiển",
+            "full_name": "Nguyễn Thanh Hiển",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-09-05 00:31:55",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1656476895,
+            "contribute_info": {
+                "id": 1667585,
+                "name": "Nguyễn Thanh Hiển",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 14,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": true,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2022-07-01 11:04:07",
+            "delivery_date": "2022-06-30 10:38:23",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20060911,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1556548,
+        "customer_id": 1959381,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1736057507,
+        "created_by": {
+            "id": 1959381,
+            "name": "Trương Anh Tuấn",
+            "full_name": "Trương Anh Tuấn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-12-08 05:01:14",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1732871121,
+            "contribute_info": {
+                "id": 1959381,
+                "name": "Trương Anh Tuấn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 14,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": false,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2025-01-05 13:11:47",
+            "delivery_date": "2024-12-01 13:10:51",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19837208,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15371359,
+        "customer_id": 9932375,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4350174,
+                "full_path": "https://salt.tikicdn.com/ts/review/7b/56/86/6bdd11dfc4b57cd839fbf9eacaff4589.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1712662258,
+        "created_by": {
+            "id": 9932375,
+            "name": "Tracy Vo",
+            "full_name": "Tracy Vo",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1987780644624844&height=200&width=200&ext=1547905772&hash=AeSan-XIh33oTr1J",
+            "created_time": "2018-12-20 20:50:48",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1709092166,
+            "contribute_info": {
+                "id": 9932375,
+                "name": "Tracy Vo",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1987780644624844&height=200&width=200&ext=1547905772&hash=AeSan-XIh33oTr1J",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 61,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": true,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2024-04-09 18:30:58",
+            "delivery_date": "2024-03-01 14:20:22",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 8583697,
+        "title": "Cực kì hài lòng",
+        "content": "Đợt mình mua được giảm giá 50k, lại được miễn phí ship, Tiki giao hàng cũng nhanh, mặc dù mình chưa sử dụng nhưng là hàng chính hãng của Brother, hạn sử dụng cũng xa nên sẽ cho 5 sao ??",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 15.55555556,
+        "new_score": 0.15191767,
+        "customer_id": 5934625,
+        "comment_count": 3,
+        "rating": 5,
+        "images": [
+            {
+                "id": 1730409,
+                "full_path": "https://salt.tikicdn.com/ts/review/5f/8c/35/f5847ac3729522f1c26f059014757cda.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 1730410,
+                "full_path": "https://salt.tikicdn.com/ts/review/fc/e8/68/d9c300d0e2ad4016c1f4c46aa0bf18df.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1616408914,
+        "created_by": {
+            "id": 5934625,
+            "name": "Nguyễn Thu",
+            "full_name": "Nguyễn Thu",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-10-16 10:10:15",
+            "purchased": true,
+            "purchased_at": 1616048642,
+            "contribute_info": {
+                "id": 5934625,
+                "name": "Nguyễn Thu",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 13,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": true,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2021-03-22 17:28:34",
+            "delivery_date": "2021-03-20 12:40:09",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19869171,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15127826,
+        "customer_id": 8221679,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1715335804,
+        "created_by": {
+            "id": 8221679,
+            "name": "Mr Colins",
+            "full_name": "Mr Colins",
+            "region": null,
+            "avatar_url": "https://lh6.googleusercontent.com/-0jOHknG6KTA/AAAAAAAAAAI/AAAAAAAAAAA/AAN31DWyDdW52kRllgiKWVT01syNYBEFqA/mo/photo.jpg",
+            "created_time": "2018-10-03 19:43:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1699751427,
+            "contribute_info": {
+                "id": 8221679,
+                "name": "Mr Colins",
+                "avatar": "https://lh6.googleusercontent.com/-0jOHknG6KTA/AAAAAAAAAAI/AAAAAAAAAAA/AAN31DWyDdW52kRllgiKWVT01syNYBEFqA/mo/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 167,
+                    "total_thank": 23
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": false,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2024-05-10 17:10:04",
+            "delivery_date": "2023-11-14 08:52:20",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 1 năm",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 năm."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19805022,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.02423806,
+        "new_score": 0.15023619,
+        "customer_id": 12643575,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1710344232,
+        "created_by": {
+            "id": 12643575,
+            "name": "Trần Ngộ Tịnh",
+            "full_name": "Trần Ngộ Tịnh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-06-25 16:45:13",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1718028385,
+            "contribute_info": {
+                "id": 12643575,
+                "name": "Trần Ngộ Tịnh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 8,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": false,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2024-03-13 22:37:12",
+            "delivery_date": "2024-02-03 14:13:53",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18820952,
+        "title": "Cực kì hài lòng",
+        "content": "Shop giao hàng nhanh, đóng gói sản phẩm rất đẹp",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15010791,
+        "customer_id": 11093736,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4121871,
+                "full_path": "https://salt.tikicdn.com/ts/review/a2/8d/c7/4316935bb5b96b3bde2562ed7e7a1833.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1676651472,
+        "created_by": {
+            "id": 11093736,
+            "name": "Trịnh Quyên",
+            "full_name": "Trịnh Quyên",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-03-01 10:27:16",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1676465491,
+            "contribute_info": {
+                "id": 11093736,
+                "name": "Trịnh Quyên",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 8,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": true,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2023-02-17 23:31:12",
+            "delivery_date": "2023-02-17 13:43:37",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 10 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 10 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18309582,
+        "title": "Cực kì hài lòng",
+        "content": "Đóng gói chắc chắn, sản phẩm đúng theo mẫu đặt hàng, đã sử dụng tốt. Cảm ơn shop nhé!",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14936794,
+        "customer_id": 14189091,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1669675794,
+        "created_by": {
+            "id": 14189091,
+            "name": "Phan Khac Lang",
+            "full_name": "Phan Khac Lang",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=10205952401606597&height=200&width=200&ext=1572139484&hash=AeSeufynoSt18GTZ",
+            "created_time": "2019-09-27 08:25:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1669367762,
+            "contribute_info": {
+                "id": 14189091,
+                "name": "Phan Khac Lang",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=10205952401606597&height=200&width=200&ext=1572139484&hash=AeSeufynoSt18GTZ",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": false,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2022-11-29 05:49:54",
+            "delivery_date": "2022-11-27 19:16:19",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19236689,
+        "title": "Cực kì hài lòng",
+        "content": "Mực in dẹp, giao hàng đầy đủ  đóng gói cẩn thận",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.00603995,
+        "new_score": 0.14926639,
+        "customer_id": 22233419,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1685235353,
+        "created_by": {
+            "id": 22233419,
+            "name": "Ngô Thị Tuyết Nhung",
+            "full_name": "Ngô Thị Tuyết Nhung",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-06-18 11:07:47",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1677631685,
+            "contribute_info": {
+                "id": 22233419,
+                "name": "Ngô Thị Tuyết Nhung",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 9,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": false,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2023-05-28 07:55:53",
+            "delivery_date": "2023-03-02 11:36:26",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19712368,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14898225,
+        "customer_id": 15780518,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1704464816,
+        "created_by": {
+            "id": 15780518,
+            "name": "Lê Tiến Quốc ",
+            "full_name": "Lê Tiến Quốc ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-01-01 23:49:42",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1697178379,
+            "contribute_info": {
+                "id": 15780518,
+                "name": "Lê Tiến Quốc ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 196,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": false,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2024-01-05 21:26:56",
+            "delivery_date": "2023-10-15 15:25:31",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19693435,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.01322128,
+        "new_score": 0.14876977,
+        "customer_id": 11710020,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1703401126,
+        "created_by": {
+            "id": 11710020,
+            "name": "Lý Phương Hiền",
+            "full_name": "Lý Phương Hiền",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2697544000259808&height=200&width=200&ext=1557646167&hash=AeSQGcaWBbn637ZG",
+            "created_time": "2019-04-12 14:29:48",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1702697518,
+            "contribute_info": {
+                "id": 11710020,
+                "name": "Lý Phương Hiền",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2697544000259808&height=200&width=200&ext=1557646167&hash=AeSQGcaWBbn637ZG",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 63,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Vi Tính Chí Cường"
+        ],
+        "product_attributes": [],
+        "spid": 193619749,
+        "is_photo": false,
+        "seller": {
+            "id": 3103,
+            "name": "Vi Tính Chí Cường",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4c/19/8d/8cdb859377060f1871ad8c0ce677ad65.jpg"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2023-12-24 13:58:46",
+            "delivery_date": "2023-12-20 19:04:06",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 4 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18333071,
+        "title": "Cực kì hài lòng",
+        "content": "Rất tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.14842909,
+        "customer_id": 470049,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4023182,
+                "full_path": "https://salt.tikicdn.com/ts/review/c0/81/59/3c14ee2636883eb8af49ba8677047e4f.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4023183,
+                "full_path": "https://salt.tikicdn.com/ts/review/7e/ac/78/42c59647cd63f4caa2be41c3c148c9bc.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1669965317,
+        "created_by": {
+            "id": 470049,
+            "name": "PHAN KAT",
+            "full_name": "PHAN KAT",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2014-11-05 15:11:33",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1669687975,
+            "contribute_info": {
+                "id": 470049,
+                "name": "PHAN KAT",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 12 năm",
+                    "total_review": 42,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Brother Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 72680848,
+        "is_photo": true,
+        "seller": {
+            "id": 149312,
+            "name": "Brother Official Store",
+            "logo": "05/67/ad/a07e073a1bc008ddec29e854f953ef4c.png"
+        },
+        "product_id": 72680847,
+        "timeline": {
+            "review_created_date": "2022-12-02 14:15:17",
+            "delivery_date": "2022-11-30 21:19:59",
+            "current_date": "2026-05-15 11:44:52",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

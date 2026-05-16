@@ -1,0 +1,456 @@
+[
+    {
+        "id": 12811928,
+        "title": "Bình thường",
+        "content": "không đúng mẫu đăng trong ảnh",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.001662,
+        "new_score": 0.13686327,
+        "customer_id": 13538764,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1635090242,
+        "created_by": {
+            "id": 13538764,
+            "name": "Lê Võ",
+            "full_name": "Lê Võ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-08-19 06:41:48",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1634925830,
+            "contribute_info": {
+                "id": 13538764,
+                "name": "Lê Võ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "MÀU ĐEN"
+        ],
+        "product_attributes": [
+            "MÀU: ĐEN"
+        ],
+        "spid": 13429712,
+        "is_photo": false,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 278514919,
+        "timeline": {
+            "review_created_date": "2021-10-24 22:44:02",
+            "delivery_date": "2021-10-24 14:14:54",
+            "current_date": "2026-05-15 09:36:15",
+            "content": "Đã dùng 8 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 10662122,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00183488,
+        "new_score": 0.13512069,
+        "customer_id": 1498404,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 2317379,
+                "full_path": "https://salt.tikicdn.com/ts/review/57/64/f3/5975b44885a7f9ad43f756466a403076.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1624630052,
+        "created_by": {
+            "id": 1498404,
+            "name": "Thanh Thien Nguyen",
+            "full_name": "Thanh Thien Nguyen",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-07-11 06:16:08",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1624516943,
+            "contribute_info": {
+                "id": 1498404,
+                "name": "Thanh Thien Nguyen",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 64,
+                    "total_thank": 51
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "MÀU ĐEN"
+        ],
+        "product_attributes": [
+            "MÀU: ĐEN"
+        ],
+        "spid": 13429712,
+        "is_photo": true,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 278514919,
+        "timeline": {
+            "review_created_date": "2021-06-25 21:07:32",
+            "delivery_date": "2021-06-25 12:23:04",
+            "current_date": "2026-05-15 09:36:15",
+            "content": "Đã dùng 9 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 9986935,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00149992,
+        "new_score": 0.13158385,
+        "customer_id": 394112,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1622088294,
+        "created_by": {
+            "id": 394112,
+            "name": "Vu Ha",
+            "full_name": "Vu Ha",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2014-08-12 09:21:56",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1620866921,
+            "contribute_info": {
+                "id": 394112,
+                "name": "Vu Ha",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 12 năm",
+                    "total_review": 15,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "MÀU ĐEN"
+        ],
+        "product_attributes": [
+            "MÀU: ĐEN"
+        ],
+        "spid": 13429712,
+        "is_photo": false,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 278514919,
+        "timeline": {
+            "review_created_date": "2021-05-27 11:04:54",
+            "delivery_date": "2021-05-14 11:03:42",
+            "current_date": "2026-05-15 09:36:15",
+            "content": "Đã dùng 13 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 13 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 9491283,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00147809,
+        "new_score": 0.13116764,
+        "customer_id": 242557,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1620117625,
+        "created_by": {
+            "id": 242557,
+            "name": "lan_vitghe lan_vitghe",
+            "full_name": "lan_vitghe lan_vitghe",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2013-12-04 17:07:57",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1613706544,
+            "contribute_info": {
+                "id": 242557,
+                "name": "lan_vitghe lan_vitghe",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 30,
+                    "total_thank": 8
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "MÀU ĐEN"
+        ],
+        "product_attributes": [
+            "MÀU: ĐEN"
+        ],
+        "spid": 13429712,
+        "is_photo": false,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 278514919,
+        "timeline": {
+            "review_created_date": "2021-05-04 15:40:25",
+            "delivery_date": "2021-02-23 14:15:34",
+            "current_date": "2026-05-15 09:36:15",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 8508986,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00143573,
+        "new_score": 0.13032489,
+        "customer_id": 19073846,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1616127451,
+        "created_by": {
+            "id": 19073846,
+            "name": "Hoàng Văn Thịnh",
+            "full_name": "Hoàng Văn Thịnh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-11-05 00:00:30",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1611756263,
+            "contribute_info": {
+                "id": 19073846,
+                "name": "Hoàng Văn Thịnh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 3,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "MÀU ĐEN"
+        ],
+        "product_attributes": [
+            "MÀU: ĐEN"
+        ],
+        "spid": 13429712,
+        "is_photo": false,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 278514919,
+        "timeline": {
+            "review_created_date": "2021-03-19 11:17:31",
+            "delivery_date": "2021-02-01 17:38:12",
+            "current_date": "2026-05-15 09:36:15",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 7080943,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00138529,
+        "new_score": 0.12925293,
+        "customer_id": 15717918,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1611052043,
+        "created_by": {
+            "id": 15717918,
+            "name": "Phạm Văn Thành",
+            "full_name": "Phạm Văn Thành",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-12-29 01:31:09",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1608517593,
+            "contribute_info": {
+                "id": 15717918,
+                "name": "Phạm Văn Thành",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "MÀU ĐEN"
+        ],
+        "product_attributes": [
+            "MÀU: ĐEN"
+        ],
+        "spid": 13429712,
+        "is_photo": false,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 278514919,
+        "timeline": {
+            "review_created_date": "2021-01-19 17:27:23",
+            "delivery_date": "2020-12-24 18:39:00",
+            "current_date": "2026-05-15 09:36:15",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 3520744,
+        "title": "Hài lòng",
+        "content": "sản phẩm ok, đúng như hình",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00119988,
+        "new_score": 0.12680817,
+        "customer_id": 11480526,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1588744749,
+        "created_by": {
+            "id": 11480526,
+            "name": "Phạm Vi Phuong",
+            "full_name": "Phạm Vi Phuong",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-03-25 10:13:44",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1588336584,
+            "contribute_info": {
+                "id": 11480526,
+                "name": "Phạm Vi Phuong",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 52,
+                    "total_thank": 15
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "MÀU ĐEN"
+        ],
+        "product_attributes": [
+            "MÀU: ĐEN"
+        ],
+        "spid": 13429712,
+        "is_photo": false,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 278514919,
+        "timeline": {
+            "review_created_date": "2020-05-06 12:59:09",
+            "delivery_date": "2020-05-03 14:44:16",
+            "current_date": "2026-05-15 09:36:15",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

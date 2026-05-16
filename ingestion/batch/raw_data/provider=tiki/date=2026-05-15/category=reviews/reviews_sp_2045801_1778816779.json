@@ -1,0 +1,1400 @@
+[
+    {
+        "id": 20160937,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15980191,
+        "customer_id": 14999642,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1755692883,
+        "created_by": {
+            "id": 14999642,
+            "name": "Nguyễn Trí Thông",
+            "full_name": "Nguyễn Trí Thông",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-11-17 10:18:50",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1744383187,
+            "contribute_info": {
+                "id": 14999642,
+                "name": "Nguyễn Trí Thông",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 21,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 14046897,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2025-08-20 19:28:03",
+            "delivery_date": "2025-04-13 14:17:30",
+            "current_date": "2026-05-15 10:49:56",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20087959,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15660606,
+        "customer_id": 29045965,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1740561446,
+        "created_by": {
+            "id": 29045965,
+            "name": "ĐINH TUẤN ANH",
+            "full_name": "ĐINH TUẤN ANH",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2023-04-15 14:39:56",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1739535993,
+            "contribute_info": {
+                "id": 29045965,
+                "name": "ĐINH TUẤN ANH",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 3 năm",
+                    "total_review": 6,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 134594076,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2025-02-26 16:17:26",
+            "delivery_date": "2025-02-18 19:39:26",
+            "current_date": "2026-05-15 10:49:56",
+            "content": "Đã dùng 8 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "chất liệu chắc chắn",
+                "Dễ lắp đặt",
+                "Kết nối ổn định",
+                "Nhỏ gọn"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19945631,
+        "title": "Cực kì hài lòng",
+        "content": "Đã mua hàng rất nhiều lần.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15519621,
+        "customer_id": 6953088,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1722838527,
+        "created_by": {
+            "id": 6953088,
+            "name": "Đoàn Nguyễn Trọng Ân",
+            "full_name": "Đoàn Nguyễn Trọng Ân",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/256x256/ts/avatar/39/f2/11/c5c6b393dd0575ae4948721f37c2882a.png",
+            "created_time": "2018-04-18 06:18:03",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1721961924,
+            "contribute_info": {
+                "id": 6953088,
+                "name": "Đoàn Nguyễn Trọng Ân",
+                "avatar": "https://salt.tikicdn.com/cache/256x256/ts/avatar/39/f2/11/c5c6b393dd0575ae4948721f37c2882a.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 267,
+                    "total_thank": 58
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 14046897,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2024-08-05 13:15:27",
+            "delivery_date": "2024-07-29 14:28:45",
+            "current_date": "2026-05-15 10:49:56",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 2076974,
+        "title": "Giao hàng nhanh",
+        "content": "Mới đặt từ trưa hôm qua đã nhận hàng lúc 16h chiều hôm nay. Chất lượng tốt, gia công kỹ, bọc sắt quang đầu cắm mạng chống nhiễu. Cầm nó khá nhẹ. Màu trắng rất đẹp mắt. Mình dùng dây mạng CAT6A SFPT cho khả năng tăng tốc mạng nhanh. Cảm ơn tiki hỗ trợ giao hàng nhanh, sẽ mua thêm lần sau ủng hộ tiki...",
+        "status": "approved",
+        "thank_count": 5,
+        "score": 0.00491239,
+        "new_score": 0.15514655,
+        "customer_id": 1670877,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 383656,
+                "full_path": "https://salt.tikicdn.com/ts/review/97/1e/1e/9def75387cb51089c2c8a027fbb41398.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 383657,
+                "full_path": "https://salt.tikicdn.com/ts/review/94/6f/dc/5da0842325996a9e392ad91da7ac05f1.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 383658,
+                "full_path": "https://salt.tikicdn.com/ts/review/1a/1e/a2/da8c41edf37124e49c90102e6f97f4cb.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 383659,
+                "full_path": "https://salt.tikicdn.com/ts/review/4c/e0/64/0151effc87aebed89d57a5ef8787c0b6.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 383660,
+                "full_path": "https://salt.tikicdn.com/ts/review/ee/da/64/868993ee7c18bc8a29373d536679f235.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1551865491,
+        "created_by": {
+            "id": 1670877,
+            "name": "Binh",
+            "full_name": "Binh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-09-06 08:17:40",
+            "purchased": true,
+            "purchased_at": 1552382173,
+            "contribute_info": {
+                "id": 1670877,
+                "name": "Binh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 55,
+                    "total_thank": 179
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading",
+            "Màu Trắng"
+        ],
+        "product_attributes": [
+            "Màu: Trắng"
+        ],
+        "spid": 2052343,
+        "is_photo": true,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+        },
+        "product_id": 2045801,
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20009003,
+        "title": "Cực kì hài lòng",
+        "content": "Ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15434182,
+        "customer_id": 17208301,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1729209596,
+        "created_by": {
+            "id": 17208301,
+            "name": "Lê Văn Hội",
+            "full_name": "Lê Văn Hội",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-04-24 06:53:39",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1718288237,
+            "contribute_info": {
+                "id": 17208301,
+                "name": "Lê Văn Hội",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 12,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán ugreenonline",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 51197251,
+        "is_photo": false,
+        "seller": {
+            "id": 14813,
+            "name": "ugreenonline",
+            "logo": "47/25/d5/b410d86b2a8804c7ffd79472d25a2d64.png"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2024-10-18 06:59:56",
+            "delivery_date": "2024-06-15 14:00:07",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "chất liệu chắc chắn",
+                "Dễ lắp đặt",
+                "Nhỏ gọn"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19971750,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15342998,
+        "customer_id": 18766751,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1725523605,
+        "created_by": {
+            "id": 18766751,
+            "name": "Thái Thanh Trần",
+            "full_name": "Thái Thanh Trần",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-10-10 12:02:59",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1725213796,
+            "contribute_info": {
+                "id": 18766751,
+                "name": "Thái Thanh Trần",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 41,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 14046897,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2024-09-05 15:06:45",
+            "delivery_date": "2024-09-05 13:51:28",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19970587,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15340731,
+        "customer_id": 721433,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1725416271,
+        "created_by": {
+            "id": 721433,
+            "name": "Như Phong",
+            "full_name": "Như Phong",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/256x256/ts/avatar/51/18/b9/299120925effc2960dcf06f4125bbdda.jpg",
+            "created_time": "2015-07-26 11:21:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1712817726,
+            "contribute_info": {
+                "id": 721433,
+                "name": "Như Phong",
+                "avatar": "https://salt.tikicdn.com/cache/256x256/ts/avatar/51/18/b9/299120925effc2960dcf06f4125bbdda.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 40,
+                    "total_thank": 10
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 134594076,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2024-09-04 09:17:51",
+            "delivery_date": "2024-04-12 20:14:46",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "chất liệu chắc chắn",
+                "Dễ lắp đặt",
+                "Nhỏ gọn"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 12859618,
+        "title": "Cực kì hài lòng",
+        "content": "Sản phẩm tốt, đúng là hàng chính hãng Ugreen. \nRất hài lòng về sản phẩm này, giao hàng rất nhanh, tiki bán hàng làm mình rất tin tưởng.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.15171129,
+        "customer_id": 7559456,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 2661034,
+                "full_path": "https://salt.tikicdn.com/ts/review/5d/9f/ba/2f84d2d1193a6806698947ee4fd92a31.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2661035,
+                "full_path": "https://salt.tikicdn.com/ts/review/85/39/5f/73958b964d8bd8b23460a82344bb9cef.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1635317587,
+        "created_by": {
+            "id": 7559456,
+            "name": "Nam Hưng Nguyễn",
+            "full_name": "Nam Hưng Nguyễn",
+            "region": null,
+            "avatar_url": "https://lh4.googleusercontent.com/-yjSaTk-2IYc/AAAAAAAAAAI/AAAAAAAAAAA/nQmFeL_QZk8/photo.jpg",
+            "created_time": "2018-07-31 13:07:52",
+            "purchased": true,
+            "purchased_at": 1634887081,
+            "contribute_info": {
+                "id": 7559456,
+                "name": "Nguyễn Nam Hưng",
+                "avatar": "https://lh4.googleusercontent.com/-yjSaTk-2IYc/AAAAAAAAAAI/AAAAAAAAAAA/nQmFeL_QZk8/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 32,
+                    "total_thank": 42
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading",
+            "Màu Trắng"
+        ],
+        "product_attributes": [
+            "Màu: Trắng"
+        ],
+        "spid": 2052343,
+        "is_photo": true,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2021-10-27 13:53:07",
+            "delivery_date": "2021-10-27 11:39:18",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19836004,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15069327,
+        "customer_id": 7885396,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1712566018,
+        "created_by": {
+            "id": 7885396,
+            "name": "Np thang",
+            "full_name": "Np thang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-09-01 11:04:55",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1709875217,
+            "contribute_info": {
+                "id": 7885396,
+                "name": "Np thang",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 170,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 14046897,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2024-04-08 15:46:58",
+            "delivery_date": "2024-03-11 13:44:14",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19656431,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14815672,
+        "customer_id": 28534439,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1700556185,
+        "created_by": {
+            "id": 28534439,
+            "name": "Tuan Phan",
+            "full_name": "Tuan Phan",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-11-30 14:47:30",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1700361575,
+            "contribute_info": {
+                "id": 28534439,
+                "name": "Tuan Phan",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 12,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 14046897,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-11-21 15:43:05",
+            "delivery_date": "2023-11-21 14:34:35",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19641684,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14797846,
+        "customer_id": 12978978,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1699712192,
+        "created_by": {
+            "id": 12978978,
+            "name": "Nguyễn Tường Anh",
+            "full_name": "Nguyễn Tường Anh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-07-19 10:16:25",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1698064693,
+            "contribute_info": {
+                "id": 12978978,
+                "name": "Nguyễn Tường Anh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 206,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 14046897,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-11-11 21:16:32",
+            "delivery_date": "2023-10-25 13:48:24",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19634997,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14791675,
+        "customer_id": 1959309,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1699420017,
+        "created_by": {
+            "id": 1959309,
+            "name": "Long Chang",
+            "full_name": "Long Chang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-12-08 00:56:19",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1699209635,
+            "contribute_info": {
+                "id": 1959309,
+                "name": "Long Chang",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 30,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 14046897,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-11-08 12:06:57",
+            "delivery_date": "2023-11-08 11:47:24",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 20 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 20 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19199649,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.14770603,
+        "customer_id": 5423525,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4212367,
+                "full_path": "https://salt.tikicdn.com/ts/review/5e/15/9c/54718be896078654d2cbcd09f26c4015.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1684218149,
+        "created_by": {
+            "id": 5423525,
+            "name": "Nguyễn Đặng Thức",
+            "full_name": "Nguyễn Đặng Thức",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/9d/89/07/cc68193816a46369418abb38be423cc2.png",
+            "created_time": "2017-07-01 07:51:49",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1669121370,
+            "contribute_info": {
+                "id": 5423525,
+                "name": "Nguyễn Đặng Thức",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/9d/89/07/cc68193816a46369418abb38be423cc2.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 134594076,
+        "is_photo": true,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-05-16 13:22:29",
+            "delivery_date": "2022-11-25 15:26:41",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 1 năm",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 năm."
+        },
+        "vote_attributes": {
+            "agree": [
+                "chất liệu chắc chắn",
+                "Dễ lắp đặt",
+                "Kết nối ổn định",
+                "Nhỏ gọn"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19593315,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14749968,
+        "customer_id": 11765613,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1697445287,
+        "created_by": {
+            "id": 11765613,
+            "name": "Lương Anh Thế",
+            "full_name": "Lương Anh Thế",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-04-17 20:01:06",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1696492842,
+            "contribute_info": {
+                "id": 11765613,
+                "name": "Lương Anh Thế",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 14046897,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-10-16 15:34:47",
+            "delivery_date": "2023-10-08 09:42:06",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 8 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "chất liệu chắc chắn",
+                "Dễ lắp đặt",
+                "Kết nối ổn định",
+                "Nhỏ gọn"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19585327,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14742727,
+        "customer_id": 7543111,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1697102440,
+        "created_by": {
+            "id": 7543111,
+            "name": "tv hoa",
+            "full_name": "tv hoa",
+            "region": null,
+            "avatar_url": "https://lh6.googleusercontent.com/-7wJb4xHIu90/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7ozgkOq_st8dJ_At_kN9cdho92ycg/mo/photo.jpg",
+            "created_time": "2018-07-28 10:53:48",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1691548049,
+            "contribute_info": {
+                "id": 7543111,
+                "name": "tv hoa",
+                "avatar": "https://lh6.googleusercontent.com/-7wJb4xHIu90/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7ozgkOq_st8dJ_At_kN9cdho92ycg/mo/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 60,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 14046897,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-10-12 16:20:40",
+            "delivery_date": "2023-08-12 11:01:43",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19556142,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14716542,
+        "customer_id": 9268240,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1695862678,
+        "created_by": {
+            "id": 9268240,
+            "name": "Ng kim Hoàng",
+            "full_name": "Ng kim Hoàng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-11-26 11:48:38",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1695361032,
+            "contribute_info": {
+                "id": 9268240,
+                "name": "Ng kim Hoàng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 18,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 134594076,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-09-28 07:57:58",
+            "delivery_date": "2023-09-25 14:38:09",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16558877,
+        "title": "Rất không hài lòng",
+        "content": "*** đảo à? Đặt màu đen thì giao hàng màu trắng, lại còn thu giá cao hơn. Mọi người cẩn thận nhé",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.14062935,
+        "new_score": 0.14678339,
+        "customer_id": 1737268,
+        "comment_count": 0,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1654224619,
+        "created_by": {
+            "id": 1737268,
+            "name": "Nes Hilar",
+            "full_name": "Nes Hilar",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-09-29 17:30:50",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1654503701,
+            "contribute_info": {
+                "id": 1737268,
+                "name": "Nes Hilar",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 2,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán KIM SƠN TECH",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 58301812,
+        "is_photo": false,
+        "seller": {
+            "id": 15671,
+            "name": "KIM SƠN TECH",
+            "logo": "1e/39/bf/30ad0af98a51a8f3a89b352cc8536c1a.png"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2022-06-03 09:50:19",
+            "delivery_date": "2022-06-02 09:56:16",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19474082,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14647261,
+        "customer_id": 1415268,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1692582375,
+        "created_by": {
+            "id": 1415268,
+            "name": "Binh Nguyen",
+            "full_name": "Binh Nguyen",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-06-06 22:25:52",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1678903866,
+            "contribute_info": {
+                "id": 1415268,
+                "name": "Binh Nguyen",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 15,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 134594076,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-08-21 08:46:15",
+            "delivery_date": "2023-03-18 14:34:54",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "chất liệu chắc chắn",
+                "Dễ lắp đặt",
+                "Kết nối ổn định",
+                "Nhỏ gọn"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19321419,
+        "title": "Cực kì hài lòng",
+        "content": "sản phẩm ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14641496,
+        "customer_id": 18812637,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1687574698,
+        "created_by": {
+            "id": 18812637,
+            "name": "Quang Duy",
+            "full_name": "Quang Duy",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/48/0b/ba/851656e28e78c4bccda232ab1ba1f5ac.jpg",
+            "created_time": "2020-10-12 13:06:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1684896178,
+            "contribute_info": {
+                "id": 18812637,
+                "name": "Quang Duy",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/48/0b/ba/851656e28e78c4bccda232ab1ba1f5ac.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 18,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Máy Tính Bảo Minh",
+            "Màu Đen"
+        ],
+        "product_attributes": [
+            "Màu: Đen"
+        ],
+        "spid": 134594076,
+        "is_photo": false,
+        "seller": {
+            "id": 65781,
+            "name": "Máy Tính Bảo Minh",
+            "logo": "2d/15/85/691a456bdcf89a4b09eb960a168acaaf.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-06-24 09:44:58",
+            "delivery_date": "2023-05-26 07:16:35",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "chất liệu chắc chắn",
+                "Dễ lắp đặt",
+                "Kết nối ổn định",
+                "Nhỏ gọn"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19395617,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14589789,
+        "customer_id": 26529341,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1689861271,
+        "created_by": {
+            "id": 26529341,
+            "name": "Nguyễn Phạm Châu",
+            "full_name": "Nguyễn Phạm Châu",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-01-15 13:36:50",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1689429070,
+            "contribute_info": {
+                "id": 26529341,
+                "name": "Nguyễn Phạm Châu",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 40,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu Trắng"
+        ],
+        "product_attributes": [
+            "Màu: Trắng"
+        ],
+        "spid": 38238938,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 2045801,
+        "timeline": {
+            "review_created_date": "2023-07-20 20:54:31",
+            "delivery_date": "2023-07-19 15:11:26",
+            "current_date": "2026-05-15 10:49:57",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

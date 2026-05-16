@@ -1,0 +1,63 @@
+[
+    {
+        "id": 20124859,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15807085,
+        "customer_id": 8021755,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1747496793,
+        "created_by": {
+            "id": 8021755,
+            "name": "Quí Nguyễn",
+            "full_name": "Quí Nguyễn",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/44/59/81/15a3ec842de0446f5fb2a0dbf709ec7f.png",
+            "created_time": "2018-09-16 09:38:58",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1747208964,
+            "contribute_info": {
+                "id": 8021755,
+                "name": "Quí Nguyễn",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/44/59/81/15a3ec842de0446f5fb2a0dbf709ec7f.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 58,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán AN PHAT COMPUTER"
+        ],
+        "product_attributes": [],
+        "spid": 230295280,
+        "is_photo": false,
+        "seller": {
+            "id": 30787,
+            "name": "AN PHAT COMPUTER",
+            "logo": "6e/96/79/ce7c62995c8844602cff5100e7e988f4.png"
+        },
+        "product_id": 230295279,
+        "timeline": {
+            "review_created_date": "2025-05-17 22:46:33",
+            "delivery_date": "2025-05-17 14:44:33",
+            "current_date": "2026-05-15 16:30:05",
+            "content": "Đã dùng 8 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

@@ -1,0 +1,8 @@
+selenium
+webdriver-manager
+requests
+boto3
+selenium-wire
+blinker==1.7.0
+setuptools==69.5.1
+pyOpenSSL==24.1.0

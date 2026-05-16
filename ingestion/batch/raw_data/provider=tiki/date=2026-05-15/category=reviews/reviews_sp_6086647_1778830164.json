@@ -1,0 +1,1183 @@
+[
+    {
+        "id": 20210177,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16282624,
+        "customer_id": 13958564,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1770012240,
+        "created_by": {
+            "id": 13958564,
+            "name": "Hải Nam",
+            "full_name": "Hải Nam",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/d/a/a/c/123/120/0f27e4f226225f10196e9c10dfffa563.jpg",
+            "created_time": "2019-09-11 19:55:16",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1757342407,
+            "contribute_info": {
+                "id": 13958564,
+                "name": "Hải Nam",
+                "avatar": "https://s120.avatar.talk.zdn.vn/d/a/a/c/123/120/0f27e4f226225f10196e9c10dfffa563.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Thuận Phong"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "Mực in Thuận Phong",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2026-02-02 13:04:00",
+            "delivery_date": "2025-09-11 20:19:52",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17540862,
+        "title": "Cực kì hài lòng",
+        "content": "Mình mua sài lâu rồi. Nói.chung là mực in sắc nét nên mua. Có điều lần đầu tự thay hơi khó khăn tí. Mình thậm chí đã làm hư lun 1 cụm mực in..nên mua nha cả nha",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.04091414,
+        "new_score": 0.15947574,
+        "customer_id": 5257327,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3995600,
+                "full_path": "https://salt.tikicdn.com/ts/review/e0/64/93/1df324a739146b652aed7985d396536a.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3995601,
+                "full_path": "https://salt.tikicdn.com/ts/review/5b/75/03/b61bd7872cb0370c94068219cd702cb9.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1661663731,
+        "created_by": {
+            "id": 5257327,
+            "name": "NGUYEN HONG GAM",
+            "full_name": "NGUYEN HONG GAM",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/65/48/bf/ca993bd85308f1f79893d83da3eb14dd.png",
+            "created_time": "2017-05-05 18:46:13",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1667618810,
+            "contribute_info": {
+                "id": 5257327,
+                "name": "NGUYỄN HỒNG GẤM",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/65/48/bf/ca993bd85308f1f79893d83da3eb14dd.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 92,
+                    "total_thank": 24
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in Thuận Phong"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": true,
+        "seller": {
+            "id": 2430,
+            "name": "Mực in Thuận Phong",
+            "logo": "2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2022-08-28 12:15:31",
+            "delivery_date": "2022-06-26 16:28:25",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 3170578,
+        "title": "Hài lòng",
+        "content": "Đóng gói cẩn thận, chất lượng chưa rõ vì mua dự phòng, chưa sử dụng nhưng chắc sẽ ổn.",
+        "status": "approved",
+        "thank_count": 2,
+        "score": 0.01332938,
+        "new_score": 0.14029804,
+        "customer_id": 7811124,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [
+            {
+                "id": 885689,
+                "full_path": "https://salt.tikicdn.com/ts/review/61/f1/41/cf7b9c296a942a368a21364d839f48ec.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 885690,
+                "full_path": "https://salt.tikicdn.com/ts/review/39/29/bd/ca60a487642f1b2b08fcc7d6a007c399.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 885691,
+                "full_path": "https://salt.tikicdn.com/ts/review/dc/67/80/e99f4e9603bf10f6f8166625c4fc4f8b.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1584320357,
+        "created_by": {
+            "id": 7811124,
+            "name": "Hoàng Huy Đặng",
+            "full_name": "Hoàng Huy Đặng",
+            "region": null,
+            "avatar_url": "https://lh5.googleusercontent.com/-MLvZPkrH0zc/AAAAAAAAAAI/AAAAAAAAASI/hhR4TD0TXhg/photo.jpg",
+            "purchased": true,
+            "purchased_at": 1583902512,
+            "contribute_info": {
+                "id": 7811124,
+                "name": "Hoàng Huy Đặng",
+                "avatar": "https://lh5.googleusercontent.com/-MLvZPkrH0zc/AAAAAAAAAAI/AAAAAAAAASI/hhR4TD0TXhg/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 7,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": true,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2020-03-16 07:59:17",
+            "delivery_date": "2020-03-15 09:51:49",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2131783,
+        "title": "in đẹp, báo lỗi mực sau khi thay.",
+        "content": "mực in rõ nét. Khá đẹp tuy nhiên máy báo lỗi mực sau khi thay, sau đó in được vài trang thì máy yêu cầu thay mực không in được nữa. Tiki hướng dẫn khắc phục được Không? Cảm ơn",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.00375749,
+        "new_score": 0.13255324,
+        "customer_id": 8720373,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1554337070,
+        "created_by": {
+            "id": 8720373,
+            "name": "Trần Nguyễn Hải Đăng",
+            "full_name": "Trần Nguyễn Hải Đăng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1550198320,
+            "contribute_info": {
+                "id": 8720373,
+                "name": "Trần Nguyễn Hải Đăng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 1,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2019-04-04 07:17:50",
+            "delivery_date": "2019-02-19 08:06:02",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 3759977,
+        "title": "Cực kì hài lòng",
+        "content": "mực tốt. in rõ nét. đc tặng kèm một phễu để đổ mực. rất cảm ơn.",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.01192078,
+        "new_score": 0.13117394,
+        "customer_id": 5867163,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1591681544,
+        "created_by": {
+            "id": 5867163,
+            "name": "Jung Jâu",
+            "full_name": "Jung Jâu",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/0e/58/f5/351945a0ac9ec743c6dee0059052a336.png",
+            "purchased": true,
+            "purchased_at": 1590831806,
+            "contribute_info": {
+                "id": 5867163,
+                "name": "Jung Jâu",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/0e/58/f5/351945a0ac9ec743c6dee0059052a336.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 49,
+                    "total_thank": 9
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2020-06-09 12:45:44",
+            "delivery_date": "2020-06-03 10:11:53",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 6 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 7901090,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0,
+        "new_score": 0.1298719,
+        "customer_id": 16510994,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1613982672,
+        "created_by": {
+            "id": 16510994,
+            "name": "Đào Thanh Hằng",
+            "full_name": "Đào Thanh Hằng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-02-20 17:22:32",
+            "purchased": true,
+            "purchased_at": 1612872659,
+            "contribute_info": {
+                "id": 16510994,
+                "name": "Đào Thanh Hằng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2021-02-22 15:31:12",
+            "delivery_date": "2021-02-19 11:33:50",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 3529955,
+        "title": "Rất không hài lòng",
+        "content": "tôi đã mua.nhưng một hộp được 1/3 mực.thấy cạn lời shop lun",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00684013,
+        "new_score": 0.12984396,
+        "customer_id": 13938096,
+        "comment_count": 0,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1588914222,
+        "created_by": {
+            "id": 13938096,
+            "name": "Thanh Ân",
+            "full_name": "Thanh Ân",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=736064273500926&height=200&width=200&ext=1570712621&hash=AeQ_-dFbFnyY4N1l",
+            "created_time": "2019-09-10 20:04:01",
+            "purchased": true,
+            "purchased_at": 1588432327,
+            "contribute_info": {
+                "id": 13938096,
+                "name": "Thanh Ân",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=736064273500926&height=200&width=200&ext=1570712621&hash=AeQ_-dFbFnyY4N1l",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 7229974,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 1.42450142,
+        "new_score": 0.12935808,
+        "customer_id": 15595262,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1611549892,
+        "created_by": {
+            "id": 15595262,
+            "name": "Nguyễn đình thuận",
+            "full_name": "Nguyễn đình thuận",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-12-21 13:15:14",
+            "purchased": true,
+            "purchased_at": 1610538486,
+            "contribute_info": {
+                "id": 15595262,
+                "name": "Nguyễn đình thuận",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 67,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2021-01-25 11:44:52",
+            "delivery_date": "2021-01-20 21:09:49",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 5 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 6184763,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.28482798,
+        "new_score": 0.12860325,
+        "customer_id": 11982937,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1607918385,
+        "created_by": {
+            "id": 11982937,
+            "name": "A Đồng",
+            "full_name": "A Đồng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1607407410,
+            "contribute_info": {
+                "id": 11982937,
+                "name": "A Đồng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 13,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [
+            "Đóng gói tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2020-12-14 10:59:45",
+            "delivery_date": "2020-12-13 10:50:11",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 4072301,
+        "title": "Không hài lòng",
+        "content": "Giao hàng cực kỳ chậm trể!",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 1.6503268,
+        "new_score": 0.12813492,
+        "customer_id": 6282010,
+        "comment_count": 1,
+        "rating": 2,
+        "images": [],
+        "thanked": false,
+        "created_at": 1594710878,
+        "created_by": {
+            "id": 6282010,
+            "name": "Khanh Tran",
+            "full_name": "Khanh Tran",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1584843605,
+            "contribute_info": {
+                "id": 6282010,
+                "name": "Khanh Tran",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 39,
+                    "total_thank": 11
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2020-07-14 14:14:38",
+            "delivery_date": "2020-03-25 13:09:18",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 4827851,
+        "title": "Cực kì hài lòng",
+        "content": "Mực đẹp",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.02314815,
+        "new_score": 0.12771012,
+        "customer_id": 6033929,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1599901874,
+        "created_by": {
+            "id": 6033929,
+            "name": "Trần Anh Đức",
+            "full_name": "Trần Anh Đức",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1597909842,
+            "contribute_info": {
+                "id": 6033929,
+                "name": "Trần Anh Đức",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 8,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2020-09-12 16:11:14",
+            "delivery_date": "2020-08-24 11:18:52",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2285398,
+        "title": "Mực sử dụng khá tốt, bản in đều và đậm",
+        "content": "Mình sử dụng các sản phẩm mực đổ của Thuận Phong cũng khá nhiều. Thấy khá ổn, mực đều và đậm.",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.0043106,
+        "new_score": 0.12752193,
+        "customer_id": 1605599,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1561764393,
+        "created_by": {
+            "id": 1605599,
+            "name": "Trần Bình An",
+            "full_name": "Trần Bình An",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1560590824,
+            "contribute_info": {
+                "id": 1605599,
+                "name": "Trần Bình An",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 32,
+                    "total_thank": 21
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2019-06-29 06:26:33",
+            "delivery_date": "2019-06-21 11:18:23",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 8 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 3318093,
+        "title": "Hài lòng",
+        "content": "giá cả phải chăng, chất lượng cũng dc",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.00889664,
+        "new_score": 0.12722422,
+        "customer_id": 997644,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1585922287,
+        "created_by": {
+            "id": 997644,
+            "name": " vuongthanhthuong",
+            "full_name": " vuongthanhthuong",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1584932630,
+            "contribute_info": {
+                "id": 997644,
+                "name": " vuongthanhthuong",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 70,
+                    "total_thank": 8
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2020-04-03 20:58:07",
+            "delivery_date": "2020-03-24 11:49:30",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 10 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 10 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 4596881,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.01950334,
+        "new_score": 0.12656589,
+        "customer_id": 6245640,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1598272031,
+        "created_by": {
+            "id": 6245640,
+            "name": "Trần Vũ Kim Oanh",
+            "full_name": "Trần Vũ Kim Oanh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1586231794,
+            "contribute_info": {
+                "id": 6245640,
+                "name": "Trần Vũ Kim Oanh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 23,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2020-08-24 19:27:11",
+            "delivery_date": "2020-04-12 07:40:01",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 4266551,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.01619368,
+        "new_score": 0.12611826,
+        "customer_id": 16996200,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1596152642,
+        "created_by": {
+            "id": 16996200,
+            "name": "Trần Văn Thiện",
+            "full_name": "Trần Văn Thiện",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1589455815,
+            "contribute_info": {
+                "id": 16996200,
+                "name": "Trần Văn Thiện",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 2,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2020-07-31 06:44:02",
+            "delivery_date": "2020-05-16 17:01:39",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 3184702,
+        "title": "Cực kì hài lòng",
+        "content": "San pham rat tot. Toi hai long voi sp",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.00835235,
+        "new_score": 0.12611133,
+        "customer_id": 8715008,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1584440854,
+        "created_by": {
+            "id": 8715008,
+            "name": "TRUONG NGUYEN",
+            "full_name": "TRUONG NGUYEN",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1582793118,
+            "contribute_info": {
+                "id": 8715008,
+                "name": "TRUONG NGUYEN",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 13,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2020-03-17 17:27:34",
+            "delivery_date": "2020-03-03 07:44:42",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 14 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 14 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2040926,
+        "title": "Hài lòng",
+        "content": "Đã đổ đến hộp thứ 2, máy in không bị vấn đề gì, chất lượng bản in vẫn tốt. Tuy nhiên giao hàng chậm",
+        "status": "approved",
+        "thank_count": 2,
+        "score": 0.00344625,
+        "new_score": 0.12532927,
+        "customer_id": 85067,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1549431260,
+        "created_by": {
+            "id": 85067,
+            "name": "Lê Trương Ngọc Hân",
+            "full_name": "Lê Trương Ngọc Hân",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1545135829,
+            "contribute_info": {
+                "id": 85067,
+                "name": "Lê Trương Ngọc Hân",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 14 năm",
+                    "total_review": 14,
+                    "total_thank": 9
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2019-02-06 12:34:20",
+            "delivery_date": "2018-12-25 09:37:35",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2494657,
+        "title": "Rất không hài lòng",
+        "content": "Hộp thì to đùng mà bên trong chắc được 20g mực =))))",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.01178101,
+        "new_score": 0.12506276,
+        "customer_id": 13540500,
+        "comment_count": 2,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1570064350,
+        "created_by": {
+            "id": 13540500,
+            "name": "Lê Duyên Tính",
+            "full_name": "Lê Duyên Tính",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1569120043,
+            "contribute_info": {
+                "id": 13540500,
+                "name": "Lê Duyên Tính",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 11,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán THANHLIEM"
+        ],
+        "product_attributes": [],
+        "spid": 6086649,
+        "is_photo": false,
+        "seller": {
+            "id": 2430,
+            "name": "THANHLIEM",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2f/c7/5d/0c0b609df49918737132741fc5198eca.jpg"
+        },
+        "product_id": 6086647,
+        "timeline": {
+            "review_created_date": "2019-10-03 07:59:10",
+            "delivery_date": "2019-09-24 17:20:21",
+            "current_date": "2026-05-15 14:33:44",
+            "content": "Đã dùng 9 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 2504565,
+        "title": "Thắc mắc",
+        "content": "Mực này có dùng được cho máy in brother hl-l2321d ko ạ?",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.00010467,
+        "new_score": 0.06514861,
+        "customer_id": 12737422,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1570413195,
+        "created_by": {
+            "id": 12737422,
+            "name": "Oanh Nguyen",
+            "full_name": "Oanh Nguyen",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": false,
+            "purchased_at": null,
+            "contribute_info": {
+                "id": 12737422,
+                "name": "Oanh Nguyen",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 2,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [],
+        "product_attributes": [],
+        "spid": null,
+        "is_photo": false,
+        "product_id": 6086647,
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 1977433,
+        "title": "Cực kì hài lòng",
+        "content": "cho minh hỏi, mực này có nạp được cho máy in lase Brother TN 2385 không ạ",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 6.288e-05,
+        "new_score": 0.06125166,
+        "customer_id": 9803384,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1545017997,
+        "created_by": {
+            "id": 9803384,
+            "name": "ANHTIEN NGUYEN",
+            "full_name": "ANHTIEN NGUYEN",
+            "region": null,
+            "avatar_url": "https://lh6.googleusercontent.com/-mKkWoP1yJn0/AAAAAAAAAAI/AAAAAAAAAGs/Q2hnEUsNPAs/photo.jpg",
+            "purchased": false,
+            "purchased_at": null,
+            "contribute_info": {
+                "id": 9803384,
+                "name": "ANHTIEN NGUYEN",
+                "avatar": "https://lh6.googleusercontent.com/-mKkWoP1yJn0/AAAAAAAAAAI/AAAAAAAAAGs/Q2hnEUsNPAs/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 7,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [],
+        "product_attributes": [],
+        "spid": null,
+        "is_photo": false,
+        "product_id": 6086647,
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

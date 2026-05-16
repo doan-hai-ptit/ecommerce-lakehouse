@@ -1,0 +1,151 @@
+[
+    {
+        "id": 20072065,
+        "title": "Cực kì hài lòng",
+        "content": "Gọn, tốc độ ghi nhanh, thuận lợi trong di chuyển",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.01344945,
+        "new_score": 0.16008193,
+        "customer_id": 26765037,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1737706530,
+        "created_by": {
+            "id": 26765037,
+            "name": "lê thị kim loan",
+            "full_name": "lê thị kim loan",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-02-11 10:10:03",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1724129034,
+            "contribute_info": {
+                "id": 26765037,
+                "name": "lê thị kim loan",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 46,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu sắc Bạc"
+        ],
+        "product_attributes": [
+            "Màu sắc: Bạc"
+        ],
+        "spid": 271423358,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 271423339,
+        "timeline": {
+            "review_created_date": "2025-01-24 15:15:30",
+            "delivery_date": "2024-08-22 10:07:26",
+            "current_date": "2026-05-15 15:24:54",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất liệu sản phẩm chắc chắn",
+                "Dễ dàng di chuyển, di động",
+                "Tốc độ truyền tải dữ liệu nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19852942,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.10488058,
+        "new_score": 0.15099501,
+        "customer_id": 9784369,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1713937046,
+        "created_by": {
+            "id": 9784369,
+            "name": "Nguyễn Phạm Như Thuỷ",
+            "full_name": "Nguyễn Phạm Như Thuỷ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-12-11 19:01:38",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1713627429,
+            "contribute_info": {
+                "id": 9784369,
+                "name": "Nguyễn Phạm Như Thuỷ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 1,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer",
+            "Màu sắc Bạc"
+        ],
+        "product_attributes": [
+            "Màu sắc: Bạc"
+        ],
+        "spid": 271423358,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 271423339,
+        "timeline": {
+            "review_created_date": "2024-04-24 12:37:26",
+            "delivery_date": "2024-04-23 18:23:06",
+            "current_date": "2026-05-15 15:24:54",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    }
+]

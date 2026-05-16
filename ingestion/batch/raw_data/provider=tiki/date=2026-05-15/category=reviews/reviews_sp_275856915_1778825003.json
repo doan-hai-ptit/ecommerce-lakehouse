@@ -1,0 +1,194 @@
+[
+    {
+        "id": 20114082,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15760409,
+        "customer_id": 8821000,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1745286853,
+        "created_by": {
+            "id": 8821000,
+            "name": "bui duy quoc thang",
+            "full_name": "bui duy quoc thang",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b1/54/29/f79f2e9a2bd34b4bc720add5e6d51bc2.png",
+            "created_time": "2018-11-08 10:52:12",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1745023022,
+            "contribute_info": {
+                "id": 8821000,
+                "name": "hộ kinh doanh asianet",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b1/54/29/f79f2e9a2bd34b4bc720add5e6d51bc2.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 205,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "Chiều dài 50 mét"
+        ],
+        "product_attributes": [
+            "Chiều dài: 50 mét"
+        ],
+        "spid": 275856939,
+        "is_photo": false,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 275856915,
+        "timeline": {
+            "review_created_date": "2025-04-22 08:54:13",
+            "delivery_date": "2025-04-20 13:38:36",
+            "current_date": "2026-05-15 13:03:50",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20084089,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15647193,
+        "customer_id": 8821000,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1739926358,
+        "created_by": {
+            "id": 8821000,
+            "name": "bui duy quoc thang",
+            "full_name": "bui duy quoc thang",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b1/54/29/f79f2e9a2bd34b4bc720add5e6d51bc2.png",
+            "created_time": "2018-11-08 10:52:12",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1736428557,
+            "contribute_info": {
+                "id": 8821000,
+                "name": "hộ kinh doanh asianet",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b1/54/29/f79f2e9a2bd34b4bc720add5e6d51bc2.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 205,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "Chiều dài 10 mét"
+        ],
+        "product_attributes": [
+            "Chiều dài: 10 mét"
+        ],
+        "spid": 275856923,
+        "is_photo": false,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 275856915,
+        "timeline": {
+            "review_created_date": "2025-02-19 07:52:38",
+            "delivery_date": "2025-01-11 13:43:40",
+            "current_date": "2026-05-15 13:03:50",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20084090,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15647193,
+        "customer_id": 8821000,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1739926364,
+        "created_by": {
+            "id": 8821000,
+            "name": "bui duy quoc thang",
+            "full_name": "bui duy quoc thang",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b1/54/29/f79f2e9a2bd34b4bc720add5e6d51bc2.png",
+            "created_time": "2018-11-08 10:52:12",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1736428557,
+            "contribute_info": {
+                "id": 8821000,
+                "name": "hộ kinh doanh asianet",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b1/54/29/f79f2e9a2bd34b4bc720add5e6d51bc2.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 205,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin Học Hoàng Kim",
+            "Chiều dài 15 mét"
+        ],
+        "product_attributes": [
+            "Chiều dài: 15 mét"
+        ],
+        "spid": 275856925,
+        "is_photo": false,
+        "seller": {
+            "id": 26446,
+            "name": "Tin Học Hoàng Kim",
+            "logo": "bf/ce/4e/e995a297d24c3207a2856b64bee2ce22.jpg"
+        },
+        "product_id": 275856915,
+        "timeline": {
+            "review_created_date": "2025-02-19 07:52:44",
+            "delivery_date": "2025-01-11 13:43:40",
+            "current_date": "2026-05-15 13:03:50",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]
