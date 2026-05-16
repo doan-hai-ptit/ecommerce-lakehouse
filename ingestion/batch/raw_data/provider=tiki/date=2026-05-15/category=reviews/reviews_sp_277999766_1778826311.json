@@ -1,0 +1,66 @@
+[
+    {
+        "id": 20199856,
+        "title": "Rất không hài lòng",
+        "content": "Sản phẩm giao không đúng đơn hàng đặt về màn chiếu giao chân màn. Đã vậy gặp shiper *** không cho đồng kiểm. Đã yêu cầu thu hồi bằng email.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 28.05555556,
+        "new_score": 0.1741098,
+        "customer_id": 17255552,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1766304467,
+        "created_by": {
+            "id": 17255552,
+            "name": "Đỗ Công Minh Thiên",
+            "full_name": "Đỗ Công Minh Thiên",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-05-01 16:21:53",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1765979052,
+            "contribute_info": {
+                "id": 17255552,
+                "name": "Đỗ Công Minh Thiên",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán AOA",
+            "tỉ lệ Chân màn"
+        ],
+        "product_attributes": [
+            "tỉ lệ: Chân màn"
+        ],
+        "spid": 278446671,
+        "is_photo": false,
+        "seller": {
+            "id": 36422,
+            "name": "AOA",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/18/da/31/5c554051502102b43a4c801465d88bab.jpg"
+        },
+        "product_id": 277999766,
+        "timeline": {
+            "review_created_date": "2025-12-21 15:07:47",
+            "delivery_date": "2025-12-21 14:34:35",
+            "current_date": "2026-05-15 13:26:16",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "id": 20194948,
+        "title": "Bình thường",
+        "content": "Công nghệ thời nay đúng là chạy nhanh hơn não người. Cùng một cái dây Type-C mà sạc được cả laptop lẫn điện thoại, nghe cũng xịn đấy. Nhưng hôm nay tôi mới được mở mang tầm mắt: lần đầu tiên thấy một cái phích cắm điện 1 pha mà… chỉ có đúng 1 chân. Vâng, một chân.\r\n\r\nCái này chắc công nghệ mới, chứ nhà mình chưa có ổ cắm 1 chân. trả lại cho shop nhé.\r\nSau nhiều ngày chờ đợi, thì shop cũng đổi cái mới.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.17318244,
+        "new_score": 0.18503492,
+        "customer_id": 23360101,
+        "comment_count": 1,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1764687338,
+        "created_by": {
+            "id": 23360101,
+            "name": "Trịnh Quốc Phong",
+            "full_name": "Trịnh Quốc Phong",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-09-02 09:04:57",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1765302803,
+            "contribute_info": {
+                "id": 23360101,
+                "name": "Trịnh Quốc Phong",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 7,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Điện Tử HI-END"
+        ],
+        "product_attributes": [],
+        "spid": 200024981,
+        "is_photo": false,
+        "seller": {
+            "id": 308064,
+            "name": "Điện Tử HI-END",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/e1/3f/73/df1c0089ceabc1ba71ecef158e3b8f82.jpg"
+        },
+        "product_id": 200024979,
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19923174,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15237669,
+        "customer_id": 26594349,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1720536561,
+        "created_by": {
+            "id": 26594349,
+            "name": "Lê Hữu Hoàng Sơn",
+            "full_name": "Lê Hữu Hoàng Sơn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-01-20 11:45:32",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1707819952,
+            "contribute_info": {
+                "id": 26594349,
+                "name": "Lê Hữu Hoàng Sơn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 9,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Điện Tử HI-END"
+        ],
+        "product_attributes": [],
+        "spid": 200024981,
+        "is_photo": false,
+        "seller": {
+            "id": 308064,
+            "name": "Điện Tử HI-END",
+            "logo": "e1/3f/73/df1c0089ceabc1ba71ecef158e3b8f82.jpg"
+        },
+        "product_id": 200024979,
+        "timeline": {
+            "review_created_date": "2024-07-09 21:49:21",
+            "delivery_date": "2024-02-19 08:44:33",
+            "current_date": "2026-05-15 14:41:59",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

@@ -1,0 +1,642 @@
+[
+    {
+        "id": 19821944,
+        "title": "Bình thường",
+        "content": "Máy rất mau hết mực.. Mới mua xài chưa hết 1/2 gam giấy đã hết mực.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 28.05555556,
+        "new_score": 0.15633827,
+        "customer_id": 20648705,
+        "comment_count": 2,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1711516497,
+        "created_by": {
+            "id": 20648705,
+            "name": "Kiêm Thúy",
+            "full_name": "Kiêm Thúy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-03-08 15:32:49",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1709772423,
+            "contribute_info": {
+                "id": 20648705,
+                "name": "Kiêm Thúy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 77,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán HP Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 136676516,
+        "is_photo": false,
+        "seller": {
+            "id": 41387,
+            "name": "HP Official Store",
+            "logo": "bf/ee/ce/74caf67db1b24f9413f7197a1cdc4127.png"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2024-03-27 12:14:57",
+            "delivery_date": "2024-03-11 12:23:02",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Độ phân giải cao",
+                "Gọn dễ di chuyển",
+                "Mực in đẹp, rõ",
+                "Tốc độ in nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19899809,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15187649,
+        "customer_id": 589199,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1718168277,
+        "created_by": {
+            "id": 589199,
+            "name": "Lý  Thanh Phong",
+            "full_name": "Lý  Thanh Phong",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/80/0a/97/c6f47a45571f08f5a36cf7d98e06bd77.png",
+            "created_time": "2015-03-20 13:44:09",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1717976453,
+            "contribute_info": {
+                "id": 589199,
+                "name": "Lý  Thanh Phong",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/80/0a/97/c6f47a45571f08f5a36cf7d98e06bd77.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 63,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 216006964,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "21/ce/5c/b52d0b8576680dc3666474ae31b091ec.jpg"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2024-06-12 11:57:57",
+            "delivery_date": "2024-06-10 14:14:13",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19777422,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14983694,
+        "customer_id": 7487230,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1708511570,
+        "created_by": {
+            "id": 7487230,
+            "name": "Thành Nguyễn",
+            "full_name": "Thành Nguyễn",
+            "region": null,
+            "avatar_url": "https://lh5.googleusercontent.com/-Y2__Fh_zUQs/AAAAAAAAAAI/AAAAAAAAAB0/ECYaMrnEGFo/photo.jpg",
+            "created_time": "2018-07-18 14:49:25",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1707018983,
+            "contribute_info": {
+                "id": 7487230,
+                "name": "Thành Nguyễn",
+                "avatar": "https://lh5.googleusercontent.com/-Y2__Fh_zUQs/AAAAAAAAAAI/AAAAAAAAAB0/ECYaMrnEGFo/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 52,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 216006964,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "21/ce/5c/b52d0b8576680dc3666474ae31b091ec.jpg"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2024-02-21 17:32:50",
+            "delivery_date": "2024-02-04 12:59:09",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19237316,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14492366,
+        "customer_id": 18479820,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1685248533,
+        "created_by": {
+            "id": 18479820,
+            "name": "Lê Duy",
+            "full_name": "Lê Duy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-09-15 19:58:46",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1679495766,
+            "contribute_info": {
+                "id": 18479820,
+                "name": "Lê Duy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán HP Flagship Ben Computer Store"
+        ],
+        "product_attributes": [],
+        "spid": 214760195,
+        "is_photo": false,
+        "seller": {
+            "id": 282372,
+            "name": "HP Flagship Ben Computer Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/5d/df/39/075ce2285dc56968cd763aa7a3b9cf9a.jpg"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2023-05-28 11:35:33",
+            "delivery_date": "2023-03-24 14:33:13",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18914279,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14341119,
+        "customer_id": 6471234,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1678087416,
+        "created_by": {
+            "id": 6471234,
+            "name": "Nguyễn Phương Tâm",
+            "full_name": "Nguyễn Phương Tâm",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-02-07 16:08:41",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1678010775,
+            "contribute_info": {
+                "id": 6471234,
+                "name": "Nguyễn Phương Tâm",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 17,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 216006964,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2023-03-06 14:23:36",
+            "delivery_date": "2023-03-06 10:32:51",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 4 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17728645,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14032788,
+        "customer_id": 767521,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1663488797,
+        "created_by": {
+            "id": 767521,
+            "name": "Nguyễn Thị Hồng Tươi",
+            "full_name": "Nguyễn Thị Hồng Tươi",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2015-08-22 23:12:15",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1659245767,
+            "contribute_info": {
+                "id": 767521,
+                "name": "Nguyễn Thị Hồng Tươi",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 32,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán HP Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 136676516,
+        "is_photo": false,
+        "seller": {
+            "id": 41387,
+            "name": "HP Official Store",
+            "logo": "bf/ee/ce/74caf67db1b24f9413f7197a1cdc4127.png"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2022-09-18 15:13:17",
+            "delivery_date": "2022-08-01 17:58:12",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Độ phân giải cao"
+            ],
+            "disagree": [
+                "Gọn dễ di chuyển"
+            ]
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17164200,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13927018,
+        "customer_id": 7953487,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1658480905,
+        "created_by": {
+            "id": 7953487,
+            "name": "Nguyễn Minh",
+            "full_name": "Nguyễn Minh",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/e7/60/95/8bdec05c053121bd5f17e6eda84546e6.png",
+            "created_time": "2018-09-08 09:51:43",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1658474991,
+            "contribute_info": {
+                "id": 7953487,
+                "name": "Nguyễn Minh",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/e7/60/95/8bdec05c053121bd5f17e6eda84546e6.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 99,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán HP Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 136676516,
+        "is_photo": false,
+        "seller": {
+            "id": 41387,
+            "name": "HP Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/bf/ee/ce/74caf67db1b24f9413f7197a1cdc4127.png"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2022-07-22 16:08:25",
+            "delivery_date": "2022-07-22 15:36:12",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16534859,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1383355,
+        "customer_id": 7974221,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1654055468,
+        "created_by": {
+            "id": 7974221,
+            "name": "Khuong Vo Duy",
+            "full_name": "Khuong Vo Duy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-09-10 08:47:54",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1653975988,
+            "contribute_info": {
+                "id": 7974221,
+                "name": "Khuong Vo Duy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 57,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [
+            "Chất lượng tốt"
+        ],
+        "attributes": [
+            "Mua từ nhà bán HP Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 136676516,
+        "is_photo": false,
+        "seller": {
+            "id": 41387,
+            "name": "HP Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/bf/ee/ce/74caf67db1b24f9413f7197a1cdc4127.png"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2022-06-01 10:51:08",
+            "delivery_date": "2022-05-31 14:27:21",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 15588183,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.13709378,
+        "customer_id": 12983638,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1648176239,
+        "created_by": {
+            "id": 12983638,
+            "name": "Lan",
+            "full_name": "Lan",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/7/0/c/d/6/120/4995cea1cf7e08e4cc8d248260fb3149.jpg",
+            "created_time": "2019-07-19 14:59:33",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1644219469,
+            "contribute_info": {
+                "id": 12983638,
+                "name": "Lan",
+                "avatar": "https://s120.avatar.talk.zdn.vn/7/0/c/d/6/120/4995cea1cf7e08e4cc8d248260fb3149.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán HP Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 136676516,
+        "is_photo": false,
+        "seller": {
+            "id": 41387,
+            "name": "HP Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/bf/ee/ce/74caf67db1b24f9413f7197a1cdc4127.png"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2022-03-25 09:43:59",
+            "delivery_date": "2022-02-10 14:29:43",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17116355,
+        "title": "Bình thường",
+        "content": "(*) Đánh giá không tính điểm\nCài đặt khó do chỉ giao máy mà k hỗ trợ cài đặt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0,
+        "new_score": 0,
+        "customer_id": 480992,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1658160862,
+        "created_by": {
+            "id": 480992,
+            "name": "Huỳnh Tuấn Anh",
+            "full_name": "Huỳnh Tuấn Anh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2014-11-13 08:31:00",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1658058659,
+            "contribute_info": {
+                "id": 480992,
+                "name": "Huỳnh Tuấn Anh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 12 năm",
+                    "total_review": 708,
+                    "total_thank": 17
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán HP Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 136676516,
+        "is_photo": false,
+        "seller": {
+            "id": 41387,
+            "name": "HP Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/bf/ee/ce/74caf67db1b24f9413f7197a1cdc4127.png"
+        },
+        "product_id": 136676515,
+        "timeline": {
+            "review_created_date": "2022-07-18 23:14:22",
+            "delivery_date": "2022-07-18 08:52:53",
+            "current_date": "2026-05-15 11:34:03",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

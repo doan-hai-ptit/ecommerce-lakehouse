@@ -1,0 +1,63 @@
+[
+    {
+        "id": 20038646,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15495972,
+        "customer_id": 7118347,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1732766478,
+        "created_by": {
+            "id": 7118347,
+            "name": "Lâm Đạo Tài",
+            "full_name": "Lâm Đạo Tài",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/256x256/ts/avatar/67/b8/98/bb6eef50c06c3eb6eee8751102989b0f.png",
+            "created_time": "2018-05-15 10:05:29",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1730469194,
+            "contribute_info": {
+                "id": 7118347,
+                "name": "Lâm Đạo Tài",
+                "avatar": "https://salt.tikicdn.com/cache/256x256/ts/avatar/67/b8/98/bb6eef50c06c3eb6eee8751102989b0f.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 15,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán OM LUCKY WAHIK"
+        ],
+        "product_attributes": [],
+        "spid": 274931095,
+        "is_photo": false,
+        "seller": {
+            "id": 353491,
+            "name": "OM LUCKY WAHIK",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/47/71/6b/d292f7f1cdc8f98121df3b9610e58c9c.jpg"
+        },
+        "product_id": 274931094,
+        "timeline": {
+            "review_created_date": "2024-11-28 11:01:18",
+            "delivery_date": "2024-11-04 13:59:41",
+            "current_date": "2026-05-15 14:31:48",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

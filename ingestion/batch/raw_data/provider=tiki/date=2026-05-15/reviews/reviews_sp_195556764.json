@@ -1,0 +1,63 @@
+[
+    {
+        "id": 19643650,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14799728,
+        "customer_id": 7537408,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1699801287,
+        "created_by": {
+            "id": 7537408,
+            "name": "Thịnh Hưng Bùi",
+            "full_name": "Thịnh Hưng Bùi",
+            "region": null,
+            "avatar_url": "https://lh6.googleusercontent.com/-0e017f6jyGE/AAAAAAAAAAI/AAAAAAAAADU/Zd81cq8yLis/photo.jpg",
+            "created_time": "2018-07-27 10:06:18",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1699157833,
+            "contribute_info": {
+                "id": 7537408,
+                "name": "Thịnh Hưng Bùi",
+                "avatar": "https://lh6.googleusercontent.com/-0e017f6jyGE/AAAAAAAAAAI/AAAAAAAAADU/Zd81cq8yLis/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 100,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán TP-Link Official Store"
+        ],
+        "product_attributes": [],
+        "spid": 195556765,
+        "is_photo": false,
+        "seller": {
+            "id": 154163,
+            "name": "TP-Link Official Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/98/36/02/74324a6d492c0d90e23746b410ec5ad4.jpg"
+        },
+        "product_id": 195556764,
+        "timeline": {
+            "review_created_date": "2023-11-12 22:01:27",
+            "delivery_date": "2023-11-05 13:49:49",
+            "current_date": "2026-05-15 09:48:14",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

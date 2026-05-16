@@ -1,0 +1,841 @@
+[
+    {
+        "id": 20220992,
+        "title": "Cực kì hài lòng",
+        "content": "Rất đáng mua, đáng dùng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.73099415,
+        "new_score": 0.16568181,
+        "customer_id": 6763447,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1774063158,
+        "created_by": {
+            "id": 6763447,
+            "name": "Võ Lê Hoàng Khải",
+            "full_name": "Võ Lê Hoàng Khải",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/50/41/c5/b81799cf1e8d767456548a6944c4f1f3.jpg",
+            "created_time": "2018-03-21 14:55:16",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1773900572,
+            "contribute_info": {
+                "id": 6763447,
+                "name": "Võ Lê Hoàng Khải",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/50/41/c5/b81799cf1e8d767456548a6944c4f1f3.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 38,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 2TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 2TB"
+        ],
+        "spid": 192216310,
+        "is_photo": false,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "0c/c7/60/f5f2119fb1152454b536e34fd4036dfd.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2026-03-21 10:19:18",
+            "delivery_date": "2026-03-20 11:24:19",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20187574,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16118388,
+        "customer_id": 19948761,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1762236163,
+        "created_by": {
+            "id": 19948761,
+            "name": "Kim Khuyên",
+            "full_name": "Kim Khuyên",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/e5/cf/3b/0f1896b77dd1f7e7191f43365377be8b.png",
+            "created_time": "2021-01-19 10:25:22",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1761796779,
+            "contribute_info": {
+                "id": 19948761,
+                "name": "Kim Khuyên",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/e5/cf/3b/0f1896b77dd1f7e7191f43365377be8b.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 17,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 2TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 2TB"
+        ],
+        "spid": 192216310,
+        "is_photo": false,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2025-11-04 13:02:43",
+            "delivery_date": "2025-11-03 10:58:51",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20139693,
+        "title": "Cực kì hài lòng",
+        "content": "Chất liệu ok, rất tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16070538,
+        "customer_id": 27687631,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1750816767,
+        "created_by": {
+            "id": 27687631,
+            "name": "An Nhiên",
+            "full_name": "An Nhiên",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b3/fd/df/fb66f0602d7c73c6e29450bca0ddfefd.png",
+            "created_time": "2022-06-16 08:05:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1749678537,
+            "contribute_info": {
+                "id": 27687631,
+                "name": "An Nhiên",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b3/fd/df/fb66f0602d7c73c6e29450bca0ddfefd.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 116,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 1TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 1TB"
+        ],
+        "spid": 192216308,
+        "is_photo": false,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2025-06-25 08:59:27",
+            "delivery_date": "2025-06-16 12:05:28",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 9 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất liệu sản phẩm chắc chắn",
+                "Dễ dàng di chuyển, di động",
+                "kết nối tốt, ổn định",
+                "Tốc độ truyền tải dữ liệu nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19861933,
+        "title": "Không hài lòng",
+        "content": "Thất vọng vì không có hộp bảo quản cho thiết bị di động quan trọng.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 7.4691358,
+        "new_score": 0.16009814,
+        "customer_id": 1249031,
+        "comment_count": 1,
+        "rating": 2,
+        "images": [
+            {
+                "id": 4354451,
+                "full_path": "https://salt.tikicdn.com/ts/review/bc/a2/03/50aef28b0ccdaa849cd705b5c088749c.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1714798645,
+        "created_by": {
+            "id": 1249031,
+            "name": "Nguyễn Lê Bảo Huân",
+            "full_name": "Nguyễn Lê Bảo Huân",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-03-23 16:17:41",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1714625213,
+            "contribute_info": {
+                "id": 1249031,
+                "name": "Nguyễn Lê Bảo Huân",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 7,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 1TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 1TB"
+        ],
+        "spid": 192216308,
+        "is_photo": true,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2024-05-04 11:57:25",
+            "delivery_date": "2024-05-04 11:48:47",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 9 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19641057,
+        "title": "Cực kì hài lòng",
+        "content": "Sản phẩm đẹp chắc chắn, copy nhanh, dung lượng nhiều",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.24509804,
+        "new_score": 0.15550754,
+        "customer_id": 24107027,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4313065,
+                "full_path": "https://salt.tikicdn.com/ts/review/49/7e/6b/d13f6ca7c485b6d7ae020fbc6e763ca8.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1699692022,
+        "created_by": {
+            "id": 24107027,
+            "name": "Hồng Tươi",
+            "full_name": "Hồng Tươi",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-10-13 23:25:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1699456898,
+            "contribute_info": {
+                "id": 24107027,
+                "name": "Hồng Tươi",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 19,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 2TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 2TB"
+        ],
+        "spid": 192216310,
+        "is_photo": true,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2023-11-11 15:40:22",
+            "delivery_date": "2023-11-11 15:30:16",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 10 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 10 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19888690,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15167359,
+        "customer_id": 6416747,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1717207600,
+        "created_by": {
+            "id": 6416747,
+            "name": "Zalo Như Lâm",
+            "full_name": "Zalo Như Lâm",
+            "region": null,
+            "avatar_url": "https://s240.avatar.talk.zdn.vn/b/1/8/2/44/240/afeae6ca633f53103ff585de0d33a09b.jpg",
+            "created_time": null,
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1702448527,
+            "contribute_info": {
+                "id": 6416747,
+                "name": "Zalo Như Lâm",
+                "avatar": "https://s240.avatar.talk.zdn.vn/b/1/8/2/44/240/afeae6ca633f53103ff585de0d33a09b.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 8,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 2TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 2TB"
+        ],
+        "spid": 192216310,
+        "is_photo": false,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2024-06-01 09:06:40",
+            "delivery_date": "2023-12-13 15:19:59",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 1 năm",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 năm."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất liệu sản phẩm chắc chắn",
+                "Dễ dàng di chuyển, di động",
+                "kết nối tốt, ổn định",
+                "Tốc độ truyền tải dữ liệu nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19828888,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15058215,
+        "customer_id": 15977488,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1712039910,
+        "created_by": {
+            "id": 15977488,
+            "name": "Nguyen Tran",
+            "full_name": "Nguyen Tran",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-01-14 11:20:39",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1711979202,
+            "contribute_info": {
+                "id": 15977488,
+                "name": "Nguyen Tran",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 2TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 2TB"
+        ],
+        "spid": 192216310,
+        "is_photo": false,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2024-04-02 13:38:30",
+            "delivery_date": "2024-04-02 09:20:35",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 4 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19593301,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14749965,
+        "customer_id": 18571817,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1697445128,
+        "created_by": {
+            "id": 18571817,
+            "name": "Ngọc Linh",
+            "full_name": "Ngọc Linh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-09-25 10:17:16",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1687610369,
+            "contribute_info": {
+                "id": 18571817,
+                "name": "Ngọc Linh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 32,
+                    "total_thank": 5
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 1TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 1TB"
+        ],
+        "spid": 192216308,
+        "is_photo": false,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2023-10-16 15:32:08",
+            "delivery_date": "2023-06-30 17:16:47",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất liệu sản phẩm chắc chắn",
+                "Dễ dàng di chuyển, di động",
+                "kết nối tốt, ổn định",
+                "Tốc độ truyền tải dữ liệu nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19556044,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1471634,
+        "customer_id": 5415809,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1695853111,
+        "created_by": {
+            "id": 5415809,
+            "name": "Trần Ngọc Sang",
+            "full_name": "Trần Ngọc Sang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-06-29 06:22:40",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1687947034,
+            "contribute_info": {
+                "id": 5415809,
+                "name": "Ngọc Sang",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 22,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 2TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 2TB"
+        ],
+        "spid": 192216310,
+        "is_photo": false,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2023-09-28 05:18:31",
+            "delivery_date": "2023-06-30 12:23:56",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất liệu sản phẩm chắc chắn",
+                "Dễ dàng di chuyển, di động",
+                "kết nối tốt, ổn định"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19524094,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14687649,
+        "customer_id": 7389057,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1694494665,
+        "created_by": {
+            "id": 7389057,
+            "name": "Nguyễn Hữu Minh Châu",
+            "full_name": "Nguyễn Hữu Minh Châu",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/a1/db/18/b8604a2cb0a4bac096fbad6ae0521efb.png",
+            "created_time": "2018-07-01 15:52:33",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1694474587,
+            "contribute_info": {
+                "id": 7389057,
+                "name": "Nguyễn Hữu Minh Châu",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/a1/db/18/b8604a2cb0a4bac096fbad6ae0521efb.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 291,
+                    "total_thank": 27
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 1TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 1TB"
+        ],
+        "spid": 192216308,
+        "is_photo": false,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2023-09-12 11:57:45",
+            "delivery_date": "2023-09-12 08:47:17",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 3 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 18201304,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.14436315,
+        "customer_id": 14890388,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [
+            {
+                "id": 3992613,
+                "full_path": "https://salt.tikicdn.com/ts/review/62/82/14/8a6cc5f82d962ea5ea3c41ac2d9cc8be.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1668390516,
+        "created_by": {
+            "id": 14890388,
+            "name": "Oanh Le",
+            "full_name": "Oanh Le",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=991488621238352&height=200&width=200&ext=1576046009&hash=AeTFhcVMkn954R68",
+            "created_time": "2019-11-11 13:33:50",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1667890012,
+            "contribute_info": {
+                "id": 14890388,
+                "name": "Oanh Le",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=991488621238352&height=200&width=200&ext=1576046009&hash=AeTFhcVMkn954R68",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 1TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 1TB"
+        ],
+        "spid": 192216308,
+        "is_photo": true,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2022-11-14 08:48:36",
+            "delivery_date": "2022-11-11 10:57:33",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18272562,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14153782,
+        "customer_id": 11796183,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1669217557,
+        "created_by": {
+            "id": 11796183,
+            "name": "Linh Trần",
+            "full_name": "Linh Trần",
+            "region": null,
+            "avatar_url": "https://lh3.googleusercontent.com/-7JbaTHHormM/AAAAAAAAAAI/AAAAAAAABs0/Fm1VQ8LtvNo/photo.jpg",
+            "created_time": null,
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1668758054,
+            "contribute_info": {
+                "id": 11796183,
+                "name": "Linh Trần",
+                "avatar": "https://lh3.googleusercontent.com/-7JbaTHHormM/AAAAAAAAAAI/AAAAAAAABs0/Fm1VQ8LtvNo/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 41,
+                    "total_thank": 15
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán WD Official Store",
+            "Dung lượng 1TB"
+        ],
+        "product_attributes": [
+            "Dung lượng: 1TB"
+        ],
+        "spid": 192216308,
+        "is_photo": false,
+        "seller": {
+            "id": 296212,
+            "name": "WD Official Store",
+            "logo": "ce/ed/fc/8749e42b3099d088dcea074a9678ba08.jpg"
+        },
+        "product_id": 192216306,
+        "timeline": {
+            "review_created_date": "2022-11-23 22:32:37",
+            "delivery_date": "2022-11-23 14:56:26",
+            "current_date": "2026-05-15 11:33:38",
+            "content": "Đã dùng 8 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

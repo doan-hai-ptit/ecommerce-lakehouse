@@ -1,0 +1,1303 @@
+[
+    {
+        "id": 20220413,
+        "title": "Cực kì hài lòng",
+        "content": "Shop oki rất hỗ trợ",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1652979,
+        "customer_id": 8258119,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1773823681,
+        "created_by": {
+            "id": 8258119,
+            "name": "Hoang Thi Nhung",
+            "full_name": "Hoang Thi Nhung",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/84/10/76/1a8eee490a1b4428d23ff4cff52baeb0.png",
+            "created_time": "2018-10-06 10:46:23",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1773407561,
+            "contribute_info": {
+                "id": 8258119,
+                "name": "Hoang Thi Nhung",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/84/10/76/1a8eee490a1b4428d23ff4cff52baeb0.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 164,
+                    "total_thank": 14
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2026-03-18 15:48:01",
+            "delivery_date": "2026-03-15 11:15:50",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20227140,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16416327,
+        "customer_id": 22608083,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1776342730,
+        "created_by": {
+            "id": 22608083,
+            "name": "yên lập",
+            "full_name": "yên lập",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-07-12 23:23:31",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1762127878,
+            "contribute_info": {
+                "id": 22608083,
+                "name": "yên lập",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 15,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2026-04-16 19:32:10",
+            "delivery_date": "2025-11-06 10:36:19",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 12142603,
+        "title": "Bình thường",
+        "content": "Không hài lòng:\n- Không có nút ở ngoài để đưa mực vào hộp mực như hình :(( ( cho mực vào rất khó )\n- Drum không vừa hộp mực chính hãng của máy.\n-Mực trong hộp bằng một nửa hộp mực ( vừa mở ra)\n-Bản in ra mờ.",
+        "status": "approved",
+        "thank_count": 3,
+        "score": 0.0089756,
+        "new_score": 0.16353974,
+        "customer_id": 12875555,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [
+            {
+                "id": 2483186,
+                "full_path": "https://salt.tikicdn.com/ts/review/3e/32/db/5b722dac3c53c8967de3691cc6d6b63e.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2483187,
+                "full_path": "https://salt.tikicdn.com/ts/review/37/26/d5/0c5db13dbad1eea656be0c2fad7ac678.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2483188,
+                "full_path": "https://salt.tikicdn.com/ts/review/4f/f3/86/5098c93b53273f96057fcfb629bf4e79.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 2483189,
+                "full_path": "https://salt.tikicdn.com/ts/review/e6/3e/ac/c2486d04b21fa25c623c9eadbde19ba7.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1631176089,
+        "created_by": {
+            "id": 12875555,
+            "name": "Dương Thị Thi",
+            "full_name": "Dương Thị Thi",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-07-12 14:21:15",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1630768191,
+            "contribute_info": {
+                "id": 12875555,
+                "name": "Dương Thị Thi",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 2,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": true,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2021-09-09 15:28:09",
+            "delivery_date": "2021-09-09 11:11:34",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 4 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20086406,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng đóng gói cẩn thận, đúng mô tả. Chất lượng dùng sẽ đánh giá sau",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16261866,
+        "customer_id": 17314730,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1740305459,
+        "created_by": {
+            "id": 17314730,
+            "name": "Quan Le",
+            "full_name": "Quan Le",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-05-10 08:50:55",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1740140898,
+            "contribute_info": {
+                "id": 17314730,
+                "name": "Quan Le",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2025-02-23 17:10:59",
+            "delivery_date": "2025-02-23 16:59:00",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 12 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 12 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20033857,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng tốt , Giá phù hợp , Xuất HĐ đầy đủ ,Cám ơn bạn",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15953383,
+        "customer_id": 1699683,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1732012596,
+        "created_by": {
+            "id": 1699683,
+            "name": "Vàng Bạc Văn Sơn",
+            "full_name": "Vàng Bạc Văn Sơn",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-09-15 22:04:12",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1731489381,
+            "contribute_info": {
+                "id": 1699683,
+                "name": "Vàng Bạc Văn Sơn",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 18,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2024-11-19 17:36:36",
+            "delivery_date": "2024-11-17 15:43:05",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20110081,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1574429,
+        "customer_id": 18173797,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1744523636,
+        "created_by": {
+            "id": 18173797,
+            "name": "Tu Pham Hoang",
+            "full_name": "Tu Pham Hoang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-08-20 09:47:05",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1730527721,
+            "contribute_info": {
+                "id": 18173797,
+                "name": "Tu Pham Hoang",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 10,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2025-04-13 12:53:56",
+            "delivery_date": "2024-11-05 13:11:11",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20095005,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15686088,
+        "customer_id": 20201018,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1741767944,
+        "created_by": {
+            "id": 20201018,
+            "name": "Nguyễn Thanh Vinh",
+            "full_name": "Nguyễn Thanh Vinh",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/9c/d1/38/ec3690b167550cc5cfc9c4aa2a9209c8.png",
+            "created_time": "2021-02-04 14:50:28",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1740992309,
+            "contribute_info": {
+                "id": 20201018,
+                "name": "Nguyễn Thanh Vinh",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/9c/d1/38/ec3690b167550cc5cfc9c4aa2a9209c8.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 99,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2025-03-12 15:25:44",
+            "delivery_date": "2025-03-06 10:25:51",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 6 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20064508,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15577038,
+        "customer_id": 28302317,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1736604740,
+        "created_by": {
+            "id": 28302317,
+            "name": "Bùi Văn Dzụ ",
+            "full_name": "Bùi Văn Dzụ ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-10-09 12:52:18",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1736000758,
+            "contribute_info": {
+                "id": 28302317,
+                "name": "Bùi Văn Dzụ ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2025-01-11 21:12:20",
+            "delivery_date": "2025-01-10 15:54:22",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19988462,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15377611,
+        "customer_id": 30121813,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1727162405,
+        "created_by": {
+            "id": 30121813,
+            "name": "Tăng Nhĩ Khang",
+            "full_name": "Tăng Nhĩ Khang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2024-09-12 08:53:16",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1726109336,
+            "contribute_info": {
+                "id": 30121813,
+                "name": "Tăng Nhĩ Khang",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 2 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2024-09-24 14:20:05",
+            "delivery_date": "2024-09-18 19:17:46",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 6 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 14355694,
+        "title": "Cực kì hài lòng",
+        "content": "tốt, Bộ sản phẩm 5 lọ mực nạp ( mực đổ ) thương hiệu HA dùng cho hộp mực máy in Canon 2900/ 3300/ 251/ 251, 252, 253, 411, 5870, 5980, 6300, 6650, 6670, 6680/ HP 1010/1020/ HP 400, 401, 425, 2035, 2050, 2055, - Hàng nhập khẩu",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15300921,
+        "customer_id": 8243879,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1641778528,
+        "created_by": {
+            "id": 8243879,
+            "name": "Hướng Hoàng xuân",
+            "full_name": "Hướng Hoàng xuân",
+            "region": null,
+            "avatar_url": "https://lh3.googleusercontent.com/-CbuAy4Bjf6I/AAAAAAAAAAI/AAAAAAAAAHg/zrbl2aKPDYg/photo.jpg",
+            "created_time": "2018-10-05 10:08:35",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1641274206,
+            "contribute_info": {
+                "id": 8243879,
+                "name": "Hướng Hoàng xuân",
+                "avatar": "https://lh3.googleusercontent.com/-CbuAy4Bjf6I/AAAAAAAAAAI/AAAAAAAAAHg/zrbl2aKPDYg/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 33,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2022-01-10 08:35:28",
+            "delivery_date": "2022-01-09 13:02:03",
+            "current_date": "2026-05-15 13:28:23",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19948616,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15291811,
+        "customer_id": 12458111,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1723100055,
+        "created_by": {
+            "id": 12458111,
+            "name": "Trần Thành Nam",
+            "full_name": "Trần Thành Nam",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-06-11 13:37:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1721874814,
+            "contribute_info": {
+                "id": 12458111,
+                "name": "Trần Thành Nam",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 33,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2024-08-08 13:54:15",
+            "delivery_date": "2024-07-27 14:52:31",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 12 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 12 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18487061,
+        "title": "Cực kì hài lòng",
+        "content": "Chất lượng tốt khối lượng đủ",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.15094612,
+        "customer_id": 10530957,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4053494,
+                "full_path": "https://salt.tikicdn.com/ts/review/e2/b2/d6/554e7475d36c0527fa9e309c495cec0b.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4053495,
+                "full_path": "https://salt.tikicdn.com/ts/review/6b/0e/7c/2b21f2554f3e0a4d3bab1faedb171b10.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1671782020,
+        "created_by": {
+            "id": 10530957,
+            "name": "Phạm Anh",
+            "full_name": "Phạm Anh",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/256x256/ts/avatar/47/36/0b/85375217b70ae7c400146dea8a413345.png",
+            "created_time": "2019-01-24 17:46:23",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1671160768,
+            "contribute_info": {
+                "id": 10530957,
+                "name": "Phạm Anh",
+                "avatar": "https://salt.tikicdn.com/cache/256x256/ts/avatar/47/36/0b/85375217b70ae7c400146dea8a413345.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 165,
+                    "total_thank": 5
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": true,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2022-12-23 14:53:40",
+            "delivery_date": "2022-12-19 12:55:57",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 4 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 10054306,
+        "title": "Cực kì hài lòng",
+        "content": "tôi đặt luôn 30 chai, vừa nhận hàng xong , chưa dùng nên cu gx ko biết chất lượng ntn, nhưng hy vọng soph ko để mình thất vọng khi dùng sp, đóng gói cũng đẹp, gọn,",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.0641835,
+        "new_score": 0.14825406,
+        "customer_id": 21725845,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 2051082,
+                "full_path": "https://salt.tikicdn.com/ts/review/fd/38/03/94536b2f349122b2efb07ed34b14f46c.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1622363133,
+        "created_by": {
+            "id": 21725845,
+            "name": "Yên HP",
+            "full_name": "Yên HP",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-05-14 21:40:17",
+            "purchased": true,
+            "purchased_at": 1622021786,
+            "contribute_info": {
+                "id": 21725845,
+                "name": "Bình SG",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 2,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": true,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2021-05-30 15:25:33",
+            "delivery_date": "2021-05-30 15:05:01",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 21 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 21 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19168315,
+        "title": "Không hài lòng",
+        "content": "Gói hàng rách nát, 3 chai mực mở nắp.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1476742,
+        "customer_id": 6570410,
+        "comment_count": 0,
+        "rating": 2,
+        "images": [],
+        "thanked": false,
+        "created_at": 1683436131,
+        "created_by": {
+            "id": 6570410,
+            "name": "",
+            "full_name": "",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-02-23 17:43:40",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1683015322,
+            "contribute_info": {
+                "id": 6570410,
+                "name": "",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2023-05-07 12:08:51",
+            "delivery_date": "2023-05-07 11:24:40",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19560594,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14720687,
+        "customer_id": 17512852,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1696058900,
+        "created_by": {
+            "id": 17512852,
+            "name": "Lê bá phi",
+            "full_name": "Lê bá phi",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-06-07 09:14:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1693174333,
+            "contribute_info": {
+                "id": 17512852,
+                "name": "Lê bá phi",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2023-09-30 14:28:20",
+            "delivery_date": "2023-08-30 17:07:08",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 14708246,
+        "title": "Cực kì hài lòng",
+        "content": "Mua hơi bị lố số lượng cho công ty. nhưng may quá chất lượng khá ổn,đóng gói chắc chắn cẩn thận. hết sẽ đặt cho công ty tiếp",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1471099,
+        "customer_id": 313556,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1643202207,
+        "created_by": {
+            "id": 313556,
+            "name": "Kim Huệ",
+            "full_name": "Kim Huệ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2014-03-22 15:03:41",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1642650641,
+            "contribute_info": {
+                "id": 313556,
+                "name": "Kim Huệ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 12 năm",
+                    "total_review": 12,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2022-01-26 20:03:27",
+            "delivery_date": "2022-01-25 16:51:00",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19306397,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14531528,
+        "customer_id": 25859744,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1687102747,
+        "created_by": {
+            "id": 25859744,
+            "name": "Nguyễn Hiền",
+            "full_name": "Nguyễn Hiền",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-12-07 21:38:52",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1680283995,
+            "contribute_info": {
+                "id": 25859744,
+                "name": "Nguyễn Hiền",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2023-06-18 22:39:07",
+            "delivery_date": "2023-04-03 18:48:31",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 3 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18669636,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14259542,
+        "customer_id": 5947287,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1674224999,
+        "created_by": {
+            "id": 5947287,
+            "name": "Nguyễn Sỹ Tú",
+            "full_name": "Nguyễn Sỹ Tú",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-10-19 09:15:25",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1667958795,
+            "contribute_info": {
+                "id": 5947287,
+                "name": "Nguyễn Sỹ Tú",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 8,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2023-01-20 21:29:59",
+            "delivery_date": "2022-11-12 19:43:52",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 14952228,
+        "title": "Cực kì hài lòng",
+        "content": "số đúng như hình. chất lượng chưa dùng chưa đánh giá được. Tặng 5 sao",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14251814,
+        "customer_id": 9828506,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1644819477,
+        "created_by": {
+            "id": 9828506,
+            "name": "Lữ Văn Thức",
+            "full_name": "Lữ Văn Thức",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=481976755659467&height=200&width=200&ext=1547376525&hash=AeTK9jrl1mCJJZaN",
+            "created_time": "2018-12-14 17:49:48",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1644410181,
+            "contribute_info": {
+                "id": 9828506,
+                "name": "Lữ Văn Thức",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=481976755659467&height=200&width=200&ext=1547376525&hash=AeTK9jrl1mCJJZaN",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 35,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2022-02-14 13:17:57",
+            "delivery_date": "2022-02-14 12:13:57",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18644520,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14250164,
+        "customer_id": 20156207,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1673780942,
+        "created_by": {
+            "id": 20156207,
+            "name": "dat phat",
+            "full_name": "dat phat",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-02-01 22:47:51",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1659851488,
+            "contribute_info": {
+                "id": 20156207,
+                "name": "dat phat",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Công ty thiết bị máy văn phòng Hà Anh"
+        ],
+        "product_attributes": [],
+        "spid": 71062305,
+        "is_photo": false,
+        "seller": {
+            "id": 2671,
+            "name": "Công ty thiết bị máy văn phòng Hà Anh",
+            "logo": ""
+        },
+        "product_id": 71062304,
+        "timeline": {
+            "review_created_date": "2023-01-15 18:09:02",
+            "delivery_date": "2022-08-11 12:48:14",
+            "current_date": "2026-05-15 13:28:24",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

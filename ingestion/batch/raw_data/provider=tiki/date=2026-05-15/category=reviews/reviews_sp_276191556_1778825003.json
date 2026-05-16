@@ -1,0 +1,68 @@
+[
+    {
+        "id": 20219392,
+        "title": "Cực kì hài lòng",
+        "content": "Mực tốt, in được nhiều trang (không kém hộp mực chính hãng) mà không bị lem.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.17009173,
+        "customer_id": 12067763,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1773478816,
+        "created_by": {
+            "id": 12067763,
+            "name": "Va Hu",
+            "full_name": "Va Hu",
+            "region": null,
+            "avatar_url": "https://lh5.googleusercontent.com/-IKG8vvsaE5U/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd2fMPC3_IYbok8XUaYrPxmhHK2hw/mo/photo.jpg",
+            "created_time": "2019-05-13 09:40:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1772262721,
+            "contribute_info": {
+                "id": 12067763,
+                "name": "Va Hu",
+                "avatar": "https://lh5.googleusercontent.com/-IKG8vvsaE5U/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd2fMPC3_IYbok8XUaYrPxmhHK2hw/mo/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 27,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 276191557,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 276191556,
+        "timeline": {
+            "review_created_date": "2026-03-14 16:00:16",
+            "delivery_date": "2026-03-01 10:28:34",
+            "current_date": "2026-05-15 13:03:25",
+            "content": "Đã dùng 13 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 13 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Chất lượng in tốt",
+                "Mực ra đều",
+                "Rõ nét",
+                "Sử dụng dễ dàng"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

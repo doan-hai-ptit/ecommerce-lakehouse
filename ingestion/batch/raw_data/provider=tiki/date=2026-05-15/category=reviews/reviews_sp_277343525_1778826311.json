@@ -1,0 +1,68 @@
+[
+    {
+        "id": 20198835,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16197084,
+        "customer_id": 9165908,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1765962178,
+        "created_by": {
+            "id": 9165908,
+            "name": "Thinh Nguyennp",
+            "full_name": "Thinh Nguyennp",
+            "region": null,
+            "avatar_url": "https://lh4.googleusercontent.com/-IZv-V1vEtns/AAAAAAAAAAI/AAAAAAAAACQ/0s0siqTNbqM/photo.jpg",
+            "created_time": "2018-11-24 17:40:18",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1760069684,
+            "contribute_info": {
+                "id": 9165908,
+                "name": "Thinh Nguyennp",
+                "avatar": "https://lh4.googleusercontent.com/-IZv-V1vEtns/AAAAAAAAAAI/AAAAAAAAACQ/0s0siqTNbqM/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 50,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán StorageShop",
+            "Dung lượng 1TB",
+            "Màu sắc Xanh"
+        ],
+        "product_attributes": [
+            "Dung lượng: 1TB",
+            "Màu sắc: Xanh"
+        ],
+        "spid": 277347008,
+        "is_photo": false,
+        "seller": {
+            "id": 128476,
+            "name": "StorageShop",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/05/30/0b/1e406715c4c10fbe9c7cb8a0b6d4606d.jpg"
+        },
+        "product_id": 277343525,
+        "timeline": {
+            "review_created_date": "2025-12-17 16:02:58",
+            "delivery_date": "2025-10-13 10:49:16",
+            "current_date": "2026-05-15 13:26:22",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

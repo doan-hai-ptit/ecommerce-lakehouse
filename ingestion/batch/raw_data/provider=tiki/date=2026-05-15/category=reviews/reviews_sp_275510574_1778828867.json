@@ -1,0 +1,63 @@
+[
+    {
+        "id": 20049692,
+        "title": "Hài lòng",
+        "content": "Sạc nhanh, công suất tốt. Lúc sạc hơi nóng một tí",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15954692,
+        "customer_id": 1865487,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1734284134,
+        "created_by": {
+            "id": 1865487,
+            "name": "Đức Phạm",
+            "full_name": "Đức Phạm",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/fc/3f/03/36e30c0c62145588c0a9493e58889dfc.png",
+            "created_time": "2016-11-08 10:18:32",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1733493190,
+            "contribute_info": {
+                "id": 1865487,
+                "name": "Đức Phạm",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/fc/3f/03/36e30c0c62145588c0a9493e58889dfc.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 380,
+                    "total_thank": 17
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Laptop Minh Hà"
+        ],
+        "product_attributes": [],
+        "spid": 275510575,
+        "is_photo": false,
+        "seller": {
+            "id": 126154,
+            "name": "Laptop Minh Hà",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/2c/4d/98/81092acd0fa710b3c2f6f15bfd2aaa6e.jpg"
+        },
+        "product_id": 275510574,
+        "timeline": {
+            "review_created_date": "2024-12-16 00:35:34",
+            "delivery_date": "2024-12-08 13:15:45",
+            "current_date": "2026-05-15 14:09:35",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

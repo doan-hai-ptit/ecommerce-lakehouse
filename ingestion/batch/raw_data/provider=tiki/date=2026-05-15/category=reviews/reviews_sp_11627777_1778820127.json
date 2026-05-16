@@ -1,0 +1,122 @@
+[
+    {
+        "id": 20025764,
+        "title": "Cực kì hài lòng",
+        "content": "Mực in đẹp, rõ nét, dễ sử dụng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.04614249,
+        "new_score": 0.15744996,
+        "customer_id": 9020660,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1730984217,
+        "created_by": {
+            "id": 9020660,
+            "name": "PC Đặng",
+            "full_name": "PC Đặng",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2340837525987425&height=200&width=200&ext=1544969047&hash=AeQYWj0k94uuOn9y",
+            "created_time": "2018-11-16 21:04:32",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1730090897,
+            "contribute_info": {
+                "id": 9020660,
+                "name": "PC Đặng",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=2340837525987425&height=200&width=200&ext=1544969047&hash=AeQYWj0k94uuOn9y",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 53,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in máy in Nhật Hưng"
+        ],
+        "product_attributes": [],
+        "spid": 37651319,
+        "is_photo": false,
+        "seller": {
+            "id": 65686,
+            "name": "Mực in máy in Nhật Hưng",
+            "logo": "27/53/8c/91fee2b381a27ecfaf6b4c3e47ec5067.jpg"
+        },
+        "product_id": 11627777,
+        "timeline": {
+            "review_created_date": "2024-11-07 19:56:57",
+            "delivery_date": "2024-10-31 19:00:25",
+            "current_date": "2026-05-15 11:45:49",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 5445188,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1278334,
+        "customer_id": 17247742,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1604330932,
+        "created_by": {
+            "id": 17247742,
+            "name": "Hà Văn Thi",
+            "full_name": "Hà Văn Thi",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1603873412,
+            "contribute_info": {
+                "id": 17247742,
+                "name": "Hà Văn Thi",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 8,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in máy in Nhật Hưng"
+        ],
+        "product_attributes": [],
+        "spid": 37651319,
+        "is_photo": false,
+        "seller": {
+            "id": 65686,
+            "name": "Mực in máy in Nhật Hưng",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ca/ea/e3/3c2e0d302738310585538ea32dabf12d.jpg"
+        },
+        "product_id": 11627777,
+        "timeline": {
+            "review_created_date": "2020-11-02 22:28:52",
+            "delivery_date": "2020-11-02 11:49:12",
+            "current_date": "2026-05-15 11:45:49",
+            "content": "Đã dùng 11 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 11 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

@@ -1,0 +1,1431 @@
+[
+    {
+        "id": 20198678,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16195665,
+        "customer_id": 13908801,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1765894984,
+        "created_by": {
+            "id": 13908801,
+            "name": "Vũ Tuấn",
+            "full_name": "Vũ Tuấn",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/f/2/6/4/13/120/e2ce81494419de2f23a2083574fb3814.jpg",
+            "created_time": "2019-09-09 12:28:40",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1763652103,
+            "contribute_info": {
+                "id": 13908801,
+                "name": "Vũ Tuấn",
+                "avatar": "https://s120.avatar.talk.zdn.vn/f/2/6/4/13/120/e2ce81494419de2f23a2083574fb3814.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 10,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2025-12-16 21:23:04",
+            "delivery_date": "2025-11-26 21:08:10",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "dễ sử dụng, cài đặt",
+                "kích hoạt nhanh, dễ dàng",
+                "thiết kế thông minh, tiện lợi"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20190580,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16136905,
+        "customer_id": 9872660,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1763112855,
+        "created_by": {
+            "id": 9872660,
+            "name": "Đỗ Văn Dũng",
+            "full_name": "Đỗ Văn Dũng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-12-17 11:52:36",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1762866003,
+            "contribute_info": {
+                "id": 9872660,
+                "name": "Đỗ Văn Dũng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 13,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2025-11-14 16:34:15",
+            "delivery_date": "2025-11-13 14:22:06",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20131739,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15840838,
+        "customer_id": 22846790,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1749094942,
+        "created_by": {
+            "id": 22846790,
+            "name": "Hoàng huy hùng",
+            "full_name": "Hoàng huy hùng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-08-02 15:34:25",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1748485712,
+            "contribute_info": {
+                "id": 22846790,
+                "name": "Hoàng huy hùng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 10,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2025-06-05 10:42:22",
+            "delivery_date": "2025-06-02 11:05:13",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19265968,
+        "title": "Cực kì hài lòng",
+        "content": "Giao đúng đơn hàng. Đóng gói bảo đảm. Hàng chuyển nhanh. Shipper thân thiện Đã cài đặt vào laptop.  Thẻ có bản quyền và hạn sử dụng 1 năm. Hài lòng!",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1578243,
+        "customer_id": 21171340,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1686040679,
+        "created_by": {
+            "id": 21171340,
+            "name": "tran dinh viet",
+            "full_name": "tran dinh viet",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-04-02 23:13:35",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1685856749,
+            "contribute_info": {
+                "id": 21171340,
+                "name": "tran dinh viet",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 4,
+                    "total_thank": 6
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-06-06 15:37:59",
+            "delivery_date": "2023-06-06 14:54:18",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Không hẹn trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19588193,
+        "title": "Cực kì hài lòng",
+        "content": "Giá cả hợp lý, giao hàng nhanh, chất lượng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.15705587,
+        "customer_id": 14014544,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4297946,
+                "full_path": "https://salt.tikicdn.com/ts/review/bd/c2/06/02f464b257f296c446efa1a5de261923.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4297947,
+                "full_path": "https://salt.tikicdn.com/ts/review/fd/5c/38/a73fb0bd75cbd4bc6853101b4858d524.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1697237872,
+        "created_by": {
+            "id": 14014544,
+            "name": "Lã Đức Thanh",
+            "full_name": "Lã Đức Thanh",
+            "region": null,
+            "avatar_url": "https://s120.avatar.talk.zdn.vn/8/a/2/f/2/120/60c78609ad12ccac2a33bd9f43bb9c99.jpg",
+            "created_time": "2019-09-15 00:01:13",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1696053547,
+            "contribute_info": {
+                "id": 14014544,
+                "name": "Lã Đức Thanh",
+                "avatar": "https://s120.avatar.talk.zdn.vn/8/a/2/f/2/120/60c78609ad12ccac2a33bd9f43bb9c99.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-10-14 05:57:52",
+            "delivery_date": "2023-10-04 13:41:08",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 10 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 10 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "bảo mật tốt",
+                "dễ sử dụng, cài đặt",
+                "kích hoạt nhanh, dễ dàng",
+                "thiết kế thông minh, tiện lợi"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19679852,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng được đóng gói kỹ, còn được tặng thêm quà nên bất ngờ. Rất vui vẻ, hài lòng.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.155874,
+        "customer_id": 6537704,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1702374043,
+        "created_by": {
+            "id": 6537704,
+            "name": "Quỳnh Nga",
+            "full_name": "Quỳnh Nga",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-02-19 12:42:44",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1702204094,
+            "contribute_info": {
+                "id": 6537704,
+                "name": "Quỳnh Nga",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 176,
+                    "total_thank": 18
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-12-12 16:40:43",
+            "delivery_date": "2023-12-12 16:30:17",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 10 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 10 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19594125,
+        "title": "Cực kì hài lòng",
+        "content": "Sản phẩm tốt giao hàng nhanh",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 3.26388889,
+        "new_score": 0.15583798,
+        "customer_id": 23396071,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4299618,
+                "full_path": "https://salt.tikicdn.com/ts/review/c3/d7/ce/0beb49be4c4ae2fa802082234b487a0f.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4299619,
+                "full_path": "https://salt.tikicdn.com/ts/review/04/29/2e/503088c2892ecfc149625cedd5974f3e.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1697468800,
+        "created_by": {
+            "id": 23396071,
+            "name": "Tiến Đỗ",
+            "full_name": "Tiến Đỗ",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-09-04 21:18:07",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1695044900,
+            "contribute_info": {
+                "id": 23396071,
+                "name": "Tiến Đỗ",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-10-16 22:06:40",
+            "delivery_date": "2023-09-22 09:10:53",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "bảo mật tốt",
+                "dễ sử dụng, cài đặt",
+                "kích hoạt nhanh, dễ dàng",
+                "thiết kế thông minh, tiện lợi"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19029584,
+        "title": "Cực kì hài lòng",
+        "content": "Đã nhận hàng, đóng gói cẩn thận, giao hàng 3 ngày hơi chậm, tối về cài đặt mới biết chất lượng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.1553833,
+        "customer_id": 1025050,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4172797,
+                "full_path": "https://salt.tikicdn.com/ts/review/f8/e9/06/5ded1035cffc1a751a3b7b98c57090ed.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1680164916,
+        "created_by": {
+            "id": 1025050,
+            "name": "Hoàng Minh Đức",
+            "full_name": "Hoàng Minh Đức",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2015-12-04 16:25:12",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1679899422,
+            "contribute_info": {
+                "id": 1025050,
+                "name": "Hoàng Minh Đức",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 24,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-03-30 15:28:36",
+            "delivery_date": "2023-03-30 14:05:05",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19970704,
+        "title": "Cực kì hài lòng",
+        "content": "Giao nhanh, đúng hàng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15500954,
+        "customer_id": 6193446,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1725426837,
+        "created_by": {
+            "id": 6193446,
+            "name": "Alex Ngo",
+            "full_name": "Alex Ngo",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/aa/ce/c1/5954552d3aedec8d48ddf541bb872410.png",
+            "created_time": "2017-12-11 20:34:47",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1724031444,
+            "contribute_info": {
+                "id": 6193446,
+                "name": "Alex Ngo",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/aa/ce/c1/5954552d3aedec8d48ddf541bb872410.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 299,
+                    "total_thank": 16
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2024-09-04 12:13:57",
+            "delivery_date": "2024-08-20 14:52:34",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "dễ sử dụng, cài đặt",
+                "kích hoạt nhanh, dễ dàng",
+                "thiết kế thông minh, tiện lợi"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17608065,
+        "title": "Cực kì hài lòng",
+        "content": "Mn nên mua nhé\r\nHàng rẻ hơn trên web nhiều. Mà vẫn chất lg\r\nMình mua 2c lận\r\nShip hơi lâu 1 xíu nma chấp nhận được\r\nTóm lại nên mua koh si nghí",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.01484781,
+        "new_score": 0.15483106,
+        "customer_id": 28097496,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3851600,
+                "full_path": "https://salt.tikicdn.com/ts/review/37/d8/75/c4a21a50d69713adaad938eaa7c30e1e.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1662399093,
+        "created_by": {
+            "id": 28097496,
+            "name": "nguyen phuong cham",
+            "full_name": "nguyen phuong cham",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-08-28 19:25:06",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1661710907,
+            "contribute_info": {
+                "id": 28097496,
+                "name": "nguyen phuong cham",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2022-09-06 00:31:33",
+            "delivery_date": "2022-09-02 16:16:46",
+            "current_date": "2026-05-15 11:33:06",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "bảo mật tốt",
+                "dễ sử dụng, cài đặt",
+                "kích hoạt nhanh, dễ dàng",
+                "thiết kế thông minh, tiện lợi"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20027009,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15461842,
+        "customer_id": 18367288,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1731150517,
+        "created_by": {
+            "id": 18367288,
+            "name": "Nguyễn Văn Hồng",
+            "full_name": "Nguyễn Văn Hồng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-09-06 13:04:26",
+            "group_id": 32,
+            "purchased": true,
+            "purchased_at": 1730986237,
+            "contribute_info": {
+                "id": 18367288,
+                "name": "Nguyễn Văn Hồng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 419,
+                    "total_thank": 5
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2024-11-09 18:08:37",
+            "delivery_date": "2024-11-09 15:55:01",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19874630,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng tốt, giá rẻ, rất hài lòng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.17749379,
+        "new_score": 0.1540489,
+        "customer_id": 7195590,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1715828094,
+        "created_by": {
+            "id": 7195590,
+            "name": "Nguyễn Vân",
+            "full_name": "Nguyễn Vân",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-05-27 11:34:08",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1715418491,
+            "contribute_info": {
+                "id": 7195590,
+                "name": "Nguyễn Vân",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 17,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2024-05-16 09:54:54",
+            "delivery_date": "2024-05-15 16:56:49",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 18822818,
+        "title": "Cực kì hài lòng",
+        "content": "Phần mềm bkav bản quyền mà giá shop bán rẻ, ship nhanh bọc cẩn thẩn quá là hài lòng luôn",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.12845215,
+        "new_score": 0.15358398,
+        "customer_id": 1148606,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4122300,
+                "full_path": "https://salt.tikicdn.com/ts/review/7f/6a/41/96938c9a82c8872c8d87e0f8938f4ed6.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1676696001,
+        "created_by": {
+            "id": 1148606,
+            "name": "Nguyễn Văn Ánh",
+            "full_name": "Nguyễn Văn Ánh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-02-07 22:03:09",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1676537854,
+            "contribute_info": {
+                "id": 1148606,
+                "name": "Nguyễn Văn Ánh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 62,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-02-18 11:53:21",
+            "delivery_date": "2023-02-18 11:18:35",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18996073,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng được gói cẩn thận và giao nhanh, cảm ơn shop, tiki và anh giao hàng rất nhiều.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15357342,
+        "customer_id": 21672282,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4164125,
+                "full_path": "https://salt.tikicdn.com/ts/review/2d/b2/b7/298b1ca8e29d4e1a96e63ac95ae7ca22.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1679486828,
+        "created_by": {
+            "id": 21672282,
+            "name": "Le Nguyen HT",
+            "full_name": "Le Nguyen HT",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-05-11 13:11:31",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1679389583,
+            "contribute_info": {
+                "id": 21672282,
+                "name": "Le Nguyen HT",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 96,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 3PC"
+        ],
+        "product_attributes": [
+            "Gói: 3PC"
+        ],
+        "spid": 247241484,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-03-22 19:07:08",
+            "delivery_date": "2023-03-22 14:44:32",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 4 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19965232,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15326878,
+        "customer_id": 29869716,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1724760355,
+        "created_by": {
+            "id": 29869716,
+            "name": "Trần Văn Khánh",
+            "full_name": "Trần Văn Khánh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2024-03-30 21:55:30",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1724313377,
+            "contribute_info": {
+                "id": 29869716,
+                "name": "Trần Văn Khánh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 2 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2024-08-27 19:05:55",
+            "delivery_date": "2024-08-27 12:50:03",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 6 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19086443,
+        "title": "Cực kì hài lòng",
+        "content": "Giao hàng rất nhanh.Rất hài lòng với sp mọi người nên mua ủng hộ shop .",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15310473,
+        "customer_id": 12183970,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4186481,
+                "full_path": "https://salt.tikicdn.com/ts/review/7c/c7/79/a868b01ff2805ac689d63f4b87e995b5.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1681371150,
+        "created_by": {
+            "id": 12183970,
+            "name": "Nguyễn Minh Hưởng",
+            "full_name": "Nguyễn Minh Hưởng",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1227142204152175&height=200&width=200&ext=1561037846&hash=AeQfuyHThv2B7RCc",
+            "created_time": "2019-05-21 20:37:47",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1681260744,
+            "contribute_info": {
+                "id": 12183970,
+                "name": "Nguyễn Minh Hưởng",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1227142204152175&height=200&width=200&ext=1561037846&hash=AeQfuyHThv2B7RCc",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-04-13 14:32:30",
+            "delivery_date": "2023-04-13 11:09:14",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 3 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19495277,
+        "title": "Rất không hài lòng",
+        "content": "Đóng gói xấu. \r\nSao cú phải bắt viết nhiều mới được gửi vậy",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15216275,
+        "customer_id": 17075110,
+        "comment_count": 0,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1693324811,
+        "created_by": {
+            "id": 17075110,
+            "name": "Chị Hà",
+            "full_name": "Chị Hà",
+            "region": null,
+            "avatar_url": "https://graph.facebook.com/v3.3/550365039192589/picture?type=large&return_ssl_resources=1",
+            "created_time": "2020-04-09 23:00:06",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1692774174,
+            "contribute_info": {
+                "id": 17075110,
+                "name": "Chị Hà",
+                "avatar": "https://graph.facebook.com/v3.3/550365039192589/picture?type=large&return_ssl_resources=1",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 127,
+                    "total_thank": 36
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-08-29 23:00:11",
+            "delivery_date": "2023-08-29 15:05:35",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 8 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19529747,
+        "title": "Cực kì hài lòng",
+        "content": "Giá quá rẻ 510k : 3 = 270k, nếu mua trên website của BKAV là 299k",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15191909,
+        "customer_id": 10799914,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1694696368,
+        "created_by": {
+            "id": 10799914,
+            "name": "Lê Hồng Hiên",
+            "full_name": "Lê Hồng Hiên",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/2e/2b/54/5f58097d739dd4d893344a13e6a4c1f4.png",
+            "created_time": "2019-02-12 10:51:40",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1694271547,
+            "contribute_info": {
+                "id": 10799914,
+                "name": "Lê Hồng Hiên",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/2e/2b/54/5f58097d739dd4d893344a13e6a4c1f4.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 361,
+                    "total_thank": 34
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 3PC"
+        ],
+        "product_attributes": [
+            "Gói: 3PC"
+        ],
+        "spid": 247241484,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-09-14 19:59:28",
+            "delivery_date": "2023-09-13 14:31:10",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17890532,
+        "title": "Cực kì hài lòng",
+        "content": "Sản phẩm diệt vi rus BKAV có tầm cỡ quốc tế, đáng dùng để bảo vệ máy tính, điện thoại không bị hư hỏng hay mất cắp dữ liệu",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.01487033,
+        "new_score": 0.15187083,
+        "customer_id": 11431814,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1665112614,
+        "created_by": {
+            "id": 11431814,
+            "name": "Cong Bang Le",
+            "full_name": "Cong Bang Le",
+            "region": null,
+            "avatar_url": "https://graph.facebook.com/2063841047057061/picture?type=large&return_ssl_resources=1",
+            "created_time": "2019-03-21 20:40:08",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1664794592,
+            "contribute_info": {
+                "id": 11431814,
+                "name": "Cong Bang Le",
+                "avatar": "https://graph.facebook.com/2063841047057061/picture?type=large&return_ssl_resources=1",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 23,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2022-10-07 10:16:54",
+            "delivery_date": "2022-10-06 15:34:31",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19245894,
+        "title": "Cực kì hài lòng",
+        "content": "Giá rẻ hơn so với thị trường. Good Shop 👍",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15164221,
+        "customer_id": 8316515,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4222549,
+                "full_path": "https://salt.tikicdn.com/ts/review/8e/9a/58/59274ebfb75b1cd9412583ecf01c3c37.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1685494219,
+        "created_by": {
+            "id": 8316515,
+            "name": "Hai Anh",
+            "full_name": "Hai Anh",
+            "region": null,
+            "avatar_url": "https://lh3.googleusercontent.com/-u5Orphl7Wtw/AAAAAAAAAAI/AAAAAAAAE1M/nS6v9tKhteQ/photo.jpg",
+            "created_time": "2018-10-10 09:02:27",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1684585053,
+            "contribute_info": {
+                "id": 8316515,
+                "name": "Hai Anh",
+                "avatar": "https://lh3.googleusercontent.com/-u5Orphl7Wtw/AAAAAAAAAAI/AAAAAAAAE1M/nS6v9tKhteQ/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 595,
+                    "total_thank": 84
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store",
+            "Gói 1PC"
+        ],
+        "product_attributes": [
+            "Gói: 1PC"
+        ],
+        "spid": 188039476,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 247241481,
+        "timeline": {
+            "review_created_date": "2023-05-31 07:50:19",
+            "delivery_date": "2023-05-24 15:02:16",
+            "current_date": "2026-05-15 11:33:07",
+            "content": "Đã dùng 7 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Không hẹn trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    }
+]

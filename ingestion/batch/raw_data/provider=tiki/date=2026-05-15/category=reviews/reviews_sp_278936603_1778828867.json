@@ -1,0 +1,63 @@
+[
+    {
+        "id": 20203900,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16235302,
+        "customer_id": 7141720,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1767771683,
+        "created_by": {
+            "id": 7141720,
+            "name": "Tuan An",
+            "full_name": "Tuan An",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-05-18 15:37:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1767666864,
+            "contribute_info": {
+                "id": 7141720,
+                "name": "Tuan An",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 26,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Shop Thành Long Mực in"
+        ],
+        "product_attributes": [],
+        "spid": 278936604,
+        "is_photo": false,
+        "seller": {
+            "id": 183951,
+            "name": "Shop Thành Long Mực in",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/4b/54/1a/f385a79a716cb3505f152e7af8c769aa.png"
+        },
+        "product_id": 278936603,
+        "timeline": {
+            "review_created_date": "2026-01-07 14:41:23",
+            "delivery_date": "2026-01-07 13:35:24",
+            "current_date": "2026-05-15 14:07:59",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

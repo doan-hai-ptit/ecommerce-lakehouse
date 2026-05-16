@@ -1,0 +1,7 @@
+{
+    "error": {
+        "code": 404,
+        "message": "Route Not Found",
+        "trace_id": "b6346769-f322-4f53-8a7e-cad288ebf45e"
+    }
+}

@@ -1,0 +1,356 @@
+[
+    {
+        "id": 20216708,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1633606,
+        "customer_id": 15018305,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1772542294,
+        "created_by": {
+            "id": 15018305,
+            "name": "Thuat Nguyen",
+            "full_name": "Thuat Nguyen",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-11-18 13:10:25",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1767527910,
+            "contribute_info": {
+                "id": 15018305,
+                "name": "Thuat Nguyen",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 45,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Viễn Thông Minh Đức"
+        ],
+        "product_attributes": [],
+        "spid": 274400957,
+        "is_photo": false,
+        "seller": {
+            "id": 352627,
+            "name": "Viễn Thông Minh Đức",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/f7/2c/30/fd974f65eab88061f231052b86fcfdfc.jpg"
+        },
+        "product_id": 476063,
+        "timeline": {
+            "review_created_date": "2026-03-03 19:51:34",
+            "delivery_date": "2026-01-08 12:43:47",
+            "current_date": "2026-05-15 14:13:20",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20192925,
+        "title": "Hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16154419,
+        "customer_id": 7026755,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1763942106,
+        "created_by": {
+            "id": 7026755,
+            "name": "Thân Dương",
+            "full_name": "Thân Dương",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-04-29 17:10:01",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1750641813,
+            "contribute_info": {
+                "id": 7026755,
+                "name": "Thân Dương",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 17,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Viễn Thông Minh Đức"
+        ],
+        "product_attributes": [],
+        "spid": 274400957,
+        "is_photo": false,
+        "seller": {
+            "id": 352627,
+            "name": "Viễn Thông Minh Đức",
+            "logo": "f7/2c/30/fd974f65eab88061f231052b86fcfdfc.jpg"
+        },
+        "product_id": 476063,
+        "timeline": {
+            "review_created_date": "2025-11-24 06:55:06",
+            "delivery_date": "2025-06-25 11:43:26",
+            "current_date": "2026-05-15 14:13:20",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19924712,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1524077,
+        "customer_id": 1277201,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1720683367,
+        "created_by": {
+            "id": 1277201,
+            "name": "Thai Nguyen Van",
+            "full_name": "Thai Nguyen Van",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-04-01 02:08:46",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1718239290,
+            "contribute_info": {
+                "id": 1277201,
+                "name": "Thai Nguyen Van",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 24,
+                    "total_thank": 11
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Viễn Thông Minh Đức"
+        ],
+        "product_attributes": [],
+        "spid": 274400957,
+        "is_photo": false,
+        "seller": {
+            "id": 352627,
+            "name": "Viễn Thông Minh Đức",
+            "logo": "f7/2c/30/fd974f65eab88061f231052b86fcfdfc.jpg"
+        },
+        "product_id": 476063,
+        "timeline": {
+            "review_created_date": "2024-07-11 14:36:07",
+            "delivery_date": "2024-06-15 14:37:00",
+            "current_date": "2026-05-15 14:13:20",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 1011498,
+        "title": "không tốt",
+        "content": "mới mua , xài chưa được 3 tháng bị hư luôn ! mặc dù nâng niu cất giữ cẩn thận. vỏ usb không chắc chắn. Rất thất vọng !",
+        "status": "approved",
+        "thank_count": 2,
+        "score": 0.00387411,
+        "new_score": 0.11957449,
+        "customer_id": 143347,
+        "comment_count": 0,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1511451979,
+        "created_by": {
+            "id": 143347,
+            "name": "Nguyễn Ngọc Hân",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1472549169,
+            "contribute_info": {
+                "id": 143347,
+                "name": "Nguyễn Ngọc Hân",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 16,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 186303,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+        },
+        "product_id": 476063,
+        "timeline": {
+            "review_created_date": "2017-11-23 22:46:19",
+            "delivery_date": "2016-08-31 15:47:44",
+            "current_date": "2026-05-15 14:13:20",
+            "content": "Đã dùng 1 năm",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 năm."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 784353,
+        "title": "Bình thường",
+        "content": "hình thức đẹp, có nhiều dung lượng để lưu trữ hơn và giá tiền phì hợp",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 0.00323731,
+        "new_score": 0.11262411,
+        "customer_id": 1491878,
+        "comment_count": 0,
+        "rating": 3,
+        "images": [],
+        "thanked": false,
+        "created_at": 1502332644,
+        "created_by": {
+            "id": 1491878,
+            "name": "Phương Dung",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": true,
+            "purchased_at": 1484922964,
+            "contribute_info": {
+                "id": 1491878,
+                "name": "Phương Dung",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 2,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 186303,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+        },
+        "product_id": 476063,
+        "timeline": {
+            "review_created_date": "2017-08-10 09:37:24",
+            "delivery_date": "2017-01-23 10:11:08",
+            "current_date": "2026-05-15 14:13:20",
+            "content": "Đã dùng 1 năm",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 năm."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 393737,
+        "title": "tốt",
+        "content": "Do bây giờ dung lượng của chiếc usb cũ không đủ dùng nên mình đã quyết định mua một cái usb 32g luôn, đầu tiên mình tham khảo nhiều hiệu nhưng mà quyết định mua hiệu này, mình không biết hiệu nào tốt mà thấy hiệu này lạ , không biết sao nhưng mua về ban đầu dùng rất tốt, không có lỗi, hi vọng sẽ bền.",
+        "status": "approved",
+        "thank_count": 7,
+        "score": 0.00013126,
+        "new_score": 0.06023977,
+        "customer_id": 1069868,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1457497255,
+        "created_by": {
+            "id": 1069868,
+            "name": "Phuong Thao",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "purchased": false,
+            "purchased_at": null,
+            "rank": 5,
+            "badge": "Bút mới nổi",
+            "badge_icon": "https://vcdn.tikicdn.com/assets/img/review-badge/badge-5.png",
+            "contribute_info": {
+                "id": 1069868,
+                "name": "Phuong Thao",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 239,
+                    "total_thank": 98
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 186303,
+        "is_photo": false,
+        "content_id": 393699,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+        },
+        "product_id": 476063,
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

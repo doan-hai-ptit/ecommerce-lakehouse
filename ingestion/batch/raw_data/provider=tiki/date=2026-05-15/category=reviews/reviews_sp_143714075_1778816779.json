@@ -1,0 +1,1388 @@
+[
+    {
+        "id": 18726469,
+        "title": "Hài lòng",
+        "content": "Đóng gói cẩn thận, thiết kế trong đẹp, đang *** chưa biết thế nào. Hy vọng thiết bị sẽ bền với thời gian.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 44.44444444,
+        "new_score": 0.16123246,
+        "customer_id": 10607068,
+        "comment_count": 2,
+        "rating": 4,
+        "images": [
+            {
+                "id": 4099938,
+                "full_path": "https://salt.tikicdn.com/ts/review/b7/e2/7c/84fee2cada745a751156d7b6e58016fe.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4099939,
+                "full_path": "https://salt.tikicdn.com/ts/review/8c/0b/cd/8a574da19722643032d2ff32c62d02cb.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4099940,
+                "full_path": "https://salt.tikicdn.com/ts/review/7a/20/0b/3f203b7b690459b3ee8f63b79b974edf.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1675347282,
+        "created_by": {
+            "id": 10607068,
+            "name": "Nguyễn Hoàng Vủ",
+            "full_name": "Nguyễn Hoàng Vủ",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/8f/2f/7d/895894ea3d99c145a160304144d9883b.png",
+            "created_time": "2019-01-30 08:54:28",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1674477780,
+            "contribute_info": {
+                "id": 10607068,
+                "name": "Nguyễn Hoàng Vủ",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/8f/2f/7d/895894ea3d99c145a160304144d9883b.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": true,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "79/29/6d/a9c5c0a4f23643de52568720353def36.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2023-02-02 21:14:42",
+            "delivery_date": "2023-01-31 10:25:13",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19985320,
+        "title": "Rất không hài lòng",
+        "content": "Hàng khi nhận được đã bị mở tem. Nhà bán giải thích thế nào đây ????",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 14.02777778,
+        "new_score": 0.15977139,
+        "customer_id": 17480999,
+        "comment_count": 2,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1726824446,
+        "created_by": {
+            "id": 17480999,
+            "name": "Hong Ha",
+            "full_name": "Hong Ha",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-06-02 17:18:21",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1726716368,
+            "contribute_info": {
+                "id": 17480999,
+                "name": "Hong Ha",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 29,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer"
+        ],
+        "product_attributes": [],
+        "spid": 161379340,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2024-09-20 16:27:26",
+            "delivery_date": "2024-09-20 14:23:35",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19935115,
+        "title": "Cực kì hài lòng",
+        "content": "Cũng ok tốc độ cũng ổn , nói chung là dòng bình dân như vậy thì dùng thoải mái",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15930307,
+        "customer_id": 30021839,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1721766211,
+        "created_by": {
+            "id": 30021839,
+            "name": "Huỳnh Văn Hậu",
+            "full_name": "Huỳnh Văn Hậu",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/10/34/15/ed22894da8378dfb7517c04e094f0829.jpg",
+            "created_time": "2024-07-09 21:58:27",
+            "group_id": 7,
+            "purchased": true,
+            "purchased_at": 1720538291,
+            "contribute_info": {
+                "id": 30021839,
+                "name": "Huỳnh Văn Hậu",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/10/34/15/ed22894da8378dfb7517c04e094f0829.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 2 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer"
+        ],
+        "product_attributes": [],
+        "spid": 161379340,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2024-07-24 03:23:31",
+            "delivery_date": "2024-07-13 17:27:37",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 10 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 10 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "an toàn, bảo mật",
+                "độ tương thích thiết bị tốt",
+                "thiết kệ nhỏ, gọn , tiện lợi",
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17935966,
+        "title": "Hài lòng",
+        "content": "Usb thì như hình nhưng tốc độ chậm.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 55.55555556,
+        "new_score": 0.15882808,
+        "customer_id": 6711437,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [
+            {
+                "id": 3929740,
+                "full_path": "https://salt.tikicdn.com/ts/review/ea/3e/9a/f4702dc33c99ea12ac0fc2d17c204e0d.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3929741,
+                "full_path": "https://salt.tikicdn.com/ts/review/67/a7/43/31c38f6f67abb7dd615e14d77d8fb556.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3929742,
+                "full_path": "https://salt.tikicdn.com/ts/review/1d/ea/d8/5c8b399fb7eaa28f9bb7eb555930d5b4.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3929743,
+                "full_path": "https://salt.tikicdn.com/ts/review/91/23/2f/8b8d526fb495ffb32d1fa88ae2761379.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3929744,
+                "full_path": "https://salt.tikicdn.com/ts/review/22/b4/86/f97f3122b2f012706d3faa0ff0772392.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1665541491,
+        "created_by": {
+            "id": 6711437,
+            "name": "đoàn văn tường",
+            "full_name": "đoàn văn tường",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-03-15 11:47:34",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1665355766,
+            "contribute_info": {
+                "id": 6711437,
+                "name": "đoàn văn tường",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 131,
+                    "total_thank": 46
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": true,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "eb/4a/4e/6d9e5dff10382741f51363827a3dd03c.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-10-12 09:24:51",
+            "delivery_date": "2022-10-11 12:18:17",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19714548,
+        "title": "Cực kì hài lòng",
+        "content": "Dùng để cài windows 10, windows 11 OK\r\nTốc độ đọc ghi siêu nhanh",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15721149,
+        "customer_id": 27584669,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4326250,
+                "full_path": "https://salt.tikicdn.com/ts/review/38/3a/0b/e40c1deeec3bf5818c9131b2fb4f78ff.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1704603267,
+        "created_by": {
+            "id": 27584669,
+            "name": "Nguyễn khang",
+            "full_name": "Nguyễn khang",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b6/56/29/f7b04a55ea005a5e87453514fd3b7c4c.png",
+            "created_time": "2022-05-27 19:49:21",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1703651792,
+            "contribute_info": {
+                "id": 27584669,
+                "name": "Nguyễn khang",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b6/56/29/f7b04a55ea005a5e87453514fd3b7c4c.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 16,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store"
+        ],
+        "product_attributes": [],
+        "spid": 246890951,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2024-01-07 11:54:27",
+            "delivery_date": "2023-12-30 15:28:52",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 8 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "an toàn, bảo mật",
+                "độ tương thích thiết bị tốt",
+                "thiết kệ nhỏ, gọn , tiện lợi",
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16746606,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng giao nhanh trước 1 ngày, được bao bọc cẩn thận nữa.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 50,
+        "new_score": 0.15550057,
+        "customer_id": 27393586,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3599097,
+                "full_path": "https://salt.tikicdn.com/ts/review/8d/ba/9d/632ce0e65f951fc92a540e7c95c4f781.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3599098,
+                "full_path": "https://salt.tikicdn.com/ts/review/02/74/62/dac00736044e881b46e65f2335f92cdd.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3599099,
+                "full_path": "https://salt.tikicdn.com/ts/review/36/d6/a1/763e328eb49e4efe3321e117cb568c86.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3599100,
+                "full_path": "https://salt.tikicdn.com/ts/review/94/5c/d0/565cc35890c9cf3e71769a306ef12212.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1655468294,
+        "created_by": {
+            "id": 27393586,
+            "name": "Hoàng Nam",
+            "full_name": "Hoàng Nam",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/cb/e3/62/125df616e23450f25789a2512f310140.png",
+            "created_time": "2022-04-24 21:53:22",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1654934433,
+            "contribute_info": {
+                "id": 27393586,
+                "name": "Hoàng Nam",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/cb/e3/62/125df616e23450f25789a2512f310140.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 49,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": true,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/eb/4a/4e/6d9e5dff10382741f51363827a3dd03c.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-06-17 19:18:14",
+            "delivery_date": "2022-06-17 15:54:02",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 3 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17367293,
+        "title": "Không hài lòng",
+        "content": "Ngoài vỏ ghi 64 GB, kiểm tra trên máy chỉ có 57,7 GB. Hụt mất hết 6,3 GB. Cảm giác như đang bị *** vậy :(",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.15441655,
+        "customer_id": 16068691,
+        "comment_count": 2,
+        "rating": 2,
+        "images": [
+            {
+                "id": 3779851,
+                "full_path": "https://salt.tikicdn.com/ts/review/9e/d6/9b/32d8c5041143659881ea5feed1ad60fd.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3779852,
+                "full_path": "https://salt.tikicdn.com/ts/review/8a/a2/e6/5a70524a0d08444e385cb7bd556e527d.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1660120848,
+        "created_by": {
+            "id": 16068691,
+            "name": "Ngọc Châu",
+            "full_name": "Ngọc Châu",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/c5/04/62/abd54cb4c33cd68877ce9753807c5e7a.png",
+            "created_time": "2020-01-20 09:45:52",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1659875060,
+            "contribute_info": {
+                "id": 16068691,
+                "name": "Ngọc Châu",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/c5/04/62/abd54cb4c33cd68877ce9753807c5e7a.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 153,
+                    "total_thank": 23
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán NGUYENVUSTORE"
+        ],
+        "product_attributes": [],
+        "spid": 171673813,
+        "is_photo": true,
+        "seller": {
+            "id": 27572,
+            "name": "NGUYENVUSTORE",
+            "logo": "fb/20/68/f0a6ed78fc9b961c64df752f2f01d90d.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-08-10 15:40:48",
+            "delivery_date": "2022-08-10 15:21:23",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 19 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 19 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16764298,
+        "title": "Rất không hài lòng",
+        "content": "Rất thất vọng. tốc độ copy còn thua cả thẻ nhớ.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 44.44444444,
+        "new_score": 0.15199864,
+        "customer_id": 17750137,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [
+            {
+                "id": 3604461,
+                "full_path": "https://salt.tikicdn.com/ts/review/55/f6/c6/8ab2011866b85a3de1ef852d7f372a8e.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3604462,
+                "full_path": "https://salt.tikicdn.com/ts/review/d4/72/68/a72801c5284f0ca1c636392a5613a15d.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3604463,
+                "full_path": "https://salt.tikicdn.com/ts/review/22/27/9b/cd3bc34c581f8fd3540f3c3f4dcce90e.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1655616991,
+        "created_by": {
+            "id": 17750137,
+            "name": "JAMES NGUYEN",
+            "full_name": "JAMES NGUYEN",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/a6/45/de/e73ac4f707d77f626de478fc3a3b51a2.png",
+            "created_time": "2020-07-09 21:42:51",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1655257784,
+            "contribute_info": {
+                "id": 17750137,
+                "name": "JAMES NGUYEN",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/a6/45/de/e73ac4f707d77f626de478fc3a3b51a2.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 58,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": true,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/eb/4a/4e/6d9e5dff10382741f51363827a3dd03c.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-06-19 12:36:31",
+            "delivery_date": "2022-06-19 11:20:48",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16727597,
+        "title": "Không hài lòng",
+        "content": "Tốc độ coppy vào usb rất chậm cứ như đang xài usb 2.0 vậy. Rất thất vọng khuyên mọi người cân nhắc trước khi mua.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15147515,
+        "customer_id": 22087388,
+        "comment_count": 1,
+        "rating": 2,
+        "images": [
+            {
+                "id": 3593189,
+                "full_path": "https://salt.tikicdn.com/ts/review/5f/ed/a9/c56d58acbacd403c69a59fda0535071a.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1655347946,
+        "created_by": {
+            "id": 22087388,
+            "name": "Tuấn anh",
+            "full_name": "Tuấn anh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-06-08 17:34:07",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1655036576,
+            "contribute_info": {
+                "id": 22087388,
+                "name": "Tuấn anh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 9,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": true,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/eb/4a/4e/6d9e5dff10382741f51363827a3dd03c.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-06-16 09:52:26",
+            "delivery_date": "2022-06-16 09:18:50",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16620771,
+        "title": "Cực kì hài lòng",
+        "content": "Giao hàng nhanh, đóng gói cẩn thận, nguyên bao bì, hàng 2022, độ bền qua thời gian sử dụng mới có đánh giá!",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15046316,
+        "customer_id": 2042203,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3554275,
+                "full_path": "https://salt.tikicdn.com/ts/review/58/b9/57/9ee6a83c91260750c2e2ca56a90b03bc.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1654659914,
+        "created_by": {
+            "id": 2042203,
+            "name": "quoc viet dang",
+            "full_name": "quoc viet dang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-01-05 08:12:27",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1654223999,
+            "contribute_info": {
+                "id": 2042203,
+                "name": "Tô Ka",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 10,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": true,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/eb/4a/4e/6d9e5dff10382741f51363827a3dd03c.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-06-08 10:45:14",
+            "delivery_date": "2022-06-06 11:42:09",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17251578,
+        "title": "Hài lòng",
+        "content": "Sản phẩm ok, mới mua chất lượng sản phẩm chưa biết như thế nào nên mình đánh giá 4 Sao",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.14995309,
+        "customer_id": 13045394,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [
+            {
+                "id": 3744654,
+                "full_path": "https://salt.tikicdn.com/ts/review/2f/31/be/dd5767ca65f8fc3ddd7c8cdf68685cee.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1659189098,
+        "created_by": {
+            "id": 13045394,
+            "name": "Đào Minh Quý",
+            "full_name": "Đào Minh Quý",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-07-23 12:54:26",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1657796542,
+            "contribute_info": {
+                "id": 13045394,
+                "name": "Đào Minh Quý",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 12,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": true,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "eb/4a/4e/6d9e5dff10382741f51363827a3dd03c.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-07-30 20:51:38",
+            "delivery_date": "2022-07-20 17:54:00",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 10 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 10 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17009390,
+        "title": "Cực kì hài lòng",
+        "content": "Thấy vỏ bao đã bị bóc rách trước usb chat lượng ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.1494467,
+        "customer_id": 8225923,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3671159,
+                "full_path": "https://salt.tikicdn.com/ts/review/c7/c5/b9/c59edb2bc191a2be9e5e4dccf5de2a8e.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3671160,
+                "full_path": "https://salt.tikicdn.com/ts/review/38/cc/99/b70642eaaf67114042185fc7222c6ff2.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1657422787,
+        "created_by": {
+            "id": 8225923,
+            "name": "Hoàng Việt Anh",
+            "full_name": "Hoàng Việt Anh",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/5a/2c/89/65d802ebaa58062337598d05cfe2f72a.png",
+            "created_time": "2018-10-04 00:09:32",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1656219575,
+            "contribute_info": {
+                "id": 8225923,
+                "name": "Hoàng Việt Anh",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/5a/2c/89/65d802ebaa58062337598d05cfe2f72a.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 3,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": true,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/eb/4a/4e/6d9e5dff10382741f51363827a3dd03c.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-07-10 10:13:07",
+            "delivery_date": "2022-07-01 10:33:39",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 9 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18143436,
+        "title": "Cực kì hài lòng",
+        "content": "Tốt, mong dùng đc bền lâu",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.14937133,
+        "customer_id": 11949512,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3979964,
+                "full_path": "https://salt.tikicdn.com/ts/review/69/94/1c/a9e4930e1d3db3db2a390d01295c0a28.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3979965,
+                "full_path": "https://salt.tikicdn.com/ts/review/68/ab/1d/dc852b314d0e0f6d4cdbd348820ffd10.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1667797982,
+        "created_by": {
+            "id": 11949512,
+            "name": "Vũ Đức Vĩ",
+            "full_name": "Vũ Đức Vĩ",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=338645213539200&height=200&width=200&ext=1559462009&hash=AeRcEZd4C-ujjpky",
+            "created_time": "2019-05-03 14:53:56",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1667579492,
+            "contribute_info": {
+                "id": 11949512,
+                "name": "Vũ Đức Vĩ",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=338645213539200&height=200&width=200&ext=1559462009&hash=AeRcEZd4C-ujjpky",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Thành Nhân SINCE 1994"
+        ],
+        "product_attributes": [],
+        "spid": 143714076,
+        "is_photo": true,
+        "seller": {
+            "id": 212803,
+            "name": "Thành Nhân SINCE 1994",
+            "logo": "e7/1d/df/69cbd9ef1b03c8550eeceedd64c87558.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-11-07 12:13:02",
+            "delivery_date": "2022-11-07 11:28:52",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16820731,
+        "title": "Cực kì hài lòng",
+        "content": "giao hàng đúng hạn, sp tốt, chính hãng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.14788867,
+        "customer_id": 7050359,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3620718,
+                "full_path": "https://salt.tikicdn.com/ts/review/59/38/37/230df92db58a5f54ffce7297ffee510a.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3620719,
+                "full_path": "https://salt.tikicdn.com/ts/review/cb/a1/f1/4c1771c592cbd2c2a93d3a261b399be9.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1656043290,
+        "created_by": {
+            "id": 7050359,
+            "name": "Phuoc",
+            "full_name": "Phuoc",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-05-04 08:20:24",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1655715366,
+            "contribute_info": {
+                "id": 7050359,
+                "name": "Phuoc",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 39,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": true,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/eb/4a/4e/6d9e5dff10382741f51363827a3dd03c.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-06-24 11:01:30",
+            "delivery_date": "2022-06-24 10:40:34",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 21 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 21 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19311237,
+        "title": "Cực kì hài lòng",
+        "content": "Dùng rất tốt, nhanh.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14701338,
+        "customer_id": 135071,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1687251571,
+        "created_by": {
+            "id": 135071,
+            "name": "Huỳnh Hoa Ái Phương",
+            "full_name": "Huỳnh Hoa Ái Phương",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/c8/a0/a7/4eee4ef8a653f22d06dcfe19c220ad73.jpg",
+            "created_time": "2013-07-13 17:11:44",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1674536429,
+            "contribute_info": {
+                "id": 135071,
+                "name": "Huỳnh Hoa Ái Phương",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/c8/a0/a7/4eee4ef8a653f22d06dcfe19c220ad73.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 138,
+                    "total_thank": 39
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer"
+        ],
+        "product_attributes": [],
+        "spid": 161379340,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2023-06-20 15:59:31",
+            "delivery_date": "2023-01-28 10:21:55",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 5 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "độ tương thích thiết bị tốt",
+                "thiết kệ nhỏ, gọn , tiện lợi",
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18640793,
+        "title": "Hài lòng",
+        "content": "Ghim vào cổng usb 3, chép được tốc độ cỡ 10mb/s.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14668751,
+        "customer_id": 175823,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1673714041,
+        "created_by": {
+            "id": 175823,
+            "name": "Phùng Hưng Nghiệp",
+            "full_name": "Phùng Hưng Nghiệp",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2013-09-22 00:01:20",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1672634426,
+            "contribute_info": {
+                "id": 175823,
+                "name": "Phùng Hưng Nghiệp",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 56,
+                    "total_thank": 75
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Nova Computer"
+        ],
+        "product_attributes": [],
+        "spid": 161379340,
+        "is_photo": false,
+        "seller": {
+            "id": 915,
+            "name": "Nova Computer",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/12/55/4c/325a571c8bb059904a3bae1811284012.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2023-01-14 23:34:01",
+            "delivery_date": "2023-01-04 10:02:51",
+            "current_date": "2026-05-15 10:48:28",
+            "content": "Đã dùng 11 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 11 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17682091,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng chính hãng, đóng gói cẩn thận. Tốc độ copy ổn so với giá tiền.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14616979,
+        "customer_id": 22355501,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1663055939,
+        "created_by": {
+            "id": 22355501,
+            "name": "Hong Tuoi",
+            "full_name": "Hong Tuoi",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-06-24 10:42:30",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1662612161,
+            "contribute_info": {
+                "id": 22355501,
+                "name": "Hong Tuoi",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": false,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "eb/4a/4e/6d9e5dff10382741f51363827a3dd03c.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-09-13 14:58:59",
+            "delivery_date": "2022-09-12 17:00:47",
+            "current_date": "2026-05-15 10:48:29",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "an toàn, bảo mật",
+                "độ tương thích thiết bị tốt",
+                "thiết kệ nhỏ, gọn , tiện lợi",
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16704457,
+        "title": "Hài lòng",
+        "content": "Sản phẩm đúng mô tả, dung lương đumgs nhưng bỏ vào xe ô tô khô ng đọc nhé mọi người",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14597246,
+        "customer_id": 12902966,
+        "comment_count": 1,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1655177399,
+        "created_by": {
+            "id": 12902966,
+            "name": "Hoàng Thái Trường",
+            "full_name": "Hoàng Thái Trường",
+            "region": null,
+            "avatar_url": "https://lh4.googleusercontent.com/-Ep2M8owOPgI/AAAAAAAAAAI/AAAAAAAADzM/IpHEli5EL0c/s80/photo.jpg",
+            "created_time": "2019-07-14 13:37:05",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1654614625,
+            "contribute_info": {
+                "id": 12902966,
+                "name": "Hoàng Thái Trường",
+                "avatar": "https://lh4.googleusercontent.com/-Ep2M8owOPgI/AAAAAAAAAAI/AAAAAAAADzM/IpHEli5EL0c/s80/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 16,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Thành Nhân SINCE 1994"
+        ],
+        "product_attributes": [],
+        "spid": 143714076,
+        "is_photo": false,
+        "seller": {
+            "id": 212803,
+            "name": "Thành Nhân SINCE 1994",
+            "logo": "e7/1d/df/69cbd9ef1b03c8550eeceedd64c87558.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2022-06-14 10:29:59",
+            "delivery_date": "2022-06-11 12:46:30",
+            "current_date": "2026-05-15 10:48:29",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18678265,
+        "title": "Cực kì hài lòng",
+        "content": "Giao hàng nhanh,  đóng gói cẩn thận .",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14567533,
+        "customer_id": 27980651,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1674603350,
+        "created_by": {
+            "id": 27980651,
+            "name": "văn giàu",
+            "full_name": "văn giàu",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-08-08 06:15:23",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1672742278,
+            "contribute_info": {
+                "id": 27980651,
+                "name": "văn giàu",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": false,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "79/29/6d/a9c5c0a4f23643de52568720353def36.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2023-01-25 06:35:50",
+            "delivery_date": "2023-01-08 13:08:30",
+            "current_date": "2026-05-15 10:48:29",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18618133,
+        "title": "Rất không hài lòng",
+        "content": "usb tầm bậy ko nên mua quá dỡ",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14489295,
+        "customer_id": 27098486,
+        "comment_count": 0,
+        "rating": 1,
+        "images": [],
+        "thanked": false,
+        "created_at": 1673424177,
+        "created_by": {
+            "id": 27098486,
+            "name": "Lê Nguyễn Nhật Hào",
+            "full_name": "Lê Nguyễn Nhật Hào",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-03-17 18:47:56",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1672888958,
+            "contribute_info": {
+                "id": 27098486,
+                "name": "Lê Nguyễn Nhật Hào",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán CÔNG NGHỆ TẦM NHÌN"
+        ],
+        "product_attributes": [],
+        "spid": 162342442,
+        "is_photo": false,
+        "seller": {
+            "id": 4106,
+            "name": "CÔNG NGHỆ TẦM NHÌN",
+            "logo": "79/29/6d/a9c5c0a4f23643de52568720353def36.jpg"
+        },
+        "product_id": 143714075,
+        "timeline": {
+            "review_created_date": "2023-01-11 15:02:57",
+            "delivery_date": "2023-01-09 11:11:26",
+            "current_date": "2026-05-15 10:48:29",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

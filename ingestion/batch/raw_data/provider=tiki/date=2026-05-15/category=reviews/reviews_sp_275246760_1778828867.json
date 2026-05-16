@@ -1,0 +1,124 @@
+[
+    {
+        "id": 20096448,
+        "title": "Hài lòng",
+        "content": "Mua lại sản phẩm này như thế nào?",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15984337,
+        "customer_id": 30202397,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [],
+        "thanked": false,
+        "created_at": 1742000670,
+        "created_by": {
+            "id": 30202397,
+            "name": "Gia Huy",
+            "full_name": "Gia Huy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2024-11-11 08:27:20",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1731288488,
+            "contribute_info": {
+                "id": 30202397,
+                "name": "Gia Huy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 2 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in AZ"
+        ],
+        "product_attributes": [],
+        "spid": 275246761,
+        "is_photo": false,
+        "seller": {
+            "id": 43974,
+            "name": "Mực in AZ",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ad/88/dd/b3f8ccd1f4f1a3dbb81a2b6cdb967642.jpg"
+        },
+        "product_id": 275246760,
+        "timeline": {
+            "review_created_date": "2025-03-15 08:04:30",
+            "delivery_date": "2024-11-17 15:27:53",
+            "current_date": "2026-05-15 14:09:48",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20136617,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15862579,
+        "customer_id": 28515137,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1750124320,
+        "created_by": {
+            "id": 28515137,
+            "name": "Uyen Dao",
+            "full_name": "Uyen Dao",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-11-25 15:22:03",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1743669298,
+            "contribute_info": {
+                "id": 28515137,
+                "name": "Uyen Dao",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Mực in AZ"
+        ],
+        "product_attributes": [],
+        "spid": 275246761,
+        "is_photo": false,
+        "seller": {
+            "id": 43974,
+            "name": "Mực in AZ",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/ad/88/dd/b3f8ccd1f4f1a3dbb81a2b6cdb967642.jpg"
+        },
+        "product_id": 275246760,
+        "timeline": {
+            "review_created_date": "2025-06-17 08:38:40",
+            "delivery_date": "2025-04-09 09:25:17",
+            "current_date": "2026-05-15 14:09:48",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]
