@@ -1,0 +1,1268 @@
+[
+    {
+        "id": 20188306,
+        "title": "Cực kì hài lòng",
+        "content": "Shop uy tín, tư vấn vui vẻ, nhiệt tình. Chúc shop mua may bán đắt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.16950286,
+        "customer_id": 7662503,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4417399,
+                "full_path": "https://salt.tikicdn.com/ts/review/b8/72/88/05e653ad57bf0a49cc502093449d4a48.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1762483837,
+        "created_by": {
+            "id": 7662503,
+            "name": "Ngọc Giang",
+            "full_name": "Ngọc Giang",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-08-14 17:03:53",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1762243003,
+            "contribute_info": {
+                "id": 7662503,
+                "name": "Ngọc Giang",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 245,
+                    "total_thank": 233
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bếp Gas Minh Phúc Đồng Nai"
+        ],
+        "product_attributes": [],
+        "spid": 105602374,
+        "is_photo": true,
+        "seller": {
+            "id": 182493,
+            "name": "Bếp Gas Minh Phúc Đồng Nai",
+            "logo": "84/ae/f2/f87d2005c9e6e2a06510fa4a4ed2aa35.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2025-11-07 09:50:37",
+            "delivery_date": "2025-11-06 14:41:52",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20202222,
+        "title": "Cực kì hài lòng",
+        "content": "Ga mới tinh, rất hài lòng.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.16735465,
+        "customer_id": 25848851,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4420075,
+                "full_path": "https://salt.tikicdn.com/ts/review/55/1e/cc/b809fbd807812d3e29a193cb60c38254.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1767148126,
+        "created_by": {
+            "id": 25848851,
+            "name": "T M",
+            "full_name": "T M",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-12-07 09:25:09",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1766933485,
+            "contribute_info": {
+                "id": 25848851,
+                "name": "T M",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 46,
+                    "total_thank": 5
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bếp Gas Minh Phúc Đồng Nai"
+        ],
+        "product_attributes": [],
+        "spid": 105602374,
+        "is_photo": true,
+        "seller": {
+            "id": 182493,
+            "name": "Bếp Gas Minh Phúc Đồng Nai",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/84/ae/f2/f87d2005c9e6e2a06510fa4a4ed2aa35.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2025-12-31 09:28:46",
+            "delivery_date": "2025-12-31 09:19:33",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 9 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20200506,
+        "title": "Cực kì hài lòng",
+        "content": "Hài lòng từ sản phẩm đến dịch vụ của Shop !",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1660857,
+        "customer_id": 8217936,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1766506027,
+        "created_by": {
+            "id": 8217936,
+            "name": "Chị Kim",
+            "full_name": "Chị Kim",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-10-03 14:58:45",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1766294179,
+            "contribute_info": {
+                "id": 8217936,
+                "name": "Chị Kim",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bếp Gas Minh Phúc Đồng Nai"
+        ],
+        "product_attributes": [],
+        "spid": 105602374,
+        "is_photo": false,
+        "seller": {
+            "id": 182493,
+            "name": "Bếp Gas Minh Phúc Đồng Nai",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/84/ae/f2/f87d2005c9e6e2a06510fa4a4ed2aa35.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2025-12-23 23:07:07",
+            "delivery_date": "2025-12-22 11:17:20",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20191846,
+        "title": "Cực kì hài lòng",
+        "content": "Dùng ổn nhé",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.16545918,
+        "customer_id": 14815248,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4418108,
+                "full_path": "https://salt.tikicdn.com/ts/review/78/3e/93/46a832f4af51e6fdc4a199a74f306af7.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1763539605,
+        "created_by": {
+            "id": 14815248,
+            "name": "Vũ Duy Thành",
+            "full_name": "Vũ Duy Thành",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/08/d8/61/2600a2b6053437328d7e4583ad262808.png",
+            "created_time": "2019-11-07 16:04:26",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1763261354,
+            "contribute_info": {
+                "id": 14815248,
+                "name": "Vũ Duy Thành",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/08/d8/61/2600a2b6053437328d7e4583ad262808.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": true,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2025-11-19 15:06:45",
+            "delivery_date": "2025-11-18 12:13:37",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20205005,
+        "title": "Cực kì hài lòng",
+        "content": "Gas mới còn nguyên hộp.5 sao",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16469634,
+        "customer_id": 17652652,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1768134630,
+        "created_by": {
+            "id": 17652652,
+            "name": "Dương Bá Tường",
+            "full_name": "Dương Bá Tường",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-06-26 20:12:05",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1767805812,
+            "contribute_info": {
+                "id": 17652652,
+                "name": "Dương Bá Tường",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2026-01-11 19:30:30",
+            "delivery_date": "2026-01-11 19:10:20",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 20 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 20 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20140123,
+        "title": "Cực kì hài lòng",
+        "content": "Sản phẩm ok đúng như quảng cáo, chất lượng tốt.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16305994,
+        "customer_id": 10998083,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1750917269,
+        "created_by": {
+            "id": 10998083,
+            "name": "Nguyễn Long Thành",
+            "full_name": "Nguyễn Long Thành",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-02-22 19:40:31",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1750589683,
+            "contribute_info": {
+                "id": 10998083,
+                "name": "Nguyễn Long Thành",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 5,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2025-06-26 12:54:29",
+            "delivery_date": "2025-06-26 11:04:30",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20202724,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16225765,
+        "customer_id": 10080261,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1767320163,
+        "created_by": {
+            "id": 10080261,
+            "name": "Thùy Nhu ",
+            "full_name": "Thùy Nhu ",
+            "region": null,
+            "avatar_url": "https://lh5.googleusercontent.com/-00etqdBTSLc/AAAAAAAAAAI/AAAAAAAAAAA/AKxrwcaHjtXolXGzkkh68AO3R0p-ZmZ1AA/mo/photo.jpg",
+            "created_time": "2018-12-30 12:23:55",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1766108995,
+            "contribute_info": {
+                "id": 10080261,
+                "name": "Thùy Nhu ",
+                "avatar": "https://lh5.googleusercontent.com/-00etqdBTSLc/AAAAAAAAAAI/AAAAAAAAAAA/AKxrwcaHjtXolXGzkkh68AO3R0p-ZmZ1AA/mo/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 87,
+                    "total_thank": 14
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2026-01-02 09:16:03",
+            "delivery_date": "2025-12-22 10:06:55",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 11 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 11 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20185312,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16103552,
+        "customer_id": 30401148,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1761533674,
+        "created_by": {
+            "id": 30401148,
+            "name": "Nguyen Hong",
+            "full_name": "Nguyen Hong",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2025-06-04 16:39:21",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1758870301,
+            "contribute_info": {
+                "id": 30401148,
+                "name": "Nguyen Hong",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 1 năm",
+                    "total_review": 237,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bếp Gas Minh Phúc Đồng Nai"
+        ],
+        "product_attributes": [],
+        "spid": 105602374,
+        "is_photo": false,
+        "seller": {
+            "id": 182493,
+            "name": "Bếp Gas Minh Phúc Đồng Nai",
+            "logo": "84/ae/f2/f87d2005c9e6e2a06510fa4a4ed2aa35.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2025-10-27 09:54:34",
+            "delivery_date": "2025-09-28 08:51:28",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20063876,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15575151,
+        "customer_id": 30240943,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1736515413,
+        "created_by": {
+            "id": 30240943,
+            "name": "truc xxx",
+            "full_name": "truc xxx",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2024-12-17 22:43:17",
+            "group_id": 7,
+            "purchased": true,
+            "purchased_at": 1734451281,
+            "contribute_info": {
+                "id": 30240943,
+                "name": "truc xxx",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 1 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2025-01-10 20:23:33",
+            "delivery_date": "2024-12-22 14:53:32",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20047310,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15521984,
+        "customer_id": 12849555,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1733998099,
+        "created_by": {
+            "id": 12849555,
+            "name": "Hồ lê Thiện",
+            "full_name": "Hồ lê Thiện",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b5/3e/6c/3d7fcd740e00cf62e5e003d9859942dc.png",
+            "created_time": "2019-07-10 17:40:59",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1723531960,
+            "contribute_info": {
+                "id": 12849555,
+                "name": "Hồ lê Thiện",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b5/3e/6c/3d7fcd740e00cf62e5e003d9859942dc.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 98,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2024-12-12 17:08:19",
+            "delivery_date": "2024-08-15 11:40:50",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19918630,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15228477,
+        "customer_id": 9661449,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1720101367,
+        "created_by": {
+            "id": 9661449,
+            "name": "Hien Dac",
+            "full_name": "Hien Dac",
+            "region": null,
+            "avatar_url": "https://graph.facebook.com/144790249835225/picture?type=large&return_ssl_resources=1",
+            "created_time": "2018-12-03 01:48:35",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1716777992,
+            "contribute_info": {
+                "id": 9661449,
+                "name": "Hien Dac",
+                "avatar": "https://graph.facebook.com/144790249835225/picture?type=large&return_ssl_resources=1",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2024-07-04 20:56:07",
+            "delivery_date": "2024-05-29 15:01:11",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19831216,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15061791,
+        "customer_id": 11595585,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1712209217,
+        "created_by": {
+            "id": 11595585,
+            "name": "Phạm Tiến Ngọc",
+            "full_name": "Phạm Tiến Ngọc",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-04-02 14:27:34",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1711704818,
+            "contribute_info": {
+                "id": 11595585,
+                "name": "Phạm Tiến Ngọc",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 60,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bếp Gas Minh Phúc Đồng Nai"
+        ],
+        "product_attributes": [],
+        "spid": 105602374,
+        "is_photo": false,
+        "seller": {
+            "id": 182493,
+            "name": "Bếp Gas Minh Phúc Đồng Nai",
+            "logo": "84/ae/f2/f87d2005c9e6e2a06510fa4a4ed2aa35.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2024-04-04 12:40:17",
+            "delivery_date": "2024-04-01 13:35:56",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19755859,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14947437,
+        "customer_id": 27401633,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1706794888,
+        "created_by": {
+            "id": 27401633,
+            "name": "Wu Tien Pao",
+            "full_name": "Wu Tien Pao",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/ef/ea/41/c1c94eb95adae9e87844be08dad6bca0.jpg",
+            "created_time": "2022-04-26 04:00:25",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1702871204,
+            "contribute_info": {
+                "id": 27401633,
+                "name": "Wu Tien Pao",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/ef/ea/41/c1c94eb95adae9e87844be08dad6bca0.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 233,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2024-02-01 20:41:28",
+            "delivery_date": "2023-12-19 08:39:26",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19754846,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14946596,
+        "customer_id": 22730369,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1706755078,
+        "created_by": {
+            "id": 22730369,
+            "name": "Anh Thư",
+            "full_name": "Anh Thư",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2021-07-22 16:12:53",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1703132124,
+            "contribute_info": {
+                "id": 22730369,
+                "name": "Anh Thư",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 11,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Bếp Gas Minh Phúc Đồng Nai"
+        ],
+        "product_attributes": [],
+        "spid": 105602374,
+        "is_photo": false,
+        "seller": {
+            "id": 182493,
+            "name": "Bếp Gas Minh Phúc Đồng Nai",
+            "logo": "84/ae/f2/f87d2005c9e6e2a06510fa4a4ed2aa35.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2024-02-01 09:37:58",
+            "delivery_date": "2023-12-23 14:28:15",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16311367,
+        "title": "Cực kì hài lòng",
+        "content": "Đúng hàng như hình",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 9.72222222,
+        "new_score": 0.14552472,
+        "customer_id": 7517392,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3473821,
+                "full_path": "https://salt.tikicdn.com/ts/review/26/1b/e7/5cae52e9a940ff82b6ae76d6413cbb28.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3473822,
+                "full_path": "https://salt.tikicdn.com/ts/review/d7/e5/1b/e9709bf94a7dcd66deabd8af234a8316.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1652426173,
+        "created_by": {
+            "id": 7517392,
+            "name": "Chi cam",
+            "full_name": "Chi cam",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-07-23 21:34:05",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1652239591,
+            "contribute_info": {
+                "id": 7517392,
+                "name": "Chi cam",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 4,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": true,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2022-05-13 14:16:13",
+            "delivery_date": "2022-05-13 09:21:08",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 5 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18799041,
+        "title": "Không hài lòng",
+        "content": "Không phải giao bình gas namilux.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1455121,
+        "customer_id": 18185489,
+        "comment_count": 0,
+        "rating": 2,
+        "images": [],
+        "thanked": false,
+        "created_at": 1676355672,
+        "created_by": {
+            "id": 18185489,
+            "name": "Dat Nguyen",
+            "full_name": "Dat Nguyen",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-08-21 10:31:59",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1674046504,
+            "contribute_info": {
+                "id": 18185489,
+                "name": "Dat Nguyen",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2023-02-14 13:21:12",
+            "delivery_date": "2023-01-29 11:38:38",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18666298,
+        "title": "Cực kì hài lòng",
+        "content": "Bao cẩn thận. Giao đúng hẹn.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14497594,
+        "customer_id": 8388582,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1674132737,
+        "created_by": {
+            "id": 8388582,
+            "name": "Nguyễn Minh Hùng",
+            "full_name": "Nguyễn Minh Hùng",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b5/84/f0/7d79fc5ec2ff5b7b19e4b2d8939612e8.png",
+            "created_time": "2018-10-12 11:37:05",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1671231569,
+            "contribute_info": {
+                "id": 8388582,
+                "name": " Minh Hùng",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/b5/84/f0/7d79fc5ec2ff5b7b19e4b2d8939612e8.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 113,
+                    "total_thank": 8
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2023-01-19 19:52:17",
+            "delivery_date": "2022-12-18 13:18:58",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19241618,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14494828,
+        "customer_id": 1729360,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1685365106,
+        "created_by": {
+            "id": 1729360,
+            "name": "Thinh Tran Quoc",
+            "full_name": "Thinh Tran Quoc",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-09-27 00:27:29",
+            "group_id": 12,
+            "purchased": true,
+            "purchased_at": 1675657393,
+            "contribute_info": {
+                "id": 1729360,
+                "name": "Thinh Tran",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 229,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2023-05-29 19:58:26",
+            "delivery_date": "2023-02-07 11:03:33",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 4 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 4 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 18839272,
+        "title": "Cực kì hài lòng",
+        "content": "Hài lòng",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14383692,
+        "customer_id": 1080325,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1676946676,
+        "created_by": {
+            "id": 1080325,
+            "name": "Lê Bình Dương",
+            "full_name": "Lê Bình Dương",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2015-12-27 21:38:43",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1661936251,
+            "contribute_info": {
+                "id": 1080325,
+                "name": "Lê Bình Dương",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 21,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2023-02-21 09:31:16",
+            "delivery_date": "2022-09-05 11:09:00",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 năm",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 năm."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 16221429,
+        "title": "Cực kì hài lòng",
+        "content": "Bình ga này bò vào bếp ga mini xài rất tốt,ngọn lửa xanh.Gửi shop 5 sao.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.14380177,
+        "customer_id": 8282110,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1651844026,
+        "created_by": {
+            "id": 8282110,
+            "name": "Dương Sỹ Đạt",
+            "full_name": "Dương Sỹ Đạt",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-10-08 08:30:34",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1651397892,
+            "contribute_info": {
+                "id": 8282110,
+                "name": "Dương Sỹ Đạt",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 17,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Home Star Store"
+        ],
+        "product_attributes": [],
+        "spid": 153494969,
+        "is_photo": false,
+        "seller": {
+            "id": 69337,
+            "name": "Home Star Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/a7/d1/10/9a899c6c30ccd377afaa4aca15cfa72b.jpg"
+        },
+        "product_id": 105602373,
+        "timeline": {
+            "review_created_date": "2022-05-06 20:33:46",
+            "delivery_date": "2022-05-05 17:34:13",
+            "current_date": "2026-05-16 15:14:20",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]

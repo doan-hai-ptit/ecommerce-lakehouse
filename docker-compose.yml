@@ -64,20 +64,29 @@ services:
       - POSTGRES_DB=postgres_metastore
     volumes:
       - "/path/to/volumes/postgres_metastore_data:/var/lib/postgresql/data"
-  spark-processor:
-    build: ./processing/
-    container_name: spark_processor
-    depends_on:
-      - postgres
-    env_file:
-      - .env # Nơi bạn để các key của MinIO
-    volumes:
-      - ./processing:/app
-      - ./processing/hive-site.xml:/opt/spark/conf/hive-site.xml
-    # Sử dụng network mode host nếu MinIO của bạn đang chạy ngoài Docker
-    # Hoặc bỏ dòng này nếu MinIO cũng nằm trong Docker Compose này
-    network_mode: "host" 
-    tty: true
+  # spark-processor:
+  #   build: ./processing/
+  #   container_name: spark_processor
+  #   depends_on:
+  #     - postgres
+  #   env_file:
+  #     - .env # Nơi bạn để các key của MinIO
+  #   volumes:
+  #     - ./processing:/app
+  #     - ./processing/hive-site.xml:/opt/spark/conf/hive-site.xml
+  #   # Sử dụng network mode host nếu MinIO của bạn đang chạy ngoài Docker
+  #   # Hoặc bỏ dòng này nếu MinIO cũng nằm trong Docker Compose này
+  #   network_mode: "host" 
+  #   tty: true
+  browserless:
+    image: browserless/chrome:latest
+    container_name: browserless_chrome
+    ports:
+      - "3000:3000"
+    environment:
+      - MAX_CONCURRENT_SESSIONS=10
+      - DEMO_MODE=false
+    restart: always
   # connect:
   #   image: debezium/connect:2.7.3.Final
   #   container_name: debezium_connect

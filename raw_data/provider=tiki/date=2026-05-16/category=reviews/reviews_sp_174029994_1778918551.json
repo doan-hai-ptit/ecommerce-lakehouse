@@ -1,0 +1,1454 @@
+[
+    {
+        "id": 18146066,
+        "title": "Rất không hài lòng",
+        "content": "Mình mua 1 chiếc Kingston 64GB và 1 chiếc 32GB. Lúc nhận được hàng thì thấy bị rạch sẵn như hình, cắm thử vào máy để kiểm tra thì thấy chênh lệch bộ nhớ tận 4-5GB. Mình rất bức xúc về trường hợp mua hàng mà bị như này.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.16624337,
+        "customer_id": 28418266,
+        "comment_count": 1,
+        "rating": 1,
+        "images": [
+            {
+                "id": 3980612,
+                "full_path": "https://salt.tikicdn.com/ts/review/dd/6a/b4/bee35008f0d2d81e36370a15d4bc5b68.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3980613,
+                "full_path": "https://salt.tikicdn.com/ts/review/bc/9c/19/db8a1f29f9b232d2efa6c8c8db6f832c.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1667823410,
+        "created_by": {
+            "id": 28418266,
+            "name": "Apple User",
+            "full_name": "Apple User",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2022-11-04 08:31:15",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1667526215,
+            "contribute_info": {
+                "id": 28418266,
+                "name": "Apple User",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 4 năm",
+                    "total_review": 2,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": true,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2022-11-07 19:16:50",
+            "delivery_date": "2022-11-07 16:20:05",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 3 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20013708,
+        "title": "Không hài lòng",
+        "content": "Sp đã bị mở ra rồi. Shop bữa sau gửi mới cho khách chứ",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 22.40740741,
+        "new_score": 0.1620387,
+        "customer_id": 17331439,
+        "comment_count": 1,
+        "rating": 2,
+        "images": [
+            {
+                "id": 4384361,
+                "full_path": "https://salt.tikicdn.com/ts/review/8e/25/bc/936e92ea8bb00dd84639f0e3c9f7dde3.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1729668293,
+        "created_by": {
+            "id": 17331439,
+            "name": "Nguyn Thanh Huyn",
+            "full_name": "Nguyn Thanh Huyn",
+            "region": null,
+            "avatar_url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1451721051686412&height=200&width=200&ext=1591863480&hash=AeRF5J4umVFZhIvQ",
+            "created_time": "2020-05-12 15:18:53",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1729566002,
+            "contribute_info": {
+                "id": 17331439,
+                "name": "Nguyn Thanh Huyn",
+                "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1451721051686412&height=200&width=200&ext=1591863480&hash=AeRF5J4umVFZhIvQ",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store"
+        ],
+        "product_attributes": [],
+        "spid": 230231275,
+        "is_photo": true,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2024-10-23 14:24:53",
+            "delivery_date": "2024-10-23 14:08:15",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 17 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 17 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩu thả"
+            }
+        ]
+    },
+    {
+        "id": 19416034,
+        "title": "Không hài lòng",
+        "content": "Tôi đặt USB trên ghi xuất xứ: Mỹ, nhưng khi mở ra lại là của China do Cty  CP MT Vĩnh Xuân nhập khẩu, Không nguyên vẹn, đã bị bong chỗ đựng usb. Cảm thấy ko hài lòng, an tâm chút nào.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16137443,
+        "customer_id": 11452031,
+        "comment_count": 1,
+        "rating": 2,
+        "images": [],
+        "thanked": false,
+        "created_at": 1690539302,
+        "created_by": {
+            "id": 11452031,
+            "name": "Tran Anh Hoa",
+            "full_name": "Tran Anh Hoa",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-03-23 06:36:31",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1690447132,
+            "contribute_info": {
+                "id": 11452031,
+                "name": "Tran Anh Hoa",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 1,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": false,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2023-07-28 17:15:02",
+            "delivery_date": "2023-07-28 09:58:35",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 7 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 7 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20178408,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16067789,
+        "customer_id": 16347277,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1759840413,
+        "created_by": {
+            "id": 16347277,
+            "name": "Dang Trung Uan",
+            "full_name": "Dang Trung Uan",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-02-10 10:44:00",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1758903221,
+            "contribute_info": {
+                "id": 16347277,
+                "name": "Dang Trung Uan",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 101,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store"
+        ],
+        "product_attributes": [],
+        "spid": 230231275,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2025-10-07 19:33:33",
+            "delivery_date": "2025-09-29 20:23:50",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 8 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 8 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "an toàn, bảo mật",
+                "độ tương thích thiết bị tốt",
+                "thiết kệ nhỏ, gọn , tiện lợi",
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20170950,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16029174,
+        "customer_id": 6240485,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1758012125,
+        "created_by": {
+            "id": 6240485,
+            "name": "Kha Tran",
+            "full_name": "Kha Tran",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/85/b2/3c/f44146159918ad3970c2de7419c4177c.png",
+            "created_time": "2017-12-19 13:59:57",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1757851783,
+            "contribute_info": {
+                "id": 6240485,
+                "name": "Kha Tran",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/85/b2/3c/f44146159918ad3970c2de7419c4177c.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 24,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store"
+        ],
+        "product_attributes": [],
+        "spid": 230231275,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2025-09-16 15:42:05",
+            "delivery_date": "2025-09-16 15:18:36",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 23 phút",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 23 phút."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 20163268,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15991005,
+        "customer_id": 16705850,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1756204899,
+        "created_by": {
+            "id": 16705850,
+            "name": "mguyen phuly",
+            "full_name": "mguyen phuly",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/08/13/af/2a7374f91cd7d9ac4c8ada4041b719dd.png",
+            "created_time": "2020-03-06 16:47:18",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1755772165,
+            "contribute_info": {
+                "id": 16705850,
+                "name": "mguyen phuly",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/08/13/af/2a7374f91cd7d9ac4c8ada4041b719dd.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 5,
+                    "total_thank": 4
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store"
+        ],
+        "product_attributes": [],
+        "spid": 230231275,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2025-08-26 17:41:39",
+            "delivery_date": "2025-08-26 14:24:38",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 3 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17457528,
+        "title": "Cực kì hài lòng",
+        "content": "Hoạt động không ổn định ! Kg thể chép dung lượng trên 6GB",
+        "status": "approved",
+        "thank_count": 1,
+        "score": 0.02497294,
+        "new_score": 0.15978597,
+        "customer_id": 19154119,
+        "comment_count": 3,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3828977,
+                "full_path": "https://salt.tikicdn.com/ts/review/8d/0a/42/27a22c4e0bf5d5b8ff2d81738957cf4c.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3828978,
+                "full_path": "https://salt.tikicdn.com/ts/review/79/28/87/c74152f31f6b3f2173c4e63b1a285a8e.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3828979,
+                "full_path": "https://salt.tikicdn.com/ts/review/ea/89/1e/d180dc6da31b805f1a33f2fe6278453c.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3828980,
+                "full_path": "https://salt.tikicdn.com/ts/review/aa/26/65/caf8175ad0b088d37b4bfb40dff36414.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3828981,
+                "full_path": "https://salt.tikicdn.com/ts/review/bd/a4/97/ed2f2777e7fa4e6780e7b391eab77f7c.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1660865346,
+        "created_by": {
+            "id": 19154119,
+            "name": "Nguyễn Thành Trung",
+            "full_name": "Nguyễn Thành Trung",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2020-11-11 08:55:02",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1660807816,
+            "contribute_info": {
+                "id": 19154119,
+                "name": "Nguyễn Thành Trung",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 6 năm",
+                    "total_review": 14,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": true,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2022-08-19 06:29:06",
+            "delivery_date": "2022-08-18 16:42:11",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 1 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "an toàn, bảo mật",
+                "độ tương thích thiết bị tốt",
+                "thiết kệ nhỏ, gọn , tiện lợi",
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19920736,
+        "title": "Cực kì hài lòng",
+        "content": "Sản phẩm tốt, đúng như mô tả, giao hàng nhanh",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 2.4691358,
+        "new_score": 0.15919957,
+        "customer_id": 8496700,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4365066,
+                "full_path": "https://salt.tikicdn.com/ts/review/57/50/c6/bc3380f3c87b76f46591e9bfb545aa54.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1720329235,
+        "created_by": {
+            "id": 8496700,
+            "name": "Nhân Nguyễn Minh",
+            "full_name": "Nhân Nguyễn Minh",
+            "region": null,
+            "avatar_url": "https://lh5.googleusercontent.com/-3cYrseBJfxA/AAAAAAAAAAI/AAAAAAAAALI/-ln-1sffJog/photo.jpg",
+            "created_time": "2018-10-18 08:35:30",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1716943641,
+            "contribute_info": {
+                "id": 8496700,
+                "name": "Nhân Nguyễn Minh",
+                "avatar": "https://lh5.googleusercontent.com/-3cYrseBJfxA/AAAAAAAAAAI/AAAAAAAAALI/-ln-1sffJog/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 7,
+                    "total_thank": 1
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": true,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2024-07-07 12:13:55",
+            "delivery_date": "2024-05-30 10:43:22",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "an toàn, bảo mật",
+                "thiết kệ nhỏ, gọn , tiện lợi",
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 17155474,
+        "title": "Cực kì hài lòng",
+        "content": "Hàng chính hãng, có tem bảo hành.\nĐúng dung lượng, chép file tốc độ khá cao.\nLưu ý các bạn phải cắm vô đúng cổng USB 3.0 có màu xanh dương.\nNên mua.\nThanks shop!",
+        "status": "approved",
+        "thank_count": 2,
+        "score": 0.00924082,
+        "new_score": 0.15854721,
+        "customer_id": 364382,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3714297,
+                "full_path": "https://salt.tikicdn.com/ts/review/f0/1c/0f/b209b5d9646ae063b39e1930a749d400.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 3714298,
+                "full_path": "https://salt.tikicdn.com/ts/review/1d/fc/50/252251c9376cfa66cc22aa7bcf2eeb67.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1658414649,
+        "created_by": {
+            "id": 364382,
+            "name": "Nguyễn Hiếu Nghị",
+            "full_name": "Nguyễn Hiếu Nghị",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2014-06-12 13:05:44",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1658385350,
+            "contribute_info": {
+                "id": 364382,
+                "name": "Nguyễn Hiếu Nghị",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 12 năm",
+                    "total_review": 51,
+                    "total_thank": 39
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": true,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2022-07-21 21:44:09",
+            "delivery_date": "2022-07-21 15:48:09",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 6 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19635218,
+        "title": "Cực kì hài lòng",
+        "content": "Tốc độ ghi 10~13mbs\r\nTốc độ chép ra ~100mbs\r\nHiện xài ổn nhé mọi người",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15705181,
+        "customer_id": 7608429,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4307850,
+                "full_path": "https://salt.tikicdn.com/ts/review/f0/6f/41/1849fe697fe275e6a02b8ce4d230915a.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1699428162,
+        "created_by": {
+            "id": 7608429,
+            "name": "Nguyen Khanh",
+            "full_name": "Nguyen Khanh",
+            "region": null,
+            "avatar_url": "https://lh5.googleusercontent.com/-OepNiHjJJCA/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7p3qYuyCBCnbq_YDTtuUMBwoGEp1A/mo/photo.jpg",
+            "created_time": "2018-08-08 12:10:09",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1698984995,
+            "contribute_info": {
+                "id": 7608429,
+                "name": "Nguyen Khanh",
+                "avatar": "https://lh5.googleusercontent.com/-OepNiHjJJCA/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7p3qYuyCBCnbq_YDTtuUMBwoGEp1A/mo/photo.jpg",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 51,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": true,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2023-11-08 14:22:42",
+            "delivery_date": "2023-11-03 12:30:21",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 5 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 20086162,
+        "title": "Cực kì hài lòng",
+        "content": "Chuẩn",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15701298,
+        "customer_id": 9975787,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1740278576,
+        "created_by": {
+            "id": 9975787,
+            "name": "Nguyễn Thanh Hoàng",
+            "full_name": "Nguyễn Thanh Hoàng",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2018-12-23 14:52:11",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1736569587,
+            "contribute_info": {
+                "id": 9975787,
+                "name": "Nguyễn Thanh Hoàng",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 8 năm",
+                    "total_review": 3,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store"
+        ],
+        "product_attributes": [],
+        "spid": 230231275,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2025-02-23 09:42:56",
+            "delivery_date": "2025-01-19 16:22:05",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "an toàn, bảo mật",
+                "thiết kệ nhỏ, gọn , tiện lợi",
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19871192,
+        "title": "Cực kì hài lòng",
+        "content": "Ok, usb dùng tốt",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15558257,
+        "customer_id": 12140119,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [
+            {
+                "id": 4356124,
+                "full_path": "https://salt.tikicdn.com/ts/review/a3/04/72/b0976657a7a976fa5d7c370bfd942cda.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1715514012,
+        "created_by": {
+            "id": 12140119,
+            "name": "Hiếu Shelling",
+            "full_name": "Hiếu Shelling",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-05-18 18:27:34",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1715484828,
+            "contribute_info": {
+                "id": 12140119,
+                "name": "Hiếu Shelling",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 7,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 273459924,
+        "is_photo": true,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/21/ce/5c/b52d0b8576680dc3666474ae31b091ec.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2024-05-12 18:40:12",
+            "delivery_date": "2024-05-12 13:21:12",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 5 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19880419,
+        "title": "Cực kì hài lòng",
+        "content": "Shop giao hàng đúng, chất lượng ok",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15430043,
+        "customer_id": 1828785,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1716387710,
+        "created_by": {
+            "id": 1828785,
+            "name": "Vũ Lâm",
+            "full_name": "Vũ Lâm",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2016-10-30 21:06:04",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1714747452,
+            "contribute_info": {
+                "id": 1828785,
+                "name": "Vũ Lâm",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 14,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": false,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2024-05-22 21:21:50",
+            "delivery_date": "2024-05-05 13:54:10",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 1 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 tháng."
+        },
+        "vote_attributes": {
+            "agree": [
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19489839,
+        "title": "Hài lòng",
+        "content": "Gọn đẹp",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 38.88888889,
+        "new_score": 0.15338571,
+        "customer_id": 1704561,
+        "comment_count": 0,
+        "rating": 4,
+        "images": [
+            {
+                "id": 4277212,
+                "full_path": "https://salt.tikicdn.com/ts/review/97/69/a3/b08f17cfd537ae81392e5a05faab72bb.jpg",
+                "status": "approved"
+            },
+            {
+                "id": 4277213,
+                "full_path": "https://salt.tikicdn.com/ts/review/6d/71/3a/de4eac218bfca82210a6b9b4a3052f05.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1693117906,
+        "created_by": {
+            "id": 1704561,
+            "name": "Thanh Thảo",
+            "full_name": "Thanh Thảo",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/8b/5e/0c/8b73af7de3c609dff8af216dc1fa89b5.png",
+            "created_time": "2016-09-17 23:07:59",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1693103259,
+            "contribute_info": {
+                "id": 1704561,
+                "name": "Thanh Thảo",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/8b/5e/0c/8b73af7de3c609dff8af216dc1fa89b5.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 10 năm",
+                    "total_review": 869,
+                    "total_thank": 47
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": true,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2023-08-27 13:31:46",
+            "delivery_date": "2023-08-27 11:49:36",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 2 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19531329,
+        "title": "Cực kì hài lòng",
+        "content": "USB 64gb vỏ nhựa cứng trơn, chắc, nhận nhạy và tđ ghi tốt. Đáng giá tiền",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15320022,
+        "customer_id": 10082,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1694764810,
+        "created_by": {
+            "id": 10082,
+            "name": "Pham Hiep",
+            "full_name": "Pham Hiep",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2011-08-18 10:05:37",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1694514861,
+            "contribute_info": {
+                "id": 10082,
+                "name": "Pham Hiep",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 15 năm",
+                    "total_review": 67,
+                    "total_thank": 5
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Kmart Store"
+        ],
+        "product_attributes": [],
+        "spid": 230231275,
+        "is_photo": false,
+        "seller": {
+            "id": 200265,
+            "name": "Kmart Store",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/e3/32/bd/a4cc0d53bad64f401513fa56f728c40e.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2023-09-15 15:00:10",
+            "delivery_date": "2023-09-12 20:02:52",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 19897880,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.1518401,
+        "customer_id": 188673,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1717995978,
+        "created_by": {
+            "id": 188673,
+            "name": "Phạm Duy Khánh",
+            "full_name": "Phạm Duy Khánh",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2013-10-24 22:07:25",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1717653639,
+            "contribute_info": {
+                "id": 188673,
+                "name": "Phạm Duy Khánh",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 13 năm",
+                    "total_review": 19,
+                    "total_thank": 2
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": false,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2024-06-10 12:06:18",
+            "delivery_date": "2024-06-10 10:44:22",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 1 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    },
+    {
+        "id": 17373839,
+        "title": "Cực kì hài lòng",
+        "content": "Thiết kế gọn, hình dáng đẹp, có đồ móc, quan trọng là chất lượng chất, bền. Tiếp tục ủng hộ lần sau.",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 33.33333333,
+        "new_score": 0.15182925,
+        "customer_id": 5953228,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [
+            {
+                "id": 3781925,
+                "full_path": "https://salt.tikicdn.com/ts/review/05/62/36/d6db6504fc4ac1c5de564825c02aaa02.jpg",
+                "status": "approved"
+            }
+        ],
+        "thanked": false,
+        "created_at": 1660180993,
+        "created_by": {
+            "id": 5953228,
+            "name": "Trần Quang Huy",
+            "full_name": "Trần Quang Huy",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2017-10-20 19:12:44",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1660037208,
+            "contribute_info": {
+                "id": 5953228,
+                "name": "Trần Quang Huy",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 9 năm",
+                    "total_review": 312,
+                    "total_thank": 15
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": true,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2022-08-11 08:23:13",
+            "delivery_date": "2022-08-09 17:43:59",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 2 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "độ tương thích thiết bị tốt",
+                "thiết kệ nhỏ, gọn , tiện lợi",
+                "tốc độ ghi/đọc nhanh"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19896987,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15182079,
+        "customer_id": 783675,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1717904515,
+        "created_by": {
+            "id": 783675,
+            "name": "Nguyên Lãm",
+            "full_name": "Nguyên Lãm",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/e3/be/e9/48cd39dfe8c47c7c7a56acdbfc7a501e.png",
+            "created_time": "2015-08-30 10:26:18",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1711765067,
+            "contribute_info": {
+                "id": 783675,
+                "name": "Nguyên Lãm",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/e3/be/e9/48cd39dfe8c47c7c7a56acdbfc7a501e.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 11 năm",
+                    "total_review": 68,
+                    "total_thank": 20
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 273459924,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/21/ce/5c/b52d0b8576680dc3666474ae31b091ec.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2024-06-09 10:41:55",
+            "delivery_date": "2024-03-30 15:00:23",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 2 tháng",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 2 tháng."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19875068,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15138889,
+        "customer_id": 29216086,
+        "comment_count": 1,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1715859596,
+        "created_by": {
+            "id": 29216086,
+            "name": "Phạm Đức",
+            "full_name": "Phạm Đức",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2023-06-25 15:11:12",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1715518066,
+            "contribute_info": {
+                "id": 29216086,
+                "name": "Phạm Đức",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 3 năm",
+                    "total_review": 88,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 273459924,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/21/ce/5c/b52d0b8576680dc3666474ae31b091ec.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2024-05-16 18:39:56",
+            "delivery_date": "2024-05-13 15:12:22",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 3 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 ngày."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": []
+    },
+    {
+        "id": 19809688,
+        "title": "Cực kì hài lòng",
+        "content": "Cũng được",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.15122667,
+        "customer_id": 11249210,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1710672489,
+        "created_by": {
+            "id": 11249210,
+            "name": "Lý Hậu",
+            "full_name": "Lý Hậu",
+            "region": null,
+            "avatar_url": "//tiki.vn/assets/img/avatar.png",
+            "created_time": "2019-03-11 23:06:40",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1710615842,
+            "contribute_info": {
+                "id": 11249210,
+                "name": "Lý Hậu",
+                "avatar": "//tiki.vn/assets/img/avatar.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 7 năm",
+                    "total_review": 29,
+                    "total_thank": 3
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tin học Nguyễn Tài"
+        ],
+        "product_attributes": [],
+        "spid": 174029995,
+        "is_photo": false,
+        "seller": {
+            "id": 65836,
+            "name": "Tin học Nguyễn Tài",
+            "logo": "76/a8/5b/1d2e1309bed39ce42b1061e88bf18fe8.jpg"
+        },
+        "product_id": 174029994,
+        "timeline": {
+            "review_created_date": "2024-03-17 17:48:09",
+            "delivery_date": "2024-03-17 08:42:21",
+            "current_date": "2026-05-16 15:04:02",
+            "content": "Đã dùng 9 giờ",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 giờ."
+        },
+        "vote_attributes": {
+            "agree": [],
+            "disagree": []
+        },
+        "delivery_rating": [
+            {
+                "question": "Thời gian giao hàng?",
+                "option": "Giao đúng hẹn"
+            },
+            {
+                "question": "Thái độ của shipper?",
+                "option": "Lịch sự"
+            },
+            {
+                "question": "Giờ giao hàng?",
+                "option": "Có hẹn giờ trước"
+            },
+            {
+                "question": "Cách đóng gói sản phẩm?",
+                "option": "Cẩn thận"
+            }
+        ]
+    }
+]

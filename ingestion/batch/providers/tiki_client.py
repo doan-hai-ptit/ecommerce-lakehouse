@@ -28,6 +28,7 @@ class TikiApiClient:
         # Cấu trúc folder chuẩn: provider=tiki/date=2026-05-15
         self.hive_path = f"provider={self.provider}/date={self.today}"
         self.local_root = "raw_data"
+        self.browserless_url = os.getenv("BROWSERLESS_URL", "http://browserless_chrome:3000/webdriver")
         endpoint_url = os.getenv("MINIO_ENDPOINT_URL", "http://localhost:9000")
         access_key = os.getenv("MINIO_ACCESS_KEY")
         secret_key = os.getenv("MINIO_SECRET_KEY")
@@ -42,7 +43,15 @@ class TikiApiClient:
         self.bucket_name = "bronze-lakehouse"
 
     def _init_driver(self):
-        return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=self.options)
+        try:
+            return webdriver.Remote(
+                command_executor=self.browserless_url,
+                options=self.options
+            )
+        except Exception as e:
+            print(f"❌ Không thể kết nối tới Browserless tại {self.browserless_url}: {e}")
+            raise e
+        # return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=self.options)
 
     def upload_to_minio(self, local_path, category_name):
         """

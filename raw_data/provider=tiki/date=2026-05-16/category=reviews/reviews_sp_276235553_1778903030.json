@@ -1,0 +1,67 @@
+[
+    {
+        "id": 20166198,
+        "title": "Cực kì hài lòng",
+        "content": "",
+        "status": "approved",
+        "thank_count": 0,
+        "score": 27.77777778,
+        "new_score": 0.16007009,
+        "customer_id": 22382031,
+        "comment_count": 0,
+        "rating": 5,
+        "images": [],
+        "thanked": false,
+        "created_at": 1756962679,
+        "created_by": {
+            "id": 22382031,
+            "name": "Nguyen Van",
+            "full_name": "Nguyen Van",
+            "region": null,
+            "avatar_url": "https://salt.tikicdn.com/cache/512x512/ts/avatar/61/4c/1e/fccc183a50f535a70312f3d03b3c6444.png",
+            "created_time": "2021-06-25 16:54:59",
+            "group_id": 8,
+            "purchased": true,
+            "purchased_at": 1756134068,
+            "contribute_info": {
+                "id": 22382031,
+                "name": "Nguyen Van",
+                "avatar": "https://salt.tikicdn.com/cache/512x512/ts/avatar/61/4c/1e/fccc183a50f535a70312f3d03b3c6444.png",
+                "summary": {
+                    "joined_time": "Đã tham gia 5 năm",
+                    "total_review": 5,
+                    "total_thank": 0
+                }
+            }
+        },
+        "suggestions": [],
+        "attributes": [
+            "Mua từ nhà bán Tiki Trading"
+        ],
+        "product_attributes": [],
+        "spid": 276235556,
+        "is_photo": false,
+        "seller": {
+            "id": 1,
+            "name": "Tiki Trading",
+            "logo": "https://vcdn.tikicdn.com/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg"
+        },
+        "product_id": 276235553,
+        "timeline": {
+            "review_created_date": "2025-09-04 12:11:19",
+            "delivery_date": "2025-08-26 09:55:12",
+            "current_date": "2026-05-16 10:45:08",
+            "content": "Đã dùng 9 ngày",
+            "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 9 ngày."
+        },
+        "vote_attributes": {
+            "agree": [
+                "Ít gây tiếng ồn",
+                "Lưỡi dao bén",
+                "Thiết kế gọn, nhẹ"
+            ],
+            "disagree": []
+        },
+        "delivery_rating": []
+    }
+]
