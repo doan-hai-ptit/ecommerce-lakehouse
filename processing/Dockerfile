@@ -48,7 +48,9 @@ RUN curl -O https://repo1.maven.org/maven2/org/postgresql/postgresql/${POSTGRES_
 RUN pip install --no-cache-dir \
     pyspark==${SPARK_VERSION} \
     delta-spark==${DELTA_VERSION} \
-    boto3
+    boto3\
+    python-dotenv \
+    pandas
 
 # 6. Thiết lập thư mục làm việc và phân quyền cho Hive
 WORKDIR /app
