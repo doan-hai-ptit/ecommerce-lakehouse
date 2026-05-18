@@ -9,12 +9,12 @@ load_dotenv()
 
 # Kiểm tra tham số truyền vào (Ví dụ: python bronze_to_silver.py tiki)
 if len(sys.argv) < 2:
-    print("❌ Lỗi: Thiếu tham số nguồn dữ liệu. Cú pháp: python bronze_to_silver.py [tiki|sendo]")
+    print("❌ Lỗi: Thiếu tham số nguồn dữ liệu. Cú pháp: python bronze_to_silver.py [tiki|sendo|shopee]")
     sys.exit(1)
 
 source = sys.argv[1].lower()
-if source not in ["tiki", "sendo"]:
-    print(f"❌ Lỗi: Nguồn '{source}' không được hỗ trợ. Chỉ chấp nhận 'tiki' hoặc 'sendo'.")
+if source not in ["tiki", "sendo", "shopee"]:
+    print(f"❌ Lỗi: Nguồn '{source}' không được hỗ trợ. Chỉ chấp nhận 'tiki', 'sendo' hoặc 'shopee'.")
     sys.exit(1)
 
 # Lấy cấu hình MinIO từ file .env
@@ -45,7 +45,7 @@ print(f"⏳ Bắt đầu đọc dữ liệu thô từ: {bronze_path}")
 # 4. Đọc dữ liệu Bronze (JSON đa dòng)
 df_raw = spark.read.option("multiline", "true").json(bronze_path)
 # 5. Khởi tạo Transformation & Chuẩn hóa Schema theo mẫu chung
-if source == "tiki":
+if source in ["tiki", "shopee"]:
     df_silver = df_raw.select(
         F.col("id").cast(StringType()).alias("product_id"),
         F.col("name").alias("product_name"),

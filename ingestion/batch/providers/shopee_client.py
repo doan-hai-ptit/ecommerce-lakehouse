@@ -30,13 +30,29 @@ def _get_float_env(name, default):
 
 class ShopeeApiClient:
     def __init__(self):
-        # 1. Cấu hình Selenium hướng về Browserless để lấy cookie Shopee
+        # 1. Cấu hình Selenium để lấy cookie/session Shopee
         self.options = Options()
-        self.options.add_argument("--headless")
+        self.driver_mode = os.getenv("SHOPEE_DRIVER", "browserless").lower()
+        self.headless = os.getenv("SHOPEE_HEADLESS", "true").lower() in ("1", "true", "yes")
+
+        if self.headless:
+            self.options.add_argument("--headless=new")
+
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
         self.options.add_argument("--window-size=1440,900")
+        self.options.add_argument("--disable-blink-features=AutomationControlled")
+        self.options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        self.options.add_experimental_option("useAutomationExtension", False)
         self.options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+
+        user_data_dir = os.getenv("SHOPEE_USER_DATA_DIR")
+        if user_data_dir:
+            self.options.add_argument(f"--user-data-dir={user_data_dir}")
+
+        browser_binary = os.getenv("SHOPEE_BROWSER_BINARY")
+        if browser_binary:
+            self.options.binary_location = browser_binary
 
         self.browserless_url = os.getenv("BROWSERLESS_URL", "http://browserless_chrome:3000/webdriver")
 
@@ -71,16 +87,22 @@ class ShopeeApiClient:
         self.backoff_base = _get_float_env("SHOPEE_BACKOFF_BASE_SECONDS", 5.0)
         self.home_wait_seconds = _get_float_env("SHOPEE_HOME_WAIT_SECONDS", 8.0)
         self.search_wait_seconds = _get_float_env("SHOPEE_SEARCH_WAIT_SECONDS", 8.0)
+        self.verify_wait_seconds = _get_float_env("SHOPEE_VERIFY_WAIT_SECONDS", 0)
+        self.open_search_page = os.getenv("SHOPEE_OPEN_SEARCH_PAGE", "false").lower() in ("1", "true", "yes")
         self._refresh_session()
 
     def _init_driver(self):
         try:
+            if self.driver_mode == "local":
+                return webdriver.Chrome(options=self.options)
+
             return webdriver.Remote(
                 command_executor=self.browserless_url,
                 options=self.options
             )
         except Exception as e:
-            print(f"❌ Không thể kết nối tới Browserless tại {self.browserless_url}: {e}")
+            target = "Chrome local" if self.driver_mode == "local" else f"Browserless tại {self.browserless_url}"
+            print(f"❌ Không thể kết nối tới {target}: {e}")
             raise e
 
     def _refresh_session(self):
@@ -124,6 +146,19 @@ class ShopeeApiClient:
         if "/verify/traffic/error" not in current_url:
             return
 
+        if self.verify_wait_seconds > 0:
+            print(
+                "    [Verify] Shopee đang hiện trang verify/login. "
+                f"Bạn có {int(self.verify_wait_seconds)} giây để xử lý trên cửa sổ Chrome..."
+            )
+            deadline = time.time() + self.verify_wait_seconds
+            while time.time() < deadline:
+                time.sleep(2)
+                current_url = self.driver.current_url
+                if "/verify/traffic/error" not in current_url:
+                    print("    [Verify] Đã thoát trang verify, tiếp tục crawl.")
+                    return
+
         body = self.driver.find_element("tag name", "body").text
         message = body.replace("\n", " ")[:300]
         raise RuntimeError(
@@ -133,6 +168,11 @@ class ShopeeApiClient:
 
     def _load_search_page(self, keyword):
         if self.current_search_keyword == keyword:
+            return
+
+        if not self.open_search_page:
+            self._ensure_not_traffic_blocked()
+            self.current_search_keyword = keyword
             return
 
         encoded_keyword = quote(keyword)
@@ -244,6 +284,113 @@ class ShopeeApiClient:
         except Exception as e:
             print(f"    [MinIO-Stream] ✘ Lỗi upload: {e}")
 
+    def _normalize_price(self, value):
+        if value is None:
+            return 0
+
+        try:
+            price = int(value)
+        except (TypeError, ValueError):
+            return 0
+
+        # Shopee API thường trả giá theo đơn vị 1/100000 VND.
+        if abs(price) >= 1_000_000_000:
+            return price // 100000
+
+        return price
+
+    def _build_image_url(self, image_id):
+        if not image_id:
+            return None
+
+        if str(image_id).startswith("http"):
+            return image_id
+
+        return f"https://down-vn.img.susercontent.com/file/{image_id}"
+
+    def _build_product_url(self, product):
+        item_id = product.get("itemid")
+        shop_id = product.get("shopid")
+
+        if not item_id or not shop_id:
+            return None
+
+        return f"https://shopee.vn/product/{shop_id}/{item_id}"
+
+    def _normalize_quantity_sold(self, product):
+        sold = product.get("sold") or product.get("historical_sold") or 0
+
+        try:
+            sold = int(sold)
+        except (TypeError, ValueError):
+            sold = 0
+
+        return {
+            "text": f"Đã bán {sold}",
+            "value": sold,
+        }
+
+    def _normalize_product(self, product, keyword=None, page=None):
+        item_id = product.get("itemid")
+        shop_id = product.get("shopid")
+        product_url = self._build_product_url(product)
+        rating_info = product.get("item_rating") or {}
+        price = self._normalize_price(
+            product.get("price")
+            or product.get("price_min")
+            or product.get("price_max")
+        )
+        original_price = self._normalize_price(
+            product.get("price_before_discount")
+            or product.get("price_min_before_discount")
+            or product.get("price_max_before_discount")
+            or product.get("price")
+            or product.get("price_min")
+        )
+        images = product.get("images") or []
+
+        return {
+            # Các field chính đặt giống Tiki để tầng xử lý sau có thể đọc chung schema.
+            "id": item_id,
+            "name": product.get("name"),
+            "sku": f"shopee-{shop_id}-{item_id}" if shop_id and item_id else None,
+            "original_price": original_price,
+            "price": price,
+            "quantity_sold": self._normalize_quantity_sold(product),
+            "thumbnail_url": self._build_image_url(product.get("image")),
+            "brand_name": product.get("brand") or "No Brand",
+            "url_key": product_url,
+            "url_path": product_url,
+            "seller_name": product.get("shop_name"),
+            "seller_id": shop_id,
+            "seller_product_id": item_id,
+            "product_rating": rating_info.get("rating_star"),
+
+            # Giữ field Shopee cũ để code review hiện tại và debug không bị mất ngữ cảnh.
+            "itemid": item_id,
+            "shopid": shop_id,
+            "shop_location": product.get("shop_location"),
+            "stock": product.get("stock"),
+            "discount": product.get("discount") or product.get("raw_discount"),
+            "review_count": product.get("cmt_count"),
+            "image_url": self._build_image_url(product.get("image")),
+            "images": [self._build_image_url(image_id) for image_id in images],
+
+            "metadata": {
+                "platform": "shopee",
+                "keyword": keyword,
+                "page": page,
+                "currency": product.get("currency"),
+                "catid": product.get("catid"),
+                "liked_count": product.get("liked_count"),
+                "view_count": product.get("view_count"),
+                "historical_sold": product.get("historical_sold"),
+                "rating_count": rating_info.get("rating_count"),
+                "is_official_shop": product.get("is_official_shop"),
+                "raw": product,
+            },
+        }
+
     def get_products(self, keyword, page=0, limit=None):
         limit = min(limit or self.page_size, 60)
         newest = page * limit
@@ -263,7 +410,11 @@ class ShopeeApiClient:
 
         data = self._request_json(url, headers, timeout=15)
         items = data.get('items', []) or []
-        return [i.get('item_basic') for i in items if i.get('item_basic')]
+        raw_products = [i.get('item_basic') for i in items if i.get('item_basic')]
+        return [
+            self._normalize_product(product, keyword=keyword, page=page)
+            for product in raw_products
+        ]
 
     def get_reviews(self, item_id, shop_id, limit=None, offset=0):
         if not item_id or not shop_id:
@@ -301,7 +452,7 @@ class ShopeeApiClient:
             review_products_limit = self.max_review_products
 
         if review_products_limit <= 0:
-            return products
+            return []
 
         return products[:review_products_limit]
 
@@ -316,7 +467,7 @@ class ShopeeApiClient:
                     continue
 
                 ts = int(time.time())
-                p_file = f"products_pg{page}_{ts}.json"
+                p_file = f"batch_pg{page}_{ts}.json"
                 self.upload_data_to_minio(products, "products", p_file)
 
                 review_products = self._products_for_reviews(products, review_products_limit)
@@ -327,7 +478,7 @@ class ShopeeApiClient:
                     reviews = self.get_all_reviews(item_id, shop_id, max_pages=review_pages)
 
                     if reviews:
-                        r_file = f"reviews_item_{item_id}_{ts}.json"
+                        r_file = f"reviews_sp_{item_id}_{ts}.json"
                         self.upload_data_to_minio(reviews, "reviews", r_file)
 
                     self._sleep()
