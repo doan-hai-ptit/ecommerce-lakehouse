@@ -3,6 +3,7 @@ from urllib.parse import urlencode
 import io
 import json
 import os
+import random
 import time
 
 import boto3
@@ -11,6 +12,20 @@ from botocore.client import Config
 from dotenv import load_dotenv
 
 load_dotenv()
+
+
+def _get_int_env(name, default):
+    try:
+        return int(os.getenv(name, default))
+    except (TypeError, ValueError):
+        return default
+
+
+def _get_float_env(name, default):
+    try:
+        return float(os.getenv(name, default))
+    except (TypeError, ValueError):
+        return default
 
 
 class ChototApiClient:
@@ -24,7 +39,12 @@ class ChototApiClient:
             "https://gateway.chotot.com/v1/public/ad-listing",
         )
         self.timeout = int(os.getenv("CHOTOT_TIMEOUT_SECONDS", "20"))
-        self.delay_seconds = float(os.getenv("CHOTOT_DELAY_SECONDS", "1.5"))
+        default_delay = _get_float_env("CHOTOT_DELAY_SECONDS", 2.0)
+        self.min_delay_seconds = _get_float_env("CHOTOT_MIN_DELAY_SECONDS", default_delay)
+        self.max_delay_seconds = _get_float_env("CHOTOT_MAX_DELAY_SECONDS", max(default_delay, 5.0))
+        self.max_retries = max(_get_int_env("CHOTOT_MAX_RETRIES", 4), 1)
+        self.backoff_base_seconds = _get_float_env("CHOTOT_BACKOFF_BASE_SECONDS", 3.0)
+        self.last_total = None
 
         endpoint_url = os.getenv("MINIO_ENDPOINT_URL", "http://localhost:9000")
         access_key = os.getenv("MINIO_ACCESS_KEY")
@@ -51,15 +71,38 @@ class ChototApiClient:
             }
         )
 
+    def _sleep(self):
+        max_delay = max(self.max_delay_seconds, self.min_delay_seconds)
+        time.sleep(random.uniform(self.min_delay_seconds, max_delay))
+
     def _request_json(self, url, params=None, error_context="request"):
-        try:
-            response = self.session.get(url, params=params, timeout=self.timeout)
-            response.raise_for_status()
-            return response.json()
-        except Exception as e:
-            query = f"?{urlencode(params or {})}" if params else ""
-            print(f"Error {error_context}: {url}{query} | {e}")
-            return {}
+        query = f"?{urlencode(params or {})}" if params else ""
+
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                response = self.session.get(url, params=params, timeout=self.timeout)
+
+                if response.status_code == 200:
+                    return response.json()
+
+                if response.status_code in (403, 429):
+                    retry_after = response.headers.get("Retry-After")
+                    wait_seconds = float(retry_after) if retry_after else self.backoff_base_seconds * attempt
+                    print(
+                        f"Warn {error_context}: HTTP {response.status_code}. "
+                        f"Sleeping {wait_seconds:.1f}s before retry {attempt}/{self.max_retries}"
+                    )
+                    time.sleep(wait_seconds + random.uniform(0, self.backoff_base_seconds))
+                    continue
+
+                response.raise_for_status()
+                return response.json()
+            except Exception as e:
+                print(f"Error {error_context}: {url}{query} | attempt {attempt}/{self.max_retries} | {e}")
+                if attempt < self.max_retries:
+                    time.sleep(self.backoff_base_seconds * attempt + random.uniform(0, self.backoff_base_seconds))
+
+        return {}
 
     def upload_data_to_minio(self, data, category_name, file_name):
         object_name = f"{self.hive_path}/category={category_name}/{file_name}"
@@ -79,6 +122,7 @@ class ChototApiClient:
             print(f"    [MinIO-Stream] Upload error: {e}")
 
     def get_products(self, page=1, limit=50, keyword=None, category_id=None, region=None, area=None):
+        limit = min(max(int(limit), 1), 50)
         offset = max(page - 1, 0) * limit
         params = {
             "limit": limit,
@@ -99,6 +143,7 @@ class ChototApiClient:
             params=params,
             error_context=f"fetch Chotot listings page {page}",
         )
+        self.last_total = data.get("total")
         return data.get("ads", []) or []
 
     def get_listings(self, page=1, limit=50, keyword=None, category_id=None, region=None, area=None):
@@ -121,8 +166,16 @@ class ChototApiClient:
         region=None,
         area=None,
     ):
+        limit = min(max(int(limit), 1), 50)
+
         for page in range(start_page, end_page + 1):
             print(f"\n--- Processing CHOTOT PAGE {page} ---")
+            offset = max(page - 1, 0) * limit
+
+            if self.last_total is not None and offset >= self.last_total:
+                print(f"    Reached total={self.last_total}. Stop crawling this shard.")
+                break
+
             products = self.get_products(
                 page=page,
                 limit=limit,
@@ -137,6 +190,6 @@ class ChototApiClient:
                 continue
 
             ts = int(time.time())
-            products_file = f"products_pg{page}_{ts}.json"
+            products_file = f"batch_pg{page}_{ts}.json"
             self.upload_data_to_minio(products, "products", products_file)
-            time.sleep(self.delay_seconds)
+            self._sleep()
