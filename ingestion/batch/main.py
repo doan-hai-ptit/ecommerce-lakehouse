@@ -5,11 +5,11 @@ import os
 
 # Cấu hình kết nối tới Postgres Metastore của bạn
 DB_CONFIG = {
-    "host": "localhost",
-    "database": "postgres_metastore",
-    "user": "postgres",
-    "password": "postgres",
-    "port": 5432
+    "host": os.getenv("DB_HOST", "localhost"),
+    "database": os.getenv("DB_NAME", "postgres_metastore"),
+    "user": os.getenv("DB_USER", "postgres"),
+    "password": os.getenv("DB_PASSWORD", "postgres"),
+    "port": int(os.getenv("DB_PORT", 5432))
 }
 
 def get_next_page_from_db(category_id):
