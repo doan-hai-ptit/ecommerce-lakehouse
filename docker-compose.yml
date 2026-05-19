@@ -9,7 +9,8 @@ services:
       MINIO_ROOT_USER: admin
       MINIO_ROOT_PASSWORD: password123
     volumes:
-      - "/media/doanhai/New Volume/Volumes/minio_storage:/data"
+      # - "/media/doanhai/New Volume/Volumes/minio_storage:/data"
+      - minio_storage:/data
     command: server /data --console-address ":9001"
   # kafka:
   #   image: apache/kafka:3.7.0
@@ -27,6 +28,10 @@ services:
   #     - KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1
   #     - KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR=1
   #     - KAFKA_TRANSACTION_STATE_LOG_MIN_ISR=1
+  #   volumes:
+  #     - kafka_data:/var/lib/kafka/data
+  #     - "/media/doanhai/New Volume/Volumes/kafka_data:/data"
+
   # kafka-ui:
   #   image: provectuslabs/kafka-ui:v0.7.2
   #   container_name: kafka_ui
@@ -38,6 +43,7 @@ services:
   #     - KAFKA_CLUSTERS_0_NAME=CDC_Cluster
   #     - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:9092
   #     - DYNAMIC_CONFIG_ENABLED=true
+
   # mysql:
   #   image: mysql:8.0
   #   container_name: mysql_source
@@ -53,6 +59,9 @@ services:
   #     - --log-bin=mysql-bin 
   #     - --binlog-format=row 
   #     - --binlog-row-image=full
+  #   volumes:
+  #     - mysql_data:/var/lib/mysql
+  #     - "/media/doanhai/New Volume/Volumes/mysql_data:/data"
   postgres:
     image: postgres:16-alpine
     container_name: postgres_metastore
@@ -63,7 +72,8 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=postgres_metastore
     volumes:
-      - "/media/doanhai/New Volume/Volumes/postgres_metastore_data:/var/lib/postgresql/data"
+      # - "/media/doanhai/New Volume/Volumes/postgres_metastore_data:/var/lib/postgresql/data"
+      - postgres_metastore_data:/var/lib/postgresql/data
   spark-processor:
     build: ./processing/
     container_name: spark_processor
@@ -109,3 +119,14 @@ services:
   #     - STATUS_STORAGE_REPLICATION_FACTOR=1
   #     - KEY_CONVERTER=org.apache.kafka.connect.json.JsonConverter
   #     - VALUE_CONVERTER=org.apache.kafka.connect.json.JsonConverter
+  #   volumes:
+  #     # Dùng named volume này nếu sau này bạn cần cài thêm plugin ngoài cho Debezium
+  #     - debezium_plugins:/kafka/connect
+  #     - "/media/doanhai/New Volume/Volumes/debezium_plugins:/var/lib/postgresql/data"
+
+volumes:
+  minio_storage:
+  postgres_metastore_data:
+  # kafka_data:               # Volume mặc định cho Kafka
+  # mysql_data:               # Volume mặc định cho MySQL
+  # debezium_plugins:
