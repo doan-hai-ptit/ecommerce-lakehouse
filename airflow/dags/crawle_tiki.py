@@ -14,10 +14,10 @@ default_args = {
 }
 
 with DAG(
-    'tiki_ecommerce_ingestion',
+    'tiki_ecommerce_ingestion_category_1520',
     default_args=default_args,
-    description='Pipeline tự động cào dữ liệu Tiki theo chu kỳ 30 phút',
-    schedule='*/30 * * * *',  # Cứ đúng mỗi 30 phút gọi 1 lần
+    description='Pipeline tự động cào dữ liệu Tiki theo chu kỳ 20 phút',
+    schedule='*/20 * * * *',  # Cứ đúng mỗi 20 phút gọi 1 lần
     catchup=False,
     max_active_runs=1,
 ) as dag:
@@ -25,26 +25,11 @@ with DAG(
     # Task sử dụng DockerOperator để cô lập môi trường chạy script Python cào dữ liệu
     run_tiki_crawler = DockerOperator(
         task_id='run_tiki_crawler_script',
-        image='python:3.11-slim',
-        container_name='airflow_tiki_crawler_worker',
-        
-        command='sh -c "pip install selenium boto3 python-dotenv psycopg2-binary && python /app/ingestion/batch/main.py --category 1882 --limit_pages 1"',
-        
-        network_mode='ecommerce-lakehouse_default', # Đảm bảo trỏ đúng tên mạng Docker của bạn
-        
-        mounts=[
-            Mount(
-                source='/home/ubuntu/ecommerce-lakehouse',
-                target='/app',
-                type='bind'
-            )
-        ],
-        
+        image='ecommerce-crawler:latest',
+        command='python /app/ingestion/batch/main.py --category 1520 --limit_pages 1',
+        network_mode='ecommerce-lakehouse_default',
         auto_remove='force',
-        xcom_all=False,
-        
-        host_tmp_dir='/tmp',
-        
+
         environment={
             'BROWSERLESS_URL': 'http://browserless_chrome:3000/webdriver',
             'MINIO_ENDPOINT_URL': 'http://minio:9000',
