@@ -30,7 +30,7 @@ services:
   #     - KAFKA_TRANSACTION_STATE_LOG_MIN_ISR=1
   #   volumes:
   #     - kafka_data:/var/lib/kafka/data
-  #     - "/path/to/volumes/kafka_data:/data"
+  #     - "/path/to/volumes/kafka_data:/var/lib/kafka/data"
 
   # kafka-ui:
   #   image: provectuslabs/kafka-ui:v0.7.2
@@ -61,7 +61,7 @@ services:
   #     - --binlog-row-image=full
   #   volumes:
   #     - mysql_data:/var/lib/mysql
-  #     - "/path/to/volumes/mysql_data:/data"
+  #     - "/path/to/volumes/mysql_data:/var/lib/mysql"
   postgres:
     image: postgres:16-alpine
     container_name: postgres_metastore
@@ -122,7 +122,7 @@ services:
   #   volumes:
   #     # Dùng named volume này nếu sau này bạn cần cài thêm plugin ngoài cho Debezium
   #     - debezium_plugins:/kafka/connect
-  #     - "/path/to/volumes/debezium_plugins:/var/lib/postgresql/data"
+  #     - "/path/to/volumes/debezium_plugins:/kafka/connect"
 
 volumes:
   minio_storage:
