@@ -174,7 +174,6 @@ CREATE TABLE product_variants (
     platform_variant_id VARCHAR(100),
     sku VARCHAR(255),
     variant_name VARCHAR(255),
-    currency VARCHAR(10) NOT NULL DEFAULT 'VND',
     original_price NUMERIC(18, 2) NOT NULL CHECK (original_price >= 0),
     sale_price NUMERIC(18, 2) NOT NULL CHECK (sale_price >= 0),
     weight_gram INT CHECK (weight_gram IS NULL OR weight_gram >= 0),
@@ -266,7 +265,7 @@ CREATE TABLE orders (
     shipping_address_id BIGINT REFERENCES customer_addresses(address_id),
     voucher_id BIGINT REFERENCES vouchers(voucher_id),
     order_status VARCHAR(30) NOT NULL DEFAULT 'pending',
-    currency VARCHAR(10) NOT NULL DEFAULT 'VND',
+    subtotal_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (subtotal_amount >= 0),
     shipping_fee NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (shipping_fee >= 0),
     ordered_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -352,5 +351,5 @@ CREATE TABLE events (
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (product_id, platform_event_id),
     CHECK (event_type IN ('view', 'add_to_cart', 'purchase')),
-    CHECK (customer_id IS NOT NULL OR session_id IS NOT NULL)
+    CHECK (customer_id IS NOT NULL)
 );
