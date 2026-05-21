@@ -6,3 +6,4 @@ __pycache__/
 *.cfg
 logs/
 .shopee-chrome-profile
+.antigravitycli

@@ -164,7 +164,6 @@ CREATE TABLE vouchers (
     status VARCHAR(30) NOT NULL DEFAULT 'active',
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE (platform_id, voucher_code),
     CHECK (discount_type IN ('percent', 'fixed_amount', 'free_shipping')),
     CHECK (status IN ('active', 'inactive', 'expired')),
     CHECK (ends_at > starts_at)
@@ -204,6 +203,8 @@ CREATE TABLE orders (
     order_status VARCHAR(30) NOT NULL DEFAULT 'pending',
     subtotal_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (subtotal_amount >= 0),
     shipping_fee NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (shipping_fee >= 0),
+    discount_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (discount_amount >= 0),
+    total_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (total_amount >= 0),
     ordered_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (seller_id, platform_order_id),
@@ -279,7 +280,7 @@ CREATE TABLE product_reviews (
 CREATE TABLE events (
     event_id BIGSERIAL PRIMARY KEY,
     platform_event_id VARCHAR(100),
-    customer_id BIGINT REFERENCES customers(customer_id),
+    customer_id BIGINT NOT NULL REFERENCES customers(customer_id),
     product_id BIGINT NOT NULL REFERENCES products(product_id),
     variant_id BIGINT REFERENCES product_variants(variant_id),
     cart_item_id BIGINT REFERENCES cart_items(cart_item_id),
@@ -287,6 +288,5 @@ CREATE TABLE events (
     event_type VARCHAR(30) NOT NULL,
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (product_id, platform_event_id),
-    CHECK (event_type IN ('view', 'add_to_cart', 'purchase')),
-    CHECK (customer_id IS NOT NULL)
+    CHECK (event_type IN ('view', 'add_to_cart', 'purchase'))
 );
