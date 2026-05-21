@@ -81,8 +81,6 @@ CREATE TABLE sellers (
     seller_name VARCHAR(255) NOT NULL,
     city VARCHAR(100),
     province VARCHAR(100),
-    rating_average NUMERIC(3, 2)
-        CHECK (rating_average IS NULL OR rating_average BETWEEN 0 AND 5),
     follower_count INT CHECK (follower_count IS NULL OR follower_count >= 0),
     is_official_store BOOLEAN NOT NULL DEFAULT FALSE,
     status VARCHAR(30) NOT NULL DEFAULT 'active',
@@ -102,7 +100,6 @@ CREATE TABLE customers (
     gender VARCHAR(20),
     date_of_birth DATE,
     status VARCHAR(30) NOT NULL DEFAULT 'active',
-    registered_at TIMESTAMPTZ,
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (platform_id, platform_customer_id),
@@ -135,8 +132,6 @@ CREATE TABLE categories (
     platform_category_id VARCHAR(100) NOT NULL,
     parent_category_id BIGINT REFERENCES categories(category_id),
     category_name VARCHAR(255) NOT NULL,
-    category_path TEXT,
-    level INT NOT NULL DEFAULT 0 CHECK (level >= 0),
     is_active BOOLEAN NOT NULL DEFAULT TRUE,
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -158,29 +153,18 @@ CREATE TABLE brands (
 
 CREATE TABLE products (
     product_id BIGSERIAL PRIMARY KEY,
-    platform_id SMALLINT NOT NULL REFERENCES platforms(platform_id),
     platform_product_id VARCHAR(100) NOT NULL,
     seller_id BIGINT NOT NULL REFERENCES sellers(seller_id),
     category_id BIGINT REFERENCES categories(category_id),
     brand_id BIGINT REFERENCES brands(brand_id),
     product_name TEXT NOT NULL,
     description TEXT,
-    product_url TEXT,
-    thumbnail_url TEXT,
-    image_urls JSONB,
     status VARCHAR(30) NOT NULL DEFAULT 'active',
-    rating_average NUMERIC(3, 2)
-        CHECK (rating_average IS NULL OR rating_average BETWEEN 0 AND 5),
-    review_count INT NOT NULL DEFAULT 0 CHECK (review_count >= 0),
-    sold_count INT NOT NULL DEFAULT 0 CHECK (sold_count >= 0),
-    view_count INT NOT NULL DEFAULT 0 CHECK (view_count >= 0),
-    liked_count INT NOT NULL DEFAULT 0 CHECK (liked_count >= 0),
     is_authentic BOOLEAN,
-    is_official_store BOOLEAN,
     published_at TIMESTAMPTZ,
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE (platform_id, platform_product_id),
+    UNIQUE (seller_id, platform_product_id),
     CHECK (status IN ('active', 'inactive', 'deleted', 'out_of_stock'))
 );
 
@@ -190,13 +174,9 @@ CREATE TABLE product_variants (
     platform_variant_id VARCHAR(100),
     sku VARCHAR(255),
     variant_name VARCHAR(255),
-    option_values JSONB,
     currency VARCHAR(10) NOT NULL DEFAULT 'VND',
     original_price NUMERIC(18, 2) NOT NULL CHECK (original_price >= 0),
     sale_price NUMERIC(18, 2) NOT NULL CHECK (sale_price >= 0),
-    discount_rate NUMERIC(5, 2)
-        CHECK (discount_rate IS NULL OR discount_rate BETWEEN 0 AND 100),
-    barcode VARCHAR(100),
     weight_gram INT CHECK (weight_gram IS NULL OR weight_gram >= 0),
     status VARCHAR(30) NOT NULL DEFAULT 'active',
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -214,8 +194,6 @@ CREATE TABLE product_inventory (
     warehouse_code VARCHAR(100) NOT NULL DEFAULT 'default',
     quantity_on_hand INT NOT NULL DEFAULT 0 CHECK (quantity_on_hand >= 0),
     quantity_reserved INT NOT NULL DEFAULT 0 CHECK (quantity_reserved >= 0),
-    quantity_available INT GENERATED ALWAYS AS
-        (quantity_on_hand - quantity_reserved) STORED,
     low_stock_threshold INT NOT NULL DEFAULT 0 CHECK (low_stock_threshold >= 0),
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CHECK (quantity_reserved <= quantity_on_hand)
@@ -245,7 +223,6 @@ CREATE TABLE vouchers (
     max_discount_amount NUMERIC(18, 2) CHECK (max_discount_amount IS NULL OR max_discount_amount >= 0),
     min_order_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (min_order_amount >= 0),
     usage_limit INT CHECK (usage_limit IS NULL OR usage_limit >= 0),
-    used_count INT NOT NULL DEFAULT 0 CHECK (used_count >= 0),
     starts_at TIMESTAMPTZ NOT NULL,
     ends_at TIMESTAMPTZ NOT NULL,
     status VARCHAR(30) NOT NULL DEFAULT 'active',
@@ -262,12 +239,11 @@ CREATE TABLE vouchers (
 -- ==============================================================================
 CREATE TABLE carts (
     cart_id BIGSERIAL PRIMARY KEY,
-    platform_id SMALLINT NOT NULL REFERENCES platforms(platform_id),
     customer_id BIGINT NOT NULL REFERENCES customers(customer_id),
     status VARCHAR(30) NOT NULL DEFAULT 'active',
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE (platform_id, customer_id),
+    UNIQUE (customer_id),
     CHECK (status IN ('active', 'ordered', 'abandoned', 'expired'))
 );
 
@@ -284,40 +260,27 @@ CREATE TABLE cart_items (
 
 CREATE TABLE orders (
     order_id BIGSERIAL PRIMARY KEY,
-    platform_id SMALLINT NOT NULL REFERENCES platforms(platform_id),
     platform_order_id VARCHAR(100) NOT NULL,
     customer_id BIGINT NOT NULL REFERENCES customers(customer_id),
     seller_id BIGINT NOT NULL REFERENCES sellers(seller_id),
     shipping_address_id BIGINT REFERENCES customer_addresses(address_id),
     voucher_id BIGINT REFERENCES vouchers(voucher_id),
     order_status VARCHAR(30) NOT NULL DEFAULT 'pending',
-    payment_status VARCHAR(30) NOT NULL DEFAULT 'unpaid',
-    fulfillment_status VARCHAR(30) NOT NULL DEFAULT 'unfulfilled',
     currency VARCHAR(10) NOT NULL DEFAULT 'VND',
-    subtotal_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (subtotal_amount >= 0),
-    discount_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (discount_amount >= 0),
     shipping_fee NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (shipping_fee >= 0),
-    tax_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (tax_amount >= 0),
-    total_amount NUMERIC(18, 2) NOT NULL CHECK (total_amount >= 0),
     ordered_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE (platform_id, platform_order_id),
-    CHECK (order_status IN ('pending', 'confirmed', 'packed', 'shipping', 'completed', 'cancelled', 'returned')),
-    CHECK (payment_status IN ('unpaid', 'paid', 'refunded', 'failed')),
-    CHECK (fulfillment_status IN ('unfulfilled', 'processing', 'fulfilled', 'returned', 'cancelled'))
+    UNIQUE (seller_id, platform_order_id),
+    CHECK (order_status IN ('pending', 'confirmed', 'packed', 'shipping', 'completed', 'cancelled', 'returned'))
 );
 
 CREATE TABLE order_items (
     order_item_id BIGSERIAL PRIMARY KEY,
     order_id BIGINT NOT NULL REFERENCES orders(order_id) ON DELETE CASCADE,
-    product_id BIGINT NOT NULL REFERENCES products(product_id),
     variant_id BIGINT NOT NULL REFERENCES product_variants(variant_id),
-    product_name TEXT NOT NULL,
-    sku VARCHAR(255),
     quantity INT NOT NULL CHECK (quantity > 0),
     unit_price NUMERIC(18, 2) NOT NULL CHECK (unit_price >= 0),
-    discount_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (discount_amount >= 0),
-    total_amount NUMERIC(18, 2) NOT NULL CHECK (total_amount >= 0)
+    discount_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (discount_amount >= 0)
 );
 -- ==============================================================================
 -- 5. THANH TOÁN & VẬN CHUYỂN
@@ -328,7 +291,6 @@ CREATE TABLE payments (
     payment_method VARCHAR(50) NOT NULL,
     provider VARCHAR(100),
     amount NUMERIC(18, 2) NOT NULL CHECK (amount >= 0),
-    currency VARCHAR(10) NOT NULL DEFAULT 'VND',
     status VARCHAR(30) NOT NULL DEFAULT 'pending',
     paid_at TIMESTAMPTZ,
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -344,7 +306,6 @@ CREATE TABLE shipments (
     tracking_number VARCHAR(100),
     shipping_method VARCHAR(100),
     status VARCHAR(30) NOT NULL DEFAULT 'preparing',
-    event_history JSONB,
     shipped_at TIMESTAMPTZ,
     estimated_delivery_at TIMESTAMPTZ,
     delivered_at TIMESTAMPTZ,
@@ -355,27 +316,24 @@ CREATE TABLE shipments (
 );
 
 -- ==============================================================================
--- 6. REVIEW & MEDIA
+-- 6. REVIEW
 -- ==============================================================================
 CREATE TABLE product_reviews (
     review_id BIGSERIAL PRIMARY KEY,
-    platform_id SMALLINT NOT NULL REFERENCES platforms(platform_id),
     platform_review_id VARCHAR(100) NOT NULL,
     product_id BIGINT NOT NULL REFERENCES products(product_id),
     order_item_id BIGINT REFERENCES order_items(order_item_id),
     customer_id BIGINT REFERENCES customers(customer_id),
-    seller_id BIGINT REFERENCES sellers(seller_id),
     rating INT NOT NULL CHECK (rating BETWEEN 1 AND 5),
     title TEXT,
     content TEXT,
-    media_urls JSONB,
     delivery_rating INT CHECK (delivery_rating IS NULL OR delivery_rating BETWEEN 1 AND 5),
     seller_rating INT CHECK (seller_rating IS NULL OR seller_rating BETWEEN 1 AND 5),
     helpful_count INT NOT NULL DEFAULT 0 CHECK (helpful_count >= 0),
     status VARCHAR(30) NOT NULL DEFAULT 'published',
     reviewed_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE (platform_id, platform_review_id),
+    UNIQUE (product_id, platform_review_id),
     CHECK (status IN ('published', 'hidden', 'deleted', 'pending'))
 );
 
@@ -384,30 +342,15 @@ CREATE TABLE product_reviews (
 -- ==============================================================================
 CREATE TABLE events (
     event_id BIGSERIAL PRIMARY KEY,
-    platform_id SMALLINT NOT NULL REFERENCES platforms(platform_id),
     platform_event_id VARCHAR(100),
     customer_id BIGINT REFERENCES customers(customer_id),
     product_id BIGINT NOT NULL REFERENCES products(product_id),
     variant_id BIGINT REFERENCES product_variants(variant_id),
-    cart_id BIGINT REFERENCES carts(cart_id),
     cart_item_id BIGINT REFERENCES cart_items(cart_item_id),
-    order_id BIGINT REFERENCES orders(order_id),
     order_item_id BIGINT REFERENCES order_items(order_item_id),
-    session_id VARCHAR(100),
     event_type VARCHAR(30) NOT NULL,
-    quantity INT CHECK (quantity IS NULL OR quantity > 0),
-    currency VARCHAR(10) NOT NULL DEFAULT 'VND',
-    unit_price NUMERIC(18, 2) CHECK (unit_price IS NULL OR unit_price >= 0),
-    total_amount NUMERIC(18, 2) CHECK (total_amount IS NULL OR total_amount >= 0),
-    device_type VARCHAR(50),
-    source_channel VARCHAR(50),
-    ip_address INET,
-    user_agent TEXT,
-    referrer_url TEXT,
-    event_metadata JSONB,
-    occurred_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE (platform_id, platform_event_id),
+    UNIQUE (product_id, platform_event_id),
     CHECK (event_type IN ('view', 'add_to_cart', 'purchase')),
     CHECK (customer_id IS NOT NULL OR session_id IS NOT NULL)
 );
