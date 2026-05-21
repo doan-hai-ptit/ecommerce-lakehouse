@@ -5,7 +5,7 @@
 -- trước khi đẩy stream/CDC vào lakehouse. Thiết kế ưu tiên:
 --   - Có source platform để phân biệt Tiki/Shopee/Sendo/ChoTot.
 --   - Có dữ liệu vận hành: sản phẩm, tồn kho, giỏ hàng, đơn hàng, thanh toán,
---     vận chuyển, review, voucher.
+--     vận chuyển, review, voucher, event người dùng.
 --   - Có bảng event_outbox và stream_checkpoints để phục vụ mô phỏng streaming.
 -- ==============================================================================
 
@@ -14,6 +14,7 @@
 -- ==============================================================================
 DROP TABLE IF EXISTS event_outbox CASCADE;
 DROP TABLE IF EXISTS stream_checkpoints CASCADE;
+DROP TABLE IF EXISTS events CASCADE;
 DROP TABLE IF EXISTS product_reviews CASCADE;
 DROP TABLE IF EXISTS shipments CASCADE;
 DROP TABLE IF EXISTS payments CASCADE;
@@ -376,4 +377,37 @@ CREATE TABLE product_reviews (
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (platform_id, platform_review_id),
     CHECK (status IN ('published', 'hidden', 'deleted', 'pending'))
+);
+
+-- ==============================================================================
+-- 7. EVENT NGƯỜI DÙNG
+-- ==============================================================================
+CREATE TABLE events (
+    event_id BIGSERIAL PRIMARY KEY,
+    platform_id SMALLINT NOT NULL REFERENCES platforms(platform_id),
+    platform_event_id VARCHAR(100),
+    customer_id BIGINT REFERENCES customers(customer_id),
+    product_id BIGINT NOT NULL REFERENCES products(product_id),
+    variant_id BIGINT REFERENCES product_variants(variant_id),
+    cart_id BIGINT REFERENCES carts(cart_id),
+    cart_item_id BIGINT REFERENCES cart_items(cart_item_id),
+    order_id BIGINT REFERENCES orders(order_id),
+    order_item_id BIGINT REFERENCES order_items(order_item_id),
+    session_id VARCHAR(100),
+    event_type VARCHAR(30) NOT NULL,
+    quantity INT CHECK (quantity IS NULL OR quantity > 0),
+    currency VARCHAR(10) NOT NULL DEFAULT 'VND',
+    unit_price NUMERIC(18, 2) CHECK (unit_price IS NULL OR unit_price >= 0),
+    total_amount NUMERIC(18, 2) CHECK (total_amount IS NULL OR total_amount >= 0),
+    device_type VARCHAR(50),
+    source_channel VARCHAR(50),
+    ip_address INET,
+    user_agent TEXT,
+    referrer_url TEXT,
+    event_metadata JSONB,
+    occurred_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE (platform_id, platform_event_id),
+    CHECK (event_type IN ('view', 'add_to_cart', 'purchase')),
+    CHECK (customer_id IS NOT NULL OR session_id IS NOT NULL)
 );
