@@ -11,14 +11,6 @@ CREATE TABLE platforms (
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO platforms (platform_code, platform_name, base_url)
-VALUES
-    ('tiki', 'Tiki', 'https://tiki.vn'),
-    ('shopee', 'Shopee', 'https://shopee.vn'),
-    ('sendo', 'Sendo', 'https://sendo.vn'),
-    ('chotot', 'Cho Tot', 'https://www.chotot.com')
-ON CONFLICT (platform_code) DO NOTHING;
-
 CREATE TABLE sellers (
     seller_id BIGSERIAL PRIMARY KEY,
     platform_id SMALLINT NOT NULL REFERENCES platforms(platform_id),
