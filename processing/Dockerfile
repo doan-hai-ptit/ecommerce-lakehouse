@@ -50,6 +50,7 @@ RUN pip install --no-cache-dir \
     delta-spark==${DELTA_VERSION} \
     boto3\
     python-dotenv \
+    psycopg2-binary \
     pandas
 
 # 6. Thiết lập thư mục làm việc và phân quyền cho Hive
