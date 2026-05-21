@@ -9,8 +9,8 @@ services:
       MINIO_ROOT_USER: admin
       MINIO_ROOT_PASSWORD: password123
     volumes:
-      - "/path/to/volumes/minio_storage:/data"
-      # - minio_storage:/data
+      # - "/path/to/volumes/minio_storage:/data"
+      - minio_storage:/data
     command: server /data --console-address ":9001"
   # kafka:
   #   image: apache/kafka:3.7.0
@@ -72,8 +72,8 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=postgres_metastore
     volumes:
-      - "/path/to/volumes/postgres_metastore_data:/var/lib/postgresql/data"
-      # - postgres_metastore_data:/var/lib/postgresql/data
+      # - "/path/to/volumes/postgres_metastore_data:/var/lib/postgresql/data"
+      - postgres_metastore_data:/var/lib/postgresql/data
   spark-processor:
     build: ./processing/
     container_name: spark_processor
@@ -124,9 +124,9 @@ services:
   #     - debezium_plugins:/kafka/connect
   #     - "/path/to/volumes/debezium_plugins:/kafka/connect"
 
-# volumes:
-#   minio_storage:
-#   postgres_metastore_data:
+volumes:
+  minio_storage:
+  postgres_metastore_data:
   # kafka_data:               # Volume mặc định cho Kafka
   # mysql_data:               # Volume mặc định cho MySQL
   # debezium_plugins:
