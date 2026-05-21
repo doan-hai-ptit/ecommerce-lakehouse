@@ -78,8 +78,6 @@ CREATE TABLE sellers (
     platform_id SMALLINT NOT NULL REFERENCES platforms(platform_id),
     platform_seller_id VARCHAR(100) NOT NULL,
     seller_name VARCHAR(255) NOT NULL,
-    shop_url TEXT,
-    logo_url TEXT,
     city VARCHAR(100),
     province VARCHAR(100),
     rating_average NUMERIC(3, 2)
@@ -92,9 +90,6 @@ CREATE TABLE sellers (
     UNIQUE (platform_id, platform_seller_id),
     CHECK (status IN ('active', 'inactive', 'suspended'))
 );
-
-CREATE INDEX idx_sellers_platform
-    ON sellers (platform_id, seller_name);
 
 CREATE TABLE customers (
     customer_id BIGSERIAL PRIMARY KEY,
@@ -114,9 +109,6 @@ CREATE TABLE customers (
     CHECK (gender IS NULL OR gender IN ('male', 'female', 'other', 'unknown'))
 );
 
-CREATE INDEX idx_customers_platform
-    ON customers (platform_id, platform_customer_id);
-
 CREATE TABLE customer_addresses (
     address_id BIGSERIAL PRIMARY KEY,
     customer_id BIGINT NOT NULL REFERENCES customers(customer_id) ON DELETE CASCADE,
@@ -133,10 +125,6 @@ CREATE TABLE customer_addresses (
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
-
-CREATE INDEX idx_customer_addresses_customer
-    ON customer_addresses (customer_id);
-
 -- ==============================================================================
 -- 2. CATALOG SẢN PHẨM
 -- ==============================================================================
@@ -153,9 +141,6 @@ CREATE TABLE categories (
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (platform_id, platform_category_id)
 );
-
-CREATE INDEX idx_categories_parent
-    ON categories (parent_category_id);
 
 CREATE TABLE brands (
     brand_id BIGSERIAL PRIMARY KEY,
@@ -198,12 +183,6 @@ CREATE TABLE products (
     CHECK (status IN ('active', 'inactive', 'deleted', 'out_of_stock'))
 );
 
-CREATE INDEX idx_products_platform_category
-    ON products (platform_id, category_id);
-
-CREATE INDEX idx_products_seller
-    ON products (seller_id);
-
 CREATE TABLE product_variants (
     variant_id BIGSERIAL PRIMARY KEY,
     product_id BIGINT NOT NULL REFERENCES products(product_id) ON DELETE CASCADE,
@@ -224,10 +203,6 @@ CREATE TABLE product_variants (
     UNIQUE (product_id, platform_variant_id),
     CHECK (status IN ('active', 'inactive', 'deleted', 'out_of_stock'))
 );
-
-CREATE INDEX idx_product_variants_product
-    ON product_variants (product_id);
-
 -- ==============================================================================
 -- 3. TỒN KHO & KHUYẾN MÃI
 -- ==============================================================================
@@ -257,9 +232,6 @@ CREATE TABLE inventory_movements (
     occurred_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CHECK (movement_type IN ('import', 'sale', 'return', 'reserve', 'release', 'adjustment'))
 );
-
-CREATE INDEX idx_inventory_movements_inventory_time
-    ON inventory_movements (inventory_id, occurred_at DESC);
 
 CREATE TABLE vouchers (
     voucher_id BIGSERIAL PRIMARY KEY,
@@ -334,12 +306,6 @@ CREATE TABLE orders (
     CHECK (fulfillment_status IN ('unfulfilled', 'processing', 'fulfilled', 'returned', 'cancelled'))
 );
 
-CREATE INDEX idx_orders_customer_time
-    ON orders (customer_id, ordered_at DESC);
-
-CREATE INDEX idx_orders_seller_time
-    ON orders (seller_id, ordered_at DESC);
-
 CREATE TABLE order_items (
     order_item_id BIGSERIAL PRIMARY KEY,
     order_id BIGINT NOT NULL REFERENCES orders(order_id) ON DELETE CASCADE,
@@ -352,10 +318,6 @@ CREATE TABLE order_items (
     discount_amount NUMERIC(18, 2) NOT NULL DEFAULT 0 CHECK (discount_amount >= 0),
     total_amount NUMERIC(18, 2) NOT NULL CHECK (total_amount >= 0)
 );
-
-CREATE INDEX idx_order_items_order
-    ON order_items (order_id);
-
 -- ==============================================================================
 -- 5. THANH TOÁN & VẬN CHUYỂN
 -- ==============================================================================
@@ -414,45 +376,4 @@ CREATE TABLE product_reviews (
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (platform_id, platform_review_id),
     CHECK (status IN ('published', 'hidden', 'deleted', 'pending'))
-);
-
-CREATE INDEX idx_product_reviews_product_time
-    ON product_reviews (product_id, reviewed_at DESC);
-
--- ==============================================================================
--- 7. STREAMING SUPPORT
--- ==============================================================================
-CREATE TABLE event_outbox (
-    event_id BIGSERIAL PRIMARY KEY,
-    aggregate_type VARCHAR(100) NOT NULL,
-    aggregate_id VARCHAR(100) NOT NULL,
-    event_type VARCHAR(100) NOT NULL,
-    event_key VARCHAR(255),
-    payload JSONB NOT NULL,
-    headers JSONB,
-    occurred_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    published_at TIMESTAMPTZ,
-    status VARCHAR(30) NOT NULL DEFAULT 'pending',
-    retry_count INT NOT NULL DEFAULT 0 CHECK (retry_count >= 0),
-    CHECK (status IN ('pending', 'published', 'failed', 'skipped'))
-);
-
-CREATE INDEX idx_event_outbox_status_time
-    ON event_outbox (status, occurred_at);
-
-CREATE INDEX idx_event_outbox_aggregate
-    ON event_outbox (aggregate_type, aggregate_id);
-
-CREATE TABLE stream_checkpoints (
-    checkpoint_id BIGSERIAL PRIMARY KEY,
-    stream_name VARCHAR(100) NOT NULL,
-    source_table VARCHAR(100) NOT NULL,
-    last_event_id BIGINT,
-    last_processed_at TIMESTAMPTZ,
-    status VARCHAR(30) NOT NULL DEFAULT 'active',
-    metadata JSONB,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE (stream_name, source_table),
-    CHECK (status IN ('active', 'paused', 'failed'))
 );
