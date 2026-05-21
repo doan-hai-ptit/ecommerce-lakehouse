@@ -66,6 +66,11 @@ def parse_args():
         default=os.getenv("SILVER_HIVE_DATABASE", "silver"),
         help="Hive database dùng để đăng ký metadata cho các Delta table.",
     )
+    parser.add_argument(
+        "--sync-hive",
+        action="store_true",
+        help="Đăng ký/đồng bộ metadata Delta vào Hive Metastore sau khi ghi.",
+    )
     return parser.parse_args()
 
 
@@ -77,7 +82,7 @@ def get_env(*names, default=None):
     return default
 
 
-def build_spark(app_name):
+def build_spark(app_name, enable_hive_support=False):
     endpoint_url = get_env("MINIO_ENDPOINT_URL", default="http://minio:9000")
     access_key = get_env("MINIO_ACCESS_KEY", "AWS_ACCESS_KEY_ID", default="admin")
     secret_key = get_env("MINIO_SECRET_KEY", "AWS_SECRET_ACCESS_KEY", default="password123")
@@ -86,7 +91,7 @@ def build_spark(app_name):
     if warehouse_dir.startswith("file:"):
         os.makedirs(warehouse_dir.replace("file:", "", 1), exist_ok=True)
 
-    return (
+    builder = (
         SparkSession.builder.appName(app_name)
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
@@ -107,14 +112,21 @@ def build_spark(app_name):
         .config("spark.hadoop.fs.s3a.aws.credentials.provider", "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider")
         .config("spark.hadoop.hive.metastore.authorization.storage.checks", "false")
        
+        # 3. Tắt HOÀN TOÀN tính năng tự động tính toán Stats của Hive để chống kẹt DB
+        .config("spark.sql.statistics.fallBackToHdfs", "false")
+        .config("hive.stats.autogather", "false")
+        .config("hive.stats.column.autogather", "false")  # Bổ sung dòng này
+        .config("hive.gather.stats.skip.empty", "true")   # Bổ sung dòng này
+
         # 4. Cấu hình Delta
         .config("spark.delta.logStore.class", "org.apache.spark.sql.delta.storage.S3SingleDriverLogStore")
         .config("spark.databricks.delta.schema.autoMerge.enabled", "true")
         .config("spark.sql.jsonGenerator.ignoreNullFields", "false")
         .config("spark.sql.session.timeZone", "Asia/Ho_Chi_Minh")
-        .enableHiveSupport()
-        .getOrCreate()
     )
+    if enable_hive_support:
+        builder = builder.enableHiveSupport()
+    return builder.getOrCreate()
 
 def bronze_path(base_path, source, date_part, category):
     return f"{base_path.rstrip('/')}/provider={source}/date={date_part}/category={category}/*.json"
@@ -618,10 +630,10 @@ def collect_normalized(spark, source, bronze_base, date_part):
         if df is not None and table_name in DEDUPE_KEYS
     }
 
-def write_delta_silver(tables, silver_base, dedupe_keys, hive_db):
+def write_delta_silver(tables, silver_base, dedupe_keys, hive_db, sync_hive=False):
     """
     Ghi dữ liệu Silver layer xuống MinIO theo định dạng Delta Lake,
-    phân vùng theo cột 'partition_date' và đồng bộ Metadata vào Hive Metastore.
+    phân vùng theo cột 'partition_date'. Metadata Hive chỉ được đồng bộ khi bật sync_hive.
     """
     from delta.tables import DeltaTable
 
@@ -633,7 +645,8 @@ def write_delta_silver(tables, silver_base, dedupe_keys, hive_db):
         hive_table_name = qualified_table_name(hive_db, table_name)
         spark = df.sparkSession
         
-        print(f"💾 [Delta + Hive] Đang xử lý bảng {table_name} -> Path: {target_path} | Table: {hive_table_name}")
+        sync_target = f" | Table: {hive_table_name}" if sync_hive else ""
+        print(f"💾 [Delta] Đang xử lý bảng {table_name} -> Path: {target_path}{sync_target}")
 
         # Kiểm tra xem Delta Table đã được khởi tạo tại bucket chưa
         if DeltaTable.isDeltaTable(spark, target_path):
@@ -668,8 +681,9 @@ def write_delta_silver(tables, silver_base, dedupe_keys, hive_db):
             writer.save(target_path)
             print(f"  └─ ✓ Khởi tạo Delta Table tại MinIO thành công.")
 
-        sync_hive_delta_table(spark, hive_db, table_name, target_path)
-        print(f"  └─ ✓ Metadata Hive đã trỏ tới Delta table.")
+        if sync_hive:
+            sync_hive_delta_table(spark, hive_db, table_name, target_path)
+            print(f"  └─ ✓ Metadata Hive đã trỏ tới Delta table.")
 
 def sql_identifier(name):
     if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", name):
@@ -761,10 +775,10 @@ def process_source(spark, source, args):
         return
 
     for table_name, df in tables.items():
-        print(f"  - {table_name}: {df.count()} dòng hợp lệ")
+        print(f"  - {table_name}: sẵn sàng ghi {len(df.columns)} cột")
 
     # 2. Ghi trực tiếp xuống MinIO (Silver Layer) bằng Delta Lake
-    write_delta_silver(tables, args.silver_base, DEDUPE_KEYS, args.hive_db)
+    write_delta_silver(tables, args.silver_base, DEDUPE_KEYS, args.hive_db, args.sync_hive)
     
     print(f"✔ Đã lưu {source.upper()} thành công vào MinIO (Silver Layer).")
 
@@ -773,7 +787,7 @@ def main():
     sources = SUPPORTED_SOURCES if args.source == "all" else (args.source,)
 
     # Khởi tạo Spark
-    spark = build_spark(f"BronzeToSilver_{args.source.upper()}")
+    spark = build_spark(f"BronzeToSilver_{args.source.upper()}", enable_hive_support=args.sync_hive)
     
     try:
         for source in sources:
