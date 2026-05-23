@@ -99,7 +99,7 @@ python ingestion/batch/main.py --category 1846 --limit_pages 1
 Run Bronze to Silver processing inside the Spark environment:
 
 ```bash
-python processing/bronze_to_silver.py tiki
+python processing/jobs/bronze_to_silver.py tiki
 ```
 
 Test lakehouse connectivity:
@@ -116,7 +116,7 @@ python storage/check_minio_connection.py
 
 ## Important Notes
 
-- `processing/bronze_to_silver.py` currently supports `tiki`, `sendo`, and
+- `processing/jobs/bronze_to_silver.py` currently supports `tiki`, `sendo`, and
   `shopee`.
 - Tiki crawling uses Selenium Remote WebDriver through Browserless.
 - The crawler writes directly to MinIO using `boto3.put_object`.
@@ -130,7 +130,7 @@ python storage/check_minio_connection.py
 Before finishing changes, run the smallest relevant check:
 
 - For crawler/provider changes, run a one-page crawl if services are available.
-- For Spark transformation changes, run `processing/bronze_to_silver.py
+- For Spark transformation changes, run `processing/jobs/bronze_to_silver.py
   <source>`.
 - For infrastructure changes, run `docker compose config`.
 - If services are unavailable, explain which command should be run and why it

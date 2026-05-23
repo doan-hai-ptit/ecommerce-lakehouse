@@ -1,25 +1,15 @@
-from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, lit, current_timestamp
 import os
 from dotenv import load_dotenv
+from core.spark_session import get_spark_session
+
 load_dotenv()
 
-from dotenv import load_dotenv
-endpoint_url = os.getenv("MINIO_ENDPOINT_URL", "http://localhost:9000")
-access_key = os.getenv("MINIO_ACCESS_KEY")
-secret_key = os.getenv("MINIO_SECRET_KEY")
-# Khởi tạo Spark Session với cấu hình Delta và Hive
-spark = SparkSession.builder \
-    .appName("Tiki_Lakehouse_Final_Test") \
-    .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
-    .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog") \
-.config("spark.hadoop.fs.s3a.endpoint", "http://minio:9000") \
-    .config("spark.hadoop.fs.s3a.access.key", "admin") \
-    .config("spark.hadoop.fs.s3a.secret.key", "password123") \
-    .config("spark.hadoop.fs.s3a.path.style.access", "true") \
-    .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem") \
-    .enableHiveSupport() \
-    .getOrCreate()
+# Khởi tạo Spark Session với cấu hình Delta và Hive dùng chung
+spark = get_spark_session(
+    app_name="Tiki_Lakehouse_Final_Test",
+    enable_hive_support=True
+)
 
 try:
     print("--- 1. Kiểm tra kết nối Hive & Postgres ---")
