@@ -6,10 +6,14 @@ import time
 from datetime import datetime
 from xml.etree import ElementTree
 
+# Ensure parent processing/ directory is in sys.path so we can import core
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from dotenv import load_dotenv
-from pyspark.sql import SparkSession, Window
+from pyspark.sql import Window
 from pyspark.sql import functions as F
 from pyspark.sql.types import ArrayType, StructType
+from core.spark_session import get_spark_session
 
 load_dotenv()
 
@@ -85,46 +89,11 @@ def get_env(*names, default=None):
 
 
 def build_spark(app_name, enable_hive_support=False):
-    endpoint_url = get_env("MINIO_ENDPOINT_URL", default="http://minio:9000")
-    access_key = get_env("MINIO_ACCESS_KEY", "AWS_ACCESS_KEY_ID", default="admin")
-    secret_key = get_env("MINIO_SECRET_KEY", "AWS_SECRET_ACCESS_KEY", default="password123")
-    warehouse_dir = get_env("SPARK_WAREHOUSE_DIR", default="file:/tmp/spark-warehouse")
-
-    if warehouse_dir.startswith("file:"):
-        os.makedirs(warehouse_dir.replace("file:", "", 1), exist_ok=True)
-
-    builder = (
-        SparkSession.builder.appName(app_name)
-        .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
-        .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
-        
-        # 1. Quản lý Warehouse local
-        .config("spark.sql.warehouse.dir", warehouse_dir)
-        .config("spark.hadoop.hive.metastore.warehouse.dir", warehouse_dir)
-        .config("spark.sql.hive.manageFilesourceTables", "false")
-        
-        # 2. Cấu hình S3A / MinIO
-        .config("spark.hadoop.fs.s3a.connection.timeout", "5000")
-        .config("spark.hadoop.fs.s3a.endpoint", endpoint_url)
-        .config("spark.hadoop.fs.s3a.access.key", access_key)
-        .config("spark.hadoop.fs.s3a.secret.key", secret_key)
-        .config("spark.hadoop.fs.s3a.path.style.access", "true")
-        .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
-        .config("spark.hadoop.fs.s3a.aws.credentials.provider", "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider")
-        .config("spark.hadoop.hive.metastore.authorization.storage.checks", "false")
-       
-        # 3. Tắt tính năng tự động fallback thống kê của Spark/Hive để tránh quét file không cần thiết
-        .config("spark.sql.statistics.fallBackToHdfs", "false")
-
-        # 4. Cấu hình Delta
-        .config("spark.delta.logStore.class", "org.apache.spark.sql.delta.storage.S3SingleDriverLogStore")
-        .config("spark.databricks.delta.schema.autoMerge.enabled", "true")
-        .config("spark.sql.jsonGenerator.ignoreNullFields", "false")
-        .config("spark.sql.session.timeZone", "Asia/Ho_Chi_Minh")
+    return get_spark_session(
+        app_name=app_name,
+        enable_hive_support=enable_hive_support,
+        log_level=os.getenv("SPARK_LOG_LEVEL", "WARN")
     )
-    if enable_hive_support:
-        builder = builder.enableHiveSupport()
-    return builder.getOrCreate()
 
 def bronze_path(base_path, source, date_part, category):
     return f"{base_path.rstrip('/')}/provider={source}/date={date_part}/category={category}/*.json"
