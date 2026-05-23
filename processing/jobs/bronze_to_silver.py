@@ -1,9 +1,13 @@
 import os
 import sys
 from dotenv import load_dotenv
-from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 from pyspark.sql.types import StringType
+
+# Ensure parent processing/ directory is in sys.path so we can import core
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from core.spark_session import get_spark_session
 
 load_dotenv()
 
@@ -19,32 +23,24 @@ if source not in ["tiki", "sendo", "shopee"]:
 
 # Lấy cấu hình MinIO từ file .env
 endpoint_url = os.getenv("MINIO_ENDPOINT_URL", "http://minio:9000")
-access_key = os.getenv("MINIO_ACCESS_KEY")
-secret_key = os.getenv("MINIO_SECRET_KEY")
 print(endpoint_url)
-# 1. Khởi tạo Builder cho Spark & Delta
-builder = SparkSession.builder.appName(f"BronzeToSilver_{source.upper()}") \
-    .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
-    .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog") \
-    .config("spark.hadoop.fs.s3a.endpoint", endpoint_url) \
-    .config("spark.hadoop.fs.s3a.access.key", access_key) \
-    .config("spark.hadoop.fs.s3a.secret.key", secret_key) \
-    .config("spark.hadoop.fs.s3a.path.style.access", "true") \
-    .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem") \
-    .config("spark.delta.logStore.class", "org.apache.spark.sql.delta.storage.S3SingleDriverLogStore") \
-    .config("spark.sql.jsonGenerator.ignoreNullFields", "false")
 
-# 2. Khởi tạo Spark Session
-spark = builder.getOrCreate()
-# 3. Định nghĩa Dynamic Paths dựa theo nguồn dữ liệu
+# Khởi tạo Spark Session dùng chung
+spark = get_spark_session(
+    app_name=f"BronzeToSilver_{source.upper()}",
+    log_level=os.getenv("SPARK_LOG_LEVEL", "WARN")
+)
+
+# Định nghĩa Dynamic Paths dựa theo nguồn dữ liệu
 bronze_path = f"s3a://bronze-lakehouse/provider={source}/date=*/category=products/*.json"
 silver_path = f"s3a://silver-lakehouse/ecom_products/platform={source}"
 
 print(f"⏳ Bắt đầu đọc dữ liệu thô từ: {bronze_path}")
 
-# 4. Đọc dữ liệu Bronze (JSON đa dòng)
+# Đọc dữ liệu Bronze (JSON đa dòng)
 df_raw = spark.read.option("multiline", "true").json(bronze_path)
-# 5. Khởi tạo Transformation & Chuẩn hóa Schema theo mẫu chung
+
+# Khởi tạo Transformation & Chuẩn hóa Schema theo mẫu chung
 if source in ["tiki", "shopee"]:
     df_silver = df_raw.select(
         F.col("id").cast(StringType()).alias("product_id"),
@@ -83,7 +79,7 @@ else:
 if df_silver is not None:
     df_silver = df_silver.withColumn("ingested_at", F.current_timestamp())
 
-# 6. Ghi dữ liệu vào Delta Lake lớp Silver
+# Ghi dữ liệu vào Delta Lake lớp Silver
 print(f"🚀 Đang ghi dữ liệu chuẩn hóa Delta Lake vào: {silver_path}")
 
 # Sử dụng overwrite nếu muốn làm sạch mỗi lần chạy batch toàn bộ, 

@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce-postgres-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+    "database.hostname": "postgres-data-source",
+    "database.port": "5432",
+    "database.user": "postgres",
+    "database.password": "postgres",
+    "database.dbname": "data-source",
+    "topic.prefix": "cdc.ecommerce",
+    "plugin.name": "pgoutput",
+    "table.include.list": "public.platforms,public.sellers,public.customers,public.customer_addresses,public.categories,public.brands,public.products,public.product_variants,public.product_inventory,public.inventory_movements,public.vouchers,public.carts,public.cart_items,public.orders,public.order_items,public.payments,public.shipments,public.product_reviews,public.events",
+    "decimal.handling.mode": "double",
+    "tombstones.on.delete": "false"
+  }
+}
