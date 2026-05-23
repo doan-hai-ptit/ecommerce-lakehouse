@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-postgres-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "database.hostname": "postgres_de",
+    "database.port": "5432",
+    "database.user": "admin",
+    "database.password": "admin123",
+    "database.dbname": "ecommerce_db",
+    "database.server.name": "ecommerce_server",
+    "table.include.list": "public.orders,public.order_items",
+    "plugin.name": "pgoutput",
+    "snapshot.mode": "initial"
+  }
+}
