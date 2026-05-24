@@ -1,0 +1,13 @@
+services:
+  postgres-server:
+    image: postgres:16-alpine
+    container_name: postgres-server
+    stdin_open: true
+    tty: true
+    command: sleep infinity
+    environment:
+      - PGHOST=${REMOTE_DB_HOST}
+      - PGPORT=${REMOTE_DB_PORT}
+      - PGUSER=${REMOTE_DB_USER}
+      - PGPASSWORD=${REMOTE_DB_PASSWORD}
+      - PGDATABASE=${REMOTE_DB_DATABASE}
