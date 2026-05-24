@@ -148,5 +148,5 @@ volumes:
   minio_storage:
   postgres_metastore_data:
   postgres-data-source:
-  # kafka_data:               # Volume mặc định cho Kafka
+  kafka_data:
   # mysql_data:               # Volume mặc định cho MySQL
