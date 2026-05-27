@@ -4,15 +4,17 @@ import time
 import random
 from datetime import datetime
 
+import os
+
 # Khởi tạo thư viện Faker với ngôn ngữ Việt Nam
 fake = Faker('vi_VN')
 
-# Thông tin kết nối tới postgres-data-source (cổng host 5433)
-DB_HOST = "localhost"
-DB_PORT = "5433"
-DB_NAME = "data-source"
-DB_USER = "postgres"
-DB_PASS = "postgres"
+# Thông tin kết nối tới postgres-data-source (mặc định cổng host 5433)
+DB_HOST = os.getenv("DB_HOST", "localhost")
+DB_PORT = os.getenv("DB_PORT", "5433")
+DB_NAME = os.getenv("DB_NAME", "data-source")
+DB_USER = os.getenv("DB_USER", "postgres")
+DB_PASS = os.getenv("DB_PASS", "postgres")
 
 def get_connection():
     try:
