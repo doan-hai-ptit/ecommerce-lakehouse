@@ -366,6 +366,12 @@ def parse_args():
         help="Read Bronze as a batch and stop. Easier to debug than Structured Streaming.",
     )
     parser.add_argument(
+        "--skip-hive-sync",
+        action="store_true",
+        default=os.getenv("BRONZE_TO_SILVER_SKIP_HIVE_SYNC", "false").lower() == "true",
+        help="Do not sync Delta table metadata to Hive Metastore after writing Silver.",
+    )
+    parser.add_argument(
         "--tables",
         default=os.getenv("BRONZE_TO_SILVER_TABLES"),
         help="Optional comma-separated source_table allow-list.",
@@ -580,8 +586,11 @@ def process_table(batch_df, table_name, spec, args):
                 return
             print(f"    └─ Khởi tạo Delta table xong {table_name}")
 
-        ensure_hive_table(batch_df.sparkSession, args.hive_db, table_name, target_path)
-        print(f"    └─ Đồng bộ Hive Metastore xong {args.hive_db}.{table_name}")
+        if args.skip_hive_sync:
+            print(f"    └─ Bỏ qua Hive sync theo --skip-hive-sync")
+        else:
+            ensure_hive_table(batch_df.sparkSession, args.hive_db, table_name, target_path)
+            print(f"    └─ Đồng bộ Hive Metastore xong {args.hive_db}.{table_name}")
     finally:
         normalized_df.unpersist()
 
@@ -668,6 +677,7 @@ def start_query(events_df, args, allowed_tables):
     print(f"Bronze Delta path: {args.bronze_path}")
     print(f"Silver base path: {args.silver_base}")
     print(f"Hive database: {args.hive_db}")
+    print(f"Hive sync: {'off' if args.skip_hive_sync else 'on'}")
     print(f"Checkpoint path: {args.checkpoint_path}")
 
     return writer.start()
