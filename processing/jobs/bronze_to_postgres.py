@@ -922,7 +922,12 @@ def sync_hive_delta_table(spark, db_name, table_name, target_path):
     jdbc_config = metastore_jdbc_config()
     delta_df = spark.read.format("delta").load(target_path)
     schema_json = delta_df.schema.json()
-    partition_cols = ["partition_date"] if "partition_date" in delta_df.columns else []
+    if "partition_date" in delta_df.columns:
+        partition_cols = ["partition_date"]
+    elif "event_date" in delta_df.columns:
+        partition_cols = ["event_date"]
+    else:
+        partition_cols = []
 
     conn = jdbc_connection(spark, jdbc_config)
     try:

@@ -18,13 +18,15 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Read Kafka CDC topics and write to Silver Delta tables, registered in Postgres Metastore."
     )
-    topic_group = parser.add_mutually_exclusive_group(required=True)
+    topic_group = parser.add_mutually_exclusive_group(required=False)
     topic_group.add_argument(
         "--topics",
+        default=os.getenv("KAFKA_TOPICS"),
         help="Comma-separated Kafka topics, for example: cdc.ecommerce.public.products",
     )
     topic_group.add_argument(
         "--topic-pattern",
+        default=os.getenv("KAFKA_TOPIC_PATTERN"),
         help="Kafka topic regex pattern, for example: cdc.ecommerce.public.*",
     )
     parser.add_argument(
@@ -64,12 +66,16 @@ def parse_args():
         action="store_true",
         help="Process currently available Kafka data then stop. Useful for local checks/backfills.",
     )
-    return parser.parse_args()
+    args = parser.parse_args()
+    if not args.topics and not args.topic_pattern:
+        args.topic_pattern = "cdc.ecommerce.public.*"
+    return args
 
 
 def build_spark():
     return get_spark_session(
         app_name="KafkaToSilver",
+        enable_hive_support=True,
         log_level=os.getenv("SPARK_LOG_LEVEL", "WARN")
     )
 
