@@ -30,10 +30,12 @@ def get_spark_session(app_name="EcommerceLakehouse", enable_hive_support=False, 
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
         
-        # 1. Local Warehouse Management
+        # 1. Local Warehouse Management & Resource Optimization
         .config("spark.sql.warehouse.dir", warehouse_dir)
         .config("spark.hadoop.hive.metastore.warehouse.dir", warehouse_dir)
         .config("spark.sql.hive.manageFilesourceTables", "false")
+        .config("spark.driver.memory", "2g")
+        .config("spark.sql.parquet.row-group-size.bytes", "16777216")
         
         # 2. S3A / MinIO Configuration
         .config("spark.hadoop.fs.s3a.connection.timeout", "5000")
