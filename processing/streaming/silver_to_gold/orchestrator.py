@@ -1,7 +1,8 @@
 import os
 import sys
 from delta.tables import DeltaTable
-from pyspark.sql import DataFrame
+from pyspark.sql import DataFrame, Window
+from pyspark.sql import functions as F
 
 from core.spark_session import get_spark_session
 from jobs.bronze_to_postgres import sync_hive_delta_table
@@ -37,8 +38,15 @@ def merge_gold_table(df, primary_keys, target_path):
 
 
 def write_gold_batch(df, primary_keys, target_path):
-    if df.rdd.isEmpty():
+    if df.isEmpty():
         return
+
+    # Deduplicate df by primary_keys, keeping the latest one based on updated_at
+    if "updated_at" in df.columns:
+        window_spec = Window.partitionBy(*primary_keys).orderBy(F.col("updated_at").desc())
+        df = df.withColumn("_rn", F.row_number().over(window_spec)).filter(F.col("_rn") == 1).drop("_rn")
+    else:
+        df = df.dropDuplicates(primary_keys)
 
     df = df.persist()
     try:
@@ -81,13 +89,17 @@ def start_streaming_query(spark, table_name, builder_func, primary_keys, args):
     print(f"⚡ Khởi động Realtime Stream: {primary_silver} ➔ {table_name}")
 
     try:
-        stream_df = spark.readStream.format("delta").load(silver_path)
+        stream_df = (
+            spark.readStream.format("delta")
+            .option("ignoreChanges", "true")
+            .load(silver_path)
+        )
     except Exception as e:
         print(f"❌ Không thể đọc stream từ Silver '{primary_silver}' tại '{silver_path}': {e}")
         return None
 
     def process_micro_batch(batch_df: DataFrame, epoch_id: int):
-        if batch_df.rdd.isEmpty():
+        if batch_df.isEmpty():
             return
 
         print(f"\n[⚡ Realtime - {table_name} - Batch {epoch_id}] Đang xử lý micro-batch...")
