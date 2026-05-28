@@ -684,9 +684,9 @@ def hive_site_config(path=None):
 def metastore_jdbc_config():
     config = hive_site_config()
     return {
-        "url": get_env("HIVE_METASTORE_JDBC_URL", default=config.get("javax.jdo.option.ConnectionURL")),
-        "user": get_env("HIVE_METASTORE_JDBC_USER", default=config.get("javax.jdo.option.ConnectionUserName")),
-        "password": get_env("HIVE_METASTORE_JDBC_PASSWORD", default=config.get("javax.jdo.option.ConnectionPassword")),
+        "url": get_env("HIVE_METASTORE_JDBC_URL", default=config.get("javax.jdo.option.ConnectionURL") or "jdbc:postgresql://postgres:5432/postgres_metastore"),
+        "user": get_env("HIVE_METASTORE_JDBC_USER", default=config.get("javax.jdo.option.ConnectionUserName") or "postgres"),
+        "password": get_env("HIVE_METASTORE_JDBC_PASSWORD", default=config.get("javax.jdo.option.ConnectionPassword") or "postgres"),
         "warehouse": get_env("SPARK_WAREHOUSE_DIR", default="file:/tmp/spark-warehouse"),
     }
 
