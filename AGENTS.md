@@ -10,7 +10,9 @@ Main components:
 
 - `ingestion/`: batch crawlers for Tiki, Shopee, Sendo, and ChoTot.
 - `ingestion/batch/providers/`: source-specific API/Selenium clients.
-- `processing/`: Spark jobs for Bronze to Silver transformation.
+- `processing/`: Spark jobs for Bronze to Silver (and Silver to Gold) transformation.
+  - `processing/streaming/bronze_to_silver/`: Refactored modular subpackage for Bronze-to-Silver CDC pipeline (schemas, configs, utils, transformer, writer, orchestrator).
+  - `processing/streaming/silver_to_gold/`: Refactored modular subpackage for Silver-to-Gold dimensional pipeline (builders, configs, orchestrator).
 - `airflow/`: Airflow DAGs for orchestration.
 - `storage/`: MinIO utilities and data-reading scripts.
 - `monitoring/`: Prometheus configuration.
@@ -116,6 +118,7 @@ python storage/check_minio_connection.py
 
 ## Important Notes
 
+- Spark jobs `bronze_to_silver` and `silver_to_gold` are modularized under subpackages in `processing/streaming/`. They are invoked using the same entry-point commands as before (e.g. `processing/jobs/bronze_to_silver.py`) due to backward-compatible wrappers.
 - `processing/jobs/bronze_to_silver.py` currently supports `tiki`, `sendo`, and
   `shopee`.
 - Tiki crawling uses Selenium Remote WebDriver through Browserless.
