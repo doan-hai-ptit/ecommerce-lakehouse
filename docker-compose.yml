@@ -144,9 +144,23 @@ services:
     #   - debezium_plugins:/kafka/connect
     #   - "/media/doanhai/New Volume/Volumes/debezium_plugins:/kafka/custom-connect"
 
+  trino:
+    image: trinodb/trino:444
+    container_name: trino
+    ports:
+      - "8082:8080"
+    depends_on:
+      - minio
+      - postgres
+    volumes:
+      # - "/media/doanhai/New Volume/Volumes/trino_catalog:/etc/trino/catalog"
+      - trino_catalog:/etc/trino/catalog
+
 volumes:
   minio_storage:
   postgres_metastore_data:
   postgres-data-source:
   kafka_data:
+  trino_catalog:
   # mysql_data:               # Volume mặc định cho MySQL
+
