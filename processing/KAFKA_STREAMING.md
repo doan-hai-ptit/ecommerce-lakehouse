@@ -8,10 +8,11 @@ The streaming path is:
 Postgres source -> Debezium -> Kafka -> Bronze Delta -> Silver Delta -> Hive Metastore/PostgreSQL
 ```
 
-There are two Spark jobs:
+There are three main Spark jobs in the pipeline:
 
 - `streaming/kafka_to_bronze.py`: reads Kafka CDC topics and writes raw events to Bronze Delta.
-- `jobs/bronze_to_silver.py`: reads Bronze Delta, normalizes each CDC table to Silver Delta, and optionally syncs Hive metadata.
+- `jobs/bronze_to_silver.py`: reads Bronze Delta, normalizes each CDC table to Silver Delta, and optionally syncs Hive metadata. Under the hood, this delegates to the modular package `streaming/bronze_to_silver/` (which separates schemas, config, utils, transformer, writer, and orchestrator).
+- `jobs/silver_to_gold.py`: reads Silver Delta, builds unified dimension tables, and syncs Hive metadata. Under the hood, this delegates to the modular package `streaming/silver_to_gold/` (separating dimension builders, configs, and query orchestration).
 
 Bronze path:
 
@@ -235,3 +236,33 @@ spark.sql.sources.schema.partCol.0 = event_date
 - If `vouchers` has no source data/events yet, Bronze, Silver, and Hive may show 18 tables until voucher data appears.
 - Do not delete checkpoint paths unless you intentionally want to reprocess from the beginning.
 - Reprocessing is idempotent for Silver because the job uses Delta `MERGE` by table primary key.
+
+## Modular ETL Architecture
+
+To improve maintenance and facilitate scaling, the Spark processing scripts for the Bronze-to-Silver and Silver-to-Gold steps are modularized.
+
+### 1. Structure of `streaming/bronze_to_silver/` Package
+* `schemas.py`: Table schema catalogs and primary key specifications.
+* `config.py`: Parser configuration and target tables allow-list checks.
+* `utils.py`: Datatype casting (`cast_json_value`) and JSON extraction helper routines.
+* `transformer.py`: Normalization transformer logic for CDC event streams.
+* `writer.py`: Delta tables creation/upserts and Hive Metastore synchronization logic.
+* `orchestrator.py`: Controller flow establishing Spark sessions and spawning batch/streaming queries.
+
+### 2. Structure of `streaming/silver_to_gold/` Package
+* `builders.py`: Analytical dimensional model building transformations (e.g. `build_dim_customers`).
+* `config.py`: Arguments parser and parameters configurations.
+* `orchestrator.py`: Spark sessions coordinator, batch writer, and streams scheduler.
+
+### 3. Execution commands
+Executing these modular jobs is **completely identical** to previous versions. The original entry-point scripts now act as lightweight, backwards-compatible wrappers:
+* Run Bronze to Silver:
+  ```bash
+  docker exec -it spark_processor python /app/jobs/bronze_to_silver.py
+  ```
+* Run Silver to Gold:
+  ```bash
+  docker exec -it spark_processor python /app/jobs/silver_to_gold.py
+  ```
+All options, such as `--available-now`, `--once`, `--tables`, or `--skip-hive-sync` continue to work exactly as documented above.
+
