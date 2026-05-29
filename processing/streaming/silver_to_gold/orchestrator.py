@@ -153,7 +153,17 @@ def main():
 
     try:
         ordered_tables = [
-            t for t in ["dim_platforms", "dim_brands", "dim_sellers", "dim_customers", "dim_products", "dim_product_variants"]
+            t for t in [
+                "dim_date",
+                "dim_platforms",
+                "dim_brands",
+                "dim_sellers",
+                "dim_customers",
+                "dim_products",
+                "dim_product_variants",
+                "fct_order_items",
+                "fct_product_reviews"
+            ]
             if t in target_tables
         ]
 
