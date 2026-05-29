@@ -20,9 +20,6 @@ def build_spark():
 
 
 def process_batch(batch_df: DataFrame, epoch_id: int, args, allowed_tables):
-    if batch_df.isEmpty():
-        return
-
     source_tables = {
         row["source_table"]
         for row in batch_df.select("source_table")
