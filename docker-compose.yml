@@ -9,8 +9,8 @@ services:
       MINIO_ROOT_USER: admin
       MINIO_ROOT_PASSWORD: password123
     volumes:
-      # - "/media/doanhai/New Volume/Volumes/minio_storage:/data"
-      - minio_storage:/data
+      - "/media/doanhai/New Volume/Volumes/minio_storage:/data"
+      # - minio_storage:/data
     command: server /data --console-address ":9001"
   kafka:
     image: apache/kafka:3.7.0
@@ -31,20 +31,20 @@ services:
       - KAFKA_TRANSACTION_STATE_LOG_MIN_ISR=1
       - KAFKA_LOG_DIRS=/var/lib/kafka/data
     volumes:
-      - kafka_data:/var/lib/kafka/data
-      # - "/media/doanhai/New Volume/Volumes/kafka_data:/var/lib/kafka/data"
+      # - kafka_data:/var/lib/kafka/data
+      - "/media/doanhai/New Volume/Volumes/kafka_data:/var/lib/kafka/data"
 
-  kafka-ui:
-    image: provectuslabs/kafka-ui:v0.7.2
-    container_name: kafka_ui
-    ports:
-      - 8080:8080
-    depends_on:
-      - kafka
-    environment:
-      - KAFKA_CLUSTERS_0_NAME=CDC_Cluster
-      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:9092
-      - DYNAMIC_CONFIG_ENABLED=true
+  # kafka-ui:
+  #   image: provectuslabs/kafka-ui:v0.7.2
+  #   container_name: kafka_ui
+  #   ports:
+  #     - 8080:8080
+  #   depends_on:
+  #     - kafka
+  #   environment:
+  #     - KAFKA_CLUSTERS_0_NAME=CDC_Cluster
+  #     - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:9092
+  #     - DYNAMIC_CONFIG_ENABLED=true
 
   # mysql:
   #   image: mysql:8.0
@@ -75,8 +75,8 @@ services:
       - POSTGRES_DB=postgres_metastore
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
-      # - "/media/doanhai/New Volume/Volumes/postgres_metastore_data:/var/lib/postgresql/data"
-      - postgres_metastore_data:/var/lib/postgresql/data
+      - "/media/doanhai/New Volume/Volumes/postgres_metastore_data:/var/lib/postgresql/data"
+      # - postgres_metastore_data:/var/lib/postgresql/data
   spark-processor:
     build: ./processing/
     container_name: spark_processor
@@ -98,15 +98,15 @@ services:
     # Hoặc bỏ dòng này nếu MinIO cũng nằm trong Docker Compose này
     # network_mode: "host" 
     tty: true
-  browserless:
-    image: browserless/chrome:latest
-    container_name: browserless_chrome
-    ports:
-      - "3000:3000"
-    environment:
-      - MAX_CONCURRENT_SESSIONS=10
-      - DEMO_MODE=false
-    restart: always
+  # browserless:
+  #   image: browserless/chrome:latest
+  #   container_name: browserless_chrome
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - MAX_CONCURRENT_SESSIONS=10
+  #     - DEMO_MODE=false
+    # restart: always
   postgres-data-source:
     image: postgres:16-alpine
     container_name: postgres-data-source
@@ -118,8 +118,8 @@ services:
       - POSTGRES_DB=data-source
     command: ["postgres", "-c", "wal_level=logical"]
     volumes:
-      # - "/media/doanhai/New Volume/Volumes/postgres-data-source:/var/lib/postgresql/data"
-      - postgres-data-source:/var/lib/postgresql/data
+      - "/media/doanhai/New Volume/Volumes/postgres-data-source:/var/lib/postgresql/data"
+      # - postgres-data-source:/var/lib/postgresql/data
   debezium:
     image: debezium/connect:2.7.3.Final
     container_name: debezium_connect
@@ -190,16 +190,16 @@ services:
     environment:
       - MB_DB_FILE=/metabase-data/metabase.db
     volumes:
-      # - "/media/doanhai/New Volume/Volumes/metabase_data:/metabase-data"
-      - metabase_data:/metabase-data
+      - "/media/doanhai/New Volume/Volumes/metabase_data:/metabase-data"
+      # - metabase_data:/metabase-data
     # restart: always
 
-volumes:
-  minio_storage:
-  postgres_metastore_data:
-  postgres-data-source:
-  kafka_data:
-  metabase_data:
+# volumes:
+#   minio_storage:
+#   postgres_metastore_data:
+#   postgres-data-source:
+#   kafka_data:
+#   metabase_data:
   # trino_catalog:
   # mysql_data:               # Volume mặc định cho MySQL
 
