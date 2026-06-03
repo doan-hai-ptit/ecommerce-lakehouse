@@ -9,8 +9,8 @@ services:
       MINIO_ROOT_USER: admin
       MINIO_ROOT_PASSWORD: password123
     volumes:
-      - "/path/to/volumes/minio_storage:/data"
-      # - minio_storage:/data
+      # - "/path/to/volumes/minio_storage:/data"
+      - minio_storage:/data
     command: server /data --console-address ":9001"
   kafka:
     image: apache/kafka:3.7.0
@@ -31,8 +31,8 @@ services:
       - KAFKA_TRANSACTION_STATE_LOG_MIN_ISR=1
       - KAFKA_LOG_DIRS=/var/lib/kafka/data
     volumes:
-      # - kafka_data:/var/lib/kafka/data
-      - "/path/to/volumes/kafka_data:/var/lib/kafka/data"
+      - kafka_data:/var/lib/kafka/data
+      # - "/path/to/volumes/kafka_data:/var/lib/kafka/data"
 
   # kafka-ui:
   #   image: provectuslabs/kafka-ui:v0.7.2
@@ -75,8 +75,8 @@ services:
       - POSTGRES_DB=postgres_metastore
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
-      - "/path/to/volumes/postgres_metastore_data:/var/lib/postgresql/data"
-      # - postgres_metastore_data:/var/lib/postgresql/data
+      # - "/path/to/volumes/postgres_metastore_data:/var/lib/postgresql/data"
+      - postgres_metastore_data:/var/lib/postgresql/data
   spark-processor:
     build: ./processing/
     container_name: spark_processor
@@ -118,8 +118,8 @@ services:
       - POSTGRES_DB=data-source
     command: ["postgres", "-c", "wal_level=logical"]
     volumes:
-      - "/path/to/volumes/postgres-data-source:/var/lib/postgresql/data"
-      # - postgres-data-source:/var/lib/postgresql/data
+      # - "/path/to/volumes/postgres-data-source:/var/lib/postgresql/data"
+      - postgres-data-source:/var/lib/postgresql/data
   debezium:
     image: debezium/connect:2.7.3.Final
     container_name: debezium_connect
@@ -190,16 +190,13 @@ services:
     environment:
       - MB_DB_FILE=/metabase-data/metabase.db
     volumes:
-      - "/path/to/volumes/metabase_data:/metabase-data"
-      # - metabase_data:/metabase-data
+      # - "/path/to/volumes/metabase_data:/metabase-data"
+      - metabase_data:/metabase-data
     # restart: always
 
-# volumes:
-#   minio_storage:
-#   postgres_metastore_data:
-#   postgres-data-source:
-#   kafka_data:
-#   metabase_data:
-  # trino_catalog:
-  # mysql_data:               # Volume mặc định cho MySQL
-
+volumes:
+  minio_storage:
+  postgres_metastore_data:
+  postgres-data-source:
+  kafka_data:
+  metabase_data:
