@@ -47,20 +47,12 @@ def process_table(batch_df, table_name, spec, args):
     target_path = table_path(args.silver_base, table_name)
 
     try:
-        raw_count = table_df.count()
-        valid_count = normalized_df.count()
-        if valid_count == 0:
-            print(f"  - {table_name}: raw={raw_count}, hợp lệ=0, bỏ qua vì thiếu khóa chính.")
+        # Sử dụng has_rows thay vì count() và collect() tốn kém chỉ để log
+        if not has_rows(normalized_df):
+            print(f"  - {table_name}: Bỏ qua vì không có dòng dữ liệu hợp lệ.")
             return
 
-        op_counts = {
-            row["_change_op"]: row["count"]
-            for row in normalized_df.groupBy("_change_op").count().collect()
-        }
-        print(
-            f"  - {table_name}: raw={raw_count}, hợp lệ={valid_count}, "
-            f"ops={op_counts}, path={target_path}"
-        )
+        print(f"  - {table_name}: Bắt đầu xử lý... path={target_path}")
 
         if DeltaTable.isDeltaTable(batch_df.sparkSession, target_path):
             merge_delta_table(normalized_df, spec, target_path)
@@ -71,11 +63,13 @@ def process_table(batch_df, table_name, spec, args):
                 print(f"  - {table_name}: chỉ có delete event, bỏ qua vì Delta table chưa tồn tại.")
                 return
             print(f"    └─ Khởi tạo Delta table xong {table_name}")
+            
+            # Chỉ đồng bộ Hive Metastore MỘT LẦN DUY NHẤT khi tạo bảng
+            if not args.skip_hive_sync:
+                ensure_hive_table(batch_df.sparkSession, args.hive_db, table_name, target_path)
+                print(f"    └─ Đồng bộ Hive Metastore xong {args.hive_db}.{table_name}")
 
         if args.skip_hive_sync:
             print(f"    └─ Bỏ qua Hive sync theo --skip-hive-sync")
-        else:
-            ensure_hive_table(batch_df.sparkSession, args.hive_db, table_name, target_path)
-            print(f"    └─ Đồng bộ Hive Metastore xong {args.hive_db}.{table_name}")
     finally:
         normalized_df.unpersist()
