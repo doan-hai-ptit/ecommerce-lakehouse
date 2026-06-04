@@ -1,6 +1,6 @@
 from delta.tables import DeltaTable
 from pyspark.sql import functions as F
-from jobs.bronze_to_postgres import sync_hive_delta_table
+from core.hive_utils import sync_hive_delta_table
 from .utils import table_path, output_columns, non_delete_rows, has_rows
 from .transformer import normalize_table_events
 

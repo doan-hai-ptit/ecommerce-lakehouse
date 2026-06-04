@@ -34,17 +34,17 @@ services:
       - kafka_data:/var/lib/kafka/data
       # - "/media/doanhai/New Volume/Volumes/kafka_data:/var/lib/kafka/data"
 
-  # kafka-ui:
-  #   image: provectuslabs/kafka-ui:v0.7.2
-  #   container_name: kafka_ui
-  #   ports:
-  #     - 8080:8080
-  #   depends_on:
-  #     - kafka
-  #   environment:
-  #     - KAFKA_CLUSTERS_0_NAME=CDC_Cluster
-  #     - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:9092
-  #     - DYNAMIC_CONFIG_ENABLED=true
+  kafka-ui:
+    image: provectuslabs/kafka-ui:v0.7.2
+    container_name: kafka_ui
+    ports:
+      - 8080:8080
+    depends_on:
+      - kafka
+    environment:
+      - KAFKA_CLUSTERS_0_NAME=CDC_Cluster
+      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:9092
+      - DYNAMIC_CONFIG_ENABLED=true
 
   # mysql:
   #   image: mysql:8.0
@@ -98,14 +98,14 @@ services:
     # Hoặc bỏ dòng này nếu MinIO cũng nằm trong Docker Compose này
     # network_mode: "host" 
     tty: true
-  # browserless:
-  #   image: browserless/chrome:latest
-  #   container_name: browserless_chrome
-  #   ports:
-  #     - "3000:3000"
-  #   environment:
-  #     - MAX_CONCURRENT_SESSIONS=10
-  #     - DEMO_MODE=false
+  browserless:
+    image: browserless/chrome:latest
+    container_name: browserless_chrome
+    ports:
+      - "3000:3000"
+    environment:
+      - MAX_CONCURRENT_SESSIONS=10
+      - DEMO_MODE=false
     # restart: always
   postgres-data-source:
     image: postgres:16-alpine
@@ -179,7 +179,6 @@ services:
       - postgres
       - hive-metastore
     volumes:
-      # - "/media/doanhai/New Volume/Volumes/trino_catalog:/etc/trino/catalog"
       - ./trino/catalog:/etc/trino/catalog
 
   metabase:
