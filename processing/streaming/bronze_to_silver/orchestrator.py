@@ -43,7 +43,7 @@ def process_batch(batch_df: DataFrame, epoch_id: int, args, allowed_tables):
         try:
             process_table(batch_df, table_name, spec, args)
         except Exception as exc:
-            print(f"❌ Lỗi tại bảng {table_name}: {exc}")
+            print(f"Lỗi tại bảng {table_name}: {exc}")
             raise
 
 

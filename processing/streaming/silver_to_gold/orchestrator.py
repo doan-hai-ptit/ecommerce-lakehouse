@@ -5,7 +5,7 @@ from pyspark.sql import DataFrame, Window
 from pyspark.sql import functions as F
 
 from core.spark_session import get_spark_session
-from jobs.bronze_to_postgres import sync_hive_delta_table
+from core.hive_utils import sync_hive_delta_table
 from .builders import BUILDERS, PRIMARY_KEYS, PRIMARY_SILVER_TABLES
 from .config import parse_args, selected_tables
 
