@@ -251,6 +251,7 @@ def upsert_spark_datasource_table(conn, db_id, db_location, table_name, target_p
 
     for key, value in (
         ("EXTERNAL", "TRUE"),
+        ("path", target_path),
         ("spark.sql.create.version", "3.5.7"),
         ("spark.sql.partitionProvider", "catalog"),
         ("spark.sql.sources.provider", "delta"),
@@ -261,6 +262,9 @@ def upsert_spark_datasource_table(conn, db_id, db_location, table_name, target_p
     insert_param(conn, "TABLE_PARAMS", "TBL_ID", tbl_id, "spark.sql.sources.schema.numPartCols", str(len(partition_cols)))
     for idx, partition_col in enumerate(partition_cols):
         insert_param(conn, "TABLE_PARAMS", "TBL_ID", tbl_id, f"spark.sql.sources.schema.partCol.{idx}", partition_col)
+
+    insert_param(conn, "SERDE_PARAMS", "SERDE_ID", serde_id, "path", target_path.rstrip("/"))
+    insert_param(conn, "SERDE_PARAMS", "SERDE_ID", serde_id, "serialization.format", "1")
 
 
 def sync_hive_delta_table(spark, db_name, table_name, target_path):

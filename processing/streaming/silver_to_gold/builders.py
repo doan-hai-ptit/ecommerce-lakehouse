@@ -385,6 +385,111 @@ def build_fct_product_reviews(spark, silver_base, primary_df=None):
     )
 
 
+def build_fct_orders(spark, silver_base, primary_df=None):
+    orders = primary_df if primary_df is not None else read_silver(spark, silver_base, "orders")
+    sellers = read_silver(spark, silver_base, "sellers")
+
+    if not orders:
+        return None
+
+    if sellers:
+        joined = orders.join(sellers.select("seller_id", "platform_id"), "seller_id", "left")
+    else:
+        joined = orders.withColumn("platform_id", F.lit(None).cast("integer"))
+
+    joined = joined.withColumn(
+        "date_key",
+        F.date_format("ordered_at", "yyyyMMdd").cast("integer")
+    )
+
+    joined = joined.withColumn(
+        "is_completed",
+        F.when(F.col("order_status") == "completed", 1).otherwise(0)
+    ).withColumn(
+        "is_cancelled",
+        F.when(F.col("order_status") == "cancelled", 1).otherwise(0)
+    ).withColumn(
+        "is_returned",
+        F.when(F.col("order_status") == "returned", 1).otherwise(0)
+    )
+
+    return joined.select(
+        F.col("order_id"),
+        F.col("platform_order_id"),
+        F.col("customer_id"),
+        F.col("seller_id"),
+        F.col("platform_id"),
+        F.col("date_key"),
+        F.col("order_status"),
+        F.col("subtotal_amount"),
+        F.col("shipping_fee"),
+        F.col("discount_amount"),
+        F.col("total_amount"),
+        F.col("ordered_at").alias("created_at"),
+        F.col("updated_at")
+    )
+
+
+def build_fct_shipments(spark, silver_base, primary_df=None):
+    shipments = primary_df if primary_df is not None else read_silver(spark, silver_base, "shipments")
+    orders = read_silver(spark, silver_base, "orders")
+    sellers = read_silver(spark, silver_base, "sellers")
+
+    if not shipments:
+        return None
+
+    joined = shipments
+    if orders:
+        order_sel = orders.select("order_id", "customer_id", "seller_id", "ordered_at")
+        joined = joined.join(order_sel, "order_id", "left")
+        if sellers:
+            joined = joined.join(sellers.select("seller_id", "platform_id"), "seller_id", "left")
+        else:
+            joined = joined.withColumn("platform_id", F.lit(None).cast("integer"))
+    else:
+        joined = (
+            joined.withColumn("customer_id", F.lit(None).cast("bigint"))
+            .withColumn("seller_id", F.lit(None).cast("bigint"))
+            .withColumn("platform_id", F.lit(None).cast("integer"))
+            .withColumn("ordered_at", F.lit(None).cast("timestamp"))
+        )
+
+    date_col = F.coalesce(F.col("shipped_at"), F.col("created_at"))
+    joined = joined.withColumn(
+        "date_key",
+        F.date_format(date_col, "yyyyMMdd").cast("integer")
+    )
+
+    duration_hours = (F.col("delivered_at").cast("long") - F.col("ordered_at").cast("long")) / 3600.0
+    joined = joined.withColumn("delivery_duration_hours", duration_hours)
+
+    is_delayed_col = F.when(
+        F.col("delivered_at").isNotNull() & F.col("estimated_delivery_at").isNotNull(),
+        F.when(F.col("delivered_at") > F.col("estimated_delivery_at"), 1).otherwise(0)
+    ).otherwise(0)
+    joined = joined.withColumn("is_delayed", is_delayed_col)
+
+    return joined.select(
+        F.col("shipment_id"),
+        F.col("order_id"),
+        F.col("platform_id"),
+        F.col("seller_id"),
+        F.col("customer_id"),
+        F.col("date_key"),
+        F.col("carrier_name"),
+        F.col("tracking_number"),
+        F.col("shipping_method"),
+        F.col("status"),
+        F.col("shipped_at"),
+        F.col("estimated_delivery_at"),
+        F.col("delivered_at"),
+        F.col("delivery_duration_hours"),
+        F.col("is_delayed"),
+        F.col("created_at"),
+        F.col("updated_at")
+    )
+
+
 BUILDERS = {
     "dim_platforms": build_dim_platforms,
     "dim_brands": build_dim_brands,
@@ -393,8 +498,10 @@ BUILDERS = {
     "dim_products": build_dim_products,
     "dim_product_variants": build_dim_product_variants,
     "dim_date": build_dim_date,
+    "fct_orders": build_fct_orders,
     "fct_order_items": build_fct_order_items,
     "fct_product_reviews": build_fct_product_reviews,
+    "fct_shipments": build_fct_shipments,
 }
 
 PRIMARY_KEYS = {
@@ -405,8 +512,10 @@ PRIMARY_KEYS = {
     "dim_products": ["product_id"],
     "dim_product_variants": ["variant_id"],
     "dim_date": ["date_key"],
+    "fct_orders": ["order_id"],
     "fct_order_items": ["order_item_id"],
     "fct_product_reviews": ["review_id"],
+    "fct_shipments": ["shipment_id"],
 }
 
 PRIMARY_SILVER_TABLES = {
@@ -417,7 +526,9 @@ PRIMARY_SILVER_TABLES = {
     "dim_products": "products",
     "dim_product_variants": "product_variants",
     "dim_date": "orders",
+    "fct_orders": "orders",
     "fct_order_items": "order_items",
     "fct_product_reviews": "product_reviews",
+    "fct_shipments": "shipments",
 }
 
