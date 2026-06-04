@@ -555,7 +555,7 @@ def simulate_streaming_data(conn):
                     )
                     v_row = cursor.fetchone()
                     
-                    subtotal_amount = sum(row[3] * row[4] for row in cart_rows)
+                    subtotal_amount = float(sum(row[3] * row[4] for row in cart_rows))
                     voucher_id = None
                     discount_amount = 0.0
                     
@@ -642,6 +642,10 @@ def simulate_streaming_data(conn):
                     
                     # Update cart & clear items
                     cursor.execute("UPDATE carts SET status = 'ordered', updated_at = %s WHERE cart_id = %s", (datetime.now(), cart_id))
+                    cursor.execute(
+                        "UPDATE events SET cart_item_id = NULL WHERE cart_item_id IN (SELECT cart_item_id FROM cart_items WHERE cart_id = %s)",
+                        (cart_id,)
+                    )
                     cursor.execute("DELETE FROM cart_items WHERE cart_id = %s", (cart_id,))
                     
                     # Payment
