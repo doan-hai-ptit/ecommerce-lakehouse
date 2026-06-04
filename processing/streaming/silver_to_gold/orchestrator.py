@@ -161,8 +161,10 @@ def main():
                 "dim_customers",
                 "dim_products",
                 "dim_product_variants",
+                "fct_orders",
                 "fct_order_items",
-                "fct_product_reviews"
+                "fct_product_reviews",
+                "fct_shipments"
             ]
             if t in target_tables
         ]
