@@ -50,11 +50,14 @@ def get_spark_session(app_name="EcommerceLakehouse", enable_hive_support=False, 
         # 3. Disable fallback stats to optimize scans
         .config("spark.sql.statistics.fallBackToHdfs", "false")
 
-        # 4. Delta Configuration
+        # 4. Delta & Scheduler Configuration
         .config("spark.delta.logStore.class", "org.apache.spark.sql.delta.storage.S3SingleDriverLogStore")
         .config("spark.databricks.delta.schema.autoMerge.enabled", "true")
         .config("spark.sql.jsonGenerator.ignoreNullFields", "false")
         .config("spark.sql.session.timeZone", "Asia/Ho_Chi_Minh")
+        .config("spark.scheduler.mode", "FAIR")
+        .config("spark.databricks.delta.properties.defaults.autoOptimize.optimizeWrite", "true")
+        .config("spark.databricks.delta.properties.defaults.autoOptimize.autoCompact", "true")
     )
     
     if enable_hive_support:
