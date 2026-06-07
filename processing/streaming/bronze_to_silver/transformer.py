@@ -1,19 +1,29 @@
 from pyspark.sql import Window
 from pyspark.sql import functions as F
-from .utils import bronze_payload_col, json_scalar, cast_json_value, default_value
+from pyspark.sql.types import StructType, StructField, StringType
+from .utils import bronze_payload_col, cast_json_value, default_value
 
 
 def normalize_table_events(batch_df, table_name, spec):
     payload = bronze_payload_col()
+    
+    # Define Spark Schema for JSON parsing to read all fields as string first
+    json_schema = StructType([
+        StructField(column_name, StringType(), True) for column_name, _ in spec.columns
+    ])
+    
+    # Parse the entire JSON payload exactly once
+    parsed_df = batch_df.withColumn("parsed_payload", F.from_json(payload, json_schema))
+    
     selected_columns = []
-
     for column_name, data_type in spec.columns:
-        raw_value = json_scalar(payload, column_name)
+        # Access the parsed field directly from the struct
+        raw_value = F.col(f"parsed_payload.{column_name}")
         selected_columns.append(
             F.coalesce(cast_json_value(raw_value, data_type), default_value(data_type)).alias(column_name)
         )
 
-    normalized = batch_df.select(
+    normalized = parsed_df.select(
         *selected_columns,
         F.col("event_date").cast("date").alias("event_date"),
         F.coalesce(F.col("debezium_op"), F.lit("r")).alias("_change_op"),

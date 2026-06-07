@@ -1,5 +1,6 @@
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from pyspark.sql import DataFrame
 from pyspark.sql import functions as F
 
@@ -38,13 +39,18 @@ def process_batch(batch_df: DataFrame, epoch_id: int, args, allowed_tables):
     if skipped_tables:
         print(f"  - Bỏ qua theo allow-list: {', '.join(skipped_tables)}")
 
-    for table_name in ordered_tables:
+    def run_process_table(table_name):
         spec = TABLE_SPECS[table_name]
         try:
             process_table(batch_df, table_name, spec, args)
         except Exception as exc:
             print(f"Lỗi tại bảng {table_name}: {exc}")
             raise
+
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        futures = [executor.submit(run_process_table, t) for t in ordered_tables]
+        for future in futures:
+            future.result()
 
 
 def read_bronze_stream(spark, bronze_path):
