@@ -5,3 +5,6 @@ boto3
 psycopg2-binary
 python-dotenv
 faker
+confluent-kafka
+deltalake
+pyarrow
