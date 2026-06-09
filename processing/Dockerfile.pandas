@@ -1,0 +1,29 @@
+# Sử dụng Python 3.11-slim để tối ưu hóa dung lượng (chỉ khoảng ~150MB thay vì >1GB của Spark/JVM)
+FROM python:3.11-slim
+
+# Thiết lập thư mục làm việc trong container
+WORKDIR /app
+
+# Thiết lập các biến môi trường để Python tối ưu hơn trong container
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+# Cài đặt các gói hệ thống tối thiểu cần thiết để build thư viện C (như confluent-kafka hay psycopg2)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Sao chép file requirements.txt từ thư mục gốc
+COPY requirements.txt .
+
+# Cài đặt các thư viện Python
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir -r requirements.txt
+
+# Gỡ bỏ các công cụ build để giảm dung lượng image tối đa sau khi đã build xong packages
+RUN apt-get purge -y --auto-remove build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Lệnh để giữ container sống khi chạy (để bạn dùng docker exec hoặc orchestrator gọi)
+CMD ["tail", "-f", "/dev/null"]
