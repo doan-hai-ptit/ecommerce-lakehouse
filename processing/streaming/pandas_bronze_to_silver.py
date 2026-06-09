@@ -38,6 +38,7 @@ except ModuleNotFoundError:
         
     setattr(sql_mock, "DataFrame", MockClass)
     setattr(sql_mock, "SparkSession", MockClass)
+    setattr(sql_mock, "Window", MockClass)
     
     for name in ["IntegerType", "LongType", "StringType", "BooleanType", "DecimalType", "DateType", "TimestampType"]:
         mock_class = type(name, (object,), {"__init__": lambda self, *args, **kwargs: None})
