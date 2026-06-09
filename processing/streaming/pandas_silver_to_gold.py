@@ -393,7 +393,7 @@ def merge_to_gold(df, table_name, target_path, storage_options):
             target_alias="target"
         ) \
         .when_matched_update(updates=updates) \
-        .when_not_matched_insert(values=updates) \
+        .when_not_matched_insert(updates=updates) \
         .execute()
         
     except TableNotFoundError:
