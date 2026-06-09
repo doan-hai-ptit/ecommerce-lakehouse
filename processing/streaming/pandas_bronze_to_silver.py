@@ -252,7 +252,7 @@ def merge_to_silver(df, table_name, spec, target_path, storage_options):
         ) \
         .when_matched_delete(condition="source._change_op = 'd'") \
         .when_matched_update(condition="source._change_op != 'd'", updates=updates) \
-        .when_not_matched_insert(condition="source._change_op != 'd'", values=updates) \
+        .when_not_matched_insert(condition="source._change_op != 'd'", updates=updates) \
         .execute()
         
     except TableNotFoundError:
