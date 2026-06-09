@@ -118,6 +118,35 @@ docker exec -it spark_processor python /app/jobs/silver_to_gold.py
 
 ---
 
+## 6B. Khởi chạy luồng xử lý Spark-free (Pandas & Rust-core)
+
+Nhánh `feat/pandas-delta-streaming` hỗ trợ luồng xử lý dữ liệu thay thế sử dụng **Pandas** và thư viện **deltalake** (nhân Rust) thay cho Spark, giúp tiết kiệm tối đa RAM và CPU (0% CPU khi rảnh, RAM chỉ ~100MB).
+
+Hãy cài đặt thư viện bổ sung trên môi trường venv cục bộ trước khi chạy:
+```bash
+pip install -r requirements.txt
+```
+
+### A. Ingestion dữ liệu Kafka CDC (Kafka to Bronze)
+Đọc dữ liệu CDC từ Kafka và ghi thô vào Bronze Delta Table bằng Pandas:
+```bash
+python processing/streaming/pandas_kafka_to_bronze.py
+```
+
+### B. Chuẩn hóa dữ liệu CDC từ Bronze sang Silver (Bronze to Silver)
+Xử lý làm sạch, ép kiểu dữ liệu và thực hiện lệnh Merge (ACID) vào các bảng Silver Delta:
+```bash
+python processing/streaming/pandas_bronze_to_silver.py
+```
+
+### C. Xây dựng mô hình phân tích Silver sang Gold (Silver to Gold)
+Kết hợp (Join) các bảng Silver bằng Pandas và ghi/merge vào các bảng Gold Delta:
+```bash
+python processing/streaming/pandas_silver_to_gold.py
+```
+
+---
+
 ## 7. Hướng dẫn Tham số dòng lệnh (Command Line Arguments Guide)
 
 Cả hai kịch bản xử lý `bronze_to_silver.py` và `silver_to_gold.py` hỗ trợ đầy đủ các tham số dòng lệnh để tùy chỉnh hành vi chạy batch hoặc stream thời gian thực.
