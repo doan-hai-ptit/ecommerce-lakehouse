@@ -44,8 +44,20 @@ def parse_args():
     )
     return parser.parse_args()
 
+def resolve_endpoint(endpoint_url):
+    import socket
+    from urllib.parse import urlparse
+    parsed = urlparse(endpoint_url)
+    if parsed.hostname == "minio":
+        try:
+            socket.gethostbyname("minio")
+        except socket.gaierror:
+            new_netloc = parsed.netloc.replace("minio", "localhost")
+            endpoint_url = parsed._replace(netloc=new_netloc).geturl()
+    return endpoint_url
+
 def get_storage_options():
-    endpoint_url = os.getenv("MINIO_ENDPOINT_URL", "http://minio:9000")
+    endpoint_url = resolve_endpoint(os.getenv("MINIO_ENDPOINT_URL", "http://minio:9000"))
     return {
         "AWS_ACCESS_KEY_ID": os.getenv("MINIO_ACCESS_KEY", "admin"),
         "AWS_SECRET_ACCESS_KEY": os.getenv("MINIO_SECRET_KEY", "password123"),

@@ -60,8 +60,17 @@ def parse_args():
 def get_storage_options():
     endpoint_url = os.getenv("MINIO_ENDPOINT_URL", "http://minio:9000")
     
-    # Map s3a:// to s3:// or use as-is if delta-rs supports s3a:// (it supports s3:// natively)
-    # delta-rs S3 backend uses AWS_S3_ALLOW_UNSAFE_RENAME for MinIO/S3 compatibility
+    # Auto-resolve minio host to localhost if running outside docker environment
+    import socket
+    from urllib.parse import urlparse
+    parsed = urlparse(endpoint_url)
+    if parsed.hostname == "minio":
+        try:
+            socket.gethostbyname("minio")
+        except socket.gaierror:
+            new_netloc = parsed.netloc.replace("minio", "localhost")
+            endpoint_url = parsed._replace(netloc=new_netloc).geturl()
+            
     return {
         "AWS_ACCESS_KEY_ID": os.getenv("MINIO_ACCESS_KEY", "admin"),
         "AWS_SECRET_ACCESS_KEY": os.getenv("MINIO_SECRET_KEY", "password123"),
