@@ -15,11 +15,42 @@ from deltalake.exceptions import TableNotFoundError
 # Ensure parent processing/ directory is in sys.path so we can import schemas
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Check if pyspark is installed; if not, mock it to allow importing schemas.py without errors
+try:
+    import pyspark
+    from pyspark.sql.types import (
+        IntegerType, LongType, StringType, BooleanType,
+        DecimalType, DateType, TimestampType
+    )
+except ModuleNotFoundError:
+    import sys
+    from types import ModuleType
+    
+    # Create mock classes dynamically to retain their original names
+    pyspark_mock = ModuleType("pyspark")
+    sql_mock = ModuleType("pyspark.sql")
+    types_mock = ModuleType("pyspark.sql.types")
+    
+    for name in ["IntegerType", "LongType", "StringType", "BooleanType", "DecimalType", "DateType", "TimestampType"]:
+        mock_class = type(name, (object,), {"__init__": lambda self, *args, **kwargs: None})
+        setattr(types_mock, name, mock_class)
+        
+    sql_mock.types = types_mock
+    pyspark_mock.sql = sql_mock
+    sys.modules["pyspark"] = pyspark_mock
+    sys.modules["pyspark.sql"] = sql_mock
+    sys.modules["pyspark.sql.types"] = types_mock
+    
+    # Expose the mock classes locally
+    IntegerType = getattr(types_mock, "IntegerType")
+    LongType = getattr(types_mock, "LongType")
+    StringType = getattr(types_mock, "StringType")
+    BooleanType = getattr(types_mock, "BooleanType")
+    DecimalType = getattr(types_mock, "DecimalType")
+    DateType = getattr(types_mock, "DateType")
+    TimestampType = getattr(types_mock, "TimestampType")
+
 from streaming.bronze_to_silver.schemas import TABLE_SPECS
-from pyspark.sql.types import (
-    IntegerType, LongType, StringType, BooleanType,
-    DecimalType, DateType, TimestampType
-)
 
 # Load environment variables
 load_dotenv()
