@@ -296,9 +296,10 @@ def process_bronze_table(dt_bronze, table_name, spec, silver_base, s3_client, si
     
     # 2. Query new data from Bronze Delta Table
     try:
-        pyarrow_tbl = dt_bronze.to_pyarrow_table(
-            filter=(f"source_table = '{table_name}' AND offset > {max_offset}")
-        )
+        filters = [
+            [("source_table", "==", table_name), ("offset", ">", max_offset)]
+        ]
+        pyarrow_tbl = dt_bronze.to_pyarrow_table(filters=filters)
         if len(pyarrow_tbl) == 0:
             return
             
