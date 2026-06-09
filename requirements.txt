@@ -8,3 +8,4 @@ faker
 confluent-kafka
 deltalake
 pyarrow
+pandas
