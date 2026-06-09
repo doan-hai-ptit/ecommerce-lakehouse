@@ -30,16 +30,35 @@ except ModuleNotFoundError:
     pyspark_mock = ModuleType("pyspark")
     sql_mock = ModuleType("pyspark.sql")
     types_mock = ModuleType("pyspark.sql.types")
+    functions_mock = ModuleType("pyspark.sql.functions")
+    
+    # Base Mock Class
+    class MockClass:
+        def __init__(self, *args, **kwargs): pass
+        
+    setattr(sql_mock, "DataFrame", MockClass)
+    setattr(sql_mock, "SparkSession", MockClass)
     
     for name in ["IntegerType", "LongType", "StringType", "BooleanType", "DecimalType", "DateType", "TimestampType"]:
         mock_class = type(name, (object,), {"__init__": lambda self, *args, **kwargs: None})
         setattr(types_mock, name, mock_class)
         
     sql_mock.types = types_mock
+    sql_mock.functions = functions_mock
     pyspark_mock.sql = sql_mock
+    
     sys.modules["pyspark"] = pyspark_mock
     sys.modules["pyspark.sql"] = sql_mock
     sys.modules["pyspark.sql.types"] = types_mock
+    sys.modules["pyspark.sql.functions"] = functions_mock
+    
+    # Mock delta framework since __init__.py loads orchestrator -> writer which loads delta.tables
+    delta_mock = ModuleType("delta")
+    delta_tables_mock = ModuleType("delta.tables")
+    setattr(delta_tables_mock, "DeltaTable", MockClass)
+    delta_mock.tables = delta_tables_mock
+    sys.modules["delta"] = delta_mock
+    sys.modules["delta.tables"] = delta_tables_mock
     
     # Expose the mock classes locally
     IntegerType = getattr(types_mock, "IntegerType")
