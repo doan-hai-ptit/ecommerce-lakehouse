@@ -98,6 +98,23 @@ services:
     # Hoặc bỏ dòng này nếu MinIO cũng nằm trong Docker Compose này
     # network_mode: "host" 
     tty: true
+  pandas-processor:
+    build:
+      context: .
+      dockerfile: processing/Dockerfile.pandas
+    container_name: pandas_processor
+    depends_on:
+      - minio
+      - postgres
+      - kafka
+    env_file:
+      - ./processing/.env
+    environment:
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - KAFKA_BRONZE_PATH=s3a://bronze-lakehouse/kafka_cdc
+    volumes:
+      - ./processing:/app
+    tty: true
   browserless:
     image: browserless/chrome:latest
     container_name: browserless_chrome
