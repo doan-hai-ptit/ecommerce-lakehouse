@@ -251,9 +251,12 @@ def merge_to_silver(df, table_name, spec, target_path, storage_options):
         
     s3_path = target_path.replace("s3a://", "s3://")
     
-    # Make sure we drop internal columns before merging
+    # Make sure we keep _change_op for predicate evaluation
     columns_to_write = [c for c, _ in spec.columns] + ["event_date"]
-    clean_df = df[columns_to_write]
+    clean_df = df[columns_to_write + ["_change_op"]]
+    
+    # Convert to PyArrow Table and discard the index to prevent __index_level_0__ columns
+    source_table = pa.Table.from_pandas(clean_df, preserve_index=False)
     
     try:
         dt = DeltaTable(s3_path, storage_options=storage_options)
@@ -265,7 +268,7 @@ def merge_to_silver(df, table_name, spec, target_path, storage_options):
         # Perform ACID Merge
         print(f"[{datetime.now().strftime('%H:%M:%S')}] Merging into Silver Table: {s3_path}")
         dt.merge(
-            source=clean_df,
+            source=source_table,
             predicate=predicate,
             source_alias="source",
             target_alias="target"
