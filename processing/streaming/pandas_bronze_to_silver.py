@@ -11,6 +11,7 @@ import pyarrow as pa
 import boto3
 from deltalake import DeltaTable, write_deltalake
 from deltalake.exceptions import TableNotFoundError
+from core.pandas_hive_utils import sync_hive_delta_table
 
 # Ensure parent processing/ directory is in sys.path so we can import schemas
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -93,6 +94,17 @@ def parse_args():
         "--tables",
         default=os.getenv("BRONZE_TO_SILVER_TABLES"),
         help="Optional comma-separated source_table allow-list.",
+    )
+    parser.add_argument(
+        "--hive-db",
+        default=os.getenv("SILVER_HIVE_DATABASE", "silver"),
+        help="Hive database name for Silver tables.",
+    )
+    parser.add_argument(
+        "--skip-hive-sync",
+        action="store_true",
+        default=os.getenv("SILVER_SKIP_HIVE_SYNC", "false").lower() == "true",
+        help="Skip syncing Silver tables metadata to Hive Metastore.",
     )
     parser.add_argument(
         "--interval",
@@ -291,7 +303,7 @@ def merge_to_silver(df, table_name, spec, target_path, storage_options):
                 storage_options=storage_options
             )
 
-def process_bronze_table(dt_bronze, table_name, spec, silver_base, s3_client, silver_bucket, storage_options):
+def process_bronze_table(dt_bronze, table_name, spec, silver_base, s3_client, silver_bucket, storage_options, hive_db="silver", skip_hive_sync=False):
     silver_path = f"{silver_base.rstrip('/')}/{table_name}"
     
     # 1. Get the last offset processed in Silver from S3 checkpoint
@@ -317,7 +329,19 @@ def process_bronze_table(dt_bronze, table_name, spec, silver_base, s3_client, si
         # 4. Write/Merge into Silver Table
         merge_to_silver(silver_df, table_name, spec, silver_path, storage_options)
         
-        # 5. Save the last processed offset
+        # 5. Sync to Hive Metastore
+        if not skip_hive_sync:
+            try:
+                sync_hive_delta_table(
+                    hive_db,
+                    table_name,
+                    silver_path,
+                    storage_options=storage_options
+                )
+            except Exception as e:
+                print(f"Error syncing {table_name} to Hive: {e}")
+        
+        # 6. Save the last processed offset
         save_last_processed_offset(s3_client, silver_bucket, table_name, max_batch_offset)
         
     except Exception as e:
@@ -349,7 +373,10 @@ def main():
                 # Check each table incrementally
                 for table_name in sorted(allowed_tables):
                     spec = TABLE_SPECS[table_name]
-                    process_bronze_table(dt_bronze, table_name, spec, args.silver_base, s3_client, silver_bucket, storage_options)
+                    process_bronze_table(
+                        dt_bronze, table_name, spec, args.silver_base, s3_client, silver_bucket, storage_options,
+                        hive_db=args.hive_db, skip_hive_sync=args.skip_hive_sync
+                    )
                     
             except TableNotFoundError:
                 print(f"Bronze Delta table at '{bronze_s3_path}' not found yet. Waiting...")

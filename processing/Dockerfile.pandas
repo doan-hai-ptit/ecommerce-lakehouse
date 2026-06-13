@@ -15,11 +15,18 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Sao chép file requirements.txt từ thư mục gốc
-COPY requirements.txt .
+# COPY requirements.txt .
 
 # Cài đặt các thư viện Python
 RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt
+    && pip install --no-cache-dir \
+    confluent-kafka \
+    deltalake \
+    pyarrow \
+    pandas \
+    boto3 \
+    psycopg2-binary \
+    python-dotenv
 
 # Gỡ bỏ các công cụ build để giảm dung lượng image tối đa sau khi đã build xong packages
 RUN apt-get purge -y --auto-remove build-essential \
