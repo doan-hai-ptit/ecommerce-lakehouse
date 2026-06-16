@@ -29,18 +29,8 @@ class TikiApiClient:
         
         # Loại bỏ cấu hình local_root (không cần dùng ổ đĩa nữa)
         
-        # 3. Cấu hình MinIO
-        endpoint_url = os.getenv("MINIO_ENDPOINT_URL", "http://localhost:9000")
-        access_key = os.getenv("MINIO_ACCESS_KEY")
-        secret_key = os.getenv("MINIO_SECRET_KEY")
-        self.bucket_name = os.getenv("MINIO_BUCKET_NAME", "bronze-lakehouse")
-        
-        self.s3_client = boto3.client('s3',
-            endpoint_url=endpoint_url,
-            aws_access_key_id=access_key,
-            aws_secret_access_key=secret_key,
-            config=Config(signature_version='s3v4')
-        )
+        # 3. Cấu hình MinIO (Khởi tạo lazy khi thực sự cần lưu vào db/MinIO)
+        self.s3_client = None
 
     def _init_driver(self):
         try:
@@ -70,6 +60,19 @@ class TikiApiClient:
         Thay đổi cốt lõi: Chuyển dữ liệu Python thành chuỗi JSON dạng byte ngay trên RAM
         và sử dụng put_object để đẩy thẳng lên MinIO không thông qua ổ đĩa.
         """
+        if self.s3_client is None:
+            endpoint_url = os.getenv("MINIO_ENDPOINT_URL", "http://localhost:9000")
+            access_key = os.getenv("MINIO_ACCESS_KEY")
+            secret_key = os.getenv("MINIO_SECRET_KEY")
+            self.bucket_name = os.getenv("MINIO_BUCKET_NAME", "bronze-lakehouse")
+            
+            self.s3_client = boto3.client('s3',
+                endpoint_url=endpoint_url,
+                aws_access_key_id=access_key,
+                aws_secret_access_key=secret_key,
+                config=Config(signature_version='s3v4')
+            )
+
         object_name = f"{self.hive_path}/category={category_name}/{file_name}"
         
         try:
@@ -132,7 +135,21 @@ class TikiApiClient:
             "source_product_name": product.get("name"),
         }
 
-    def crawl_all(self, category_id, start_page=1, end_page=1):
+    def save_data_to_txt(self, data, category_name, filepath):
+        """Lưu dữ liệu cào được vào file text dưới dạng JSON Lines (NDJSON)"""
+        try:
+            with open(filepath, "a", encoding="utf-8") as f:
+                record = {
+                    "category": category_name,
+                    "timestamp": datetime.now().isoformat(),
+                    "data": data
+                }
+                f.write(json.dumps(record, ensure_ascii=False) + "\n")
+            print(f"    [Local-TXT] ✔ Đã ghi dữ liệu {category_name} vào: {filepath}")
+        except Exception as e:
+            print(f"    [Local-TXT] ✘ Lỗi ghi file text: {e}")
+
+    def crawl_all(self, category_id, start_page=1, end_page=1, use_db=False, output_file="tiki_data.txt"):
         # ĐÃ XÓA TOÀN BỘ CÁC LỆNH os.makedirs GÂY TẠO THƯ MỤC RÁC LOCAL
         seen_sellers = set()
 
@@ -143,10 +160,13 @@ class TikiApiClient:
             if not products: continue
 
             ts = int(time.time())
-            prod_file = f"batch_pg{page}_{ts}.json"
             
-            # Đẩy trực tiếp danh sách sản phẩm lên MinIO
-            self.upload_data_to_minio(products, "products", prod_file)
+            if use_db:
+                prod_file = f"batch_pg{page}_{ts}.json"
+                # Đẩy trực tiếp danh sách sản phẩm lên MinIO
+                self.upload_data_to_minio(products, "products", prod_file)
+            else:
+                self.save_data_to_txt(products, "products", output_file)
 
             # Duyệt qua từng sản phẩm từ API trả về để bóc tách thông tin đi kèm
             for p in products:
@@ -167,9 +187,12 @@ class TikiApiClient:
                     #             self.upload_data_to_minio(seller_info, "sellers", seller_file)
                     #             seen_sellers.add(seller_key)
 
-                    # 2. Xử lý Reviews trực tiếp lên MinIO
+                    # 2. Xử lý Reviews trực tiếp lên MinIO hoặc file text
                     reviews = self.get_product_reviews(p_id)
                     if reviews:
-                        rev_file = f"reviews_sp_{p_id}_{ts}.json"
-                        self.upload_data_to_minio(reviews, "reviews", rev_file)
+                        if use_db:
+                            rev_file = f"reviews_sp_{p_id}_{ts}.json"
+                            self.upload_data_to_minio(reviews, "reviews", rev_file)
+                        else:
+                            self.save_data_to_txt(reviews, f"reviews_product_{p_id}", output_file)
                     time.sleep(1)
