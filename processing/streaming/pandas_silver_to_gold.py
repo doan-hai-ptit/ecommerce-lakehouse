@@ -10,10 +10,10 @@ import pyarrow as pa
 import boto3
 from deltalake import DeltaTable, write_deltalake
 from deltalake.exceptions import TableNotFoundError
-from core.pandas_hive_utils import sync_hive_delta_table
-
 # Ensure parent processing/ directory is in sys.path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from core.pandas_hive_utils import sync_hive_delta_table
 
 # Load environment variables
 load_dotenv()
@@ -237,9 +237,9 @@ def build_dim_date():
     
     df["date_key"] = df["date_actual"].dt.strftime("%Y%m%dd").str.replace("d", "").astype(int)
     df["day_of_week"] = df["date_actual"].dt.dayofweek + 1
-    df["day_name"] = df["date_actual"].dt.strftime("%EEEE")
+    df["day_name"] = df["date_actual"].dt.strftime("%A")
     df["month"] = df["date_actual"].dt.month
-    df["month_name"] = df["date_actual"].dt.strftime("%MMMM")
+    df["month_name"] = df["date_actual"].dt.strftime("%B")
     df["quarter"] = df["date_actual"].dt.quarter
     df["year"] = df["date_actual"].dt.year
     df["is_weekend"] = df["day_of_week"].isin([1, 7])
