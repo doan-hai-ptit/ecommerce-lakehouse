@@ -120,7 +120,7 @@ docker exec -it spark_processor python /app/jobs/silver_to_gold.py
 
 ## 6B. Khởi chạy luồng xử lý Spark-free (Pandas & Rust-core)
 
-Nhánh `feat/pandas-delta-streaming` hỗ trợ luồng xử lý dữ liệu thay thế sử dụng **Pandas** và thư viện **deltalake** (nhân Rust) thay cho Spark, giúp tiết kiệm tối đa RAM và CPU (0% CPU khi rảnh, RAM chỉ ~100MB).
+Nhánh `feat/pandas-delta-streaming` hỗ trợ luồng xử lý dữ liệu thay thế sử dụng **Pandas** và thư viện **deltalake** (nhân Rust) thay cho Spark, giúp tiết kiệm tối đa RAM và CPU (0% CPU khi rảnh, RAM chỉ ~100MB). Các tiến trình Pandas cũng được tích hợp đầy đủ khả năng **đồng bộ Hive Metastore không dùng Spark** qua PostgreSQL backend.
 
 Hãy cài đặt thư viện bổ sung trên môi trường venv cục bộ trước khi chạy:
 ```bash
@@ -130,20 +130,39 @@ pip install -r requirements.txt
 ### A. Ingestion dữ liệu Kafka CDC (Kafka to Bronze)
 Đọc dữ liệu CDC từ Kafka và ghi thô vào Bronze Delta Table bằng Pandas:
 ```bash
-python processing/streaming/pandas_kafka_to_bronze.py
+python processing/streaming/pandas_kafka_to_bronze.py --bootstrap-servers localhost:9092
 ```
+* **Các tham số tùy chọn:**
+  * `--topics`: Danh sách các topic Kafka (cách nhau bằng dấu phẩy).
+  * `--topic-pattern`: Regex chọn topic (mặc định: `^cdc.ecommerce.public.*`).
+  * `--bootstrap-servers`: Địa chỉ Kafka Broker (mặc định: `localhost:9092` hoặc `kafka:9092`).
+  * `--starting-offsets`: Offset bắt đầu khi chạy lần đầu (`earliest` hoặc `latest`).
 
 ### B. Chuẩn hóa dữ liệu CDC từ Bronze sang Silver (Bronze to Silver)
-Xử lý làm sạch, ép kiểu dữ liệu và thực hiện lệnh Merge (ACID) vào các bảng Silver Delta:
+Xử lý làm sạch, ép kiểu dữ liệu, thực hiện lệnh Merge (ACID) vào các bảng Silver Delta và tự động cập nhật Hive Metastore:
 ```bash
-python processing/streaming/pandas_bronze_to_silver.py
+python processing/streaming/pandas_bronze_to_silver.py --hive-db silver --interval 5.0
 ```
+* **Các tham số tùy chọn:**
+  * `--bronze-path`: Đường dẫn Delta chứa dữ liệu thô (mặc định: `s3a://bronze-lakehouse/kafka_cdc`).
+  * `--silver-base`: Đường dẫn lưu trữ lớp Silver (mặc định: `s3a://silver-lakehouse`).
+  * `--tables`: Danh sách bảng muốn xử lý (ví dụ: `--tables products,orders`).
+  * `--hive-db`: Database đăng ký trong Hive Metastore (mặc định: `silver`).
+  * `--skip-hive-sync`: Flag bỏ qua đồng bộ metadata vào Hive Metastore.
+  * `--interval`: Khoảng thời gian quét dữ liệu mới (giây, mặc định: `5.0`).
 
 ### C. Xây dựng mô hình phân tích Silver sang Gold (Silver to Gold)
-Kết hợp (Join) các bảng Silver bằng Pandas và ghi/merge vào các bảng Gold Delta:
+Kết hợp (Join) các bảng Silver bằng Pandas, ghi/merge vào các bảng Gold Delta và tự động cập nhật Hive Metastore:
 ```bash
-python processing/streaming/pandas_silver_to_gold.py
+python processing/streaming/pandas_silver_to_gold.py --hive-db gold --interval 10.0
 ```
+* **Các tham số tùy chọn:**
+  * `--silver-base`: Đường dẫn đọc dữ liệu lớp Silver (mặc định: `s3a://silver-lakehouse`).
+  * `--gold-base`: Đường dẫn lưu trữ lớp Gold (mặc định: `s3a://gold-lakehouse`).
+  * `--tables`: Danh sách bảng muốn xử lý (ví dụ: `--tables dim_products,fct_orders`).
+  * `--hive-db`: Database đăng ký trong Hive Metastore (mặc định: `gold`).
+  * `--skip-hive-sync`: Flag bỏ qua đồng bộ metadata vào Hive Metastore.
+  * `--interval`: Khoảng thời gian quét dữ liệu mới (giây, mặc định: `10.0`).
 
 ---
 
