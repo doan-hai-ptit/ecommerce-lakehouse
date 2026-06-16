@@ -73,10 +73,29 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Khởi chạy crawler để thu thập dữ liệu (Ví dụ: crawl 1 trang sản phẩm Tiki thuộc danh mục 1846):
-```bash
-python ingestion/batch/main.py --category 1846 --limit_pages 1
-```
+### Chạy Crawler Tiki (Tiki Crawler)
+
+Bộ cào dữ liệu Tiki tự động quản lý trạng thái cào (số trang tiếp theo) bằng file text cục bộ (`crawler_state.txt`) và tải dữ liệu thô cào được lên MinIO (Bronze Layer).
+
+* **Chạy mặc định (Cào tuần tự tất cả danh mục trong `crawler_state.txt`)**:
+  ```bash
+  python ingestion/batch/main.py --limit_pages 1
+  ```
+  *Luồng hoạt động*: 
+  - Script sẽ tự động quét danh sách danh mục trong `crawler_state.txt` (nếu file trống sẽ tự động khởi tạo bằng 6 danh mục mặc định).
+  - Tìm danh mục đầu tiên chưa hoàn thành cào đủ **40 trang** (tức là `next_page <= 40`) để tiến hành cào.
+  - Sau khi danh mục đó cào đủ 40 trang, script sẽ tự động chuyển sang danh mục tiếp theo trong lượt chạy kế tiếp (hoặc trong cùng lượt chạy nếu `--limit_pages` lớn hơn số trang còn lại của danh mục hiện tại).
+
+* **Chạy cào một danh mục duy nhất (Single Category Mode)**:
+  ```bash
+  python ingestion/batch/main.py --category 1846 --limit_pages 1
+  ```
+
+* **Tham số tùy chỉnh (Custom parameters)**:
+  * `--category`: ID danh mục cần cào (nếu bỏ trống sẽ chạy chế độ cào tuần tự tất cả danh mục).
+  * `--category_name`: Tên danh mục tự chọn để ghi nhận vào file trạng thái (chỉ dùng khi truyền `--category`).
+  * `--limit_pages`: Tổng số lượng trang muốn cào trong lượt chạy này (mặc định: `1`).
+  * `--start_page`: Trang bắt đầu cào (ghi đè file trạng thái nếu truyền, chỉ dùng khi truyền `--category`).
 
 ---
 
