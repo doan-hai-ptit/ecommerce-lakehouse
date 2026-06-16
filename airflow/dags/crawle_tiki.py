@@ -20,8 +20,8 @@ default_args = {
 with DAG(
     'tiki_ecommerce_ingestion_sequential',
     default_args=default_args,
-    description='Pipeline tự động cào tuần tự dữ liệu Tiki theo chu kỳ 20 phút',
-    schedule='*/20 * * * *',  # Cứ đúng mỗi 20 phút gọi 1 lần
+    description='Pipeline tự động cào tuần tự dữ liệu Tiki theo chu kỳ 15 phút',
+    schedule='*/15 * * * *',  # Cứ đúng mỗi 20 phút gọi 1 lần
     catchup=False,
     max_active_runs=1,
 ) as dag:
