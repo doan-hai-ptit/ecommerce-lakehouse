@@ -1,5 +1,5 @@
-# Sử dụng Python 3.9 làm gốc để ổn định với Dagster/Airflow theo sơ đồ
-FROM python:3.9-slim-bullseye
+# Sử dụng Python 3.11 làm gốc để đồng bộ và tối ưu hiệu năng
+FROM python:3.11-slim-bookworm
 
 USER root
 
