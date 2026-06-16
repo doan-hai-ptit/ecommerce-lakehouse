@@ -1,0 +1,22 @@
+{
+    "1703": {
+        "next_page": 2,
+        "category_name": "giay-dep-nu"
+    },
+    "4384": {
+        "next_page": 1,
+        "category_name": "bach-hoa-online"
+    },
+    "915": {
+        "next_page": 1,
+        "category_name": "thoi-trang-nam"
+    },
+    "1686": {
+        "next_page": 1,
+        "category_name": "giay-dep-nam"
+    },
+    "27498": {
+        "next_page": 1,
+        "category_name": "phu-kien-thoi-trang"
+    }   
+}
