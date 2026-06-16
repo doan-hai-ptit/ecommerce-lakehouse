@@ -2,11 +2,15 @@ from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
 from datetime import datetime, timedelta
 from docker.types import Mount
+import os
+
+# Đường dẫn thư mục dự án trên máy host (server hoặc local)
+HOST_WORKSPACE = os.getenv('HOST_WORKSPACE_PATH', '/home/ubuntu/ecommerce-lakehouse')
 
 default_args = {
     'owner': 'hai_data_engineer',
     'depends_on_past': False,
-    'start_date': datetime(2026, 5, 15), # Chạy từ ngày hôm qua
+    'start_date': datetime(2026, 5, 15),
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
@@ -29,9 +33,10 @@ with DAG(
         command='python /app/ingestion/batch/main.py --limit_pages 1',
         network_mode='ecommerce-lakehouse_default',
         auto_remove='force',
+        mount_tmp_dir=False,  # Tắt mount thư mục tạm từ host (bắt buộc khi chạy Airflow trong Docker)
         mounts=[
             Mount(
-                source='/media/doanhai/New Volume/Code/Python/ecommerce-lakehouse',
+                source=HOST_WORKSPACE,
                 target='/app',
                 type='bind'
             )
