@@ -45,25 +45,6 @@ services:
       - KAFKA_CLUSTERS_0_NAME=CDC_Cluster
       - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:9092
       - DYNAMIC_CONFIG_ENABLED=true
-
-  # mysql:
-  #   image: mysql:8.0
-  #   container_name: mysql_source
-  #   ports:
-  #     - 3306:3306
-  #   environment:
-  #     - MYSQL_ROOT_PASSWORD=root_pass
-  #     - MYSQL_DATABASE=inventory
-  #     - MYSQL_USER=user
-  #     - MYSQL_PASSWORD=user_pass
-  #   command: 
-  #     - --server-id=1 
-  #     - --log-bin=mysql-bin 
-  #     - --binlog-format=row 
-  #     - --binlog-row-image=full
-  #   volumes:
-  #     - mysql_data:/var/lib/mysql
-  #     - "/media/doanhai/New Volume/Volumes/mysql_data:/var/lib/mysql"
   postgres:
     image: postgres:16-alpine
     container_name: postgres_metastore
@@ -79,6 +60,7 @@ services:
       - postgres_metastore_data:/var/lib/postgresql/data
   spark-processor:
     build: ./processing/
+    image: doanhai2005/spark-processor:1.2
     container_name: spark_processor
     depends_on:
       - minio
@@ -102,6 +84,7 @@ services:
     build:
       context: .
       dockerfile: processing/Dockerfile.pandas
+    image: doanhai2005/pandas-processor:1.2
     container_name: pandas_processor
     depends_on:
       - minio
@@ -210,9 +193,28 @@ services:
       - metabase_data:/metabase-data
     # restart: always
 
+  clickhouse:
+    image: clickhouse/clickhouse-server:26.3.12
+    container_name: clickhouse_server
+    ports:
+      - "8123:8123"
+      - "9009:9000"
+    environment:
+      - CLICKHOUSE_USER=admin
+      - CLICKHOUSE_PASSWORD=password123
+      - CLICKHOUSE_DB=gold_serving
+    volumes:
+      # - "/media/doanhai/New Volume/Volumes/clickhouse_data:/var/lib/clickhouse"
+      - clickhouse_data:/var/lib/clickhouse
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+
 volumes:
   minio_storage:
   postgres_metastore_data:
   postgres-data-source:
   kafka_data:
   metabase_data:
+  clickhouse_data:

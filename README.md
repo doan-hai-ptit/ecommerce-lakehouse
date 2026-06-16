@@ -7,10 +7,12 @@ Dự án này triển khai một nền tảng dữ liệu Ecommerce Lakehouse ho
 ## 1. Kiến trúc Dự án (Project Architecture)
 
 ```text
-  [Ingestion / Crawlers] ──> [MinIO Bronze] ──> [Spark Processor] ──> [MinIO Silver] ──> [MinIO Gold]
-    (Tiki, Shopee, Sendo)      (Raw JSON)          (CDC & Normalization)     (Operational Delta)   (Dimension Delta)
-                                                                                  │                     │
-  [Data Simulator] ───> [Postgres Source] ───> [Debezium] ───> [Kafka] ───> [Hive Metastore] ┘
+  [Ingestion / Crawlers] ──> [MinIO Bronze] ──> [Spark/Pandas] ──> [MinIO Silver] ──> [MinIO Gold]
+    (Tiki, Shopee, Sendo)      (Raw JSON)          (CDC/Clean)       (Delta Lake)          (Delta Lake)
+                                                                          │                      │
+  [Data Simulator] ───> [Postgres Source] ───> [Debezium] ───> [Kafka] ───┘                      │
+                                                                                                 ▼
+  [Metabase BI] <─── [ClickHouse Serving DB] <─── [Silver to ClickHouse Sync Engine] ────────────┘
 ```
 
 Hệ thống bao gồm 3 lớp dữ liệu chính:
@@ -57,6 +59,8 @@ docker compose up -d
 * **MinIO Console**: [http://localhost:9001](http://localhost:9001) (User: `admin` / Password: `password123`)
 * **Spark Web UI**: [http://localhost:4040](http://localhost:4040)
 * **PostgreSQL Hive Metastore**: `localhost:5432`
+* **ClickHouse HTTP**: `http://localhost:8123` (Native TCP: `localhost:9009`, User: `admin` / Password: `password123`)
+* **Metabase Console**: [http://localhost:3001](http://localhost:3001)
 
 ---
 
@@ -164,6 +168,17 @@ python processing/streaming/pandas_silver_to_gold.py --hive-db gold --interval 1
   * `--skip-hive-sync`: Flag bỏ qua đồng bộ metadata vào Hive Metastore.
   * `--interval`: Khoảng thời gian quét dữ liệu mới (giây, mặc định: `10.0`).
 
+### D. Đồng bộ dữ liệu lớp Gold trực tiếp vào ClickHouse (Silver to ClickHouse)
+Đồng bộ các bảng chiều và bảng sự kiện lớp Gold trực tiếp từ Silver Delta Lake sang ClickHouse phục vụ Metabase truy vấn realtime với độ trễ cực thấp:
+```bash
+python processing/streaming/pandas_silver_to_clickhouse.py --interval 15.0
+```
+* **Các tham số tùy chọn:**
+  * `--silver-base`: Đường dẫn đọc dữ liệu lớp Silver (mặc định: `s3a://silver-lakehouse`).
+  * `--tables`: Danh sách bảng muốn đồng bộ (ví dụ: `--tables dim_products,fct_orders`).
+  * `--interval`: Khoảng thời gian cập nhật micro-batch (giây, mặc định: `15.0`).
+  * `--once`: Chỉ chạy đồng bộ một lần duy nhất rồi thoát (phục vụ test).
+
 ---
 
 ## 7. Hướng dẫn Tham số dòng lệnh (Command Line Arguments Guide)
@@ -217,4 +232,13 @@ python storage/check_minio_connection.py
 Theo dõi các truy vấn streaming đang chạy bên trong môi trường Spark:
 ```bash
 docker exec -it spark_processor spark-shell
+```
+
+Kiểm tra danh sách bảng đã tạo và số lượng bản ghi trong ClickHouse:
+```bash
+# Xem các bảng trong database gold_serving
+docker exec clickhouse_server clickhouse-client -q "SHOW TABLES IN gold_serving"
+
+# Xem số dòng thực tế (đã loại bỏ trùng lặp bằng ReplacingMergeTree)
+docker exec clickhouse_server clickhouse-client -q "SELECT count() FROM gold_serving.fct_orders FINAL"
 ```
