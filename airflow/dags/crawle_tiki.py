@@ -14,9 +14,9 @@ default_args = {
 }
 
 with DAG(
-    'tiki_ecommerce_ingestion_category_1520',
+    'tiki_ecommerce_ingestion_sequential',
     default_args=default_args,
-    description='Pipeline tự động cào dữ liệu Tiki theo chu kỳ 20 phút',
+    description='Pipeline tự động cào tuần tự dữ liệu Tiki theo chu kỳ 20 phút',
     schedule='*/20 * * * *',  # Cứ đúng mỗi 20 phút gọi 1 lần
     catchup=False,
     max_active_runs=1,
@@ -26,22 +26,23 @@ with DAG(
     run_tiki_crawler = DockerOperator(
         task_id='run_tiki_crawler_script',
         image='ecommerce-crawler:latest',
-        command='python /app/ingestion/batch/main.py --category 1520 --limit_pages 1',
+        command='python /app/ingestion/batch/main.py --limit_pages 1',
         network_mode='ecommerce-lakehouse_default',
         auto_remove='force',
+        mounts=[
+            Mount(
+                source='/media/doanhai/New Volume/Code/Python/ecommerce-lakehouse',
+                target='/app',
+                type='bind'
+            )
+        ],
 
         environment={
             'BROWSERLESS_URL': 'http://browserless_chrome:3000/webdriver',
             'MINIO_ENDPOINT_URL': 'http://minio:9000',
             'MINIO_ACCESS_KEY': 'admin',
             'MINIO_SECRET_KEY': 'password123',
-            'MINIO_BUCKET_NAME': 'bronze-lakehouse',
-            
-            'DB_HOST': 'postgres_metastore', 
-            'DB_PORT': '5432',
-            'DB_USER': 'postgres',
-            'DB_PASSWORD': 'postgres',
-            'DB_NAME': 'postgres_metastore'
+            'MINIO_BUCKET_NAME': 'bronze-lakehouse'
         },
     )
 
