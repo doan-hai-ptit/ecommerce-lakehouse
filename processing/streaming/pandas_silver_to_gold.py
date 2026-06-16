@@ -10,6 +10,7 @@ import pyarrow as pa
 import boto3
 from deltalake import DeltaTable, write_deltalake
 from deltalake.exceptions import TableNotFoundError
+from core.pandas_hive_utils import sync_hive_delta_table
 
 # Ensure parent processing/ directory is in sys.path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -35,6 +36,17 @@ def parse_args():
         "--tables",
         default=None,
         help="Optional comma-separated target dimension/fact tables list.",
+    )
+    parser.add_argument(
+        "--hive-db",
+        default=os.getenv("GOLD_HIVE_DATABASE", "gold"),
+        help="Hive database name for Gold tables.",
+    )
+    parser.add_argument(
+        "--skip-hive-sync",
+        action="store_true",
+        default=os.getenv("GOLD_SKIP_HIVE_SYNC", "false").lower() == "true",
+        help="Skip syncing Gold tables metadata to Hive Metastore.",
     )
     parser.add_argument(
         "--interval",
@@ -415,6 +427,8 @@ def main():
         
     print(f"Silver to Gold Dimension/Fact processor started (Interval: {args.interval}s)")
     print(f"Silver Base: {args.silver_base} -> Gold Base: {args.gold_base}")
+    if not args.skip_hive_sync:
+        print(f"Hive Metastore DB: {args.hive_db}")
     
     try:
         while True:
@@ -424,6 +438,17 @@ def main():
                     dim_date_df = build_dim_date()
                     gold_path = f"{args.gold_base.rstrip('/')}/dim_date"
                     merge_to_gold(dim_date_df, "dim_date", gold_path, storage_options)
+                    
+                    if not args.skip_hive_sync:
+                        try:
+                            sync_hive_delta_table(
+                                args.hive_db,
+                                "dim_date",
+                                gold_path,
+                                storage_options=storage_options
+                            )
+                        except Exception as e:
+                            print(f"Error syncing dim_date to Hive: {e}")
                 except Exception as e:
                     print(f"Error building dim_date: {e}")
             
@@ -444,6 +469,17 @@ def main():
                         gold_df = gold_df.drop_duplicates(subset=primary_keys, keep="last")
                         
                         merge_to_gold(gold_df, table_name, gold_path, storage_options)
+                        
+                        if not args.skip_hive_sync:
+                            try:
+                                sync_hive_delta_table(
+                                    args.hive_db,
+                                    table_name,
+                                    gold_path,
+                                    storage_options=storage_options
+                                )
+                            except Exception as e:
+                                print(f"Error syncing {table_name} to Hive: {e}")
                 except Exception as e:
                     print(f"Error processing Gold table '{table_name}': {e}")
                     

@@ -10,9 +10,11 @@ Main components:
 
 - `ingestion/`: batch crawlers for Tiki, Shopee, Sendo, and ChoTot.
 - `ingestion/batch/providers/`: source-specific API/Selenium clients.
-- `processing/`: Spark jobs for Bronze to Silver (and Silver to Gold) transformation.
+- `processing/`: Spark/Pandas jobs for Bronze to Silver (and Silver to Gold) transformation.
   - `processing/streaming/bronze_to_silver/`: Refactored modular subpackage for Bronze-to-Silver CDC pipeline (schemas, configs, utils, transformer, writer, orchestrator).
   - `processing/streaming/silver_to_gold/`: Refactored modular subpackage for Silver-to-Gold dimensional pipeline (builders, configs, orchestrator).
+  - `processing/streaming/pandas_*.py`: Alternative Spark-free, lightweight processing scripts using Pandas & deltalake (Rust-core).
+  - `processing/core/pandas_hive_utils.py`: Spark-free Hive Metastore synchronizer using psycopg2 to update the PostgreSQL metastore directly.
 - `airflow/`: Airflow DAGs for orchestration.
 - `storage/`: MinIO utilities and data-reading scripts.
 - `monitoring/`: Prometheus configuration.
@@ -116,9 +118,21 @@ Check MinIO connection:
 python storage/check_minio_connection.py
 ```
 
+Run Pandas-based processing locally:
+
+```bash
+# Run Bronze to Silver
+python processing/streaming/pandas_bronze_to_silver.py --hive-db silver
+
+# Run Silver to Gold
+python processing/streaming/pandas_silver_to_gold.py --hive-db gold
+```
+
 ## Important Notes
 
 - Spark jobs `bronze_to_silver` and `silver_to_gold` are modularized under subpackages in `processing/streaming/`. They are invoked using the same entry-point commands as before (e.g. `processing/jobs/bronze_to_silver.py`) due to backward-compatible wrappers.
+- Pandas-based alternatives (`pandas_bronze_to_silver.py`, `pandas_silver_to_gold.py`) bypass Spark entirely. They run inside the lightweight `pandas_processor` container (defined via `Dockerfile.pandas`) or directly on the host using `deltalake` (Rust core) and Python.
+- Spark-free Hive Metastore sync is handled by `pandas_hive_utils.py`, which accesses the PostgreSQL backend metastore directly using `psycopg2`.
 - `processing/jobs/bronze_to_silver.py` currently supports `tiki`, `sendo`, and
   `shopee`.
 - Tiki crawling uses Selenium Remote WebDriver through Browserless.
