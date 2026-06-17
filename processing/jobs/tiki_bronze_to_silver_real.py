@@ -122,6 +122,11 @@ def parse_args():
         default=os.getenv("SILVER_SKIP_HIVE_SYNC", "false").lower() == "true",
         help="Skip syncing metadata to Hive Metastore."
     )
+    parser.add_argument(
+        "--clean",
+        action="store_true",
+        help="Clean target Delta tables before writing (useful to fix corrupt tables from failed runs)."
+    )
     return parser.parse_args()
 
 def resolve_endpoint(endpoint_url):
@@ -199,7 +204,25 @@ def safe_datetime(val):
     except Exception:
         return None
 
-def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_sync):
+def clean_s3_folder(s3_client, bucket, prefix):
+    print(f"🧹 Cleaning S3 folder: s3://{bucket}/{prefix}")
+    try:
+        paginator = s3_client.get_paginator('list_objects_v2')
+        pages = paginator.paginate(Bucket=bucket, Prefix=prefix)
+        for page in pages:
+            objects = [{'Key': obj['Key']} for obj in page.get('Contents', [])]
+            if objects:
+                s3_client.delete_objects(Bucket=bucket, Delete={'Objects': objects})
+                print(f"  ✓ Deleted {len(objects)} files in prefix {prefix}")
+    except Exception as e:
+        print(f"  ⚠️ Error cleaning S3 folder at {prefix}: {e}")
+
+def parse_s3_url(url):
+    url_norm = url.replace("s3a://", "s3://")
+    parsed = urlparse(url_norm)
+    return parsed.netloc, parsed.path.lstrip("/")
+
+def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_sync, clean=False):
     s3_client = get_s3_client()
     storage_options = get_storage_options()
     category_map = load_category_map()
@@ -208,6 +231,12 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
     print(f"  - Bronze bucket: {bronze_bucket}")
     print(f"  - Silver base path: {silver_base}")
     print(f"  - Target Hive Database: {hive_db}")
+
+    if clean:
+        silver_bucket, base_prefix = parse_s3_url(silver_base)
+        print(f"🧹 Performing clean/re-initialization of target tables under s3://{silver_bucket}/{base_prefix}")
+        for tab in ["products", "sellers", "product_reviews"]:
+            clean_s3_folder(s3_client, silver_bucket, f"{base_prefix.rstrip('/')}/{tab}/")
 
     # ==========================================
     # 1. PROCESS PRODUCTS AND SELLERS
@@ -437,6 +466,14 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
                     source_alias="source",
                     target_alias="target"
                 ).when_matched_update_all().when_not_matched_insert_all().execute()
+            except Exception as merge_err:
+                print(f"  ❌ Merge failed: {merge_err}")
+                print(f"  - Source shape: {df_rev.shape}")
+                print(f"  - Source unique platform_review_id count: {df_rev['platform_review_id'].nunique()}")
+                if df_rev.duplicated(subset=['platform_review_id']).any():
+                    print("  - Source duplicate platform_review_id entries:")
+                    print(df_rev[df_rev.duplicated(subset=['platform_review_id'], keep=False)][['platform_review_id', 'product_id', 'rating']].head(10))
+                raise merge_err
             except TableNotFoundError:
                 print(f"  - Initializing product reviews Delta table at {s3_rev_path}...")
                 write_deltalake(
@@ -466,7 +503,8 @@ def main():
         bronze_bucket=args.bronze_bucket,
         silver_base=args.silver_base,
         hive_db=args.hive_db,
-        skip_hive_sync=args.skip_hive_sync
+        skip_hive_sync=args.skip_hive_sync,
+        clean=args.clean
     )
     print("\n🎉 Batch processing completed successfully!")
 
