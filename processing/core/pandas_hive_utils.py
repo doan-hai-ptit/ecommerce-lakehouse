@@ -108,10 +108,16 @@ _case = 'upper'
 def detect_case(cursor):
     global _case
     try:
-        cursor.execute("SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_name = 'dbs')")
-        exists_lower = cursor.fetchone()[0]
-        _case = 'lower' if exists_lower else 'upper'
+        cursor.execute("SAVEPOINT detect_case_sp")
+        cursor.execute('SELECT 1 FROM "dbs" LIMIT 1')
+        cursor.fetchone()
+        cursor.execute("RELEASE SAVEPOINT detect_case_sp")
+        _case = 'lower'
     except Exception:
+        try:
+            cursor.execute("ROLLBACK TO SAVEPOINT detect_case_sp")
+        except Exception:
+            pass
         _case = 'upper'
 
 def fmt_sql(sql):
