@@ -67,8 +67,38 @@ def bind_param(statement, index, value):
         statement.setString(index, str(value))
 
 
+_case = 'upper'
+
+def detect_case(conn):
+    global _case
+    stmt = conn.createStatement()
+    try:
+        stmt.execute("SAVEPOINT detect_case_sp")
+        check_stmt = conn.prepareStatement('SELECT 1 FROM "dbs" LIMIT 1')
+        try:
+            rs = check_stmt.executeQuery()
+            rs.close()
+            _case = 'lower'
+        finally:
+            check_stmt.close()
+        stmt.execute("RELEASE SAVEPOINT detect_case_sp")
+    except Exception:
+        try:
+            stmt.execute("ROLLBACK TO SAVEPOINT detect_case_sp")
+        except Exception:
+            pass
+        _case = 'upper'
+    finally:
+        stmt.close()
+
+def fmt_sql(sql):
+    if _case == 'lower':
+        return re.sub(r'"([A-Z0-9_]+)"', lambda m: f'"{m.group(1).lower()}"', sql)
+    return sql
+
+
 def jdbc_execute(conn, sql, params=()):
-    statement = conn.prepareStatement(sql)
+    statement = conn.prepareStatement(fmt_sql(sql))
     try:
         for idx, value in enumerate(params, start=1):
             bind_param(statement, idx, value)
@@ -78,7 +108,7 @@ def jdbc_execute(conn, sql, params=()):
 
 
 def jdbc_query_one(conn, sql, params=()):
-    statement = conn.prepareStatement(sql)
+    statement = conn.prepareStatement(fmt_sql(sql))
     try:
         for idx, value in enumerate(params, start=1):
             bind_param(statement, idx, value)
@@ -286,6 +316,7 @@ def sync_hive_delta_table(spark, db_name, table_name, target_path):
 
     conn = jdbc_connection(spark, jdbc_config)
     try:
+        detect_case(conn)
         conn.setAutoCommit(False)
         db_id = ensure_metastore_database(conn, db_name, jdbc_config["warehouse"])
         db_location = database_location(conn, db_id, jdbc_config["warehouse"], db_name)
