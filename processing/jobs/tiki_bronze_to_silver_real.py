@@ -335,16 +335,17 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
                 silver_prod_path = f"{silver_base.rstrip('/')}/products"
                 s3_prod_path = silver_prod_path.replace("s3a://", "s3://")
                 
+                is_initialized = True
                 try:
                     dt_prod = DeltaTable(s3_prod_path, storage_options=storage_options)
-                    print(f"  - Merging products into {s3_prod_path}...")
-                    dt_prod.merge(
-                        source=arrow_prod,
-                        predicate="target.platform_product_id = source.platform_product_id",
-                        source_alias="source",
-                        target_alias="target"
-                    ).when_matched_update_all().when_not_matched_insert_all().execute()
-                except TableNotFoundError:
+                except (TableNotFoundError, Exception) as init_err:
+                    init_err_str = str(init_err)
+                    if isinstance(init_err, TableNotFoundError) or "No files in log segment" in init_err_str or "not found" in init_err_str.lower():
+                        is_initialized = False
+                    else:
+                        raise init_err
+
+                if not is_initialized:
                     print(f"  - Initializing products Delta table at {s3_prod_path}...")
                     write_deltalake(
                         s3_prod_path,
@@ -352,6 +353,14 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
                         mode="append",
                         storage_options=storage_options
                     )
+                else:
+                    print(f"  - Merging products into {s3_prod_path}...")
+                    dt_prod.merge(
+                        source=arrow_prod,
+                        predicate="target.platform_product_id = source.platform_product_id",
+                        source_alias="source",
+                        target_alias="target"
+                    ).when_matched_update_all().when_not_matched_insert_all().execute()
                 
                 if not skip_hive_sync:
                     sync_hive_delta_table(hive_db, "products", silver_prod_path, storage_options=storage_options)
@@ -365,16 +374,17 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
                 silver_sel_path = f"{silver_base.rstrip('/')}/sellers"
                 s3_sel_path = silver_sel_path.replace("s3a://", "s3://")
                 
+                is_sel_initialized = True
                 try:
                     dt_sel = DeltaTable(s3_sel_path, storage_options=storage_options)
-                    print(f"  - Merging sellers into {s3_sel_path}...")
-                    dt_sel.merge(
-                        source=arrow_sel,
-                        predicate="target.platform_seller_id = source.platform_seller_id",
-                        source_alias="source",
-                        target_alias="target"
-                    ).when_matched_update_all().when_not_matched_insert_all().execute()
-                except TableNotFoundError:
+                except (TableNotFoundError, Exception) as init_err:
+                    init_err_str = str(init_err)
+                    if isinstance(init_err, TableNotFoundError) or "No files in log segment" in init_err_str or "not found" in init_err_str.lower():
+                        is_sel_initialized = False
+                    else:
+                        raise init_err
+
+                if not is_sel_initialized:
                     print(f"  - Initializing sellers Delta table at {s3_sel_path}...")
                     write_deltalake(
                         s3_sel_path,
@@ -382,6 +392,14 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
                         mode="append",
                         storage_options=storage_options
                     )
+                else:
+                    print(f"  - Merging sellers into {s3_sel_path}...")
+                    dt_sel.merge(
+                        source=arrow_sel,
+                        predicate="target.platform_seller_id = source.platform_seller_id",
+                        source_alias="source",
+                        target_alias="target"
+                    ).when_matched_update_all().when_not_matched_insert_all().execute()
                 
                 if not skip_hive_sync:
                     sync_hive_delta_table(hive_db, "sellers", silver_sel_path, storage_options=storage_options)
@@ -457,24 +475,17 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
             silver_rev_path = f"{silver_base.rstrip('/')}/product_reviews"
             s3_rev_path = silver_rev_path.replace("s3a://", "s3://")
             
+            is_rev_initialized = True
             try:
                 dt_rev = DeltaTable(s3_rev_path, storage_options=storage_options)
-                print(f"  - Merging product reviews into {s3_rev_path}...")
-                dt_rev.merge(
-                    source=arrow_rev,
-                    predicate="target.platform_review_id = source.platform_review_id",
-                    source_alias="source",
-                    target_alias="target"
-                ).when_matched_update_all().when_not_matched_insert_all().execute()
-            except Exception as merge_err:
-                print(f"  ❌ Merge failed: {merge_err}")
-                print(f"  - Source shape: {df_rev.shape}")
-                print(f"  - Source unique platform_review_id count: {df_rev['platform_review_id'].nunique()}")
-                if df_rev.duplicated(subset=['platform_review_id']).any():
-                    print("  - Source duplicate platform_review_id entries:")
-                    print(df_rev[df_rev.duplicated(subset=['platform_review_id'], keep=False)][['platform_review_id', 'product_id', 'rating']].head(10))
-                raise merge_err
-            except TableNotFoundError:
+            except (TableNotFoundError, Exception) as init_err:
+                init_err_str = str(init_err)
+                if isinstance(init_err, TableNotFoundError) or "No files in log segment" in init_err_str or "not found" in init_err_str.lower():
+                    is_rev_initialized = False
+                else:
+                    raise init_err
+
+            if not is_rev_initialized:
                 print(f"  - Initializing product reviews Delta table at {s3_rev_path}...")
                 write_deltalake(
                     s3_rev_path,
@@ -482,6 +493,23 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
                     mode="append",
                     storage_options=storage_options
                 )
+            else:
+                try:
+                    print(f"  - Merging product reviews into {s3_rev_path}...")
+                    dt_rev.merge(
+                        source=arrow_rev,
+                        predicate="target.platform_review_id = source.platform_review_id",
+                        source_alias="source",
+                        target_alias="target"
+                    ).when_matched_update_all().when_not_matched_insert_all().execute()
+                except Exception as merge_err:
+                    print(f"  ❌ Merge failed: {merge_err}")
+                    print(f"  - Source shape: {df_rev.shape}")
+                    print(f"  - Source unique platform_review_id count: {df_rev['platform_review_id'].nunique()}")
+                    if df_rev.duplicated(subset=['platform_review_id']).any():
+                        print("  - Source duplicate platform_review_id entries:")
+                        print(df_rev[df_rev.duplicated(subset=['platform_review_id'], keep=False)][['platform_review_id', 'product_id', 'rating']].head(10))
+                    raise merge_err
                 
             if not skip_hive_sync:
                 sync_hive_delta_table(hive_db, "product_reviews", silver_rev_path, storage_options=storage_options)
