@@ -103,35 +103,12 @@ def db_connection(config):
     )
 
 
-_case = 'upper'
-
-def detect_case(cursor):
-    global _case
-    try:
-        cursor.execute("SAVEPOINT detect_case_sp")
-        cursor.execute('SELECT 1 FROM "dbs" LIMIT 1')
-        cursor.fetchone()
-        cursor.execute("RELEASE SAVEPOINT detect_case_sp")
-        _case = 'lower'
-    except Exception:
-        try:
-            cursor.execute("ROLLBACK TO SAVEPOINT detect_case_sp")
-        except Exception:
-            pass
-        _case = 'upper'
-
-def fmt_sql(sql):
-    if _case == 'lower':
-        return re.sub(r'"([A-Z0-9_]+)"', lambda m: f'"{m.group(1).lower()}"', sql)
-    return sql
-
-
 def db_execute(cursor, sql, params=()):
-    cursor.execute(fmt_sql(sql), params)
+    cursor.execute(sql, params)
 
 
 def db_query_one(cursor, sql, params=()):
-    cursor.execute(fmt_sql(sql), params)
+    cursor.execute(sql, params)
     row = cursor.fetchone()
     return row[0] if row else None
 
@@ -331,7 +308,6 @@ def sync_hive_delta_table(db_name, table_name, target_path, storage_options=None
     conn = db_connection(db_config)
     try:
         cursor = conn.cursor()
-        detect_case(cursor)
         db_id = ensure_metastore_database(cursor, db_name, db_config["warehouse"])
         db_location = database_location(cursor, db_id, db_config["warehouse"], db_name)
         
