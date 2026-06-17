@@ -55,7 +55,7 @@ with DAG(
     run_tiki_silver_processing = DockerOperator(
         task_id='run_tiki_silver_processing_script',
         image='doanhai2005/pandas-processor:1.2',
-        command='python /app/jobs/tiki_bronze_to_silver_real.py --date {{ ds }}',
+        command='python /app/processing/jobs/tiki_bronze_to_silver_real.py --date {{ ds }}',
         network_mode='ecommerce-lakehouse_default',
         auto_remove='force',
         mount_tmp_dir=False,
