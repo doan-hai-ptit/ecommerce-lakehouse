@@ -51,4 +51,34 @@ with DAG(
         },
     )
 
-    run_tiki_crawler
+    # Task sử dụng DockerOperator để chuẩn hóa dữ liệu thô sang Delta Lake Silver
+    run_tiki_silver_processing = DockerOperator(
+        task_id='run_tiki_silver_processing_script',
+        image='doanhai2005/pandas-processor:1.2',
+        command='python /app/jobs/tiki_bronze_to_silver_real.py --date {{ ds }}',
+        network_mode='ecommerce-lakehouse_default',
+        auto_remove='force',
+        mount_tmp_dir=False,
+        mounts=[
+            Mount(
+                source=HOST_WORKSPACE,
+                target='/app',
+                type='bind'
+            )
+        ],
+        environment={
+            'MINIO_ENDPOINT_URL': 'http://minio:9000',
+            'MINIO_ACCESS_KEY': 'admin',
+            'MINIO_SECRET_KEY': 'password123',
+            'MINIO_BUCKET_NAME': 'bronze-lakehouse',
+            'SILVER_BASE_PATH': 's3a://silver-lakehouse/real_data',
+            'SILVER_HIVE_DATABASE': 'silver_real',
+            'HIVE_SITE_PATH': '/app/hive-site.xml',
+            'HIVE_METASTORE_JDBC_URL': 'jdbc:postgresql://postgres:5432/postgres_metastore',
+            'HIVE_METASTORE_JDBC_USER': 'postgres',
+            'HIVE_METASTORE_JDBC_PASSWORD': 'postgres',
+            'SPARK_WAREHOUSE_DIR': 's3a://silver-lakehouse/warehouse/'
+        },
+    )
+
+    run_tiki_crawler >> run_tiki_silver_processing
