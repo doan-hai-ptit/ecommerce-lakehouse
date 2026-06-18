@@ -54,7 +54,7 @@ with DAG(
     # Task sử dụng DockerOperator để chuẩn hóa dữ liệu thô sang Delta Lake Silver
     run_tiki_silver_processing = DockerOperator(
         task_id='run_tiki_silver_processing_script',
-        image='doanhai2005/pandas-processor:1.2',
+        image='doanhai2005/pandas-processor:1.3',
         command='python /app/processing/jobs/tiki_bronze_to_silver_real.py --date {{ ds }}',
         network_mode='ecommerce-lakehouse_default',
         auto_remove='force',
