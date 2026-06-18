@@ -6,6 +6,6 @@ psycopg2-binary
 python-dotenv
 faker
 confluent-kafka
-deltalake
+deltalake==1.5.1
 pyarrow
 pandas
