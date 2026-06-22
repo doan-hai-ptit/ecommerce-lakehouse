@@ -148,10 +148,10 @@ def ensure_metastore_database(cursor, db_name, warehouse_dir, owner="root"):
         cursor,
         (
             'INSERT INTO "DBS" '
-            '("DB_ID", "DESC", "DB_LOCATION_URI", "NAME", "OWNER_NAME", "OWNER_TYPE") '
-            'VALUES (%s, %s, %s, %s, %s, %s)'
+            '("DB_ID", "CTLG_NAME", "DESC", "DB_LOCATION_URI", "NAME", "OWNER_NAME", "OWNER_TYPE") '
+            'VALUES (%s, %s, %s, %s, %s, %s, %s)'
         ),
-        (db_id, "", db_location, db_name, owner, "USER"),
+        (db_id, "hive", "", db_location, db_name, owner, "USER"),
     )
     return db_id
 

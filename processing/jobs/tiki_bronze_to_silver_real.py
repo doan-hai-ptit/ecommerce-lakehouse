@@ -85,11 +85,21 @@ REVIEWS_SCHEMA = pa.schema([
     ("review_id", pa.int64()),
     ("platform_review_id", pa.string()),
     ("product_id", pa.int64()),
+    ("customer_id", pa.int64()),
     ("rating", pa.int64()),
     ("content", pa.string()),
     ("helpful_count", pa.int64()),
     ("reviewed_at", pa.timestamp('us')),
     ("event_date", pa.string())
+])
+
+CUSTOMERS_SCHEMA = pa.schema([
+    ("customer_id", pa.int64()),
+    ("platform_customer_id", pa.string()),
+    ("full_name", pa.string()),
+    ("avatar_url", pa.string()),
+    ("created_time", pa.timestamp('us')),
+    ("joined_time_summary", pa.string())
 ])
 
 def parse_args():
@@ -235,7 +245,7 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
     if clean:
         silver_bucket, base_prefix = parse_s3_url(silver_base)
         print(f"🧹 Performing clean/re-initialization of target tables under s3://{silver_bucket}/{base_prefix}")
-        for tab in ["products", "sellers", "product_reviews"]:
+        for tab in ["products", "sellers", "product_reviews", "customers"]:
             clean_s3_folder(s3_client, silver_bucket, f"{base_prefix.rstrip('/')}/{tab}/")
 
     # ==========================================
@@ -408,7 +418,7 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
         print(f"❌ Error processing products/sellers: {e}")
 
     # ==========================================
-    # 2. PROCESS REVIEWS
+    # 2. PROCESS REVIEWS AND CUSTOMERS
     # ==========================================
     rev_prefix = f"provider=tiki/date={date_str}/category=reviews/"
     print(f"\n🔍 Searching for raw reviews with prefix: {rev_prefix}")
@@ -418,6 +428,9 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
         pages = paginator.paginate(Bucket=bronze_bucket, Prefix=rev_prefix)
         
         raw_reviews_list = []
+        parsed_customers = []
+        seen_customers = set()
+        
         for page in pages:
             for obj in page.get('Contents', []):
                 key = obj['Key']
@@ -444,21 +457,44 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
                         if not rev_id:
                             continue
                         
+                        created_by = rev.get('created_by') or {}
+                        cust_id = safe_int(created_by.get('id') or rev.get('customer_id'))
+                        
                         raw_reviews_list.append({
                             "review_id": rev_id,
                             "platform_review_id": str(rev_id),
                             "product_id": p_id,
+                            "customer_id": cust_id,
                             "rating": safe_int(rev.get('rating')),
                             "content": safe_str(rev.get('content') or rev.get('review')),
                             "helpful_count": safe_int(rev.get('thank_count') or rev.get('helpful_count')),
                             "reviewed_at": safe_datetime(rev.get('created_at')),
                             "event_date": date_str
                         })
+                        
+                        if cust_id and cust_id not in seen_customers:
+                            contrib = created_by.get('contribute_info') or {}
+                            summary = contrib.get('summary') or {}
+                            joined_time = safe_str(summary.get('joined_time'))
+                            
+                            created_time_val = safe_datetime(created_by.get('created_time'))
+                            
+                            parsed_customers.append({
+                                "customer_id": cust_id,
+                                "platform_customer_id": str(cust_id),
+                                "full_name": safe_str(created_by.get('full_name') or created_by.get('name') or f"User_{cust_id}"),
+                                "avatar_url": safe_str(created_by.get('avatar_url')),
+                                "created_time": created_time_val,
+                                "joined_time_summary": joined_time
+                            })
+                            seen_customers.add(cust_id)
                 except Exception as e:
                     print(f"  ⚠️ Error reading reviews file {key}: {e}")
                     
         print(f"  - Found {len(raw_reviews_list)} raw reviews in Bronze.")
+        print(f"  - Extracted {len(parsed_customers)} unique customers from reviews.")
         
+        # Write reviews
         if raw_reviews_list:
             df_rev = pd.DataFrame(raw_reviews_list)
             
@@ -513,6 +549,55 @@ def process_tiki_batch(date_str, bronze_bucket, silver_base, hive_db, skip_hive_
                 
             if not skip_hive_sync:
                 sync_hive_delta_table(hive_db, "product_reviews", silver_rev_path, storage_options=storage_options)
+                
+        # Write customers
+        if parsed_customers:
+            df_cust = pd.DataFrame(parsed_customers)
+            
+            # Floor to microsecond resolution for timestamp columns
+            df_cust['created_time'] = pd.to_datetime(df_cust['created_time'], errors='coerce')
+            if not df_cust['created_time'].isna().all():
+                df_cust['created_time'] = df_cust['created_time'].dt.floor('us')
+                
+            df_cust = df_cust.drop_duplicates(subset=['platform_customer_id'], keep='last')
+            arrow_cust = pa.Table.from_pandas(df_cust, schema=CUSTOMERS_SCHEMA, preserve_index=False)
+            
+            silver_cust_path = f"{silver_base.rstrip('/')}/customers"
+            s3_cust_path = silver_cust_path.replace("s3a://", "s3://")
+            
+            is_cust_initialized = True
+            try:
+                dt_cust = DeltaTable(s3_cust_path, storage_options=storage_options)
+            except (TableNotFoundError, Exception) as init_err:
+                init_err_str = str(init_err)
+                if isinstance(init_err, TableNotFoundError) or "No files in log segment" in init_err_str or "not found" in init_err_str.lower():
+                    is_cust_initialized = False
+                else:
+                    raise init_err
+
+            if not is_cust_initialized:
+                print(f"  - Initializing customers Delta table at {s3_cust_path}...")
+                write_deltalake(
+                    s3_cust_path,
+                    arrow_cust,
+                    mode="append",
+                    storage_options=storage_options
+                )
+            else:
+                try:
+                    print(f"  - Merging customers into {s3_cust_path}...")
+                    dt_cust.merge(
+                        source=arrow_cust,
+                        predicate="target.platform_customer_id = source.platform_customer_id",
+                        source_alias="source",
+                        target_alias="target"
+                    ).when_matched_update_all().when_not_matched_insert_all().execute()
+                except Exception as merge_err:
+                    print(f"  ❌ Customers Merge failed: {merge_err}")
+                    raise merge_err
+                
+            if not skip_hive_sync:
+                sync_hive_delta_table(hive_db, "customers", silver_cust_path, storage_options=storage_options)
                 
     except Exception as e:
         print(f"❌ Error processing reviews: {e}")
