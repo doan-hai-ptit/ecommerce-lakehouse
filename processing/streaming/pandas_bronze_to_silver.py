@@ -11,10 +11,10 @@ import pyarrow as pa
 import boto3
 from deltalake import DeltaTable, write_deltalake
 from deltalake.exceptions import TableNotFoundError
-from core.pandas_hive_utils import sync_hive_delta_table
-
 # Ensure parent processing/ directory is in sys.path so we can import schemas
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from core.pandas_hive_utils import sync_hive_delta_table
 
 # Check if pyspark is installed; if not, mock it to allow importing schemas.py without errors
 try:
