@@ -346,11 +346,25 @@ def build_fct_shipments(silver_base, storage_options):
     # date_key calculation
     date_col = joined["shipped_at"].fillna(joined["created_at"])
     joined["date_key"] = pd.to_datetime(date_col).dt.strftime("%Y%m%d").astype(int)
+
+    ordered_at = pd.to_datetime(joined["ordered_at"], errors="coerce")
+    delivered_at = pd.to_datetime(joined["delivered_at"], errors="coerce")
+    estimated_delivery_at = pd.to_datetime(joined["estimated_delivery_at"], errors="coerce")
+
+    joined["delivery_duration_hours"] = (
+        (delivered_at - ordered_at).dt.total_seconds() / 3600.0
+    )
+    joined["is_delayed"] = (
+        delivered_at.notna()
+        & estimated_delivery_at.notna()
+        & (delivered_at > estimated_delivery_at)
+    ).astype(int)
     
     return joined[[
         "shipment_id", "order_id", "platform_id", "seller_id", "customer_id", "date_key",
         "carrier_name", "tracking_number", "shipping_method", "status", "shipped_at",
-        "estimated_delivery_at", "delivered_at", "created_at", "updated_at"
+        "estimated_delivery_at", "delivered_at", "delivery_duration_hours", "is_delayed",
+        "created_at", "updated_at"
     ]]
 
 # ==========================================

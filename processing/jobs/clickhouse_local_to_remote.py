@@ -45,6 +45,12 @@ def parse_args():
         default=os.getenv("REMOTE_CLICKHOUSE_SECURE", "false").lower() == "true",
         help="Use HTTPS for the remote ClickHouse HTTP endpoint.",
     )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=int(os.getenv("CLICKHOUSE_SYNC_BATCH_SIZE", "10000")),
+        help="Rows per insert batch. Default: 10000.",
+    )
     return parser.parse_args()
 
 
@@ -60,7 +66,12 @@ def http_query(host, port, user, password, query, database=None, body=None, secu
 
     url = f"{scheme}://{host}:{port}/?{urllib.parse.urlencode(params)}"
     data = body.encode("utf-8") if isinstance(body, str) else body
-    req = urllib.request.Request(url, data=data, method="POST")
+    query_verb = query.lstrip().split(None, 1)[0].upper() if query and query.strip() else ""
+    readonly_verbs = {"SELECT", "SHOW", "DESCRIBE", "DESC", "EXISTS"}
+    if data is None and query_verb not in readonly_verbs:
+        data = b""
+    method = "POST" if data is not None else "GET"
+    req = urllib.request.Request(url, data=data, method=method)
     try:
         with urllib.request.urlopen(req, timeout=120) as response:
             return response.read()
@@ -104,27 +115,99 @@ def get_create_table(args, database, table_name):
     return raw.decode("utf-8").strip()
 
 
+def with_create_if_not_exists(ddl):
+    stripped = ddl.lstrip()
+    leading = ddl[: len(ddl) - len(stripped)]
+    if stripped.upper().startswith("CREATE TABLE IF NOT EXISTS"):
+        return ddl
+    if stripped.upper().startswith("CREATE TABLE "):
+        return leading + "CREATE TABLE IF NOT EXISTS " + stripped[len("CREATE TABLE ") :]
+    return ddl
+
+
+def quote_identifier(identifier):
+    return f"`{identifier.replace('`', '``')}`"
+
+
+def parse_describe(raw):
+    columns = {}
+    for line in parse_lines(raw):
+        parts = line.split("\t")
+        if len(parts) >= 2:
+            columns[parts[0]] = parts[1]
+    return columns
+
+
+def describe_local_table(args, database, table_name):
+    raw = local_query(args, f"DESCRIBE TABLE {database}.{table_name} FORMAT TSV")
+    return parse_describe(raw)
+
+
+def describe_remote_table(args, database, table_name):
+    try:
+        raw = remote_query(args, f"DESCRIBE TABLE {database}.{table_name} FORMAT TSV", database=database)
+    except RuntimeError:
+        return {}
+    return parse_describe(raw)
+
+
+def add_missing_remote_columns(args, database, table_name):
+    local_columns = describe_local_table(args, database, table_name)
+    remote_columns = describe_remote_table(args, database, table_name)
+    if not remote_columns:
+        return
+
+    for column_name, column_type in local_columns.items():
+        if column_name in remote_columns:
+            continue
+        remote_query(
+            args,
+            (
+                f"ALTER TABLE {database}.{table_name} "
+                f"ADD COLUMN IF NOT EXISTS {quote_identifier(column_name)} {column_type}"
+            ),
+            database=database,
+        )
+        print(f"  Added missing remote column {database}.{table_name}.{column_name}.")
+
+
 def copy_table(args, database, table_name):
     print(f"Syncing {database}.{table_name} ...")
-    ddl = get_create_table(args, database, table_name)
+    ddl = with_create_if_not_exists(get_create_table(args, database, table_name))
 
     remote_query(args, f"CREATE DATABASE IF NOT EXISTS {database}")
     remote_query(args, ddl, database=database)
+    add_missing_remote_columns(args, database, table_name)
 
     if args.mode == "replace":
         remote_query(args, f"TRUNCATE TABLE {database}.{table_name}", database=database)
 
-    data = local_query(args, f"SELECT * FROM {database}.{table_name} FORMAT JSONEachRow")
-    if not data.strip():
+    total_rows = int(local_query(args, f"SELECT count() FROM {database}.{table_name}").decode("utf-8").strip())
+    if total_rows == 0:
         print("  No rows to insert.")
         return
 
-    remote_query(
-        args,
-        f"INSERT INTO {database}.{table_name} FORMAT JSONEachRow",
-        database=database,
-        body=data,
-    )
+    batch_size = max(args.batch_size, 1)
+    inserted_rows = 0
+    for offset in range(0, total_rows, batch_size):
+        data = local_query(
+            args,
+            (
+                f"SELECT * FROM {database}.{table_name} "
+                f"LIMIT {batch_size} OFFSET {offset} FORMAT JSONEachRow"
+            ),
+        )
+        if not data.strip():
+            continue
+
+        remote_query(
+            args,
+            f"INSERT INTO {database}.{table_name} FORMAT JSONEachRow",
+            database=database,
+            body=data,
+        )
+        inserted_rows += data.count(b"\n")
+        print(f"  Inserted batch rows: {inserted_rows}/{total_rows}")
 
     count = remote_query(args, f"SELECT count() FROM {database}.{table_name}", database=database)
     print(f"  Remote rows: {count.decode('utf-8').strip()}")

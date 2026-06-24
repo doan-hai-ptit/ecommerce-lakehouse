@@ -25,8 +25,9 @@ DEFAULT_DATABASE = os.getenv("CLICKHOUSE_SILVER_REAL_DATABASE", "silver_real_ser
 DEFAULT_SILVER_BASE = os.getenv("REAL_SILVER_BASE_PATH", "s3a://silver-lakehouse/real_data")
 
 PRIMARY_KEYS = {
-    "products": ["platform_product_id"],
-    "sellers": ["platform_seller_id"],
+    "platforms": ["platform_id"],
+    "products": ["platform_id", "platform_product_id"],
+    "sellers": ["platform_id", "platform_seller_id"],
     "product_reviews": ["platform_review_id"],
     "customers": ["platform_customer_id"],
 }
@@ -34,7 +35,7 @@ PRIMARY_KEYS = {
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Sync real Tiki batch Silver Delta tables to ClickHouse."
+        description="Sync real batch Silver Delta tables to ClickHouse."
     )
     parser.add_argument(
         "--silver-base",
@@ -125,6 +126,10 @@ def clickhouse_request(query, database=None, body=None, content_type="text/plain
         raise
 
 
+def quote_identifier(identifier):
+    return f"`{identifier.replace('`', '``')}`"
+
+
 def map_type_to_clickhouse(field_type):
     type_str = str(field_type).lower()
     if "string" in type_str:
@@ -152,27 +157,60 @@ def map_type_to_clickhouse(field_type):
     return "String"
 
 
+def describe_clickhouse_table(database, table_name):
+    try:
+        result = clickhouse_request(f"DESCRIBE TABLE {database}.{table_name}", database=database)
+    except RuntimeError:
+        return set()
+
+    columns = set()
+    for line in result.splitlines():
+        if line.strip():
+            columns.add(line.split("\t", 1)[0])
+    return columns
+
+
+def add_missing_columns(database, table_name, delta_table):
+    existing_columns = describe_clickhouse_table(database, table_name)
+    if not existing_columns:
+        return
+
+    for field in delta_table.schema().fields:
+        if field.name in existing_columns:
+            continue
+
+        ch_type = map_type_to_clickhouse(field.type)
+        column_type = ch_type if field.name in PRIMARY_KEYS[table_name] else f"Nullable({ch_type})"
+        clickhouse_request(
+            f"ALTER TABLE {database}.{table_name} ADD COLUMN IF NOT EXISTS {quote_identifier(field.name)} {column_type}",
+            database=database,
+        )
+        print(f"  Added missing ClickHouse column {table_name}.{field.name}.")
+
+
 def ensure_clickhouse_table(database, table_name, delta_table):
     primary_keys = PRIMARY_KEYS[table_name]
     columns = []
     for field in delta_table.schema().fields:
         ch_type = map_type_to_clickhouse(field.type)
         if field.name in primary_keys:
-            columns.append(f"    `{field.name}` {ch_type}")
+            columns.append(f"    {quote_identifier(field.name)} {ch_type}")
         else:
-            columns.append(f"    `{field.name}` Nullable({ch_type})")
+            columns.append(f"    {quote_identifier(field.name)} Nullable({ch_type})")
 
-    pk_expr = ", ".join(f"`{key}`" for key in primary_keys)
+    pk_expr = ", ".join(quote_identifier(key) for key in primary_keys)
+    columns_sql = ",\n".join(columns)
     ddl = f"""
 CREATE TABLE IF NOT EXISTS {database}.{table_name}
 (
-{",\n".join(columns)}
+{columns_sql}
 )
 ENGINE = ReplacingMergeTree()
 ORDER BY ({pk_expr})
 """
     clickhouse_request(f"CREATE DATABASE IF NOT EXISTS {database}")
     clickhouse_request(ddl, database=database)
+    add_missing_columns(database, table_name, delta_table)
 
 
 def normalize_dataframe(df):
@@ -187,6 +225,38 @@ def normalize_dataframe(df):
             df[col] = df[col].astype("boolean")
 
     return df.where(pd.notnull(df), None)
+
+
+def prepare_real_silver_dataframe(table_name, df):
+    df = df.copy()
+    if table_name != "platforms":
+        if "platform_id" not in df.columns:
+            df["platform_id"] = 1
+        else:
+            # Legacy real_data rows were Tiki-only before platform_id existed.
+            df["platform_id"] = df["platform_id"].fillna(1)
+
+    return df
+
+
+def coerce_dataframe_for_clickhouse(df, delta_table):
+    df = df.copy()
+    schema_by_name = {field.name: str(field.type).lower() for field in delta_table.schema().fields}
+    for column, type_str in schema_by_name.items():
+        if column not in df.columns:
+            continue
+
+        if any(token in type_str for token in ("int64", "long", "int32", "integer", "int16", "short", "int8", "byte")):
+            df[column] = pd.to_numeric(df[column], errors="coerce").astype("Int64")
+        elif "float" in type_str or "double" in type_str or "decimal" in type_str:
+            df[column] = pd.to_numeric(df[column], errors="coerce")
+        elif "boolean" in type_str or "bool" in type_str:
+            df[column] = df[column].astype("boolean")
+
+    if "platform_id" in df.columns:
+        df["platform_id"] = pd.to_numeric(df["platform_id"], errors="coerce").astype("Int64")
+
+    return df
 
 
 def insert_dataframe(database, table_name, df):
@@ -228,6 +298,8 @@ def sync_table(database, silver_base, table_name, storage_options, mode):
 
     ensure_clickhouse_table(database, table_name, delta_table)
 
+    df = prepare_real_silver_dataframe(table_name, df)
+    df = coerce_dataframe_for_clickhouse(df, delta_table)
     primary_keys = PRIMARY_KEYS[table_name]
     initial_len = len(df)
     df = df.dropna(subset=primary_keys)
