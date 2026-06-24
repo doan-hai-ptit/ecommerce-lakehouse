@@ -50,7 +50,7 @@ CH_HOST = os.getenv("CLICKHOUSE_HOST", "clickhouse_server")
 CH_PORT = int(os.getenv("CLICKHOUSE_PORT", "8123"))
 CH_USER = os.getenv("CLICKHOUSE_USER", "admin")
 CH_PASSWORD = os.getenv("CLICKHOUSE_PASSWORD", "password123")
-CH_DB = os.getenv("CLICKHOUSE_DATABASE", "gold_serving")
+DEFAULT_CH_DB = os.getenv("CLICKHOUSE_GOLD_DATABASE", os.getenv("CLICKHOUSE_DATABASE", "gold_serving"))
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -67,10 +67,21 @@ def parse_args():
         help="Optional comma-separated list of target tables to sync.",
     )
     parser.add_argument(
+        "--database",
+        default=DEFAULT_CH_DB,
+        help="Target ClickHouse database. Default: gold_serving.",
+    )
+    parser.add_argument(
         "--interval",
         type=float,
         default=15.0,
         help="Sync interval in seconds. Default: 15.0s.",
+    )
+    parser.add_argument(
+        "--mode",
+        choices=["append", "replace"],
+        default="append",
+        help="append keeps ReplacingMergeTree versions; replace truncates each target before inserting the current snapshot.",
     )
     parser.add_argument(
         "--once",
@@ -79,7 +90,67 @@ def parse_args():
     )
     return parser.parse_args()
 
-def insert_dataframe_to_clickhouse(df, table_name):
+def execute_clickhouse_query(query, database=None):
+    url = f"http://{CH_HOST}:{CH_PORT}/"
+    params = {
+        "user": CH_USER,
+        "password": CH_PASSWORD,
+    }
+    if database:
+        params["database"] = database
+    full_url = f"{url}?{urllib.parse.urlencode(params)}"
+
+    req = urllib.request.Request(
+        full_url,
+        data=query.encode('utf-8'),
+        method='POST'
+    )
+
+    try:
+        with urllib.request.urlopen(req) as response:
+            return response.read().decode('utf-8')
+    except Exception as e:
+        if hasattr(e, 'read'):
+            error_details = e.read().decode('utf-8')
+            raise Exception(f"ClickHouse Error: {error_details}")
+        raise e
+
+def pandas_type_to_clickhouse(column_name, series):
+    if column_name in {"date_actual", "date_of_birth"}:
+        return "Date32"
+    if pd.api.types.is_integer_dtype(series):
+        return "Int64"
+    if pd.api.types.is_float_dtype(series):
+        return "Float64"
+    if pd.api.types.is_bool_dtype(series):
+        return "Bool"
+    if pd.api.types.is_datetime64_any_dtype(series):
+        return "DateTime64(6, 'UTC')"
+    return "String"
+
+def ensure_clickhouse_table(df, table_name, database):
+    pk_cols = PRIMARY_KEYS.get(table_name, [])
+    columns_ddl = []
+    for col_name in df.columns:
+        ch_type = pandas_type_to_clickhouse(col_name, df[col_name])
+        if col_name in pk_cols or col_name == "updated_at":
+            columns_ddl.append(f"    `{col_name}` {ch_type}")
+        else:
+            columns_ddl.append(f"    `{col_name}` Nullable({ch_type})")
+
+    pk_str = ", ".join([f"`{pk}`" for pk in pk_cols])
+    engine = "ReplacingMergeTree(`updated_at`)" if "updated_at" in df.columns else "ReplacingMergeTree()"
+    ddl = f"""
+CREATE TABLE IF NOT EXISTS {database}.{table_name}
+(
+{",\n".join(columns_ddl)}
+)
+ENGINE = {engine}
+ORDER BY ({pk_str})
+"""
+    execute_clickhouse_query(ddl, database=database)
+
+def insert_dataframe_to_clickhouse(df, table_name, database, mode="append"):
     """
     Sends Pandas DataFrame rows to ClickHouse using HTTP JSONEachRow format.
     """
@@ -102,11 +173,16 @@ def insert_dataframe_to_clickhouse(df, table_name):
     
     if not json_lines.strip():
         return
+
+    ensure_clickhouse_table(df_copy, table_name, database)
+
+    if mode == "replace":
+        execute_clickhouse_query(f"TRUNCATE TABLE {database}.{table_name}", database=database)
         
     params = {
         "user": CH_USER,
         "password": CH_PASSWORD,
-        "database": CH_DB,
+        "database": database,
         "query": f"INSERT INTO {table_name} FORMAT JSONEachRow",
         "date_time_input_format": "best_effort"
     }
@@ -129,7 +205,7 @@ def insert_dataframe_to_clickhouse(df, table_name):
             raise Exception(f"ClickHouse Error during insert into {table_name}: {error_details}")
         raise e
 
-def sync_table(table_name, builder_func, silver_base, storage_options):
+def sync_table(table_name, builder_func, silver_base, storage_options, database, mode):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Syncing {table_name}...")
     
     # 1. Build Gold dataframe from Silver
@@ -160,7 +236,7 @@ def sync_table(table_name, builder_func, silver_base, storage_options):
         
     # 3. Insert into ClickHouse
     try:
-        insert_dataframe_to_clickhouse(df, table_name)
+        insert_dataframe_to_clickhouse(df, table_name, database, mode=mode)
         print(f"  ✔ Successfully synchronized {len(df)} rows to ClickHouse!")
     except Exception as e:
         print(f"  ❌ Error syncing to ClickHouse: {e}")
@@ -175,8 +251,10 @@ def main():
         
     print(f"Silver to ClickHouse Sync Engine Started (Interval: {args.interval}s)")
     print(f"Silver Base: {args.silver_base}")
-    print(f"ClickHouse Database: {CH_DB}")
+    print(f"ClickHouse Database: {args.database}")
+    print(f"Mode: {args.mode}")
     print(f"Target Tables: {', '.join(allowed_tables)}")
+    execute_clickhouse_query(f"CREATE DATABASE IF NOT EXISTS {args.database}")
     
     try:
         while True:
@@ -185,7 +263,7 @@ def main():
                 try:
                     dim_date_df = build_dim_date()
                     # dim_date doesn't have updated_at, just standard insert
-                    insert_dataframe_to_clickhouse(dim_date_df, "dim_date")
+                    insert_dataframe_to_clickhouse(dim_date_df, "dim_date", args.database, mode=args.mode)
                     print(f"[{datetime.now().strftime('%H:%M:%S')}] ✔ Synchronized dim_date")
                 except Exception as e:
                     print(f"Error syncing dim_date: {e}")
@@ -197,7 +275,7 @@ def main():
                 builder_func = BUILDERS.get(table_name)
                 if builder_func:
                     try:
-                        sync_table(table_name, builder_func, args.silver_base, storage_options)
+                        sync_table(table_name, builder_func, args.silver_base, storage_options, args.database, args.mode)
                     except Exception as e:
                         print(f"Error during execution of {table_name}: {e}")
                         

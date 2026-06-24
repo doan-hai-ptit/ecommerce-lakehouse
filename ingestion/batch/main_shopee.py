@@ -16,6 +16,9 @@ def configure_shopee_runtime(args):
     os.environ.setdefault("SHOPEE_HEADLESS", "true" if args.headless else "false")
     os.environ.setdefault("SHOPEE_OPEN_SEARCH_PAGE", "true" if args.open_search_page else "false")
     os.environ.setdefault("SHOPEE_VERIFY_WAIT_SECONDS", str(args.verify_wait_seconds))
+    os.environ.setdefault("SHOPEE_MANUAL_VERIFY", "true" if args.manual_verify else "false")
+    os.environ.setdefault("SHOPEE_SORT_BY", args.sort_by)
+    os.environ.setdefault("SHOPEE_FETCH_MODE", args.fetch_mode)
     os.environ.setdefault("SHOPEE_USER_DATA_DIR", args.user_data_dir)
 
     if args.browser_binary:
@@ -47,16 +50,24 @@ def main():
         help="Number of products per page to crawl reviews for. Use 0 to skip reviews",
     )
     parser.add_argument("--review_pages", type=int, default=None, help="Review pages per product")
-    parser.add_argument("--driver", choices=["local", "browserless"], default="local", help="Selenium driver mode")
+    parser.add_argument("--driver", choices=["local", "browserless", "undetected"], default="local", help="Selenium driver mode")
     parser.add_argument("--headless", action="store_true", help="Run browser in headless mode")
     parser.add_argument("--browser_binary", type=str, default=None, help="Chrome/Chromium/CocCoc binary path")
     parser.add_argument("--user_data_dir", type=str, default=".shopee-chrome-profile", help="Browser profile directory")
-    parser.add_argument("--verify_wait_seconds", type=int, default=180, help="Seconds to wait for manual login/verify")
+    parser.add_argument("--verify_wait_seconds", type=int, default=90, help="Seconds to wait if Shopee traffic verify appears")
+    parser.add_argument("--manual_verify", action="store_true", help="Pause for manual captcha/traffic verification when Shopee blocks the browser")
+    parser.add_argument("--sort_by", type=str, default="sales", help="Shopee search sort mode, e.g. sales or relevancy")
+    parser.add_argument(
+        "--fetch_mode",
+        choices=["api", "html", "api_then_html", "browser_api", "browser_api_then_html"],
+        default="api_then_html",
+        help="Fetch mode: direct API, Selenium DOM, browser-captured API, or fallback variants",
+    )
     parser.add_argument(
         "--no_open_search_page",
         dest="open_search_page",
         action="store_false",
-        help="Do not open Shopee search page before calling API",
+        help="Deprecated; HTML crawler always opens the search page",
     )
     parser.set_defaults(open_search_page=True)
     args = parser.parse_args()

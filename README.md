@@ -97,6 +97,73 @@ Bộ cào dữ liệu Tiki tự động quản lý trạng thái cào (số tran
   * `--limit_pages`: Tổng số lượng trang muốn cào trong lượt chạy này (mặc định: `1`).
   * `--start_page`: Trang bắt đầu cào (ghi đè file trạng thái nếu truyền, chỉ dùng khi truyền `--category`).
 
+### Chạy Crawler Shopee (Shopee Crawler)
+
+Shopee crawler ưu tiên gọi JSON API của Shopee bằng `requests`, có thể dùng cookie từ phiên trình duyệt đã xác minh, rồi upload JSON thô lên MinIO Bronze. Selenium qua Browserless/Chrome local chỉ còn là fallback HTML khi chạy `--fetch_mode api_then_html` hoặc `--fetch_mode html`.
+
+```text
+provider=shopee/date=<yyyy-mm-dd>/category=products/*.json
+provider=shopee/date=<yyyy-mm-dd>/category=reviews/*.json
+```
+
+Chạy một keyword bằng API-only:
+```bash
+export SHOPEE_COOKIE='SPC_F=...; SPC_EC=...; ...'
+python ingestion/batch/main_shopee.py \
+  --keyword "dien thoai" \
+  --start_page 0 \
+  --end_page 0 \
+  --review_products_limit 3 \
+  --review_pages 1 \
+  --fetch_mode api
+```
+
+Chạy bằng browser profile và bắt response API do chính Shopee page gọi:
+```bash
+python ingestion/batch/main_shopee.py \
+  --keyword "iphone" \
+  --start_page 1 \
+  --end_page 1 \
+  --review_products_limit 0 \
+  --fetch_mode browser_api \
+  --driver local \
+  --user_data_dir .shopee-chrome-profile
+```
+
+Chạy với Browserless fallback nếu API không trả dữ liệu:
+```bash
+python ingestion/batch/main_shopee.py \
+  --keyword "dien thoai" \
+  --start_page 0 \
+  --end_page 0 \
+  --review_products_limit 0 \
+  --fetch_mode browser_api_then_html \
+  --driver browserless \
+  --headless
+```
+
+Các tham số chính:
+* `--keyword`: Từ khóa tìm kiếm Shopee, ví dụ `dien thoai`, `sua rua mat`.
+* `--start_page`, `--end_page`: Khoảng trang cần cào. Shopee bắt đầu từ trang `0`.
+* `--review_products_limit`: Số sản phẩm mỗi trang cần lấy review. Dùng `0` để bỏ qua reviews.
+* `--review_pages`: Số trang review cần lấy cho mỗi sản phẩm.
+* `--fetch_mode`: `api` để gọi API trực tiếp bằng `requests`, `browser_api` để mở trang search rồi bắt response `/api/v4/search/search_items`, `html` để đọc DOM, hoặc các biến thể fallback `api_then_html` / `browser_api_then_html`.
+* `--driver`: `browserless` khi chạy trong Docker Compose, hoặc `local`/`undetected` khi dùng Chrome/Chromium trên máy host.
+* `--user_data_dir`: Profile Chrome cố định để giữ login/cookie. Với Browserless, đường dẫn profile nằm trong container Browserless và cần mount volume nếu muốn bền sau khi recreate container.
+* `SHOPEE_COOKIE`: Cookie header từ browser đã xác minh. Nếu Shopee trả `error=90309999`/HTTP 403 thì cần cập nhật cookie hoặc giảm tần suất chạy; crawler không tự vượt captcha/traffic verify.
+
+Airflow có DAG `shopee_ecommerce_ingestion_keyword` trong `airflow/dags/crawle_shopee.py`. Có thể đổi keyword và số trang bằng biến môi trường:
+
+```bash
+SHOPEE_AIRFLOW_KEYWORD="sua rua mat"
+SHOPEE_AIRFLOW_START_PAGE=0
+SHOPEE_AIRFLOW_END_PAGE=1
+SHOPEE_AIRFLOW_REVIEW_PRODUCTS_LIMIT=3
+SHOPEE_AIRFLOW_REVIEW_PAGES=1
+SHOPEE_AIRFLOW_FETCH_MODE=api
+SHOPEE_COOKIE='SPC_F=...; SPC_EC=...; ...'
+```
+
 ---
 
 ## 5. Khởi chạy Trình Giả lập Dữ liệu (Run Data Simulator)
@@ -187,16 +254,49 @@ python processing/streaming/pandas_silver_to_gold.py --hive-db gold --interval 1
   * `--skip-hive-sync`: Flag bỏ qua đồng bộ metadata vào Hive Metastore.
   * `--interval`: Khoảng thời gian quét dữ liệu mới (giây, mặc định: `10.0`).
 
-### D. Đồng bộ dữ liệu lớp Gold trực tiếp vào ClickHouse (Silver to ClickHouse)
-Đồng bộ các bảng chiều và bảng sự kiện lớp Gold trực tiếp từ Silver Delta Lake sang ClickHouse phục vụ Metabase truy vấn realtime với độ trễ cực thấp:
+### D. Đồng bộ Gold streaming giả lập vào ClickHouse
+Luồng streaming dùng dữ liệu giả lập theo schema CDC chuẩn. Script sync có thể tự tạo bảng ClickHouse từ DataFrame trước khi insert. Nếu đã có các bảng Delta Gold vật lý trong `s3a://gold-lakehouse`, có thể tạo trước schema ClickHouse bằng lệnh:
 ```bash
-python processing/streaming/pandas_silver_to_clickhouse.py --interval 15.0
+python processing/create_clickhouse_tables.py \
+  --layer gold \
+  --database gold_serving \
+  --base-path s3a://gold-lakehouse
+```
+
+Đồng bộ các bảng chiều và bảng sự kiện lớp Gold trực tiếp từ Silver Delta Lake sang ClickHouse phục vụ Metabase truy vấn realtime với độ trễ thấp:
+```bash
+python processing/streaming/pandas_silver_to_clickhouse.py \
+  --database gold_serving \
+  --mode replace \
+  --interval 15.0
 ```
 * **Các tham số tùy chọn:**
   * `--silver-base`: Đường dẫn đọc dữ liệu lớp Silver (mặc định: `s3a://silver-lakehouse`).
+  * `--database`: Database ClickHouse đích (mặc định: `gold_serving`).
   * `--tables`: Danh sách bảng muốn đồng bộ (ví dụ: `--tables dim_products,fct_orders`).
+  * `--mode`: `append` giữ các version trong `ReplacingMergeTree`, `replace` truncate bảng đích rồi nạp snapshot hiện tại.
   * `--interval`: Khoảng thời gian cập nhật micro-batch (giây, mặc định: `15.0`).
   * `--once`: Chỉ chạy đồng bộ một lần duy nhất rồi thoát (phục vụ test).
+
+### E. Đồng bộ Silver batch dữ liệu thật vào ClickHouse
+Luồng batch thật hiện ghi Silver vào `s3a://silver-lakehouse/real_data` với các bảng `products`, `sellers`, `product_reviews`, `customers`. Tạo bảng ClickHouse riêng để không trộn với dữ liệu giả lập:
+```bash
+python processing/create_clickhouse_tables.py \
+  --layer silver-real \
+  --database silver_real_serving \
+  --base-path s3a://silver-lakehouse/real_data
+```
+Thêm `--recreate` nếu cần drop và tạo lại schema ClickHouse hiện có.
+
+Sau đó sync snapshot Silver real sang ClickHouse:
+```bash
+python processing/jobs/tiki_silver_real_to_clickhouse.py \
+  --database silver_real_serving \
+  --silver-base s3a://silver-lakehouse/real_data \
+  --once
+```
+
+Mặc định script dùng `--mode replace`, tức là `TRUNCATE` bảng đích rồi nạp lại snapshot Delta hiện tại để tránh trùng dữ liệu khi chạy lại batch.
 
 ---
 
