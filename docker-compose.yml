@@ -84,7 +84,7 @@ services:
     build:
       context: .
       dockerfile: processing/Dockerfile.pandas
-    image: doanhai2005/pandas-processor:1.2
+    image: doanhai2005/pandas-processor:1.3
     container_name: pandas_processor
     depends_on:
       - minio
