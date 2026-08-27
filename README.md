@@ -4,6 +4,26 @@ Ecommerce Lakehouse là hệ thống dữ liệu end-to-end dùng để thu th�
 
 Repository hiện hỗ trợ các nguồn Tiki, Sendo và Chợ Tốt. Ngoài dữ liệu crawl thực tế, dự án còn có luồng mô phỏng giao dịch PostgreSQL và truyền thay đổi dữ liệu theo thời gian thực qua Debezium, Kafka.
 
+## Dashboard minh họa
+
+### Tổng quan thị trường
+
+![Dashboard tổng quan thị trường](images/img4.jpg)
+
+### Người bán và khách hàng
+
+![Dashboard phân tích người bán và khách hàng](images/img1.jpg)
+
+### Đánh giá sản phẩm
+
+![Dashboard phân tích đánh giá](images/img2.jpg)
+
+### Thương hiệu và giá
+
+![Dashboard phân tích thương hiệu và giá](images/img3.jpg)
+
+Các đường dẫn ảnh đều là đường dẫn tương đối nên sẽ hiển thị trực tiếp khi README được xem trên GitHub.
+
 ## Kiến trúc hệ thống
 
 ![Kiến trúc Ecommerce Lakehouse](images/Architecture.png)
@@ -309,26 +329,6 @@ docker exec -it pandas_processor python /app/jobs/tiki_silver_real_to_clickhouse
 Trong Metabase, thêm ClickHouse với host `clickhouse`, port HTTP `8123`, database `gold_serving` hoặc `silver_real_serving`, và credential tương ứng trong compose.
 
 Script hỗ trợ tạo dashboard nằm trong `analytics/metabase/`. Nên truyền `METABASE_URL`, `METABASE_USER`, `METABASE_PASSWORD` qua biến môi trường thay vì ghi credential vào source code.
-
-## Dashboard minh họa
-
-### Tổng quan thị trường
-
-![Dashboard tổng quan thị trường](images/img4.jpg)
-
-### Người bán và khách hàng
-
-![Dashboard phân tích người bán và khách hàng](images/img1.jpg)
-
-### Đánh giá sản phẩm
-
-![Dashboard phân tích đánh giá](images/img2.jpg)
-
-### Thương hiệu và giá
-
-![Dashboard phân tích thương hiệu và giá](images/img3.jpg)
-
-Các đường dẫn ảnh đều là đường dẫn tương đối nên sẽ hiển thị trực tiếp khi README được xem trên GitHub.
 
 ## Luồng CDC mô phỏng
 
