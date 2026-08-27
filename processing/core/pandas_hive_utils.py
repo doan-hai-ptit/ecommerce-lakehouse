@@ -30,7 +30,6 @@ def hive_site_config(path=None):
             os.path.join(os.path.dirname(__file__), "hive-site.xml"),
             os.path.join(os.path.dirname(__file__), "../hive-site.xml"),
             os.path.join(os.path.dirname(os.path.dirname(__file__)), "hive-site.xml"),
-            "/workspace/ecommerce-lakehouse/processing/hive-site.xml"
         ]
         for p in possible_paths:
             if os.path.exists(p):

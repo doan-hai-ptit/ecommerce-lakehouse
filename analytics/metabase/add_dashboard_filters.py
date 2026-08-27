@@ -18,6 +18,7 @@ Cách sử dụng:
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -27,9 +28,9 @@ import requests
 # ---------------------------------------------------------------------------
 # Cấu hình
 # ---------------------------------------------------------------------------
-METABASE_URL = "http://localhost:3001"
-METABASE_USER = "admin@example.com"
-METABASE_PASSWORD = "REDACTED_METABASE_PASSWORD"
+METABASE_URL = os.getenv("METABASE_URL", "http://localhost:3001")
+METABASE_USER = os.getenv("METABASE_USER", "admin@example.com")
+METABASE_PASSWORD = os.getenv("METABASE_PASSWORD", "change_me")
 
 # SQL keywords — không được nhận diện nhầm làm alias
 SQL_KEYWORDS = {

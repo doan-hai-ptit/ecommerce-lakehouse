@@ -1,10 +1,20 @@
 venv/
 .env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
 __pycache__/
 *.pyc
 **/*/__pycache__/
 *.cfg
 logs/
-.shopee-chrome-profile
+.shopee-chrome-profile/
 .antigravitycli
 .understand-anything
+
+# Dữ liệu và trạng thái được sinh bởi crawler
+raw_data/
+ingestion/batch/raw_data/
+crawler_state.txt

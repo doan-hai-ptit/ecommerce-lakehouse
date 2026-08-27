@@ -1,114 +1,211 @@
-# Dự án Ecommerce Lakehouse (Ecommerce Lakehouse Project)
+# Ecommerce Lakehouse
 
-Dự án này triển khai một nền tảng dữ liệu Ecommerce Lakehouse hoàn chỉnh từ đầu đến cuối. Hệ thống thực hiện thu thập (crawl) thông tin sản phẩm và đánh giá từ các sàn thương mại điện tử, lưu trữ dữ liệu thô vào MinIO (Bronze Layer dưới dạng JSON/Delta), chuẩn hóa bằng PySpark thành các bảng hoạt động (Silver Delta), và xây dựng các bộ dữ liệu phân tích hợp nhất (Gold Delta).
+Ecommerce Lakehouse là hệ thống dữ liệu end-to-end dùng để thu thập thông tin sản phẩm, người bán và đánh giá từ các sàn thương mại điện tử, lưu trữ dữ liệu theo kiến trúc Medallion trên MinIO, xử lý dữ liệu bằng Spark hoặc Pandas/Delta Lake và trực quan hóa kết quả bằng Metabase.
 
----
+Repository hiện hỗ trợ các nguồn Tiki, Shopee, Sendo và Chợ Tốt. Ngoài dữ liệu crawl thực tế, dự án còn có luồng mô phỏng giao dịch PostgreSQL và truyền thay đổi dữ liệu theo thời gian thực qua Debezium, Kafka.
 
-## 1. Kiến trúc Dự án (Project Architecture)
+## Kiến trúc hệ thống
+
+![Kiến trúc Ecommerce Lakehouse](images/Architecture.png)
+
+Luồng dữ liệu chính:
 
 ```text
-  [Ingestion / Crawlers] ──> [MinIO Bronze] ──> [Spark/Pandas] ──> [MinIO Silver] ──> [MinIO Gold]
-    (Tiki, Shopee, Sendo)      (Raw JSON)          (CDC/Clean)       (Delta Lake)          (Delta Lake)
-                                                                          │                      │
-  [Data Simulator] ───> [Postgres Source] ───> [Debezium] ───> [Kafka] ───┘                      │
-                                                                                                 ▼
-  [Metabase BI] <─── [ClickHouse Serving DB] <─── [Silver to ClickHouse Sync Engine] ────────────┘
+Website/API thương mại điện tử
+        │
+        ▼
+Python crawler + Airflow
+        │
+        ▼
+MinIO Bronze (JSON thô)
+        │
+        ▼
+Spark hoặc Pandas + Delta Lake
+        │
+        ├────────► MinIO Silver (dữ liệu sạch, chuẩn hóa)
+        │                         │
+        │                         ▼
+        └────────► MinIO Gold (dữ liệu phân tích)
+                                  │
+                         ┌────────┴────────┐
+                         ▼                 ▼
+                    ClickHouse           Trino
+                         └────────┬────────┘
+                                  ▼
+                              Metabase
 ```
 
-Hệ thống bao gồm 3 lớp dữ liệu chính:
-1. **Bronze Layer (Lớp Đồng)**: Dữ liệu thô thu thập từ crawler hoặc dữ liệu sự kiện Kafka CDC được lưu trữ dưới dạng JSON/Delta trên MinIO.
-2. **Silver Layer (Lớp Bạc)**: Các bảng hoạt động đã được làm sạch, khử trùng lặp, định nghĩa kiểu dữ liệu và phân vùng theo ngày sự kiện (`event_date`) dưới định dạng Delta.
-3. **Gold Layer (Lớp Vàng)**: Các bảng chiều (dimension tables) được tối ưu hóa cho truy vấn phân tích (Delta format).
+Hệ thống gồm các thành phần chính:
 
----
+| Thành phần | Vai trò |
+| --- | --- |
+| Python, Selenium, Browserless | Thu thập sản phẩm, người bán và đánh giá từ website/API |
+| Apache Airflow | Lập lịch và điều phối các tác vụ ingestion, processing |
+| MinIO | Object storage chứa các layer Bronze, Silver và Gold |
+| Apache Spark / Pandas | Làm sạch, chuẩn hóa, khử trùng lặp và tổng hợp dữ liệu |
+| Delta Lake | Định dạng bảng hỗ trợ ACID, schema và cập nhật dữ liệu trên MinIO |
+| Hive Metastore + PostgreSQL | Quản lý metadata của các bảng lakehouse |
+| Trino | Truy vấn trực tiếp các bảng Delta trên MinIO |
+| ClickHouse | Serving database tối ưu cho truy vấn phân tích |
+| Metabase | Xây dựng dashboard và trực quan hóa dữ liệu |
+| Debezium + Kafka | Luồng CDC cho dữ liệu giao dịch mô phỏng |
+| Prometheus / Grafana | Nền tảng giám sát có thể mở rộng cho hệ thống |
 
-## 2. Chuẩn bị & Cài đặt (Prerequisites & Setup)
+### Các layer dữ liệu
 
-### A. Cấu hình Môi trường (Environment Configuration)
-Tạo tệp `.env` tại thư mục gốc của dự án (Create `.env` file at the project root):
+- **Bronze**: lưu nguyên trạng dữ liệu JSON từ crawler hoặc sự kiện CDC. Dữ liệu batch được tổ chức theo Hive-style partition:
+
+  ```text
+  provider=<source>/date=<yyyy-mm-dd>/category=<category>/<file>.json
+  ```
+
+  Ví dụ:
+
+  ```text
+  provider=tiki/date=2026-05-15/category=products/batch_pg1_*.json
+  provider=tiki/date=2026-05-15/category=reviews/reviews_sp_*.json
+  ```
+
+- **Silver**: dữ liệu đã được làm sạch, ép kiểu, chuẩn hóa và khử trùng lặp, lưu dưới dạng Delta Lake. Dữ liệu crawl thực tế nằm tại `s3a://silver-lakehouse/real_data`; dữ liệu CDC được tổ chức thành các bảng nghiệp vụ trong `s3a://silver-lakehouse`.
+- **Gold**: các bảng dimension/fact và dữ liệu tổng hợp phục vụ BI, lưu tại `s3a://gold-lakehouse` rồi được truy vấn qua Trino hoặc đồng bộ sang ClickHouse.
+
+## Cấu trúc repository
+
+```text
+.
+├── ingestion/                 # Batch crawlers và provider clients
+├── processing/
+│   ├── jobs/                  # Entry point các job xử lý
+│   ├── streaming/             # Spark/Pandas Bronze → Silver → Gold
+│   └── core/                  # Spark session, Hive/MinIO utilities
+├── airflow/                   # DAG và Docker Compose riêng của Airflow
+├── analytics/metabase/        # Script khởi tạo/cấu hình dashboard Metabase
+├── storage/                   # Công cụ kiểm tra và đọc dữ liệu MinIO
+├── simulator/                 # Sinh dữ liệu giao dịch mô phỏng
+├── trino/catalog/             # Catalog Delta/Hive cho Trino
+├── monitoring/                # Cấu hình Prometheus
+├── images/                    # Sơ đồ kiến trúc và ảnh dashboard
+└── docker-compose.yml         # Hạ tầng lakehouse local
+```
+
+## Yêu cầu
+
+- Git
+- Docker Engine/Desktop có Docker Compose v2
+- Python 3.10 trở lên nếu chạy crawler hoặc job Pandas trực tiếp trên host
+- Khuyến nghị tối thiểu 8 GB RAM trống cho toàn bộ stack; có thể chỉ khởi động các service cần thiết nếu máy có ít tài nguyên
+
+## Cài đặt nhanh
+
+### 1. Clone repository
+
 ```bash
-# Cấu hình MinIO cục bộ (MinIO Local Configuration)
-MINIO_ENDPOINT_URL=http://localhost:9000
-MINIO_ACCESS_KEY=admin
-MINIO_SECRET_KEY=password123
-MINIO_BUCKET_NAME=bronze-lakehouse
-
-# Cấu hình BROWSERLESS (Yêu cầu cho việc crawl Tiki)
-BROWSERLESS_URL=http://localhost:3000/webdriver
+git clone <repository-url>
+cd ecommerce-lakehouse
 ```
 
-Đồng thời, kiểm tra hoặc tạo tệp `processing/.env` phục vụ cấu hình kết nối Spark:
+### 2. Tạo các tệp môi trường
+
+Linux/macOS:
+
 ```bash
-# Cấu hình MinIO trong mạng Docker (MinIO Docker Configuration)
-MINIO_ENDPOINT_URL=http://minio:9000
-MINIO_ACCESS_KEY=admin
-MINIO_SECRET_KEY=password123
-MINIO_BUCKET_NAME=bronze-lakehouse
+cp .env.example .env
+cp processing/.env.example processing/.env
+cp airflow/.env.example airflow/.env
 ```
 
----
+Windows PowerShell:
 
-## 3. Khởi chạy Hạ tầng cục bộ (Running Local Infrastructure)
+```powershell
+Copy-Item .env.example .env
+Copy-Item processing/.env.example processing/.env
+Copy-Item airflow/.env.example airflow/.env
+```
 
-Khởi động tất cả các dịch vụ cốt lõi bao gồm MinIO, Kafka, Postgres Metastore, Spark và cơ sở dữ liệu nguồn PostgreSQL:
+Các giá trị mặc định trong file mẫu dùng cho môi trường local. Hãy thay toàn bộ password, cookie và thông tin kết nối remote trước khi triển khai ở môi trường khác. Không commit `.env` lên Git.
+
+### 3. Khởi động hạ tầng
+
+Kiểm tra cấu hình trước khi chạy:
+
 ```bash
-docker compose up -d
+docker compose config
 ```
 
-### Các dịch vụ sẵn có (Available Services):
-* **MinIO Console**: [http://localhost:9001](http://localhost:9001) (User: `admin` / Password: `password123`)
-* **Spark Web UI**: [http://localhost:4040](http://localhost:4040)
-* **PostgreSQL Hive Metastore**: `localhost:5432`
-* **ClickHouse HTTP**: `http://localhost:8123` (Native TCP: `localhost:9009`, User: `admin` / Password: `password123`)
-* **Metabase Console**: [http://localhost:3001](http://localhost:3001)
+Khởi động toàn bộ stack:
 
----
+```bash
+docker compose up -d --build
+```
 
-## 4. Chạy luồng Thu thập Dữ liệu (Run Ingestion - Bronze Layer)
+Hoặc chỉ khởi động luồng batch crawl và analytics:
 
-Cài đặt các thư viện thu thập dữ liệu trên môi trường máy ảo Python cục bộ:
+```bash
+docker compose up -d minio postgres hive-metastore browserless spark-processor trino clickhouse metabase
+```
+
+Kiểm tra trạng thái:
+
+```bash
+docker compose ps
+```
+
+### 4. Cài Python nếu chạy trên host
+
+Linux/macOS:
+
 ```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Chạy Crawler Tiki (Tiki Crawler)
+Windows PowerShell:
 
-Bộ cào dữ liệu Tiki tự động quản lý trạng thái cào (số trang tiếp theo) bằng file text cục bộ (`crawler_state.txt`) và tải dữ liệu thô cào được lên MinIO (Bronze Layer).
-
-* **Chạy mặc định (Cào tuần tự tất cả danh mục trong `crawler_state.txt`)**:
-  ```bash
-  python ingestion/batch/main.py --limit_pages 1
-  ```
-  *Luồng hoạt động*: 
-  - Script sẽ tự động quét danh sách danh mục trong `crawler_state.txt` (nếu file trống sẽ tự động khởi tạo bằng 6 danh mục mặc định).
-  - Tìm danh mục đầu tiên chưa hoàn thành cào đủ **40 trang** (tức là `next_page <= 40`) để tiến hành cào.
-  - Sau khi danh mục đó cào đủ 40 trang, script sẽ tự động chuyển sang danh mục tiếp theo trong lượt chạy kế tiếp (hoặc trong cùng lượt chạy nếu `--limit_pages` lớn hơn số trang còn lại của danh mục hiện tại).
-
-* **Chạy cào một danh mục duy nhất (Single Category Mode)**:
-  ```bash
-  python ingestion/batch/main.py --category 1846 --limit_pages 1
-  ```
-
-* **Tham số tùy chỉnh (Custom parameters)**:
-  * `--category`: ID danh mục cần cào (nếu bỏ trống sẽ chạy chế độ cào tuần tự tất cả danh mục).
-  * `--category_name`: Tên danh mục tự chọn để ghi nhận vào file trạng thái (chỉ dùng khi truyền `--category`).
-  * `--limit_pages`: Tổng số lượng trang muốn cào trong lượt chạy này (mặc định: `1`).
-  * `--start_page`: Trang bắt đầu cào (ghi đè file trạng thái nếu truyền, chỉ dùng khi truyền `--category`).
-
-### Chạy Crawler Shopee (Shopee Crawler)
-
-Shopee crawler ưu tiên gọi JSON API của Shopee bằng `requests`, có thể dùng cookie từ phiên trình duyệt đã xác minh, rồi upload JSON thô lên MinIO Bronze. Selenium qua Browserless/Chrome local chỉ còn là fallback HTML khi chạy `--fetch_mode api_then_html` hoặc `--fetch_mode html`.
-
-```text
-provider=shopee/date=<yyyy-mm-dd>/category=products/*.json
-provider=shopee/date=<yyyy-mm-dd>/category=reviews/*.json
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 ```
 
-Chạy một keyword bằng API-only:
+## Các địa chỉ dịch vụ
+
+| Dịch vụ | Địa chỉ local | Ghi chú |
+| --- | --- | --- |
+| MinIO API | `http://localhost:9000` | S3-compatible endpoint |
+| MinIO Console | [http://localhost:9001](http://localhost:9001) | `admin` / `password123` theo cấu hình dev |
+| Browserless | `http://localhost:3000` | Remote Chrome/WebDriver |
+| Spark UI | [http://localhost:4040](http://localhost:4040) | Chỉ xuất hiện khi Spark job đang chạy |
+| Hive Metastore | `thrift://localhost:9083` | Metadata service |
+| Trino | [http://localhost:8082](http://localhost:8082) | SQL query engine |
+| ClickHouse HTTP | `http://localhost:8123` | Native TCP tại `localhost:9009` |
+| Metabase | [http://localhost:3001](http://localhost:3001) | BI dashboard |
+| Kafka | `localhost:9092` | Event streaming |
+| Kafka UI | [http://localhost:8080](http://localhost:8080) | Quan sát topic và message |
+| Debezium Connect | `http://localhost:8083` | Kafka Connect REST API |
+| PostgreSQL source | `localhost:5433` | Dữ liệu giao dịch mô phỏng |
+| PostgreSQL metastore | `localhost:5432` | Backend của Hive Metastore |
+
+Các credential trên chỉ là mặc định local-dev hiện có trong `docker-compose.yml`.
+Các cổng được bind vào `127.0.0.1` theo mặc định để không vô tình mở dịch vụ ra mạng LAN/Internet.
+
+## Thu thập dữ liệu vào Bronze
+
+Đảm bảo MinIO và Browserless đã chạy, đồng thời `.env` sử dụng endpoint của host (`http://localhost:9000`, `http://localhost:3000/webdriver`).
+
+### Tiki
+
 ```bash
-export SHOPEE_COOKIE='SPC_F=...; SPC_EC=...; ...'
+python ingestion/batch/main.py --category 1846 --limit_pages 1
+```
+
+Nếu bỏ `--category`, crawler đọc trạng thái trong `crawler_state.txt` và chạy tuần tự các danh mục. Dữ liệu sản phẩm và review được upload trực tiếp vào bucket `bronze-lakehouse`.
+
+### Shopee
+
+API Shopee có thể yêu cầu cookie từ một phiên trình duyệt hợp lệ. Đặt `SHOPEE_COOKIE` trong `.env`, không đưa cookie thật vào Git.
+
+```bash
 python ingestion/batch/main_shopee.py \
   --keyword "dien thoai" \
   --start_page 0 \
@@ -118,246 +215,201 @@ python ingestion/batch/main_shopee.py \
   --fetch_mode api
 ```
 
-Chạy bằng browser profile và bắt response API do chính Shopee page gọi:
+Crawler cũng hỗ trợ `browser_api`, `html`, `api_then_html` và `browser_api_then_html`. Chạy `python ingestion/batch/main_shopee.py --help` để xem toàn bộ tùy chọn.
+
+### Sendo
+
 ```bash
-python ingestion/batch/main_shopee.py \
-  --keyword "iphone" \
-  --start_page 1 \
-  --end_page 1 \
-  --review_products_limit 0 \
-  --fetch_mode browser_api \
-  --driver local \
-  --user_data_dir .shopee-chrome-profile
+python ingestion/batch/main_sendo.py --keyword "sua" --start_page 1 --end_page 1
 ```
 
-Chạy với Browserless fallback nếu API không trả dữ liệu:
+### Chợ Tốt
+
 ```bash
-python ingestion/batch/main_shopee.py \
-  --keyword "dien thoai" \
-  --start_page 0 \
-  --end_page 0 \
-  --review_products_limit 0 \
-  --fetch_mode browser_api_then_html \
-  --driver browserless \
-  --headless
+python ingestion/batch/main_chotot.py --keyword "iphone" --start_page 1 --end_page 1
 ```
 
-Các tham số chính:
-* `--keyword`: Từ khóa tìm kiếm Shopee, ví dụ `dien thoai`, `sua rua mat`.
-* `--start_page`, `--end_page`: Khoảng trang cần cào. Shopee bắt đầu từ trang `0`.
-* `--review_products_limit`: Số sản phẩm mỗi trang cần lấy review. Dùng `0` để bỏ qua reviews.
-* `--review_pages`: Số trang review cần lấy cho mỗi sản phẩm.
-* `--fetch_mode`: `api` để gọi API trực tiếp bằng `requests`, `browser_api` để mở trang search rồi bắt response `/api/v4/search/search_items`, `html` để đọc DOM, hoặc các biến thể fallback `api_then_html` / `browser_api_then_html`.
-* `--driver`: `browserless` khi chạy trong Docker Compose, hoặc `local`/`undetected` khi dùng Chrome/Chromium trên máy host.
-* `--user_data_dir`: Profile Chrome cố định để giữ login/cookie. Với Browserless, đường dẫn profile nằm trong container Browserless và cần mount volume nếu muốn bền sau khi recreate container.
-* `SHOPEE_COOKIE`: Cookie header từ browser đã xác minh. Nếu Shopee trả `error=90309999`/HTTP 403 thì cần cập nhật cookie hoặc giảm tần suất chạy; crawler không tự vượt captcha/traffic verify.
+Hãy tôn trọng điều khoản sử dụng, robots policy và giới hạn tần suất của từng nguồn dữ liệu.
 
-Airflow có DAG `shopee_ecommerce_ingestion_keyword` trong `airflow/dags/crawle_shopee.py`. Có thể đổi keyword và số trang bằng biến môi trường:
+## Xử lý dữ liệu
+
+### Batch JSON thực tế: Bronze → Silver
+
+Job tổng quát hiện xử lý dữ liệu JSON từ Tiki, Sendo và Chợ Tốt:
 
 ```bash
-SHOPEE_AIRFLOW_KEYWORD="sua rua mat"
-SHOPEE_AIRFLOW_START_PAGE=0
-SHOPEE_AIRFLOW_END_PAGE=1
-SHOPEE_AIRFLOW_REVIEW_PRODUCTS_LIMIT=3
-SHOPEE_AIRFLOW_REVIEW_PAGES=1
-SHOPEE_AIRFLOW_FETCH_MODE=api
-SHOPEE_COOKIE='SPC_F=...; SPC_EC=...; ...'
+docker exec -it spark_processor python /app/jobs/bronze_json_to_silver_real.py \
+  --providers tiki \
+  --hive-db silver_real
 ```
 
----
+Có thể xử lý nhiều nguồn trong cùng một lần chạy:
 
-## 5. Khởi chạy Trình Giả lập Dữ liệu (Run Data Simulator)
-
-Trình giả lập sẽ tự động khởi tạo dữ liệu nền (Platforms, Sellers, Categories, Brands, Customers, Addresses) và liên tục tạo ra các giao dịch mua sắm, thanh toán, cập nhật kho, đánh giá sản phẩm ngẫu nhiên để đẩy vào Postgres (`postgres-data-source`), từ đó kích hoạt luồng sự kiện CDC của Debezium và Kafka.
-
-### Cách khởi chạy cục bộ (Run Simulator locally):
 ```bash
-# Đảm bảo môi trường ảo venv đã được kích hoạt
-pip install -r simulator/requirements.txt
-
-# Khởi chạy trình giả lập
-python simulator/simulate.py
+docker exec -it spark_processor python /app/jobs/bronze_json_to_silver_real.py \
+  --providers tiki,sendo,chotot \
+  --hive-db silver_real
 ```
-*(Simulator sẽ sinh dữ liệu liên tục sau mỗi 0.5 - 1.5 giây. Nhấn `Ctrl + C` để dừng giả lập)*.
 
----
+Kết quả mặc định được ghi dưới dạng Delta vào Silver và đăng ký metadata trong Hive Metastore. Shopee crawler đã ghi được dữ liệu Bronze, nhưng repository hiện chưa có parser Shopee trong job `bronze_json_to_silver_real.py`; cần bổ sung mapping chuẩn hóa trước khi đưa nguồn này vào Silver.
 
-## 6. Khởi chạy luồng xử lý Spark (Run Spark Processing Pipelines)
+### Luồng CDC bằng Spark
 
-Các kịch bản xử lý dữ liệu Spark đã được tái cấu trúc (refactor) dưới dạng các gói module con nằm trong thư mục `processing/streaming/` (bao gồm `bronze_to_silver/` và `silver_to_gold/`) nhằm tách biệt rõ ràng giữa schema, cấu hình và logic biến đổi lõi.
-
-Các lệnh khởi chạy dưới đây sử dụng lớp kịch bản bao bọc (wrapper) tương thích ngược, chạy trực tiếp bên trong container Spark.
-
-### A. Ingestion dữ liệu Kafka CDC (Kafka to Bronze)
-Đọc các topic CDC từ Kafka và ghi các bản ghi thô xuống Bronze Delta:
 ```bash
+# Kafka → Bronze
 docker exec -it spark_processor python /app/streaming/kafka_to_bronze.py
-```
 
-### B. Chuẩn hóa dữ liệu CDC từ Bronze sang Silver (Bronze to Silver)
-Làm sạch, khử trùng lặp dữ liệu CDC thô và chuyển đổi thành các bảng hoạt động định dạng Delta:
-```bash
+# Bronze → Silver
 docker exec -it spark_processor python /app/jobs/bronze_to_silver.py
-```
 
-### C. Xây dựng mô hình phân tích Silver sang Gold (Silver to Gold)
-Hợp nhất, tổng hợp dữ liệu từ các bảng hoạt động Silver Delta thành các bảng chiều Gold Delta phục vụ BI/Analytics:
-```bash
+# Silver → Gold
 docker exec -it spark_processor python /app/jobs/silver_to_gold.py
 ```
 
----
+### Luồng nhẹ bằng Pandas/Delta Lake
 
-## 6B. Khởi chạy luồng xử lý Spark-free (Pandas & Rust-core)
+Các job này sử dụng `deltalake` Rust core và đồng bộ Hive Metastore trực tiếp, phù hợp với máy không muốn chạy Spark:
 
-Nhánh `feat/pandas-delta-streaming` hỗ trợ luồng xử lý dữ liệu thay thế sử dụng **Pandas** và thư viện **deltalake** (nhân Rust) thay cho Spark, giúp tiết kiệm tối đa RAM và CPU (0% CPU khi rảnh, RAM chỉ ~100MB). Các tiến trình Pandas cũng được tích hợp đầy đủ khả năng **đồng bộ Hive Metastore không dùng Spark** qua PostgreSQL backend.
-
-Hãy cài đặt thư viện bổ sung trên môi trường venv cục bộ trước khi chạy:
-```bash
-pip install -r requirements.txt
-```
-
-### A. Ingestion dữ liệu Kafka CDC (Kafka to Bronze)
-Đọc dữ liệu CDC từ Kafka và ghi thô vào Bronze Delta Table bằng Pandas:
 ```bash
 python processing/streaming/pandas_kafka_to_bronze.py --bootstrap-servers localhost:9092
+python processing/streaming/pandas_bronze_to_silver.py --hive-db silver
+python processing/streaming/pandas_silver_to_gold.py --hive-db gold
 ```
-* **Các tham số tùy chọn:**
-  * `--topics`: Danh sách các topic Kafka (cách nhau bằng dấu phẩy).
-  * `--topic-pattern`: Regex chọn topic (mặc định: `^cdc.ecommerce.public.*`).
-  * `--bootstrap-servers`: Địa chỉ Kafka Broker (mặc định: `localhost:9092` hoặc `kafka:9092`).
-  * `--starting-offsets`: Offset bắt đầu khi chạy lần đầu (`earliest` hoặc `latest`).
 
-### B. Chuẩn hóa dữ liệu CDC từ Bronze sang Silver (Bronze to Silver)
-Xử lý làm sạch, ép kiểu dữ liệu, thực hiện lệnh Merge (ACID) vào các bảng Silver Delta và tự động cập nhật Hive Metastore:
-```bash
-python processing/streaming/pandas_bronze_to_silver.py --hive-db silver --interval 5.0
-```
-* **Các tham số tùy chọn:**
-  * `--bronze-path`: Đường dẫn Delta chứa dữ liệu thô (mặc định: `s3a://bronze-lakehouse/kafka_cdc`).
-  * `--silver-base`: Đường dẫn lưu trữ lớp Silver (mặc định: `s3a://silver-lakehouse`).
-  * `--tables`: Danh sách bảng muốn xử lý (ví dụ: `--tables products,orders`).
-  * `--hive-db`: Database đăng ký trong Hive Metastore (mặc định: `silver`).
-  * `--skip-hive-sync`: Flag bỏ qua đồng bộ metadata vào Hive Metastore.
-  * `--interval`: Khoảng thời gian quét dữ liệu mới (giây, mặc định: `5.0`).
+Khi chạy bên trong container `pandas_processor`, các hostname phải là tên service Docker như `minio`, `postgres`, `kafka` thay vì `localhost`.
 
-### C. Xây dựng mô hình phân tích Silver sang Gold (Silver to Gold)
-Kết hợp (Join) các bảng Silver bằng Pandas, ghi/merge vào các bảng Gold Delta và tự động cập nhật Hive Metastore:
-```bash
-python processing/streaming/pandas_silver_to_gold.py --hive-db gold --interval 10.0
-```
-* **Các tham số tùy chọn:**
-  * `--silver-base`: Đường dẫn đọc dữ liệu lớp Silver (mặc định: `s3a://silver-lakehouse`).
-  * `--gold-base`: Đường dẫn lưu trữ lớp Gold (mặc định: `s3a://gold-lakehouse`).
-  * `--tables`: Danh sách bảng muốn xử lý (ví dụ: `--tables dim_products,fct_orders`).
-  * `--hive-db`: Database đăng ký trong Hive Metastore (mặc định: `gold`).
-  * `--skip-hive-sync`: Flag bỏ qua đồng bộ metadata vào Hive Metastore.
-  * `--interval`: Khoảng thời gian quét dữ liệu mới (giây, mặc định: `10.0`).
+## Phục vụ dữ liệu cho Metabase
 
-### D. Đồng bộ Gold streaming giả lập vào ClickHouse
-Luồng streaming dùng dữ liệu giả lập theo schema CDC chuẩn. Script sync có thể tự tạo bảng ClickHouse từ DataFrame trước khi insert. Nếu đã có các bảng Delta Gold vật lý trong `s3a://gold-lakehouse`, có thể tạo trước schema ClickHouse bằng lệnh:
+Metabase không xử lý dữ liệu thô. Dashboard kết nối tới một trong hai lớp serving:
+
+### Trino đọc trực tiếp Delta Lake
+
+Trino sử dụng catalog trong `trino/catalog/` và metadata từ Hive Metastore để truy vấn bảng Delta trên MinIO. Sau khi mở Metabase tại `http://localhost:3001`, thêm database Trino với:
+
+- Host: `trino`
+- Port: `8080`
+- Catalog: `delta`
+- Schema: `gold` hoặc schema đã đăng ký
+- Username: một giá trị bất kỳ cho môi trường local nếu Trino chưa bật authentication
+
+### ClickHouse cho truy vấn analytics
+
+Tạo bảng và đồng bộ Gold sang ClickHouse:
+
 ```bash
-python processing/create_clickhouse_tables.py \
+docker exec -it pandas_processor python /app/create_clickhouse_tables.py \
   --layer gold \
   --database gold_serving \
   --base-path s3a://gold-lakehouse
-```
 
-Đồng bộ các bảng chiều và bảng sự kiện lớp Gold trực tiếp từ Silver Delta Lake sang ClickHouse phục vụ Metabase truy vấn realtime với độ trễ thấp:
-```bash
-python processing/streaming/pandas_silver_to_clickhouse.py \
+docker exec -it pandas_processor python /app/streaming/pandas_silver_to_clickhouse.py \
   --database gold_serving \
   --mode replace \
-  --interval 15.0
+  --once
 ```
-* **Các tham số tùy chọn:**
-  * `--silver-base`: Đường dẫn đọc dữ liệu lớp Silver (mặc định: `s3a://silver-lakehouse`).
-  * `--database`: Database ClickHouse đích (mặc định: `gold_serving`).
-  * `--tables`: Danh sách bảng muốn đồng bộ (ví dụ: `--tables dim_products,fct_orders`).
-  * `--mode`: `append` giữ các version trong `ReplacingMergeTree`, `replace` truncate bảng đích rồi nạp snapshot hiện tại.
-  * `--interval`: Khoảng thời gian cập nhật micro-batch (giây, mặc định: `15.0`).
-  * `--once`: Chỉ chạy đồng bộ một lần duy nhất rồi thoát (phục vụ test).
 
-### E. Đồng bộ Silver batch dữ liệu thật vào ClickHouse
-Luồng batch thật hiện ghi Silver vào `s3a://silver-lakehouse/real_data` với các bảng `products`, `sellers`, `product_reviews`, `customers`. Tạo bảng ClickHouse riêng để không trộn với dữ liệu giả lập:
+Với dữ liệu crawl thực tế ở Silver:
+
 ```bash
-python processing/create_clickhouse_tables.py \
+docker exec -it pandas_processor python /app/create_clickhouse_tables.py \
   --layer silver-real \
   --database silver_real_serving \
   --base-path s3a://silver-lakehouse/real_data
-```
-Thêm `--recreate` nếu cần drop và tạo lại schema ClickHouse hiện có.
 
-Sau đó sync snapshot Silver real sang ClickHouse:
-```bash
-python processing/jobs/tiki_silver_real_to_clickhouse.py \
+docker exec -it pandas_processor python /app/jobs/tiki_silver_real_to_clickhouse.py \
   --database silver_real_serving \
   --silver-base s3a://silver-lakehouse/real_data \
   --once
 ```
 
-Mặc định script dùng `--mode replace`, tức là `TRUNCATE` bảng đích rồi nạp lại snapshot Delta hiện tại để tránh trùng dữ liệu khi chạy lại batch.
+Trong Metabase, thêm ClickHouse với host `clickhouse`, port HTTP `8123`, database `gold_serving` hoặc `silver_real_serving`, và credential tương ứng trong compose.
 
----
+Script hỗ trợ tạo dashboard nằm trong `analytics/metabase/`. Nên truyền `METABASE_URL`, `METABASE_USER`, `METABASE_PASSWORD` qua biến môi trường thay vì ghi credential vào source code.
 
-## 7. Hướng dẫn Tham số dòng lệnh (Command Line Arguments Guide)
+## Dashboard minh họa
 
-Cả hai kịch bản xử lý `bronze_to_silver.py` và `silver_to_gold.py` hỗ trợ đầy đủ các tham số dòng lệnh để tùy chỉnh hành vi chạy batch hoặc stream thời gian thực.
+### Tổng quan thị trường
 
-### A. Tham số cho luồng Bronze ➔ Silver (`bronze_to_silver.py`)
+![Dashboard tổng quan thị trường](images/img4.jpg)
 
-| Tham số (Argument) | Giá trị mặc định (Default) | Ý nghĩa & Khi nào nên sử dụng (When to use) |
-| :--- | :--- | :--- |
-| `--bronze-path` | `s3a://bronze-lakehouse/kafka_cdc` | **Khi nguồn dữ liệu Bronze thay đổi**: Đường dẫn Delta chứa dữ liệu thô được ghi bởi `kafka_to_bronze.py`. Chỉ định khi muốn đọc từ bucket hoặc môi trường kiểm thử khác. |
-| `--silver-base` | `s3a://silver-lakehouse` | **Khi thay đổi đích ghi lớp Silver**: Thư mục gốc chứa các bảng Delta của lớp Silver. Sử dụng khi muốn ghi sang bucket khác. |
-| `--checkpoint-path` | `s3a://silver-lakehouse/_checkpoints/...` | **Thay đổi nơi lưu vết streaming**: Chỉ định đường dẫn checkpoint của Structured Streaming để Spark lưu vết offset của nguồn dữ liệu. |
-| `--hive-db` | `silver` | **Đăng ký cơ sở dữ liệu Hive khác**: Tên cơ sở dữ liệu trong PostgreSQL Hive Metastore để quản lý bảng. Dùng khi chạy trên các schema dữ liệu khác nhau. |
-| `--processing-time` | `30 seconds` | **Điều chỉnh tần suất quét dữ liệu**: Khoảng thời gian kích hoạt (trigger interval) của Spark Streaming. Tăng lên khi muốn tiết kiệm tài nguyên (ví dụ: `1 minute`), giảm đi khi muốn dữ liệu realtime hơn (ví dụ: `10 seconds`). |
-| `--available-now` | *Không có* (Action Flag) | **Chạy quét dữ liệu hiện tại rồi tự dừng**: Tiện lợi khi chạy kiểm tra tích hợp hoặc triển khai dưới dạng **Cron Job hàng ngày** thay vì chạy dịch vụ streaming 24/7. |
-| `--once` | *Không có* (Action Flag) | **Chạy dưới dạng Batch thuần túy**: Đọc dữ liệu Bronze như một tập dữ liệu tĩnh rồi thoát. **Dùng khi debug câu lệnh** hoặc khi làm dữ liệu cũ lịch sử (Backfill) mà không muốn tạo checkpoint streaming. |
-| `--skip-hive-sync` | Mặc định theo biến môi trường | **Bỏ qua đăng ký Hive Metastore**: Sử dụng trong môi trường **chạy luồng sản xuất (Production Streaming) 24/7** để giảm thời gian ghi của mỗi micro-batch (Delta table tự quản lý phân vùng thông qua `_delta_log` mà không cần Hive cập nhật liên tục). |
-| `--tables` | *Không có* (Đọc tất cả) | **Chỉ xử lý một số bảng nhất định**: Nhập danh sách bảng phân tách bằng dấu phẩy (ví dụ: `--tables products,orders`). Dùng khi **thử nghiệm lỗi trên một bảng cụ thể** hoặc khi muốn ưu tiên cập nhật một số bảng quan trọng trước. |
+### Người bán và khách hàng
 
----
+![Dashboard phân tích người bán và khách hàng](images/img1.jpg)
 
-### B. Tham số cho luồng Silver ➔ Gold (`silver_to_gold.py`)
+### Đánh giá sản phẩm
 
-| Tham số (Argument) | Giá trị mặc định (Default) | Ý nghĩa & Khi nào nên sử dụng (When to use) |
-| :--- | :--- | :--- |
-| `--silver-base` | `s3a://silver-lakehouse` | **Khi thay đổi nguồn dữ liệu Silver**: Chỉ định thư mục chứa các Delta table của lớp Silver để lấy dữ liệu đầu vào. |
-| `--gold-base` | `s3a://gold-lakehouse` | **Khi thay đổi đích ghi lớp Gold**: Chỉ định thư mục lưu trữ các Delta table phân tích lớp Gold. |
-| `--checkpoint-base` | `s3a://gold-lakehouse/_checkpoints/...` | **Thay đổi nơi lưu vết checkpoint**: Chỉ định thư mục lưu trữ trạng thái streaming cho các bảng chiều Gold. |
-| `--hive-db` | `gold` | **Đăng ký cơ sở dữ liệu Hive Gold khác**: Tên database đăng ký trong Hive Metastore. |
-| `--processing-time` | `10 seconds` | **Điều chỉnh độ trễ bảng chiều**: Độ trễ cập nhật từ Silver sang Gold. Bảng Gold thường cần phản hồi nhanh nên mặc định ngắn hơn (10 giây). |
-| `--available-now` | *Không có* (Action Flag) | **Xử lý toàn bộ dữ liệu Silver hiện có rồi dừng**: Dùng cho việc chạy cập nhật bảng phân tích định kỳ bằng Cron Job. |
-| `--once` | *Không có* (Action Flag) | **Chạy Batch ETL lớp Gold**: Tính toán toàn bộ các bảng chiều từ Silver tĩnh rồi lưu xuống Gold. Dùng cho việc **Backfill phân tích**. |
-| `--skip-hive-sync` | Mặc định theo biến môi trường | **Tăng tốc độ ghi bảng chiều**: Bỏ qua đăng ký Hive trong mỗi batch ghi để tối ưu hiệu năng. |
-| `--tables` | *Không có* (Đọc tất cả) | **Chỉ tính toán bảng chiều chỉ định**: Chỉ định danh sách cụ thể (ví dụ: `--tables dim_products,dim_customers`). Cực kỳ hữu ích khi bạn **chỉ thay đổi logic biến đổi của riêng một bảng chiều** và chỉ muốn chạy lại bảng đó mà không ảnh hưởng tới các bảng khác. |
+![Dashboard phân tích đánh giá](images/img2.jpg)
 
----
+### Thương hiệu và giá
 
-## 8. Kiểm tra & Khắc phục Sự cố (Verification & Troubleshooting)
+![Dashboard phân tích thương hiệu và giá](images/img3.jpg)
 
-Kiểm tra kết nối tổng quan và quyền đọc/ghi trên Lakehouse:
-```bash
-python processing/test_lakehouse.py
+Các đường dẫn ảnh đều là đường dẫn tương đối nên sẽ hiển thị trực tiếp khi README được xem trên GitHub.
+
+## Luồng CDC mô phỏng
+
+Luồng mở rộng dùng `simulator/` để sinh giao dịch vào PostgreSQL, Debezium bắt thay đổi và đẩy sự kiện vào Kafka trước khi xử lý qua các layer:
+
+```text
+Simulator → PostgreSQL → Debezium → Kafka → Bronze → Silver → Gold
 ```
 
-Kiểm tra kết nối trực tiếp đến bucket của MinIO:
+Chạy simulator trên host:
+
 ```bash
+python simulator/simulate.py
+```
+
+Mặc định PostgreSQL source được publish tại `localhost:5433`. Cần đăng ký connector Debezium trước khi mong đợi sự kiện CDC xuất hiện trên Kafka.
+
+## Airflow
+
+Airflow có Docker Compose riêng trong thư mục `airflow/`:
+
+```bash
+cd airflow
+docker compose up airflow-init
+docker compose up -d
+```
+
+Trên Linux, đặt đúng `AIRFLOW_UID` trong `airflow/.env`. `HOST_WORKSPACE_PATH` phải là đường dẫn tuyệt đối tới repository trên máy host để DAG có thể mount và chạy mã nguồn của dự án.
+
+Lưu ý: Airflow và Kafka UI mặc định đều có thể dùng cổng host `8080`; nếu chạy hai Compose project cùng lúc, hãy đổi một mapping port để tránh xung đột.
+
+## Kiểm tra
+
+```bash
+# Kiểm tra cấu hình hạ tầng
+docker compose config
+
+# Kiểm tra kết nối MinIO
 python storage/check_minio_connection.py
-```
 
-Theo dõi các truy vấn streaming đang chạy bên trong môi trường Spark:
-```bash
-docker exec -it spark_processor spark-shell
-```
+# Kiểm tra kết nối lakehouse
+python processing/test_lakehouse.py
 
-Kiểm tra danh sách bảng đã tạo và số lượng bản ghi trong ClickHouse:
-```bash
-# Xem các bảng trong database gold_serving
+# Xem bảng ClickHouse
 docker exec clickhouse_server clickhouse-client -q "SHOW TABLES IN gold_serving"
 
-# Xem số dòng thực tế (đã loại bỏ trùng lặp bằng ReplacingMergeTree)
-docker exec clickhouse_server clickhouse-client -q "SELECT count() FROM gold_serving.fct_orders FINAL"
+# Xem log service khi có lỗi
+docker compose logs -f minio spark-processor hive-metastore trino metabase
 ```
+
+Nếu một service không healthy hoặc job không kết nối được:
+
+- Dùng `localhost` khi tiến trình chạy trên host; dùng tên service (`minio`, `postgres`, `kafka`, `clickhouse`) khi chạy trong Docker network.
+- Kiểm tra bucket và credential MinIO trong `.env`/`processing/.env`.
+- Kiểm tra Hive Metastore trước khi truy vấn bảng Delta bằng Trino.
+- Spark UI chỉ lắng nghe ở cổng `4040` trong thời gian job Spark đang chạy.
+- Shopee có thể trả HTTP 403 hoặc trang xác minh; cập nhật cookie hợp lệ và giảm tần suất request thay vì cố vượt captcha.
+
+## Bảo mật và dữ liệu
+
+- Không commit `.env`, cookie, access key hoặc mật khẩu production.
+- Không commit dữ liệu crawl sinh ra trong `ingestion/batch/raw_data/`.
+- Không xóa Docker volumes nếu chưa sao lưu; volumes chứa dữ liệu MinIO, PostgreSQL, Kafka, ClickHouse và Metabase.
+- Các credential trong Docker Compose chỉ dành cho phát triển local và phải được thay đổi khi triển khai thật.
+
+## License
+
+Repository hiện chưa khai báo license. Hãy bổ sung tệp `LICENSE` trước khi phát hành hoặc cho phép tái sử dụng công khai.
