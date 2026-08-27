@@ -4,26 +4,6 @@ Ecommerce Lakehouse là hệ thống dữ liệu end-to-end dùng để thu th�
 
 Repository hiện hỗ trợ các nguồn Tiki, Sendo và Chợ Tốt. Ngoài dữ liệu crawl thực tế, dự án còn có luồng mô phỏng giao dịch PostgreSQL và truyền thay đổi dữ liệu theo thời gian thực qua Debezium, Kafka.
 
-## Dashboard minh họa
-
-### Tổng quan thị trường
-
-![Dashboard tổng quan thị trường](images/img4.jpg)
-
-### Người bán và khách hàng
-
-![Dashboard phân tích người bán và khách hàng](images/img1.jpg)
-
-### Đánh giá sản phẩm
-
-![Dashboard phân tích đánh giá](images/img2.jpg)
-
-### Thương hiệu và giá
-
-![Dashboard phân tích thương hiệu và giá](images/img3.jpg)
-
-Các đường dẫn ảnh đều là đường dẫn tương đối nên sẽ hiển thị trực tiếp khi README được xem trên GitHub.
-
 ## Kiến trúc hệ thống
 
 ![Kiến trúc Ecommerce Lakehouse](images/Architecture.png)
@@ -88,6 +68,26 @@ Hệ thống gồm các thành phần chính:
 
 - **Silver**: dữ liệu đã được làm sạch, ép kiểu, chuẩn hóa và khử trùng lặp, lưu dưới dạng Delta Lake. Dữ liệu crawl thực tế nằm tại `s3a://silver-lakehouse/real_data`; dữ liệu CDC được tổ chức thành các bảng nghiệp vụ trong `s3a://silver-lakehouse`.
 - **Gold**: các bảng dimension/fact và dữ liệu tổng hợp phục vụ BI, lưu tại `s3a://gold-lakehouse` rồi được truy vấn qua Trino hoặc đồng bộ sang ClickHouse.
+
+## Dashboard minh họa
+
+### Tổng quan thị trường
+
+![Dashboard tổng quan thị trường](images/img4.jpg)
+
+### Người bán và khách hàng
+
+![Dashboard phân tích người bán và khách hàng](images/img1.jpg)
+
+### Đánh giá sản phẩm
+
+![Dashboard phân tích đánh giá](images/img2.jpg)
+
+### Thương hiệu và giá
+
+![Dashboard phân tích thương hiệu và giá](images/img3.jpg)
+
+Các đường dẫn ảnh đều là đường dẫn tương đối nên sẽ hiển thị trực tiếp khi README được xem trên GitHub.
 
 ## Cấu trúc repository
 
