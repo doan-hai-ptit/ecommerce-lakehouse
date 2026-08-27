@@ -2,7 +2,7 @@
 
 Ecommerce Lakehouse là hệ thống dữ liệu end-to-end dùng để thu thập thông tin sản phẩm, người bán và đánh giá từ các sàn thương mại điện tử, lưu trữ dữ liệu theo kiến trúc Medallion trên MinIO, xử lý dữ liệu bằng Spark hoặc Pandas/Delta Lake và trực quan hóa kết quả bằng Metabase.
 
-Repository hiện hỗ trợ các nguồn Tiki, Shopee, Sendo và Chợ Tốt. Ngoài dữ liệu crawl thực tế, dự án còn có luồng mô phỏng giao dịch PostgreSQL và truyền thay đổi dữ liệu theo thời gian thực qua Debezium, Kafka.
+Repository hiện hỗ trợ các nguồn Tiki, Sendo và Chợ Tốt. Ngoài dữ liệu crawl thực tế, dự án còn có luồng mô phỏng giao dịch PostgreSQL và truyền thay đổi dữ liệu theo thời gian thực qua Debezium, Kafka.
 
 ## Kiến trúc hệ thống
 
@@ -201,22 +201,6 @@ python ingestion/batch/main.py --category 1846 --limit_pages 1
 
 Nếu bỏ `--category`, crawler đọc trạng thái trong `crawler_state.txt` và chạy tuần tự các danh mục. Dữ liệu sản phẩm và review được upload trực tiếp vào bucket `bronze-lakehouse`.
 
-### Shopee
-
-API Shopee có thể yêu cầu cookie từ một phiên trình duyệt hợp lệ. Đặt `SHOPEE_COOKIE` trong `.env`, không đưa cookie thật vào Git.
-
-```bash
-python ingestion/batch/main_shopee.py \
-  --keyword "dien thoai" \
-  --start_page 0 \
-  --end_page 0 \
-  --review_products_limit 3 \
-  --review_pages 1 \
-  --fetch_mode api
-```
-
-Crawler cũng hỗ trợ `browser_api`, `html`, `api_then_html` và `browser_api_then_html`. Chạy `python ingestion/batch/main_shopee.py --help` để xem toàn bộ tùy chọn.
-
 ### Sendo
 
 ```bash
@@ -251,7 +235,7 @@ docker exec -it spark_processor python /app/jobs/bronze_json_to_silver_real.py \
   --hive-db silver_real
 ```
 
-Kết quả mặc định được ghi dưới dạng Delta vào Silver và đăng ký metadata trong Hive Metastore. Shopee crawler đã ghi được dữ liệu Bronze, nhưng repository hiện chưa có parser Shopee trong job `bronze_json_to_silver_real.py`; cần bổ sung mapping chuẩn hóa trước khi đưa nguồn này vào Silver.
+Kết quả mặc định được ghi dưới dạng Delta vào Silver và đăng ký metadata trong Hive Metastore.
 
 ### Luồng CDC bằng Spark
 
@@ -401,15 +385,4 @@ Nếu một service không healthy hoặc job không kết nối được:
 - Kiểm tra bucket và credential MinIO trong `.env`/`processing/.env`.
 - Kiểm tra Hive Metastore trước khi truy vấn bảng Delta bằng Trino.
 - Spark UI chỉ lắng nghe ở cổng `4040` trong thời gian job Spark đang chạy.
-- Shopee có thể trả HTTP 403 hoặc trang xác minh; cập nhật cookie hợp lệ và giảm tần suất request thay vì cố vượt captcha.
 
-## Bảo mật và dữ liệu
-
-- Không commit `.env`, cookie, access key hoặc mật khẩu production.
-- Không commit dữ liệu crawl sinh ra trong `ingestion/batch/raw_data/`.
-- Không xóa Docker volumes nếu chưa sao lưu; volumes chứa dữ liệu MinIO, PostgreSQL, Kafka, ClickHouse và Metabase.
-- Các credential trong Docker Compose chỉ dành cho phát triển local và phải được thay đổi khi triển khai thật.
-
-## License
-
-Repository hiện chưa khai báo license. Hãy bổ sung tệp `LICENSE` trước khi phát hành hoặc cho phép tái sử dụng công khai.
